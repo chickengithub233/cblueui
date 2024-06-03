@@ -1,0 +1,25 @@
+var class_b_u_i_1_1_g_path_storage_s_v_g =
+[
+    [ "GPathStorageSVG", "class_b_u_i_1_1_g_path_storage_s_v_g.html#a6a8156b254f3dc9ee1888a5c97298502", null ],
+    [ "~GPathStorageSVG", "class_b_u_i_1_1_g_path_storage_s_v_g.html#a85064fc35e237c0b26a4ba4c365adfa7", null ],
+    [ "AddMetaStyle", "class_b_u_i_1_1_g_path_storage_s_v_g.html#a5f41176511ea4d225da14451f520f2a3", null ],
+    [ "GetSize", "class_b_u_i_1_1_g_path_storage_s_v_g.html#a60a8172ccf21d15cdc043ea8a74d3376", null ],
+    [ "LoadData", "class_b_u_i_1_1_g_path_storage_s_v_g.html#a92b0badfbdcebbe976f7ebfacf51ebf1", null ],
+    [ "LoadFile", "class_b_u_i_1_1_g_path_storage_s_v_g.html#a3124e774f1771693d1adb60a507942a4", null ],
+    [ "MetaStyle", "class_b_u_i_1_1_g_path_storage_s_v_g.html#a8655542bf54489cd5b519cf084a1f936", null ],
+    [ "PathCounts", "class_b_u_i_1_1_g_path_storage_s_v_g.html#a592bdcf4476135b31cfe3440eb3eab84", null ],
+    [ "m_align", "class_b_u_i_1_1_g_path_storage_s_v_g.html#a2c64c5342c19c84f0a58aa80f09d4359", null ],
+    [ "m_AspectRatio", "class_b_u_i_1_1_g_path_storage_s_v_g.html#a6951d99ca8dbb37c1316471df1b94f85", null ],
+    [ "m_root", "class_b_u_i_1_1_g_path_storage_s_v_g.html#a9c1886d3d0f7ed876d6c102647218c76", null ],
+    [ "m_share_colors", "class_b_u_i_1_1_g_path_storage_s_v_g.html#a14bcd2a59c159a06333ef12cfbb8edfc", null ],
+    [ "m_style_storage", "class_b_u_i_1_1_g_path_storage_s_v_g.html#a3417e10c01145a6ab20d6bbbff67ec38", null ],
+    [ "m_title", "class_b_u_i_1_1_g_path_storage_s_v_g.html#a8f4001c2979a6d50a85fe1d8f55430d2", null ],
+    [ "m_transform", "class_b_u_i_1_1_g_path_storage_s_v_g.html#ad78d891a82af2346b750cd3f2a5fb925", null ],
+    [ "m_unit", "class_b_u_i_1_1_g_path_storage_s_v_g.html#afec5ba378aa9985f65710062133a1c5d", null ],
+    [ "m_view_box", "class_b_u_i_1_1_g_path_storage_s_v_g.html#a4aa69eaae254549bc47fd204d264bc0f", null ],
+    [ "m_view_port", "class_b_u_i_1_1_g_path_storage_s_v_g.html#a1c82b9e4dcf534135f7a66533dccfeda", null ],
+    [ "m_x", "class_b_u_i_1_1_g_path_storage_s_v_g.html#ad759bba5c438129a94bc2297df672864", null ],
+    [ "m_xScale", "class_b_u_i_1_1_g_path_storage_s_v_g.html#ae5db8972a9f4393c8922f40569dbe23b", null ],
+    [ "m_y", "class_b_u_i_1_1_g_path_storage_s_v_g.html#a6132220e8b4a43b8c29283a36508eaba", null ],
+    [ "m_yScale", "class_b_u_i_1_1_g_path_storage_s_v_g.html#aa03fb92123a37d91f9392ba10e4a6047", null ]
+];

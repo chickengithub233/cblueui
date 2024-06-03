@@ -1,0 +1,1198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>CBlueUI: BUI::LoggerStorage类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBlueUI
+   &#160;<span id="projectnumber">vxxx</span>
+   </div>
+   <div id="projectbrief">C++ 跨平台跨框架的数据可视化工具</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_b_u_i_1_1_logger_storage.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="class_b_u_i_1_1_logger_storage-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">BUI::LoggerStorage类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>日志存储  
+ <a href="class_b_u_i_1_1_logger_storage.html#details">更多...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a7ae698caa1e61d38fc46b05ca1c5c59e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a7ae698caa1e61d38fc46b05ca1c5c59e">LoggerStorage</a> ()</td></tr>
+<tr class="separator:a7ae698caa1e61d38fc46b05ca1c5c59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a658d44e22196098f08635aab62fc5610"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a658d44e22196098f08635aab62fc5610">~LoggerStorage</a> ()</td></tr>
+<tr class="separator:a658d44e22196098f08635aab62fc5610"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a2f76fea9cf23abd174b69005e28892"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a8a2f76fea9cf23abd174b69005e28892">LoadConfigureFromFile</a> (const char *filename)</td></tr>
+<tr class="separator:a8a2f76fea9cf23abd174b69005e28892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65d1b9d52e9c56cddad2de443a6a8025"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a65d1b9d52e9c56cddad2de443a6a8025">SaveConfigureToFile</a> ()</td></tr>
+<tr class="separator:a65d1b9d52e9c56cddad2de443a6a8025"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3430f4765d86e2f883335c9fb4e0bc90"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a3430f4765d86e2f883335c9fb4e0bc90">InitConsoleLogger</a> (FILE *output)</td></tr>
+<tr class="memdesc:a3430f4765d86e2f883335c9fb4e0bc90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the logger as a console logger.  <br /></td></tr>
+<tr class="separator:a3430f4765d86e2f883335c9fb4e0bc90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c53d6366d0ff74f3755c69b872cae39"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a2c53d6366d0ff74f3755c69b872cae39">InitFileLogger</a> (const char *filename, long maxFileSize=1024 *1024 *10, unsigned char maxBackupFiles=100)</td></tr>
+<tr class="separator:a2c53d6366d0ff74f3755c69b872cae39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92604ed9573cc5e0392acd61486cb183"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a92604ed9573cc5e0392acd61486cb183">PrintLogA</a> (<a class="el" href="namespace_b_u_i.html#aeb285024a8a3873ef6cd91587061e1d7">LogLevel</a> level, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> print_timestamp, const char *file, int line, const char *fmt,...)</td></tr>
+<tr class="separator:a92604ed9573cc5e0392acd61486cb183"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab74411ba3bbc84c5d3e263a16977920d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#ab74411ba3bbc84c5d3e263a16977920d">PrintLogW</a> (<a class="el" href="namespace_b_u_i.html#aeb285024a8a3873ef6cd91587061e1d7">LogLevel</a> level, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> print_timestamp, const char *file, int line, const <a class="el" href="_c_core_base_pro_8h.html#ad8b3dc33da1499586fca818005ef1281">WCHAR</a> *fmt,...)</td></tr>
+<tr class="separator:ab74411ba3bbc84c5d3e263a16977920d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7abf02ec85261f39168151f35e47e009"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a7abf02ec85261f39168151f35e47e009">SetLevel</a> (<a class="el" href="namespace_b_u_i.html#aeb285024a8a3873ef6cd91587061e1d7">LogLevel</a> level)</td></tr>
+<tr class="separator:a7abf02ec85261f39168151f35e47e009"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f3c0181a8d6775a120d831adfedbc2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_b_u_i.html#aeb285024a8a3873ef6cd91587061e1d7">LogLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a5f3c0181a8d6775a120d831adfedbc2d">GetLevel</a> (void)</td></tr>
+<tr class="separator:a5f3c0181a8d6775a120d831adfedbc2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fd62b90a0e19121bcdbca93ed401550"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a5fd62b90a0e19121bcdbca93ed401550">ShowShortFileName</a> (bool shortName)</td></tr>
+<tr class="separator:a5fd62b90a0e19121bcdbca93ed401550"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87653f5c001cca0f1ce126091c532c1e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a87653f5c001cca0f1ce126091c532c1e">IsEnabled</a> (<a class="el" href="namespace_b_u_i.html#aeb285024a8a3873ef6cd91587061e1d7">LogLevel</a> level)</td></tr>
+<tr class="separator:a87653f5c001cca0f1ce126091c532c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afda5e02cc35a74302e8724b36a59cd72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#afda5e02cc35a74302e8724b36a59cd72">LoggerFlush</a> ()</td></tr>
+<tr class="separator:afda5e02cc35a74302e8724b36a59cd72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cfaf7161b82c45311ad96547a6dd6db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a9cfaf7161b82c45311ad96547a6dd6db">EnableOutputHtmlFormat</a> (bool isHtml)</td></tr>
+<tr class="memdesc:a9cfaf7161b82c45311ad96547a6dd6db"><td class="mdescLeft">&#160;</td><td class="mdescRight">开启Html格式，输出日志。  <br /></td></tr>
+<tr class="separator:a9cfaf7161b82c45311ad96547a6dd6db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabf5f3c5fd59b1293c2772734bdca601"><td class="memItemLeft" align="right" valign="top">FILE *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#aabf5f3c5fd59b1293c2772734bdca601">FileHandler</a> () const</td></tr>
+<tr class="separator:aabf5f3c5fd59b1293c2772734bdca601"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:a4b07882b97dab6e4c7da13302a11c107"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a4b07882b97dab6e4c7da13302a11c107">rotateLogFiles</a> ()</td></tr>
+<tr class="separator:a4b07882b97dab6e4c7da13302a11c107"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2358b9fca6fc562b8cb6a7f777979fe6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a2358b9fca6fc562b8cb6a7f777979fe6">getBackupFileName</a> (const char *basename, unsigned char index, char *backupname, size_t size)</td></tr>
+<tr class="separator:a2358b9fca6fc562b8cb6a7f777979fe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2596a980b869a9a9b2bcbc8cb193e8bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a2596a980b869a9a9b2bcbc8cb193e8bc">Lock</a> ()</td></tr>
+<tr class="separator:a2596a980b869a9a9b2bcbc8cb193e8bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a534d55118eb898da05b7d1c788e97a55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a534d55118eb898da05b7d1c788e97a55">UnLock</a> ()</td></tr>
+<tr class="separator:a534d55118eb898da05b7d1c788e97a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cf063aef92c27936971d3c98def4288"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a1cf063aef92c27936971d3c98def4288">vflog</a> (FILE *fp, <a class="el" href="namespace_b_u_i.html#aeb285024a8a3873ef6cd91587061e1d7">LogLevel</a> levelc, const char *timestamp, long threadID, const char *file, int line, const char *fmt, va_list arg, unsigned long long currentTime, unsigned long long *flushedTime)</td></tr>
+<tr class="separator:a1cf063aef92c27936971d3c98def4288"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bef468673bf724552f24a37b1b000c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a6bef468673bf724552f24a37b1b000c3">parseLine</a> (char *line)</td></tr>
+<tr class="separator:a6bef468673bf724552f24a37b1b000c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:ace7feda5cc7a158c116d68c2e2354b13"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#ace7feda5cc7a158c116d68c2e2354b13">m_configfilename</a> [260]</td></tr>
+<tr class="separator:ace7feda5cc7a158c116d68c2e2354b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33cc4decda220c0b906b9714e8711897"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a33cc4decda220c0b906b9714e8711897">m_output_flags</a></td></tr>
+<tr class="separator:a33cc4decda220c0b906b9714e8711897"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade37e87c7ce32d1ea8305e3b475f0fa4"><td class="memItemLeft" align="right" valign="top">FILE *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#ade37e87c7ce32d1ea8305e3b475f0fa4">m_output_console</a></td></tr>
+<tr class="separator:ade37e87c7ce32d1ea8305e3b475f0fa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa91c9ab0dbd8e13930dbf4a9d346321a"><td class="memItemLeft" align="right" valign="top">FILE *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#aa91c9ab0dbd8e13930dbf4a9d346321a">m_output_file</a></td></tr>
+<tr class="separator:aa91c9ab0dbd8e13930dbf4a9d346321a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d1691997b63314ee443d709e0957980"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a3d1691997b63314ee443d709e0957980">m_filename</a> [260]</td></tr>
+<tr class="separator:a3d1691997b63314ee443d709e0957980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae065f0572ae65087a707cf31fb2d3ec3"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#ae065f0572ae65087a707cf31fb2d3ec3">m_fileExt</a> [64]</td></tr>
+<tr class="separator:ae065f0572ae65087a707cf31fb2d3ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac619b97ca78cd9c817e22e870b81d09"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#aac619b97ca78cd9c817e22e870b81d09">m_maxFileSize</a></td></tr>
+<tr class="separator:aac619b97ca78cd9c817e22e870b81d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1a276cf1fb7794fd62a96f0eae19c44"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#ae1a276cf1fb7794fd62a96f0eae19c44">m_maxBackupFiles</a></td></tr>
+<tr class="separator:ae1a276cf1fb7794fd62a96f0eae19c44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17f4aad56f11851faa1a2e9f2b904d67"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a17f4aad56f11851faa1a2e9f2b904d67">m_currentFileSize</a></td></tr>
+<tr class="separator:a17f4aad56f11851faa1a2e9f2b904d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab77a74d30720e3906cf9d7c7a40690e"><td class="memItemLeft" align="right" valign="top">unsigned long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#aab77a74d30720e3906cf9d7c7a40690e">m_flushedTime</a></td></tr>
+<tr class="separator:aab77a74d30720e3906cf9d7c7a40690e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a312174c5caa6fd71be02239e29299c2d"><td class="memItemLeft" align="right" valign="top">unsigned long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a312174c5caa6fd71be02239e29299c2d">m_flushInterval</a></td></tr>
+<tr class="separator:a312174c5caa6fd71be02239e29299c2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51c5b70f70fa4d417de10a840f0671d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_b_u_i.html#aeb285024a8a3873ef6cd91587061e1d7">LogLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a51c5b70f70fa4d417de10a840f0671d3">m_logLevel</a></td></tr>
+<tr class="separator:a51c5b70f70fa4d417de10a840f0671d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a731be90bdfd4afde95d4c750ff47eec0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a731be90bdfd4afde95d4c750ff47eec0">m_isShowShortFileName</a></td></tr>
+<tr class="separator:a731be90bdfd4afde95d4c750ff47eec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46b806c47f55c0a03a0ce5dba0bcfeb9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a46b806c47f55c0a03a0ce5dba0bcfeb9">m_isHtmlStyle</a></td></tr>
+<tr class="separator:a46b806c47f55c0a03a0ce5dba0bcfeb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c2070cb55291f37da1ac536e4366bff"><td class="memItemLeft" align="right" valign="top">pthread_mutex_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_logger_storage.html#a5c2070cb55291f37da1ac536e4366bff">m_mutex</a></td></tr>
+<tr class="separator:a5c2070cb55291f37da1ac536e4366bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>日志存储 </p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a7ae698caa1e61d38fc46b05ca1c5c59e" name="a7ae698caa1e61d38fc46b05ca1c5c59e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ae698caa1e61d38fc46b05ca1c5c59e">&#9670;&#160;</a></span>LoggerStorage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::LoggerStorage::LoggerStorage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a658d44e22196098f08635aab62fc5610" name="a658d44e22196098f08635aab62fc5610"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a658d44e22196098f08635aab62fc5610">&#9670;&#160;</a></span>~LoggerStorage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::LoggerStorage::~LoggerStorage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="a9cfaf7161b82c45311ad96547a6dd6db" name="a9cfaf7161b82c45311ad96547a6dd6db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cfaf7161b82c45311ad96547a6dd6db">&#9670;&#160;</a></span>EnableOutputHtmlFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::LoggerStorage::EnableOutputHtmlFormat </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isHtml</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>开启Html格式，输出日志。 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">isHtml</td><td>true:使用html格式；false：普通文本格式 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aabf5f3c5fd59b1293c2772734bdca601" name="aabf5f3c5fd59b1293c2772734bdca601"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabf5f3c5fd59b1293c2772734bdca601">&#9670;&#160;</a></span>FileHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FILE * BUI::LoggerStorage::FileHandler </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2358b9fca6fc562b8cb6a7f777979fe6" name="a2358b9fca6fc562b8cb6a7f777979fe6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2358b9fca6fc562b8cb6a7f777979fe6">&#9670;&#160;</a></span>getBackupFileName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::LoggerStorage::getBackupFileName </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>basename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned char&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>backupname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f3c0181a8d6775a120d831adfedbc2d" name="a5f3c0181a8d6775a120d831adfedbc2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f3c0181a8d6775a120d831adfedbc2d">&#9670;&#160;</a></span>GetLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_b_u_i.html#aeb285024a8a3873ef6cd91587061e1d7">LogLevel</a> BUI::LoggerStorage::GetLevel </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3430f4765d86e2f883335c9fb4e0bc90" name="a3430f4765d86e2f883335c9fb4e0bc90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3430f4765d86e2f883335c9fb4e0bc90">&#9670;&#160;</a></span>InitConsoleLogger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::LoggerStorage::InitConsoleLogger </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>output</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the logger as a console logger. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">output</td><td>If the file pointer is NULL, stdout will be used. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>int: Non-zero value upon success or 0 on error </dd></dl>
+
+</div>
+</div>
+<a id="a2c53d6366d0ff74f3755c69b872cae39" name="a2c53d6366d0ff74f3755c69b872cae39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c53d6366d0ff74f3755c69b872cae39">&#9670;&#160;</a></span>InitFileLogger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::LoggerStorage::InitFileLogger </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>maxFileSize</em> = <code>1024&#160;*1024&#160;*10</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned char&#160;</td>
+          <td class="paramname"><em>maxBackupFiles</em> = <code>100</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>The name of the output file </td></tr>
+    <tr><td class="paramname">maxFileSize</td><td>The maximum number of bytes to write to any one file </td></tr>
+    <tr><td class="paramname">maxBackupFiles</td><td>The maximum number of files for backup </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>int </dd></dl>
+
+</div>
+</div>
+<a id="a87653f5c001cca0f1ce126091c532c1e" name="a87653f5c001cca0f1ce126091c532c1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87653f5c001cca0f1ce126091c532c1e">&#9670;&#160;</a></span>IsEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::LoggerStorage::IsEnabled </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#aeb285024a8a3873ef6cd91587061e1d7">LogLevel</a>&#160;</td>
+          <td class="paramname"><em>level</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a2f76fea9cf23abd174b69005e28892" name="a8a2f76fea9cf23abd174b69005e28892"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a2f76fea9cf23abd174b69005e28892">&#9670;&#160;</a></span>LoadConfigureFromFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::LoggerStorage::LoadConfigureFromFile </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Configure the logger with a configuration file. If the filename is NULL, return without doing anything.</p>
+<p>The following is the configurable key/value list. </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadLeft">key   </th><th class="markdownTableHeadLeft">value    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyLeft">level   </td><td class="markdownTableBodyLeft">TRACE, DEBUG, INFO, WARN, ERROR or FATAL    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyLeft">autoFlush   </td><td class="markdownTableBodyLeft">A flush interval [ms] (off if interval &lt;= 0)    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyLeft">logger   </td><td class="markdownTableBodyLeft">console or file    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyLeft">logger.console.output   </td><td class="markdownTableBodyLeft">stdout or stderr    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyLeft">logger.file.filename   </td><td class="markdownTableBodyLeft">A output filename (max length is 255 bytes)    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyLeft">logger.file.maxFileSize   </td><td class="markdownTableBodyLeft">1-LONG_MAX [bytes] (1 MB if size &lt;= 0)    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyLeft">logger.file.maxBackupFiles   </td><td class="markdownTableBodyLeft">0-65535    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyLeft">logger.format   </td><td class="markdownTableBodyLeft">html, txt   </td></tr>
+</table>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">filename</td><td>The name of the configuration file </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>Non-zero value upon success or 0 on error </dd></dl>
+
+</div>
+</div>
+<a id="a2596a980b869a9a9b2bcbc8cb193e8bc" name="a2596a980b869a9a9b2bcbc8cb193e8bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2596a980b869a9a9b2bcbc8cb193e8bc">&#9670;&#160;</a></span>Lock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::LoggerStorage::Lock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afda5e02cc35a74302e8724b36a59cd72" name="afda5e02cc35a74302e8724b36a59cd72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afda5e02cc35a74302e8724b36a59cd72">&#9670;&#160;</a></span>LoggerFlush()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::LoggerStorage::LoggerFlush </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6bef468673bf724552f24a37b1b000c3" name="a6bef468673bf724552f24a37b1b000c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bef468673bf724552f24a37b1b000c3">&#9670;&#160;</a></span>parseLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::LoggerStorage::parseLine </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>line</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a92604ed9573cc5e0392acd61486cb183" name="a92604ed9573cc5e0392acd61486cb183"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92604ed9573cc5e0392acd61486cb183">&#9670;&#160;</a></span>PrintLogA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::LoggerStorage::PrintLogA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#aeb285024a8a3873ef6cd91587061e1d7">LogLevel</a>&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>print_timestamp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>line</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>fmt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab74411ba3bbc84c5d3e263a16977920d" name="ab74411ba3bbc84c5d3e263a16977920d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab74411ba3bbc84c5d3e263a16977920d">&#9670;&#160;</a></span>PrintLogW()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::LoggerStorage::PrintLogW </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#aeb285024a8a3873ef6cd91587061e1d7">LogLevel</a>&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>print_timestamp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>line</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_c_core_base_pro_8h.html#ad8b3dc33da1499586fca818005ef1281">WCHAR</a> *&#160;</td>
+          <td class="paramname"><em>fmt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4b07882b97dab6e4c7da13302a11c107" name="a4b07882b97dab6e4c7da13302a11c107"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b07882b97dab6e4c7da13302a11c107">&#9670;&#160;</a></span>rotateLogFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::LoggerStorage::rotateLogFiles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a65d1b9d52e9c56cddad2de443a6a8025" name="a65d1b9d52e9c56cddad2de443a6a8025"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65d1b9d52e9c56cddad2de443a6a8025">&#9670;&#160;</a></span>SaveConfigureToFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::LoggerStorage::SaveConfigureToFile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7abf02ec85261f39168151f35e47e009" name="a7abf02ec85261f39168151f35e47e009"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7abf02ec85261f39168151f35e47e009">&#9670;&#160;</a></span>SetLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::LoggerStorage::SetLevel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#aeb285024a8a3873ef6cd91587061e1d7">LogLevel</a>&#160;</td>
+          <td class="paramname"><em>level</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5fd62b90a0e19121bcdbca93ed401550" name="a5fd62b90a0e19121bcdbca93ed401550"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fd62b90a0e19121bcdbca93ed401550">&#9670;&#160;</a></span>ShowShortFileName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::LoggerStorage::ShowShortFileName </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>shortName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a534d55118eb898da05b7d1c788e97a55" name="a534d55118eb898da05b7d1c788e97a55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a534d55118eb898da05b7d1c788e97a55">&#9670;&#160;</a></span>UnLock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::LoggerStorage::UnLock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1cf063aef92c27936971d3c98def4288" name="a1cf063aef92c27936971d3c98def4288"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cf063aef92c27936971d3c98def4288">&#9670;&#160;</a></span>vflog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long BUI::LoggerStorage::vflog </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>fp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#aeb285024a8a3873ef6cd91587061e1d7">LogLevel</a>&#160;</td>
+          <td class="paramname"><em>levelc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>timestamp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>threadID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>line</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>fmt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">va_list&#160;</td>
+          <td class="paramname"><em>arg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned long long&#160;</td>
+          <td class="paramname"><em>currentTime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned long long *&#160;</td>
+          <td class="paramname"><em>flushedTime</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="ace7feda5cc7a158c116d68c2e2354b13" name="ace7feda5cc7a158c116d68c2e2354b13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace7feda5cc7a158c116d68c2e2354b13">&#9670;&#160;</a></span>m_configfilename</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char BUI::LoggerStorage::m_configfilename[260]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17f4aad56f11851faa1a2e9f2b904d67" name="a17f4aad56f11851faa1a2e9f2b904d67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17f4aad56f11851faa1a2e9f2b904d67">&#9670;&#160;</a></span>m_currentFileSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long BUI::LoggerStorage::m_currentFileSize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae065f0572ae65087a707cf31fb2d3ec3" name="ae065f0572ae65087a707cf31fb2d3ec3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae065f0572ae65087a707cf31fb2d3ec3">&#9670;&#160;</a></span>m_fileExt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char BUI::LoggerStorage::m_fileExt[64]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3d1691997b63314ee443d709e0957980" name="a3d1691997b63314ee443d709e0957980"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d1691997b63314ee443d709e0957980">&#9670;&#160;</a></span>m_filename</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">char BUI::LoggerStorage::m_filename[260]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aab77a74d30720e3906cf9d7c7a40690e" name="aab77a74d30720e3906cf9d7c7a40690e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab77a74d30720e3906cf9d7c7a40690e">&#9670;&#160;</a></span>m_flushedTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned long long BUI::LoggerStorage::m_flushedTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a312174c5caa6fd71be02239e29299c2d" name="a312174c5caa6fd71be02239e29299c2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a312174c5caa6fd71be02239e29299c2d">&#9670;&#160;</a></span>m_flushInterval</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned long long BUI::LoggerStorage::m_flushInterval</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a46b806c47f55c0a03a0ce5dba0bcfeb9" name="a46b806c47f55c0a03a0ce5dba0bcfeb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46b806c47f55c0a03a0ce5dba0bcfeb9">&#9670;&#160;</a></span>m_isHtmlStyle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BUI::LoggerStorage::m_isHtmlStyle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a731be90bdfd4afde95d4c750ff47eec0" name="a731be90bdfd4afde95d4c750ff47eec0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a731be90bdfd4afde95d4c750ff47eec0">&#9670;&#160;</a></span>m_isShowShortFileName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BUI::LoggerStorage::m_isShowShortFileName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a51c5b70f70fa4d417de10a840f0671d3" name="a51c5b70f70fa4d417de10a840f0671d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51c5b70f70fa4d417de10a840f0671d3">&#9670;&#160;</a></span>m_logLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_b_u_i.html#aeb285024a8a3873ef6cd91587061e1d7">LogLevel</a> BUI::LoggerStorage::m_logLevel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae1a276cf1fb7794fd62a96f0eae19c44" name="ae1a276cf1fb7794fd62a96f0eae19c44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1a276cf1fb7794fd62a96f0eae19c44">&#9670;&#160;</a></span>m_maxBackupFiles</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char BUI::LoggerStorage::m_maxBackupFiles</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aac619b97ca78cd9c817e22e870b81d09" name="aac619b97ca78cd9c817e22e870b81d09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac619b97ca78cd9c817e22e870b81d09">&#9670;&#160;</a></span>m_maxFileSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long BUI::LoggerStorage::m_maxFileSize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c2070cb55291f37da1ac536e4366bff" name="a5c2070cb55291f37da1ac536e4366bff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c2070cb55291f37da1ac536e4366bff">&#9670;&#160;</a></span>m_mutex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">pthread_mutex_t BUI::LoggerStorage::m_mutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ade37e87c7ce32d1ea8305e3b475f0fa4" name="ade37e87c7ce32d1ea8305e3b475f0fa4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade37e87c7ce32d1ea8305e3b475f0fa4">&#9670;&#160;</a></span>m_output_console</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FILE* BUI::LoggerStorage::m_output_console</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa91c9ab0dbd8e13930dbf4a9d346321a" name="aa91c9ab0dbd8e13930dbf4a9d346321a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa91c9ab0dbd8e13930dbf4a9d346321a">&#9670;&#160;</a></span>m_output_file</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FILE* BUI::LoggerStorage::m_output_file</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a33cc4decda220c0b906b9714e8711897" name="a33cc4decda220c0b906b9714e8711897"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33cc4decda220c0b906b9714e8711897">&#9670;&#160;</a></span>m_output_flags</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> BUI::LoggerStorage::m_output_flags</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_b_u_i.html">BUI</a></li><li class="navelem"><a class="el" href="class_b_u_i_1_1_logger_storage.html">LoggerStorage</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>CBlueUI: FileSystem.h 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBlueUI
+   &#160;<span id="projectnumber">vxxx</span>
+   </div>
+   <div id="projectbrief">C++ 跨平台跨框架的数据可视化工具</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('_file_system_8h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a> &#124;
+<a href="#namespaces">命名空间</a> &#124;
+<a href="#define-members">宏定义</a> &#124;
+<a href="#enum-members">枚举</a> &#124;
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle"><div class="title">FileSystem.h 文件参考</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+类</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_file_tree_info.html">FileTreeInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+命名空间</h2></td></tr>
+<tr class="memitem:namespace_utils_file_system"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_file_system.html">UtilsFileSystem</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+宏定义</h2></td></tr>
+<tr class="memitem:a6451497a285920d658d1156b7e52ee7c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_file_system_8h.html#a6451497a285920d658d1156b7e52ee7c">IsExists</a>&#160;&#160;&#160;IsExistsA</td></tr>
+<tr class="separator:a6451497a285920d658d1156b7e52ee7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+枚举</h2></td></tr>
+<tr class="memitem:a9857c41a7ea3baaac5ba990a9c23aafe"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_file_system_8h.html#a9857c41a7ea3baaac5ba990a9c23aafe">DirectoryType</a> { <a class="el" href="_file_system_8h.html#a9857c41a7ea3baaac5ba990a9c23aafea2676003bb103981a0a50f52ebec01d4d">Directory_APP</a>
+, <a class="el" href="_file_system_8h.html#a9857c41a7ea3baaac5ba990a9c23aafea964f27a6b81e1d6a632a6a8d8b2fc24e">Directory_Desktop</a>
+ }</td></tr>
+<tr class="separator:a9857c41a7ea3baaac5ba990a9c23aafe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a810fd2e616d637e225ad2cb91d11e6bd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_file_system_8h.html#a810fd2e616d637e225ad2cb91d11e6bd">OpenFileModel</a> { <a class="el" href="_file_system_8h.html#a810fd2e616d637e225ad2cb91d11e6bdaef2c61e455f2bd43bc43b092ef5e406a">OPEN_FILE</a> = 0x01
+, <a class="el" href="_file_system_8h.html#a810fd2e616d637e225ad2cb91d11e6bdada3c84c734d55bfeb4a4652a57f15a18">OPEN_FILE_SAVE</a> = 0x02
+, <a class="el" href="_file_system_8h.html#a810fd2e616d637e225ad2cb91d11e6bdaae0b351b4c46aaac0ebb15662fa2bf5f">OPEN_FILES</a> = 0x04
+, <a class="el" href="_file_system_8h.html#a810fd2e616d637e225ad2cb91d11e6bda8e1258e4c4221498cf8957007f5166c1">OPEN_DIR</a> = 0x08
+ }</td></tr>
+<tr class="separator:a810fd2e616d637e225ad2cb91d11e6bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:ad39b39d29658f55ef5c740cdc085f3d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> <a class="el" href="_string_a_8h.html#af8dd6b396b025639b3d0b06cbf8000c0">BeString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_file_system.html#ad39b39d29658f55ef5c740cdc085f3d7">UtilsFileSystem::GetSystemDir</a> (<a class="el" href="_file_system_8h.html#a9857c41a7ea3baaac5ba990a9c23aafe">DirectoryType</a> type)</td></tr>
+<tr class="separator:ad39b39d29658f55ef5c740cdc085f3d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad997c5e58d558507198fe4f456090b1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_file_system.html#ad997c5e58d558507198fe4f456090b1d">UtilsFileSystem::IsExistsW</a> (<a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a> folder)</td></tr>
+<tr class="memdesc:ad997c5e58d558507198fe4f456090b1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">验证文件夹是否存在  <br /></td></tr>
+<tr class="separator:ad997c5e58d558507198fe4f456090b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7db6f82762479755b426e665fc0f603a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_file_system.html#a7db6f82762479755b426e665fc0f603a">UtilsFileSystem::IsExistsA</a> (<a class="el" href="_c_core_base_pro_8h.html#adbea528b1294c9a1dfda3dfa33ff1472">LPCSTR</a> folder)</td></tr>
+<tr class="memdesc:a7db6f82762479755b426e665fc0f603a"><td class="mdescLeft">&#160;</td><td class="mdescRight">验证文件夹是否存在  <br /></td></tr>
+<tr class="separator:a7db6f82762479755b426e665fc0f603a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec44b31dbfc756835cffb2bb2849bfc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_file_system.html#aec44b31dbfc756835cffb2bb2849bfc0">UtilsFileSystem::MakeDirA</a> (<a class="el" href="_c_core_base_pro_8h.html#adbea528b1294c9a1dfda3dfa33ff1472">LPCSTR</a> folder)</td></tr>
+<tr class="memdesc:aec44b31dbfc756835cffb2bb2849bfc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建文件夹  <br /></td></tr>
+<tr class="separator:aec44b31dbfc756835cffb2bb2849bfc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a287c435e44a19c8339f38c7a79cddaec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_file_system.html#a287c435e44a19c8339f38c7a79cddaec">UtilsFileSystem::MakeDirW</a> (<a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a> folder)</td></tr>
+<tr class="memdesc:a287c435e44a19c8339f38c7a79cddaec"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建文件夹  <br /></td></tr>
+<tr class="separator:a287c435e44a19c8339f38c7a79cddaec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a070e7049a9b509b9ff32b2a5b9a42bb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_file_system.html#a070e7049a9b509b9ff32b2a5b9a42bb7">UtilsFileSystem::GetDirectorys</a> (<a class="el" href="struct_file_tree_info.html">FileTreeInfo</a> &amp;fsTree, int depth=0, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> isTreeResult=<a class="el" href="_c_core_base_pro_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>)</td></tr>
+<tr class="memdesc:a070e7049a9b509b9ff32b2a5b9a42bb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取指定目录的子目录列表  <br /></td></tr>
+<tr class="separator:a070e7049a9b509b9ff32b2a5b9a42bb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9f45be67c01546a597b02cc141090e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_file_system.html#ae9f45be67c01546a597b02cc141090e7">UtilsFileSystem::GetFiles</a> (<a class="el" href="struct_file_tree_info.html">FileTreeInfo</a> &amp;fsTree, <a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> postfix, int depth=0, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> isTreeResult=<a class="el" href="_c_core_base_pro_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>)</td></tr>
+<tr class="memdesc:ae9f45be67c01546a597b02cc141090e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得当前文件夹内的全部文件  <br /></td></tr>
+<tr class="separator:ae9f45be67c01546a597b02cc141090e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56153f1207f1bbcb39eba59b1203dd18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_file_system.html#a56153f1207f1bbcb39eba59b1203dd18">UtilsFileSystem::GetOpenPath</a> (<a class="el" href="_file_system_8h.html#a810fd2e616d637e225ad2cb91d11e6bd">OpenFileModel</a> model, <a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> title, <a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> filter, <a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> init_path, <a class="el" href="_string_buffer_basic_8h.html#a5e99b6223d6a01c61e22e7a9617d882a">BasicStringBuffer</a> *path, std::vector&lt; <a class="el" href="_string_a_8h.html#af8dd6b396b025639b3d0b06cbf8000c0">BeString</a> &gt; *pathlist=NULL)</td></tr>
+<tr class="memdesc:a56153f1207f1bbcb39eba59b1203dd18"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得当前文件夹内的全部文件  <br /></td></tr>
+<tr class="separator:a56153f1207f1bbcb39eba59b1203dd18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">宏定义说明</h2>
+<a id="a6451497a285920d658d1156b7e52ee7c" name="a6451497a285920d658d1156b7e52ee7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6451497a285920d658d1156b7e52ee7c">&#9670;&#160;</a></span>IsExists</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IsExists&#160;&#160;&#160;IsExistsA</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">枚举类型说明</h2>
+<a id="a9857c41a7ea3baaac5ba990a9c23aafe" name="a9857c41a7ea3baaac5ba990a9c23aafe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9857c41a7ea3baaac5ba990a9c23aafe">&#9670;&#160;</a></span>DirectoryType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="_file_system_8h.html#a9857c41a7ea3baaac5ba990a9c23aafe">DirectoryType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="a9857c41a7ea3baaac5ba990a9c23aafea2676003bb103981a0a50f52ebec01d4d" name="a9857c41a7ea3baaac5ba990a9c23aafea2676003bb103981a0a50f52ebec01d4d"></a>Directory_APP&#160;</td><td class="fielddoc"><p>app当前运行目录 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9857c41a7ea3baaac5ba990a9c23aafea964f27a6b81e1d6a632a6a8d8b2fc24e" name="a9857c41a7ea3baaac5ba990a9c23aafea964f27a6b81e1d6a632a6a8d8b2fc24e"></a>Directory_Desktop&#160;</td><td class="fielddoc"><p>桌面目录 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a810fd2e616d637e225ad2cb91d11e6bd" name="a810fd2e616d637e225ad2cb91d11e6bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a810fd2e616d637e225ad2cb91d11e6bd">&#9670;&#160;</a></span>OpenFileModel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="_file_system_8h.html#a810fd2e616d637e225ad2cb91d11e6bd">OpenFileModel</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="a810fd2e616d637e225ad2cb91d11e6bdaef2c61e455f2bd43bc43b092ef5e406a" name="a810fd2e616d637e225ad2cb91d11e6bdaef2c61e455f2bd43bc43b092ef5e406a"></a>OPEN_FILE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a810fd2e616d637e225ad2cb91d11e6bdada3c84c734d55bfeb4a4652a57f15a18" name="a810fd2e616d637e225ad2cb91d11e6bdada3c84c734d55bfeb4a4652a57f15a18"></a>OPEN_FILE_SAVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a810fd2e616d637e225ad2cb91d11e6bdaae0b351b4c46aaac0ebb15662fa2bf5f" name="a810fd2e616d637e225ad2cb91d11e6bdaae0b351b4c46aaac0ebb15662fa2bf5f"></a>OPEN_FILES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a810fd2e616d637e225ad2cb91d11e6bda8e1258e4c4221498cf8957007f5166c1" name="a810fd2e616d637e225ad2cb91d11e6bda8e1258e4c4221498cf8957007f5166c1"></a>OPEN_DIR&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_3bed942d6121e9060f7d922adbdfa5f0.html">cblueui</a></li><li class="navelem"><a class="el" href="dir_5cca196c5e131f39084f31dbd02cef4a.html">platform</a></li><li class="navelem"><a class="el" href="_file_system_8h.html">FileSystem.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

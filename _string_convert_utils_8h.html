@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>CBlueUI: StringConvertUtils.h 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBlueUI
+   &#160;<span id="projectnumber">vxxx</span>
+   </div>
+   <div id="projectbrief">C++ 跨平台跨框架的数据可视化工具</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('_string_convert_utils_8h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a> &#124;
+<a href="#namespaces">命名空间</a> &#124;
+<a href="#define-members">宏定义</a> &#124;
+<a href="#enum-members">枚举</a> &#124;
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle"><div class="title">StringConvertUtils.h 文件参考</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+类</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_numerical_value_list.html">NumericalValueList</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">数值解析工具类  <a href="class_numerical_value_list.html#details">更多...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_string_const_list.html">StringConstList</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+命名空间</h2></td></tr>
+<tr class="memitem:namespace_utils_string"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html">UtilsString</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+宏定义</h2></td></tr>
+<tr class="memitem:a03dc07ec456fb342bb7bb1215251782c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_string_convert_utils_8h.html#a03dc07ec456fb342bb7bb1215251782c">SplitWithChar</a>&#160;&#160;&#160;SplitWithCharA</td></tr>
+<tr class="separator:a03dc07ec456fb342bb7bb1215251782c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a386dde8c58747954bd0b6d8caf3eef61"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_string_convert_utils_8h.html#a386dde8c58747954bd0b6d8caf3eef61">SplitWithText</a>&#160;&#160;&#160;SplitWithTextA</td></tr>
+<tr class="separator:a386dde8c58747954bd0b6d8caf3eef61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+枚举</h2></td></tr>
+<tr class="memitem:a737e3e47c5b83b10bd7d63a838431586"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a737e3e47c5b83b10bd7d63a838431586">UtilsString::ChinaPinyinOption</a> { <a class="el" href="namespace_utils_string.html#a737e3e47c5b83b10bd7d63a838431586a2edffefc8a84ac2263516bf00d891c8c">UtilsString::PY_MASK_FULLNAME</a> = 1
+, <a class="el" href="namespace_utils_string.html#a737e3e47c5b83b10bd7d63a838431586ae1c809b96e6db86073b89d3085022685">UtilsString::PY_MASK_FIRST_CAPS</a> = 1 &lt;&lt; 1
+, <a class="el" href="namespace_utils_string.html#a737e3e47c5b83b10bd7d63a838431586a1a62439e82bfb68885f74c48606aeaa6">UtilsString::PY_MASK_ALL_CAPS</a> = 1 &lt;&lt; 2
+, <a class="el" href="namespace_utils_string.html#a737e3e47c5b83b10bd7d63a838431586a4c0b30bb013e9f13485f0b3c928fed86">UtilsString::PY_MASK_INSERT_SPACE</a> = 1 &lt;&lt; 3
+ }</td></tr>
+<tr class="separator:a737e3e47c5b83b10bd7d63a838431586"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:a8b7d576e3f2d4db8a62a51557b59a356"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a8b7d576e3f2d4db8a62a51557b59a356">UtilsString::IsASCIITextA</a> (const char *str, int len=-1)</td></tr>
+<tr class="memdesc:a8b7d576e3f2d4db8a62a51557b59a356"><td class="mdescLeft">&#160;</td><td class="mdescRight">判断字符串是否为ASCII  <br /></td></tr>
+<tr class="separator:a8b7d576e3f2d4db8a62a51557b59a356"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a382c3803fed151d8cc252faf0a97bd93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a382c3803fed151d8cc252faf0a97bd93">UtilsString::IsASCIITextW</a> (<a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a> str, int len=-1)</td></tr>
+<tr class="memdesc:a382c3803fed151d8cc252faf0a97bd93"><td class="mdescLeft">&#160;</td><td class="mdescRight">判断字符串是否为ASCII  <br /></td></tr>
+<tr class="separator:a382c3803fed151d8cc252faf0a97bd93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30c8306b87d14b0d99f8a43f59ea6307"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a30c8306b87d14b0d99f8a43f59ea6307">UtilsString::IsASCIIText</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> str, int len=-1)</td></tr>
+<tr class="memdesc:a30c8306b87d14b0d99f8a43f59ea6307"><td class="mdescLeft">&#160;</td><td class="mdescRight">判断字符串是否为ASCII  <br /></td></tr>
+<tr class="separator:a30c8306b87d14b0d99f8a43f59ea6307"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9449ef34260e5fc157d2cd3265533dc9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a9449ef34260e5fc157d2cd3265533dc9">UtilsString::IsUTF8</a> (const char *str)</td></tr>
+<tr class="memdesc:a9449ef34260e5fc157d2cd3265533dc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">判断字符是否是UTF8编码方式  <br /></td></tr>
+<tr class="separator:a9449ef34260e5fc157d2cd3265533dc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a196f2cbe0fbb48b8758cfd0dd2ecdcf2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a196f2cbe0fbb48b8758cfd0dd2ecdcf2">UtilsString::IsGBK</a> (const char *str)</td></tr>
+<tr class="memdesc:a196f2cbe0fbb48b8758cfd0dd2ecdcf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">判断字符是否是GBK编码方式  <br /></td></tr>
+<tr class="separator:a196f2cbe0fbb48b8758cfd0dd2ecdcf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2f3cd405e9dfd538e815c95d6c4e8ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#ad2f3cd405e9dfd538e815c95d6c4e8ca">UtilsString::ConverterMultiByteToWideChar</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> CodePage, const char *lpMultiByteStr, int cbMultiByte, <a class="el" href="_c_core_base_pro_8h.html#ad8b3dc33da1499586fca818005ef1281">WCHAR</a> *lpWideCharStr, int cchWideChar)</td></tr>
+<tr class="separator:ad2f3cd405e9dfd538e815c95d6c4e8ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1c03b2b8a700f46fb57e072d673eb32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#ad1c03b2b8a700f46fb57e072d673eb32">UtilsString::ConverterWideCharToMultiByte</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> CodePage, const <a class="el" href="_c_core_base_pro_8h.html#ad8b3dc33da1499586fca818005ef1281">WCHAR</a> *lpWideCharStr, int cchWideChar, char *lpMultiByteStr, int cbMultiByte)</td></tr>
+<tr class="separator:ad1c03b2b8a700f46fb57e072d673eb32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94698231c2ba68af2073890b5bc1bdb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a94698231c2ba68af2073890b5bc1bdb3">UtilsString::WideCharToUtf8</a> (char *buf, int buf_size, unsigned int wide_char)</td></tr>
+<tr class="memdesc:a94698231c2ba68af2073890b5bc1bdb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert unicode to utf8  <br /></td></tr>
+<tr class="separator:a94698231c2ba68af2073890b5bc1bdb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf5ea487867f2f4c1c538d6fa859272e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#abf5ea487867f2f4c1c538d6fa859272e">UtilsString::Utf8CharToWide</a> (unsigned int *out_char, const char *in_text, const char *in_text_end)</td></tr>
+<tr class="memdesc:abf5ea487867f2f4c1c538d6fa859272e"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert utf8 to unicode  <br /></td></tr>
+<tr class="separator:abf5ea487867f2f4c1c538d6fa859272e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac99d85d9ff8b058ba1c0e172a3118d90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#ac99d85d9ff8b058ba1c0e172a3118d90">UtilsString::ToMultiByte</a> (const char *src, int len, <a class="el" href="class_basic_string_buffer_a.html">BasicStringBufferA</a> &amp;outstr, <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> cp_from, <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> cp_to)</td></tr>
+<tr class="memdesc:ac99d85d9ff8b058ba1c0e172a3118d90"><td class="mdescLeft">&#160;</td><td class="mdescRight">格式转换  <br /></td></tr>
+<tr class="separator:ac99d85d9ff8b058ba1c0e172a3118d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af65c0ac0a536802a981b194479bd4254"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#af65c0ac0a536802a981b194479bd4254">UtilsString::UnicodeToMultiByte</a> (const <a class="el" href="_c_core_base_pro_8h.html#ad8b3dc33da1499586fca818005ef1281">WCHAR</a> *wc, int len, <a class="el" href="class_basic_string_buffer_a.html">BasicStringBufferA</a> &amp;outstr, <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> cp_to=<a class="el" href="_c_core_base_pro_8h.html#aadb80d30a31c113f6fe45511d44f9922">CP_UTF8</a>)</td></tr>
+<tr class="memdesc:af65c0ac0a536802a981b194479bd4254"><td class="mdescLeft">&#160;</td><td class="mdescRight">unicode字符转换为多字符集(GBK,ISO)  <br /></td></tr>
+<tr class="separator:af65c0ac0a536802a981b194479bd4254"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a518980b93e419ff1e6e0ab639ec78538"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a518980b93e419ff1e6e0ab639ec78538">UtilsString::MultiByteToUnicode</a> (const char *src, int len, <a class="el" href="class_basic_string_buffer_w.html">BasicStringBufferW</a> &amp;outstr, <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> cp_from)</td></tr>
+<tr class="memdesc:a518980b93e419ff1e6e0ab639ec78538"><td class="mdescLeft">&#160;</td><td class="mdescRight">多字符集(GBK,ISO) 转换为unicode字符  <br /></td></tr>
+<tr class="separator:a518980b93e419ff1e6e0ab639ec78538"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19d1d9e47b26d2eac38a97f13fbe74a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a19d1d9e47b26d2eac38a97f13fbe74a5">UtilsString::UnicodeToChinaPinyin</a> (<a class="el" href="_c_core_base_pro_8h.html#adbea528b1294c9a1dfda3dfa33ff1472">LPCSTR</a> utf8Str, <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> options, std::string &amp;result)</td></tr>
+<tr class="memdesc:a19d1d9e47b26d2eac38a97f13fbe74a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">转换为拼音  <br /></td></tr>
+<tr class="separator:a19d1d9e47b26d2eac38a97f13fbe74a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0000d893af56931b391178dd046a3603"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a0000d893af56931b391178dd046a3603">UtilsString::IsLittleEnding</a> ()</td></tr>
+<tr class="memdesc:a0000d893af56931b391178dd046a3603"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否是小端模式  <br /></td></tr>
+<tr class="separator:a0000d893af56931b391178dd046a3603"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34ba3d99739c7df7f858b19db94df6ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a34ba3d99739c7df7f858b19db94df6ee">UtilsString::IsStackPtr</a> (void *p)</td></tr>
+<tr class="separator:a34ba3d99739c7df7f858b19db94df6ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3457f8356072c205baa369dfd47a0d67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a3457f8356072c205baa369dfd47a0d67">UtilsString::IsDecimalFormateA</a> (const char *str, int len=-1)</td></tr>
+<tr class="memdesc:a3457f8356072c205baa369dfd47a0d67"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否满足小数输入格式  <br /></td></tr>
+<tr class="separator:a3457f8356072c205baa369dfd47a0d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1e763aed6157854260746b34da4e972"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#ac1e763aed6157854260746b34da4e972">UtilsString::IsIntegerA</a> (const char *str, int len=-1)</td></tr>
+<tr class="separator:ac1e763aed6157854260746b34da4e972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aead997709d420d9c5a1a24989366cb5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#aead997709d420d9c5a1a24989366cb5a">UtilsString::IsIdentfierA</a> (const char *str, int len=-1)</td></tr>
+<tr class="separator:aead997709d420d9c5a1a24989366cb5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72a12f9a185be0815b062469ed244d47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a72a12f9a185be0815b062469ed244d47">UtilsString::IsDecimalFormateW</a> (const <a class="el" href="_c_core_base_pro_8h.html#ad8b3dc33da1499586fca818005ef1281">WCHAR</a> *str, int len=-1)</td></tr>
+<tr class="memdesc:a72a12f9a185be0815b062469ed244d47"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否满足小数输入格式  <br /></td></tr>
+<tr class="separator:a72a12f9a185be0815b062469ed244d47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbc1d5d27d8adfa74dc6d46dc170b233"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#acbc1d5d27d8adfa74dc6d46dc170b233">UtilsString::IsIntegerW</a> (const <a class="el" href="_c_core_base_pro_8h.html#ad8b3dc33da1499586fca818005ef1281">WCHAR</a> *str, int len=-1)</td></tr>
+<tr class="separator:acbc1d5d27d8adfa74dc6d46dc170b233"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dc10c7e0c5828e8cb7ccce006a8d42c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a1dc10c7e0c5828e8cb7ccce006a8d42c">UtilsString::IsIdentfierW</a> (const <a class="el" href="_c_core_base_pro_8h.html#ad8b3dc33da1499586fca818005ef1281">WCHAR</a> *str, int len=-1)</td></tr>
+<tr class="separator:a1dc10c7e0c5828e8cb7ccce006a8d42c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69934257124683d2456d404e65e504dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a69934257124683d2456d404e65e504dc">UtilsString::IsDecimalFormate</a> (const <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> *str, int len=-1)</td></tr>
+<tr class="memdesc:a69934257124683d2456d404e65e504dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否满足小数输入格式  <br /></td></tr>
+<tr class="separator:a69934257124683d2456d404e65e504dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e535526d9ddf93975c567f75b1d642f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a0e535526d9ddf93975c567f75b1d642f">UtilsString::IsInteger</a> (const <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> *str, int len=-1)</td></tr>
+<tr class="separator:a0e535526d9ddf93975c567f75b1d642f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64ac0a6edb9c6da5a10479e2154fb693"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a64ac0a6edb9c6da5a10479e2154fb693">UtilsString::IsIdentfier</a> (const <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> *str, int len=-1)</td></tr>
+<tr class="separator:a64ac0a6edb9c6da5a10479e2154fb693"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1c789c51845d43dabd0326f9e1eeb8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#aa1c789c51845d43dabd0326f9e1eeb8d">UtilsString::GetIntegerCharCount</a> (int v)</td></tr>
+<tr class="memdesc:aa1c789c51845d43dabd0326f9e1eeb8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得整数需要的十进制位数位数  <br /></td></tr>
+<tr class="separator:aa1c789c51845d43dabd0326f9e1eeb8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a453bec34d443a71aedf4d8534ef86844"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a453bec34d443a71aedf4d8534ef86844">UtilsString::GetCharsCount</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int count)</td></tr>
+<tr class="memdesc:a453bec34d443a71aedf4d8534ef86844"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回字符个数  <br /></td></tr>
+<tr class="separator:a453bec34d443a71aedf4d8534ef86844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7be40adb2d0b7fbcfe99ae2d5a25b2ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> <a class="el" href="_c_core_base_pro_8h.html#adbea528b1294c9a1dfda3dfa33ff1472">LPCSTR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a7be40adb2d0b7fbcfe99ae2d5a25b2ef">UtilsString::FindNextBracketA</a> (<a class="el" href="_c_core_base_pro_8h.html#adbea528b1294c9a1dfda3dfa33ff1472">LPCSTR</a> text, char start_bracket, char end_bracket, int levels=0)</td></tr>
+<tr class="memdesc:a7be40adb2d0b7fbcfe99ae2d5a25b2ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回括号分组的结束位置  <br /></td></tr>
+<tr class="separator:a7be40adb2d0b7fbcfe99ae2d5a25b2ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f218df1ce2f472b1f2e7a5df108f913"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> <a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a0f218df1ce2f472b1f2e7a5df108f913">UtilsString::FindNextBracketW</a> (<a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a> text, <a class="el" href="_c_core_base_pro_8h.html#ad8b3dc33da1499586fca818005ef1281">WCHAR</a> start_bracket, <a class="el" href="_c_core_base_pro_8h.html#ad8b3dc33da1499586fca818005ef1281">WCHAR</a> end_bracket, int levels=0)</td></tr>
+<tr class="memdesc:a0f218df1ce2f472b1f2e7a5df108f913"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回括号分组的结束位置  <br /></td></tr>
+<tr class="separator:a0f218df1ce2f472b1f2e7a5df108f913"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d36bc827803e9a544e56e2ff4ba2980"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a9d36bc827803e9a544e56e2ff4ba2980">UtilsString::SplitWithCharA</a> (const char *str, const char *pattern, int count=0, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> skip_bracket=<a class="el" href="_c_core_base_pro_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>)</td></tr>
+<tr class="separator:a9d36bc827803e9a544e56e2ff4ba2980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f681c29d4a9d823773bbbd5fcce0914"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a9f681c29d4a9d823773bbbd5fcce0914">UtilsString::SplitWithTextA</a> (std::string str, std::string pattern, int count=0)</td></tr>
+<tr class="separator:a9f681c29d4a9d823773bbbd5fcce0914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8903f075fdd733a85bafba0f63f5715d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> std::vector&lt; std::w16string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a8903f075fdd733a85bafba0f63f5715d">UtilsString::SplitWithCharW</a> (const <a class="el" href="_c_core_base_pro_8h.html#ad8b3dc33da1499586fca818005ef1281">WCHAR</a> *str, const <a class="el" href="_c_core_base_pro_8h.html#ad8b3dc33da1499586fca818005ef1281">WCHAR</a> *pattern, int count=0, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> skip_bracket=<a class="el" href="_c_core_base_pro_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>)</td></tr>
+<tr class="separator:a8903f075fdd733a85bafba0f63f5715d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a925750bd4a5f3d35d05595276325406a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> std::vector&lt; std::w16string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a925750bd4a5f3d35d05595276325406a">UtilsString::SplitWithTextW</a> (std::w16string str, std::w16string pattern, int count=0)</td></tr>
+<tr class="separator:a925750bd4a5f3d35d05595276325406a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3682b63d73b2e75566ec01a1888031f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#ac3682b63d73b2e75566ec01a1888031f">UtilsString::SplitAttribute</a> (const <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> *text, std::vector&lt; std::pair&lt; std::tstring, std::tstring &gt; &gt; &amp;result, <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> SplitCharacter=(<a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a>)';')</td></tr>
+<tr class="separator:ac3682b63d73b2e75566ec01a1888031f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a817063eedf2d37c6f646984168bcc1cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a817063eedf2d37c6f646984168bcc1cf">UtilsString::CalculatorValue</a> (double &amp;value, const char *str, int len=-1)</td></tr>
+<tr class="memdesc:a817063eedf2d37c6f646984168bcc1cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">计算器解析器  <br /></td></tr>
+<tr class="separator:a817063eedf2d37c6f646984168bcc1cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a176153cd6c4e519e2a391a5fd63a6d40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a176153cd6c4e519e2a391a5fd63a6d40">UtilsString::ConvertBaseTextToBytes</a> (<a class="el" href="class_basic_string_buffer_a.html">BasicStringBufferA</a> &amp;out_buf, int &amp;len, <a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> str, int base)</td></tr>
+<tr class="memdesc:a176153cd6c4e519e2a391a5fd63a6d40"><td class="mdescLeft">&#160;</td><td class="mdescRight">将基于base进制的字符串转换为字节流  <br /></td></tr>
+<tr class="separator:a176153cd6c4e519e2a391a5fd63a6d40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa14b1c495bf5e7e1114959ecfada2c09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#aa14b1c495bf5e7e1114959ecfada2c09">UtilsString::GetPrevDirPath</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> fullname, <a class="el" href="_string_buffer_basic_8h.html#a5e99b6223d6a01c61e22e7a9617d882a">BasicStringBuffer</a> &amp;prev_path)</td></tr>
+<tr class="memdesc:aa14b1c495bf5e7e1114959ecfada2c09"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取上级目录  <br /></td></tr>
+<tr class="separator:aa14b1c495bf5e7e1114959ecfada2c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdda70f62141adcf47e019bc21880535"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#afdda70f62141adcf47e019bc21880535">UtilsString::GetPrevDirPathA</a> (<a class="el" href="_c_core_base_pro_8h.html#adbea528b1294c9a1dfda3dfa33ff1472">LPCSTR</a> fullname, <a class="el" href="class_basic_string_buffer_a.html">BasicStringBufferA</a> &amp;prev_path)</td></tr>
+<tr class="separator:afdda70f62141adcf47e019bc21880535"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9c072f7039c649f5ec88d1d1fd705ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#aa9c072f7039c649f5ec88d1d1fd705ef">UtilsString::GetPrevDirPathW</a> (<a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a> fullname, <a class="el" href="class_basic_string_buffer_w.html">BasicStringBufferW</a> &amp;prev_path)</td></tr>
+<tr class="separator:aa9c072f7039c649f5ec88d1d1fd705ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2157a7a86c06389d166115ad069eca87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a2157a7a86c06389d166115ad069eca87">UtilsString::GetFileSuffix</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> fullname, <a class="el" href="_string_buffer_basic_8h.html#a5e99b6223d6a01c61e22e7a9617d882a">BasicStringBuffer</a> &amp;suffix, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> isComplete=<a class="el" href="_c_core_base_pro_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>)</td></tr>
+<tr class="memdesc:a2157a7a86c06389d166115ad069eca87"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取文件后缀  <br /></td></tr>
+<tr class="separator:a2157a7a86c06389d166115ad069eca87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a189b6f09015be2191a993fa50c54df5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a189b6f09015be2191a993fa50c54df5f">UtilsString::GetFileSuffixA</a> (<a class="el" href="_c_core_base_pro_8h.html#adbea528b1294c9a1dfda3dfa33ff1472">LPCSTR</a> fullname, <a class="el" href="class_basic_string_buffer_a.html">BasicStringBufferA</a> &amp;suffix, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> isComplete=<a class="el" href="_c_core_base_pro_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>)</td></tr>
+<tr class="separator:a189b6f09015be2191a993fa50c54df5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae756afd3661f44ae2536fff7cda7ac62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#ae756afd3661f44ae2536fff7cda7ac62">UtilsString::GetFileSuffixW</a> (<a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a> fullname, <a class="el" href="class_basic_string_buffer_w.html">BasicStringBufferW</a> &amp;suffix, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> isComplete=<a class="el" href="_c_core_base_pro_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>)</td></tr>
+<tr class="separator:ae756afd3661f44ae2536fff7cda7ac62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52a3797c2d7c71cb64d02510cd328444"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a52a3797c2d7c71cb64d02510cd328444">UtilsString::GetFileBaseName</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> fullname, <a class="el" href="_string_buffer_basic_8h.html#a5e99b6223d6a01c61e22e7a9617d882a">BasicStringBuffer</a> &amp;basename, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> isComplete=<a class="el" href="_c_core_base_pro_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>)</td></tr>
+<tr class="memdesc:a52a3797c2d7c71cb64d02510cd328444"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取不包含后缀的文件名  <br /></td></tr>
+<tr class="separator:a52a3797c2d7c71cb64d02510cd328444"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4a813ec671a0606e68516d4fc4f6e8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#aa4a813ec671a0606e68516d4fc4f6e8f">UtilsString::GetFileBaseNameA</a> (<a class="el" href="_c_core_base_pro_8h.html#adbea528b1294c9a1dfda3dfa33ff1472">LPCSTR</a> fullname, <a class="el" href="class_basic_string_buffer_a.html">BasicStringBufferA</a> &amp;basename, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> isComplete=<a class="el" href="_c_core_base_pro_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>)</td></tr>
+<tr class="separator:aa4a813ec671a0606e68516d4fc4f6e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac819e39ea63a0364ad4679b23cad6bdc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#ac819e39ea63a0364ad4679b23cad6bdc">UtilsString::GetFileBaseNameW</a> (<a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a> fullname, <a class="el" href="class_basic_string_buffer_w.html">BasicStringBufferW</a> &amp;basename, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> isComplete=<a class="el" href="_c_core_base_pro_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>)</td></tr>
+<tr class="separator:ac819e39ea63a0364ad4679b23cad6bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa815424e587dc35e8e395e6afbee7c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#aaa815424e587dc35e8e395e6afbee7c5">UtilsString::GetFileName</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> fullname, <a class="el" href="_string_buffer_basic_8h.html#a5e99b6223d6a01c61e22e7a9617d882a">BasicStringBuffer</a> &amp;filename)</td></tr>
+<tr class="memdesc:aaa815424e587dc35e8e395e6afbee7c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取文件名称  <br /></td></tr>
+<tr class="separator:aaa815424e587dc35e8e395e6afbee7c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91ce9d6c30dbc2533d1b7f838387db1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a91ce9d6c30dbc2533d1b7f838387db1f">UtilsString::GetFilePath</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> fullname, <a class="el" href="_string_buffer_basic_8h.html#a5e99b6223d6a01c61e22e7a9617d882a">BasicStringBuffer</a> &amp;filepath)</td></tr>
+<tr class="memdesc:a91ce9d6c30dbc2533d1b7f838387db1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取路径，不包含文件  <br /></td></tr>
+<tr class="separator:a91ce9d6c30dbc2533d1b7f838387db1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb440e3eeefd0cfdd436545d86ea769a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#acb440e3eeefd0cfdd436545d86ea769a">UtilsString::ParseToAlign</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> &amp;align, <a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> value)</td></tr>
+<tr class="memdesc:acb440e3eeefd0cfdd436545d86ea769a"><td class="mdescLeft">&#160;</td><td class="mdescRight">解析对齐方式  <br /></td></tr>
+<tr class="separator:acb440e3eeefd0cfdd436545d86ea769a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac88f8fa561018264dc995d1aff94dafb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#ac88f8fa561018264dc995d1aff94dafb">UtilsString::IntToString</a> (int num, int base, <a class="el" href="_string_buffer_basic_8h.html#a5e99b6223d6a01c61e22e7a9617d882a">BasicStringBuffer</a> &amp;target)</td></tr>
+<tr class="memdesc:ac88f8fa561018264dc995d1aff94dafb"><td class="mdescLeft">&#160;</td><td class="mdescRight">整数转换为文本。(2，8，10，16 进制)  <br /></td></tr>
+<tr class="separator:ac88f8fa561018264dc995d1aff94dafb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a478fe897ff69baff31864ea89fd75b9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a478fe897ff69baff31864ea89fd75b9e">UtilsString::ParserNumericalValueA</a> (const char *str, const char *end, char **next_ptr, double &amp;value, int &amp;is_percent_value)</td></tr>
+<tr class="memdesc:a478fe897ff69baff31864ea89fd75b9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">解析数值。(可识别模式 156.e-2，0b1101,0o154,0x1245,#5421)  <br /></td></tr>
+<tr class="separator:a478fe897ff69baff31864ea89fd75b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15e60aa93aee9233c22f97162c30c547"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a15e60aa93aee9233c22f97162c30c547">UtilsString::ParserNumericalValueW</a> (const <a class="el" href="_c_core_base_pro_8h.html#ad8b3dc33da1499586fca818005ef1281">WCHAR</a> *str, const <a class="el" href="_c_core_base_pro_8h.html#ad8b3dc33da1499586fca818005ef1281">WCHAR</a> *end, <a class="el" href="_c_core_base_pro_8h.html#ad8b3dc33da1499586fca818005ef1281">WCHAR</a> **next_ptr, double &amp;value, int &amp;is_percent_value)</td></tr>
+<tr class="separator:a15e60aa93aee9233c22f97162c30c547"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac34dfe94cb384cf1dc657d5858ef4a1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#ac34dfe94cb384cf1dc657d5858ef4a1d">UtilsString::ParserNumericalValue</a> (const <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> *str, const <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> *end, <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> **next_ptr, double &amp;value, int &amp;is_percent_value)</td></tr>
+<tr class="separator:ac34dfe94cb384cf1dc657d5858ef4a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af10c9c68c49e7b39b1aaaaae574f34d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#af10c9c68c49e7b39b1aaaaae574f34d6">UtilsString::ParserToIntA</a> (const char *str, int base=10)</td></tr>
+<tr class="memdesc:af10c9c68c49e7b39b1aaaaae574f34d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">解析进制整数。(2，8，10，16 进制)  <br /></td></tr>
+<tr class="separator:af10c9c68c49e7b39b1aaaaae574f34d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2189bc0eb86d16e19e6706bf42cff0e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a2189bc0eb86d16e19e6706bf42cff0e0">UtilsString::ParserToIntW</a> (const <a class="el" href="_c_core_base_pro_8h.html#ad8b3dc33da1499586fca818005ef1281">WCHAR</a> *str, int base=10)</td></tr>
+<tr class="separator:a2189bc0eb86d16e19e6706bf42cff0e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d15256461e2b8baca1d3c0c4ae7858f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a9d15256461e2b8baca1d3c0c4ae7858f">UtilsString::ParserToInt</a> (const <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> *str, int base=10)</td></tr>
+<tr class="separator:a9d15256461e2b8baca1d3c0c4ae7858f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc36028fabac67b15a7df0234ad5a1d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> <a class="el" href="_c_core_base_pro_8h.html#a194f3d994de080007c83e54140321c11">PenType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#abc36028fabac67b15a7df0234ad5a1d2">UtilsString::ParserPenType</a> (const <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> *str)</td></tr>
+<tr class="memdesc:abc36028fabac67b15a7df0234ad5a1d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">解析画笔类型 solid, dot, dash, dash-dot, dash-dot-dot  <br /></td></tr>
+<tr class="separator:abc36028fabac67b15a7df0234ad5a1d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcde53792ceaaa253468fb0c42a79732"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#afcde53792ceaaa253468fb0c42a79732">UtilsString::SkipSpaceOrChar</a> (const char **str, char c)</td></tr>
+<tr class="memdesc:afcde53792ceaaa253468fb0c42a79732"><td class="mdescLeft">&#160;</td><td class="mdescRight">跳过指定字符  <br /></td></tr>
+<tr class="separator:afcde53792ceaaa253468fb0c42a79732"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86dfcd319d6fbe4630b8383a5a8c9c5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a8aee89e1367df3f5f8962848bb3ef28c">UI_EXP</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_utils_string.html#a86dfcd319d6fbe4630b8383a5a8c9c5b">UtilsString::ParseCsvDoubles</a> (const char *str, double *value, int num_values, char **next)</td></tr>
+<tr class="memdesc:a86dfcd319d6fbe4630b8383a5a8c9c5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">解析以逗号分隔的数值  <br /></td></tr>
+<tr class="separator:a86dfcd319d6fbe4630b8383a5a8c9c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">宏定义说明</h2>
+<a id="a03dc07ec456fb342bb7bb1215251782c" name="a03dc07ec456fb342bb7bb1215251782c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03dc07ec456fb342bb7bb1215251782c">&#9670;&#160;</a></span>SplitWithChar</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SplitWithChar&#160;&#160;&#160;SplitWithCharA</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a386dde8c58747954bd0b6d8caf3eef61" name="a386dde8c58747954bd0b6d8caf3eef61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a386dde8c58747954bd0b6d8caf3eef61">&#9670;&#160;</a></span>SplitWithText</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SplitWithText&#160;&#160;&#160;SplitWithTextA</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_3bed942d6121e9060f7d922adbdfa5f0.html">cblueui</a></li><li class="navelem"><a class="el" href="dir_8b3c21af29507ffe66e9da00199b0548.html">cstring</a></li><li class="navelem"><a class="el" href="_string_convert_utils_8h.html">StringConvertUtils.h</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

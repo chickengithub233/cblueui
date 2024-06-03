@@ -1,0 +1,1375 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>CBlueUI: BUI::ScrollZoom类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBlueUI
+   &#160;<span id="projectnumber">vxxx</span>
+   </div>
+   <div id="projectbrief">C++ 跨平台跨框架的数据可视化工具</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_b_u_i_1_1_scroll_zoom.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="class_b_u_i_1_1_scroll_zoom-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">BUI::ScrollZoom类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>滚动视窗范围控制类 +-----------&mdash;+=================+------------&mdash;+ m_dataMin m_showMin m_showMax m_dataMax  
+ <a href="class_b_u_i_1_1_scroll_zoom.html#details">更多...</a></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> 类 BUI::ScrollZoom 继承关系图:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="class_b_u_i_1_1_scroll_zoom.png" usemap="#BUI::ScrollZoom_map" alt=""/>
+  <map id="BUI::ScrollZoom_map" name="BUI::ScrollZoom_map">
+<area href="class_b_u_i_1_1_linear_axis.html" title="线性坐标轴" alt="BUI::LinearAxis" shape="rect" coords="0,56,102,80"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:ad0227652bb50d22af168a773fc7e303b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#ad0227652bb50d22af168a773fc7e303b">ScrollZoom</a> ()</td></tr>
+<tr class="separator:ad0227652bb50d22af168a773fc7e303b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d6a74b0e4cdd708215f2a6ac1814329"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a2d6a74b0e4cdd708215f2a6ac1814329">~ScrollZoom</a> ()</td></tr>
+<tr class="separator:a2d6a74b0e4cdd708215f2a6ac1814329"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ff8af03c5fe7eb2610ffb402dde6c40"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a0ff8af03c5fe7eb2610ffb402dde6c40">GetPercentValue</a> (double v)</td></tr>
+<tr class="separator:a0ff8af03c5fe7eb2610ffb402dde6c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa80555710f350e22e6e133316c57509d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#aa80555710f350e22e6e133316c57509d">GetValue</a> (double p)</td></tr>
+<tr class="separator:aa80555710f350e22e6e133316c57509d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62078f9e6e06e2fc3d3aea5537d8058f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a62078f9e6e06e2fc3d3aea5537d8058f">SetScrollZoomPageStart</a> (double page)</td></tr>
+<tr class="separator:a62078f9e6e06e2fc3d3aea5537d8058f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef2bcbeb1c46d4ff6ea579490baf646a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#aef2bcbeb1c46d4ff6ea579490baf646a">SetScrollZoomPageEnd</a> (double page)</td></tr>
+<tr class="separator:aef2bcbeb1c46d4ff6ea579490baf646a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7ade4ea8659b167b085ec7383709620"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#ac7ade4ea8659b167b085ec7383709620">SetScrollInfo</a> (double min_, double max_, double page_start, double page_end)</td></tr>
+<tr class="separator:ac7ade4ea8659b167b085ec7383709620"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a854b44ecd8006e65c63aa766342b7e6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a854b44ecd8006e65c63aa766342b7e6e">SetScrollZoomRange</a> (double dblMin, double dblMax)</td></tr>
+<tr class="separator:a854b44ecd8006e65c63aa766342b7e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a998fd90e96feb12c2803e6fe24e73a91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a998fd90e96feb12c2803e6fe24e73a91">SetDataRange</a> (double fmin, double fmax)</td></tr>
+<tr class="separator:a998fd90e96feb12c2803e6fe24e73a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30e3e05f9a01f663c517201e1be74109"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a30e3e05f9a01f663c517201e1be74109">SetInitRange</a> (double fmin, double fmax)</td></tr>
+<tr class="separator:a30e3e05f9a01f663c517201e1be74109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a486393c91b865d2b10ce4757e70c4a72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a486393c91b865d2b10ce4757e70c4a72">SetShowRange</a> (double fmin, double fmax)</td></tr>
+<tr class="separator:a486393c91b865d2b10ce4757e70c4a72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8fb1351c68ecac72ce635708ebb57ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#ad8fb1351c68ecac72ce635708ebb57ee">GetDataRange</a> (double &amp;fmin, double &amp;fmax)</td></tr>
+<tr class="separator:ad8fb1351c68ecac72ce635708ebb57ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03a479bc05845a22e82a36c6225997ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a03a479bc05845a22e82a36c6225997ef">GetInitRange</a> (double &amp;fmin, double &amp;fmax)</td></tr>
+<tr class="separator:a03a479bc05845a22e82a36c6225997ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8862b49cda4916832e7108c3b42d996"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#aa8862b49cda4916832e7108c3b42d996">GetShowRange</a> (double &amp;fmin, double &amp;fmax)</td></tr>
+<tr class="separator:aa8862b49cda4916832e7108c3b42d996"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a359994d3d056e911658967ba6a2d51f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a359994d3d056e911658967ba6a2d51f1">SetScrollZoomSelectRange</a> (double begin, double <a class="el" href="namespace_b_u_i.html#aee99b25c20841032c2852ecadb5f4e83a8c4c972e1e5bfdb096db86639d7215da">end</a>)</td></tr>
+<tr class="memdesc:a359994d3d056e911658967ba6a2d51f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置滚动选中范围百分比  <br /></td></tr>
+<tr class="separator:a359994d3d056e911658967ba6a2d51f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0982a2a3b99cddf6aa7dcf2a129e4adb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a0982a2a3b99cddf6aa7dcf2a129e4adb">GetScrollZoomSelectRange</a> (double &amp;begin, double &amp;<a class="el" href="namespace_b_u_i.html#aee99b25c20841032c2852ecadb5f4e83a8c4c972e1e5bfdb096db86639d7215da">end</a>) const</td></tr>
+<tr class="memdesc:a0982a2a3b99cddf6aa7dcf2a129e4adb"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得滚动选中范围百分比  <br /></td></tr>
+<tr class="separator:a0982a2a3b99cddf6aa7dcf2a129e4adb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01dd81212c78ef3bc15b4767409faa67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a01dd81212c78ef3bc15b4767409faa67">SetScrollZoomMinPage</a> (int page)</td></tr>
+<tr class="separator:a01dd81212c78ef3bc15b4767409faa67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14dfa47f258348ae6e1bd013b5a286d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a14dfa47f258348ae6e1bd013b5a286d6">SetUnitPrecision</a> (double percision)</td></tr>
+<tr class="memdesc:a14dfa47f258348ae6e1bd013b5a286d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置最小单位  <br /></td></tr>
+<tr class="separator:a14dfa47f258348ae6e1bd013b5a286d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3492ca87a961c05dc405637d769643ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a3492ca87a961c05dc405637d769643ef">IsScrollVaild</a> () const</td></tr>
+<tr class="separator:a3492ca87a961c05dc405637d769643ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cbc2e24b0c2f61a037098a47963533e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a2cbc2e24b0c2f61a037098a47963533e">EnableZoomd</a> (<a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> enable)</td></tr>
+<tr class="separator:a2cbc2e24b0c2f61a037098a47963533e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86ce881c09ea4783ecc70c99892ead97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a86ce881c09ea4783ecc70c99892ead97">NotifyZoomRange</a> (double v)</td></tr>
+<tr class="memdesc:a86ce881c09ea4783ecc70c99892ead97"><td class="mdescLeft">&#160;</td><td class="mdescRight">向区域中通知，新加入的值，如果在可视范围内，则不变更  <br /></td></tr>
+<tr class="separator:a86ce881c09ea4783ecc70c99892ead97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a32ff9107a2a9f0e4f372e8671e35ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a5a32ff9107a2a9f0e4f372e8671e35ce">StorageTrackPage</a> ()</td></tr>
+<tr class="separator:a5a32ff9107a2a9f0e4f372e8671e35ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a670fbab51ae5852f5931aca491dc3650"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a670fbab51ae5852f5931aca491dc3650">GetPageOffset</a> (double p)</td></tr>
+<tr class="separator:a670fbab51ae5852f5931aca491dc3650"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a386e923036d5c6a1f4d12ee28b546324"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a386e923036d5c6a1f4d12ee28b546324">GetPageStartOffset</a> ()</td></tr>
+<tr class="separator:a386e923036d5c6a1f4d12ee28b546324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa42b6bdf4a9f9e3bea6155159ba46aae"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#aa42b6bdf4a9f9e3bea6155159ba46aae">GetPageEndOffset</a> ()</td></tr>
+<tr class="separator:aa42b6bdf4a9f9e3bea6155159ba46aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a358316bf6a20c7cd55d97ba9556e96c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a358316bf6a20c7cd55d97ba9556e96c7">MovePageToEnd</a> ()</td></tr>
+<tr class="separator:a358316bf6a20c7cd55d97ba9556e96c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af84adbf9f478da884c1933df1b9619d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#af84adbf9f478da884c1933df1b9619d7">MovePageToStart</a> ()</td></tr>
+<tr class="separator:af84adbf9f478da884c1933df1b9619d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adaa1b529ce670d5cbaed167c777d7b1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#adaa1b529ce670d5cbaed167c777d7b1d">HitScrollThumbStates</a> (<a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> pt, <a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> vAxis) const</td></tr>
+<tr class="separator:adaa1b529ce670d5cbaed167c777d7b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba3b8b78a9b966e764bd09f0cdd2ccae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#aba3b8b78a9b966e764bd09f0cdd2ccae">OnChangePageRange</a> (double k, double minunit, <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> hit)</td></tr>
+<tr class="separator:aba3b8b78a9b966e764bd09f0cdd2ccae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a0faade1e330a76dc54d4e16afeb603a5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a0faade1e330a76dc54d4e16afeb603a5">m_initMin</a></td></tr>
+<tr class="separator:a0faade1e330a76dc54d4e16afeb603a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b090189d90fb17fc286203686de6fa5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a9b090189d90fb17fc286203686de6fa5">m_initMax</a></td></tr>
+<tr class="separator:a9b090189d90fb17fc286203686de6fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a109114d6865f3ea0872659f7ae964852"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a109114d6865f3ea0872659f7ae964852">m_dataMin</a></td></tr>
+<tr class="separator:a109114d6865f3ea0872659f7ae964852"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acac6bbed28a92c5bf7762eaea5fddd62"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#acac6bbed28a92c5bf7762eaea5fddd62">m_dataMax</a></td></tr>
+<tr class="separator:acac6bbed28a92c5bf7762eaea5fddd62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33c0d80dee37a85b4e5c283cac6f9ecf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a33c0d80dee37a85b4e5c283cac6f9ecf">m_showMin</a></td></tr>
+<tr class="separator:a33c0d80dee37a85b4e5c283cac6f9ecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39cfd761e7e4589b0e10dc5b8ca9aa4a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a39cfd761e7e4589b0e10dc5b8ca9aa4a">m_showMax</a></td></tr>
+<tr class="separator:a39cfd761e7e4589b0e10dc5b8ca9aa4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf4c6226ff8b393c4efd1a1e60c8e16a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#abf4c6226ff8b393c4efd1a1e60c8e16a">m_t</a></td></tr>
+<tr class="separator:abf4c6226ff8b393c4efd1a1e60c8e16a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72e33d89be78eec859bfecbc5e990890"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a72e33d89be78eec859bfecbc5e990890">m_dblPageStart</a></td></tr>
+<tr class="separator:a72e33d89be78eec859bfecbc5e990890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a93226b0360408618e71b28de51cc11"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a1a93226b0360408618e71b28de51cc11">m_dblPageEnd</a></td></tr>
+<tr class="separator:a1a93226b0360408618e71b28de51cc11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e9768cdab69c28d2518f6e270492e96"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a2e9768cdab69c28d2518f6e270492e96">m_dblPageStartTrack</a></td></tr>
+<tr class="separator:a2e9768cdab69c28d2518f6e270492e96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a279a419d9246546001962be6a37611f4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a279a419d9246546001962be6a37611f4">m_dblPageEndTrack</a></td></tr>
+<tr class="separator:a279a419d9246546001962be6a37611f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a859ba7720c0f49645b9562d9c0fbacbb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a859ba7720c0f49645b9562d9c0fbacbb">m_mult_k</a></td></tr>
+<tr class="separator:a859ba7720c0f49645b9562d9c0fbacbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa08aa4bec53d3dcc566dfbeee2be1f46"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#aa08aa4bec53d3dcc566dfbeee2be1f46">m_precision</a></td></tr>
+<tr class="separator:aa08aa4bec53d3dcc566dfbeee2be1f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accd3e78320dda667ca3a3c1e4a6abc06"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#accd3e78320dda667ca3a3c1e4a6abc06">m_nMinor</a></td></tr>
+<tr class="separator:accd3e78320dda667ca3a3c1e4a6abc06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1039cf4ceccc043b82ab57c2515ee88"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#af1039cf4ceccc043b82ab57c2515ee88">m_nMajor</a></td></tr>
+<tr class="separator:af1039cf4ceccc043b82ab57c2515ee88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bb0cbf0927a206ff7add5aa13fc49df"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a1bb0cbf0927a206ff7add5aa13fc49df">m_nMinorTickSize</a></td></tr>
+<tr class="separator:a1bb0cbf0927a206ff7add5aa13fc49df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a30173a3114be9fcd5ad92b925bdc6c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a6a30173a3114be9fcd5ad92b925bdc6c">m_nMajorTickSize</a></td></tr>
+<tr class="separator:a6a30173a3114be9fcd5ad92b925bdc6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50a90abb8d4cb89d4a015c5c092878bc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a50a90abb8d4cb89d4a015c5c092878bc">m_nMinorTickPenSize</a></td></tr>
+<tr class="separator:a50a90abb8d4cb89d4a015c5c092878bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcf1a9e389d2bad56a57780d0dcc69a6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#abcf1a9e389d2bad56a57780d0dcc69a6">m_nMajorTickPenSize</a></td></tr>
+<tr class="separator:abcf1a9e389d2bad56a57780d0dcc69a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac357f5f73108667f1b1717f49ca07647"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#aa00b1734696c9184e7adbd1c484b4ed9">TickMarkPositon</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#ac357f5f73108667f1b1717f49ca07647">m_MajorMarkStyle</a></td></tr>
+<tr class="separator:ac357f5f73108667f1b1717f49ca07647"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b8edbab4cb2662a61c576fa9fac3151"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a1b8edbab4cb2662a61c576fa9fac3151">m_nTickLabelSpacing</a></td></tr>
+<tr class="separator:a1b8edbab4cb2662a61c576fa9fac3151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad084e019ef80dd18ed55fa1279ff844f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#ad084e019ef80dd18ed55fa1279ff844f">m_textAngle</a></td></tr>
+<tr class="separator:ad084e019ef80dd18ed55fa1279ff844f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af811cdb71f363e6c1709d8061ebd8534"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#af811cdb71f363e6c1709d8061ebd8534">m_minPageHasUnit</a></td></tr>
+<tr class="separator:af811cdb71f363e6c1709d8061ebd8534"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac84334b373f4b1adfb1f34c5e3f4a0f1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#ac84334b373f4b1adfb1f34c5e3f4a0f1">m_minPageScreenSize</a></td></tr>
+<tr class="separator:ac84334b373f4b1adfb1f34c5e3f4a0f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2382eb580a5af74021f4f9e5623bf344"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a2382eb580a5af74021f4f9e5623bf344">m_nLAHit</a></td></tr>
+<tr class="separator:a2382eb580a5af74021f4f9e5623bf344"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32e947a489f625ff0e884ac0f40e7a05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a32e947a489f625ff0e884ac0f40e7a05">m_ptTrace</a></td></tr>
+<tr class="separator:a32e947a489f625ff0e884ac0f40e7a05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58a37f63b5b223414fe853fc64a03cb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a58a37f63b5b223414fe853fc64a03cb4">m_ptThumb</a> [4]</td></tr>
+<tr class="separator:a58a37f63b5b223414fe853fc64a03cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a792756a6792d63d808acb918fdc97b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#a3a792756a6792d63d808acb918fdc97b">m_ptZoomS</a></td></tr>
+<tr class="separator:a3a792756a6792d63d808acb918fdc97b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed09521cfb798475ac0aeefa59704fed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#aed09521cfb798475ac0aeefa59704fed">m_ptZoomE</a></td></tr>
+<tr class="separator:aed09521cfb798475ac0aeefa59704fed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad007ac98989a8e9a4706209423757b6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html#ad007ac98989a8e9a4706209423757b6a">m_isZoomEnable</a></td></tr>
+<tr class="separator:ad007ac98989a8e9a4706209423757b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>滚动视窗范围控制类 +-----------&mdash;+=================+------------&mdash;+ m_dataMin m_showMin m_showMax m_dataMax </p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="ad0227652bb50d22af168a773fc7e303b" name="ad0227652bb50d22af168a773fc7e303b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0227652bb50d22af168a773fc7e303b">&#9670;&#160;</a></span>ScrollZoom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::ScrollZoom::ScrollZoom </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2d6a74b0e4cdd708215f2a6ac1814329" name="a2d6a74b0e4cdd708215f2a6ac1814329"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d6a74b0e4cdd708215f2a6ac1814329">&#9670;&#160;</a></span>~ScrollZoom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual BUI::ScrollZoom::~ScrollZoom </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="a2cbc2e24b0c2f61a037098a47963533e" name="a2cbc2e24b0c2f61a037098a47963533e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cbc2e24b0c2f61a037098a47963533e">&#9670;&#160;</a></span>EnableZoomd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::ScrollZoom::EnableZoomd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad8fb1351c68ecac72ce635708ebb57ee" name="ad8fb1351c68ecac72ce635708ebb57ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8fb1351c68ecac72ce635708ebb57ee">&#9670;&#160;</a></span>GetDataRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::ScrollZoom::GetDataRange </td>
+          <td>(</td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>fmin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>fmax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a03a479bc05845a22e82a36c6225997ef" name="a03a479bc05845a22e82a36c6225997ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03a479bc05845a22e82a36c6225997ef">&#9670;&#160;</a></span>GetInitRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::ScrollZoom::GetInitRange </td>
+          <td>(</td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>fmin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>fmax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa42b6bdf4a9f9e3bea6155159ba46aae" name="aa42b6bdf4a9f9e3bea6155159ba46aae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa42b6bdf4a9f9e3bea6155159ba46aae">&#9670;&#160;</a></span>GetPageEndOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::ScrollZoom::GetPageEndOffset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a670fbab51ae5852f5931aca491dc3650" name="a670fbab51ae5852f5931aca491dc3650"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a670fbab51ae5852f5931aca491dc3650">&#9670;&#160;</a></span>GetPageOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::ScrollZoom::GetPageOffset </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a386e923036d5c6a1f4d12ee28b546324" name="a386e923036d5c6a1f4d12ee28b546324"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a386e923036d5c6a1f4d12ee28b546324">&#9670;&#160;</a></span>GetPageStartOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::ScrollZoom::GetPageStartOffset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0ff8af03c5fe7eb2610ffb402dde6c40" name="a0ff8af03c5fe7eb2610ffb402dde6c40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ff8af03c5fe7eb2610ffb402dde6c40">&#9670;&#160;</a></span>GetPercentValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::ScrollZoom::GetPercentValue </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0982a2a3b99cddf6aa7dcf2a129e4adb" name="a0982a2a3b99cddf6aa7dcf2a129e4adb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0982a2a3b99cddf6aa7dcf2a129e4adb">&#9670;&#160;</a></span>GetScrollZoomSelectRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::ScrollZoom::GetScrollZoomSelectRange </td>
+          <td>(</td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>begin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>获得滚动选中范围百分比 </p>
+
+</div>
+</div>
+<a id="aa8862b49cda4916832e7108c3b42d996" name="aa8862b49cda4916832e7108c3b42d996"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8862b49cda4916832e7108c3b42d996">&#9670;&#160;</a></span>GetShowRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::ScrollZoom::GetShowRange </td>
+          <td>(</td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>fmin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>fmax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa80555710f350e22e6e133316c57509d" name="aa80555710f350e22e6e133316c57509d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa80555710f350e22e6e133316c57509d">&#9670;&#160;</a></span>GetValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::ScrollZoom::GetValue </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adaa1b529ce670d5cbaed167c777d7b1d" name="adaa1b529ce670d5cbaed167c777d7b1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaa1b529ce670d5cbaed167c777d7b1d">&#9670;&#160;</a></span>HitScrollThumbStates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> BUI::ScrollZoom::HitScrollThumbStates </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a>&#160;</td>
+          <td class="paramname"><em>pt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a>&#160;</td>
+          <td class="paramname"><em>vAxis</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3492ca87a961c05dc405637d769643ef" name="a3492ca87a961c05dc405637d769643ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3492ca87a961c05dc405637d769643ef">&#9670;&#160;</a></span>IsScrollVaild()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::ScrollZoom::IsScrollVaild </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a358316bf6a20c7cd55d97ba9556e96c7" name="a358316bf6a20c7cd55d97ba9556e96c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a358316bf6a20c7cd55d97ba9556e96c7">&#9670;&#160;</a></span>MovePageToEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::ScrollZoom::MovePageToEnd </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af84adbf9f478da884c1933df1b9619d7" name="af84adbf9f478da884c1933df1b9619d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af84adbf9f478da884c1933df1b9619d7">&#9670;&#160;</a></span>MovePageToStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::ScrollZoom::MovePageToStart </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a86ce881c09ea4783ecc70c99892ead97" name="a86ce881c09ea4783ecc70c99892ead97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86ce881c09ea4783ecc70c99892ead97">&#9670;&#160;</a></span>NotifyZoomRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::ScrollZoom::NotifyZoomRange </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>向区域中通知，新加入的值，如果在可视范围内，则不变更 </p>
+
+</div>
+</div>
+<a id="aba3b8b78a9b966e764bd09f0cdd2ccae" name="aba3b8b78a9b966e764bd09f0cdd2ccae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba3b8b78a9b966e764bd09f0cdd2ccae">&#9670;&#160;</a></span>OnChangePageRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::ScrollZoom::OnChangePageRange </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>k</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>minunit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>hit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a998fd90e96feb12c2803e6fe24e73a91" name="a998fd90e96feb12c2803e6fe24e73a91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a998fd90e96feb12c2803e6fe24e73a91">&#9670;&#160;</a></span>SetDataRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::ScrollZoom::SetDataRange </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>fmin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>fmax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a30e3e05f9a01f663c517201e1be74109" name="a30e3e05f9a01f663c517201e1be74109"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30e3e05f9a01f663c517201e1be74109">&#9670;&#160;</a></span>SetInitRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::ScrollZoom::SetInitRange </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>fmin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>fmax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7ade4ea8659b167b085ec7383709620" name="ac7ade4ea8659b167b085ec7383709620"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7ade4ea8659b167b085ec7383709620">&#9670;&#160;</a></span>SetScrollInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::ScrollZoom::SetScrollInfo </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>min_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>max_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>page_start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>page_end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a01dd81212c78ef3bc15b4767409faa67" name="a01dd81212c78ef3bc15b4767409faa67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01dd81212c78ef3bc15b4767409faa67">&#9670;&#160;</a></span>SetScrollZoomMinPage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::ScrollZoom::SetScrollZoomMinPage </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>page</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef2bcbeb1c46d4ff6ea579490baf646a" name="aef2bcbeb1c46d4ff6ea579490baf646a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef2bcbeb1c46d4ff6ea579490baf646a">&#9670;&#160;</a></span>SetScrollZoomPageEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::ScrollZoom::SetScrollZoomPageEnd </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>page</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a62078f9e6e06e2fc3d3aea5537d8058f" name="a62078f9e6e06e2fc3d3aea5537d8058f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62078f9e6e06e2fc3d3aea5537d8058f">&#9670;&#160;</a></span>SetScrollZoomPageStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::ScrollZoom::SetScrollZoomPageStart </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>page</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a854b44ecd8006e65c63aa766342b7e6e" name="a854b44ecd8006e65c63aa766342b7e6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a854b44ecd8006e65c63aa766342b7e6e">&#9670;&#160;</a></span>SetScrollZoomRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::ScrollZoom::SetScrollZoomRange </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dblMin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dblMax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a359994d3d056e911658967ba6a2d51f1" name="a359994d3d056e911658967ba6a2d51f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a359994d3d056e911658967ba6a2d51f1">&#9670;&#160;</a></span>SetScrollZoomSelectRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::ScrollZoom::SetScrollZoomSelectRange </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>begin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>设置滚动选中范围百分比 </p>
+
+</div>
+</div>
+<a id="a486393c91b865d2b10ce4757e70c4a72" name="a486393c91b865d2b10ce4757e70c4a72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a486393c91b865d2b10ce4757e70c4a72">&#9670;&#160;</a></span>SetShowRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::ScrollZoom::SetShowRange </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>fmin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>fmax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14dfa47f258348ae6e1bd013b5a286d6" name="a14dfa47f258348ae6e1bd013b5a286d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14dfa47f258348ae6e1bd013b5a286d6">&#9670;&#160;</a></span>SetUnitPrecision()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::ScrollZoom::SetUnitPrecision </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>percision</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>设置最小单位 </p>
+
+</div>
+</div>
+<a id="a5a32ff9107a2a9f0e4f372e8671e35ce" name="a5a32ff9107a2a9f0e4f372e8671e35ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a32ff9107a2a9f0e4f372e8671e35ce">&#9670;&#160;</a></span>StorageTrackPage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::ScrollZoom::StorageTrackPage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="acac6bbed28a92c5bf7762eaea5fddd62" name="acac6bbed28a92c5bf7762eaea5fddd62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acac6bbed28a92c5bf7762eaea5fddd62">&#9670;&#160;</a></span>m_dataMax</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::ScrollZoom::m_dataMax</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a109114d6865f3ea0872659f7ae964852" name="a109114d6865f3ea0872659f7ae964852"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a109114d6865f3ea0872659f7ae964852">&#9670;&#160;</a></span>m_dataMin</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::ScrollZoom::m_dataMin</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a93226b0360408618e71b28de51cc11" name="a1a93226b0360408618e71b28de51cc11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a93226b0360408618e71b28de51cc11">&#9670;&#160;</a></span>m_dblPageEnd</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::ScrollZoom::m_dblPageEnd</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a279a419d9246546001962be6a37611f4" name="a279a419d9246546001962be6a37611f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a279a419d9246546001962be6a37611f4">&#9670;&#160;</a></span>m_dblPageEndTrack</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::ScrollZoom::m_dblPageEndTrack</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a72e33d89be78eec859bfecbc5e990890" name="a72e33d89be78eec859bfecbc5e990890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72e33d89be78eec859bfecbc5e990890">&#9670;&#160;</a></span>m_dblPageStart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::ScrollZoom::m_dblPageStart</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2e9768cdab69c28d2518f6e270492e96" name="a2e9768cdab69c28d2518f6e270492e96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e9768cdab69c28d2518f6e270492e96">&#9670;&#160;</a></span>m_dblPageStartTrack</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::ScrollZoom::m_dblPageStartTrack</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9b090189d90fb17fc286203686de6fa5" name="a9b090189d90fb17fc286203686de6fa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b090189d90fb17fc286203686de6fa5">&#9670;&#160;</a></span>m_initMax</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::ScrollZoom::m_initMax</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0faade1e330a76dc54d4e16afeb603a5" name="a0faade1e330a76dc54d4e16afeb603a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0faade1e330a76dc54d4e16afeb603a5">&#9670;&#160;</a></span>m_initMin</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::ScrollZoom::m_initMin</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad007ac98989a8e9a4706209423757b6a" name="ad007ac98989a8e9a4706209423757b6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad007ac98989a8e9a4706209423757b6a">&#9670;&#160;</a></span>m_isZoomEnable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::ScrollZoom::m_isZoomEnable</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac357f5f73108667f1b1717f49ca07647" name="ac357f5f73108667f1b1717f49ca07647"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac357f5f73108667f1b1717f49ca07647">&#9670;&#160;</a></span>m_MajorMarkStyle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#aa00b1734696c9184e7adbd1c484b4ed9">TickMarkPositon</a> BUI::ScrollZoom::m_MajorMarkStyle</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af811cdb71f363e6c1709d8061ebd8534" name="af811cdb71f363e6c1709d8061ebd8534"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af811cdb71f363e6c1709d8061ebd8534">&#9670;&#160;</a></span>m_minPageHasUnit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::ScrollZoom::m_minPageHasUnit</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac84334b373f4b1adfb1f34c5e3f4a0f1" name="ac84334b373f4b1adfb1f34c5e3f4a0f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac84334b373f4b1adfb1f34c5e3f4a0f1">&#9670;&#160;</a></span>m_minPageScreenSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::ScrollZoom::m_minPageScreenSize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a859ba7720c0f49645b9562d9c0fbacbb" name="a859ba7720c0f49645b9562d9c0fbacbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a859ba7720c0f49645b9562d9c0fbacbb">&#9670;&#160;</a></span>m_mult_k</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::ScrollZoom::m_mult_k</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2382eb580a5af74021f4f9e5623bf344" name="a2382eb580a5af74021f4f9e5623bf344"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2382eb580a5af74021f4f9e5623bf344">&#9670;&#160;</a></span>m_nLAHit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> BUI::ScrollZoom::m_nLAHit</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1039cf4ceccc043b82ab57c2515ee88" name="af1039cf4ceccc043b82ab57c2515ee88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1039cf4ceccc043b82ab57c2515ee88">&#9670;&#160;</a></span>m_nMajor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::ScrollZoom::m_nMajor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abcf1a9e389d2bad56a57780d0dcc69a6" name="abcf1a9e389d2bad56a57780d0dcc69a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcf1a9e389d2bad56a57780d0dcc69a6">&#9670;&#160;</a></span>m_nMajorTickPenSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::ScrollZoom::m_nMajorTickPenSize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6a30173a3114be9fcd5ad92b925bdc6c" name="a6a30173a3114be9fcd5ad92b925bdc6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a30173a3114be9fcd5ad92b925bdc6c">&#9670;&#160;</a></span>m_nMajorTickSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::ScrollZoom::m_nMajorTickSize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="accd3e78320dda667ca3a3c1e4a6abc06" name="accd3e78320dda667ca3a3c1e4a6abc06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accd3e78320dda667ca3a3c1e4a6abc06">&#9670;&#160;</a></span>m_nMinor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::ScrollZoom::m_nMinor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a50a90abb8d4cb89d4a015c5c092878bc" name="a50a90abb8d4cb89d4a015c5c092878bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50a90abb8d4cb89d4a015c5c092878bc">&#9670;&#160;</a></span>m_nMinorTickPenSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::ScrollZoom::m_nMinorTickPenSize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1bb0cbf0927a206ff7add5aa13fc49df" name="a1bb0cbf0927a206ff7add5aa13fc49df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bb0cbf0927a206ff7add5aa13fc49df">&#9670;&#160;</a></span>m_nMinorTickSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::ScrollZoom::m_nMinorTickSize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b8edbab4cb2662a61c576fa9fac3151" name="a1b8edbab4cb2662a61c576fa9fac3151"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b8edbab4cb2662a61c576fa9fac3151">&#9670;&#160;</a></span>m_nTickLabelSpacing</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::ScrollZoom::m_nTickLabelSpacing</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa08aa4bec53d3dcc566dfbeee2be1f46" name="aa08aa4bec53d3dcc566dfbeee2be1f46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa08aa4bec53d3dcc566dfbeee2be1f46">&#9670;&#160;</a></span>m_precision</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::ScrollZoom::m_precision</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58a37f63b5b223414fe853fc64a03cb4" name="a58a37f63b5b223414fe853fc64a03cb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58a37f63b5b223414fe853fc64a03cb4">&#9670;&#160;</a></span>m_ptThumb</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> BUI::ScrollZoom::m_ptThumb[4]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a32e947a489f625ff0e884ac0f40e7a05" name="a32e947a489f625ff0e884ac0f40e7a05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32e947a489f625ff0e884ac0f40e7a05">&#9670;&#160;</a></span>m_ptTrace</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> BUI::ScrollZoom::m_ptTrace</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed09521cfb798475ac0aeefa59704fed" name="aed09521cfb798475ac0aeefa59704fed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed09521cfb798475ac0aeefa59704fed">&#9670;&#160;</a></span>m_ptZoomE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> BUI::ScrollZoom::m_ptZoomE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a792756a6792d63d808acb918fdc97b" name="a3a792756a6792d63d808acb918fdc97b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a792756a6792d63d808acb918fdc97b">&#9670;&#160;</a></span>m_ptZoomS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> BUI::ScrollZoom::m_ptZoomS</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a39cfd761e7e4589b0e10dc5b8ca9aa4a" name="a39cfd761e7e4589b0e10dc5b8ca9aa4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39cfd761e7e4589b0e10dc5b8ca9aa4a">&#9670;&#160;</a></span>m_showMax</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::ScrollZoom::m_showMax</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a33c0d80dee37a85b4e5c283cac6f9ecf" name="a33c0d80dee37a85b4e5c283cac6f9ecf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33c0d80dee37a85b4e5c283cac6f9ecf">&#9670;&#160;</a></span>m_showMin</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::ScrollZoom::m_showMin</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf4c6226ff8b393c4efd1a1e60c8e16a" name="abf4c6226ff8b393c4efd1a1e60c8e16a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf4c6226ff8b393c4efd1a1e60c8e16a">&#9670;&#160;</a></span>m_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::ScrollZoom::m_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad084e019ef80dd18ed55fa1279ff844f" name="ad084e019ef80dd18ed55fa1279ff844f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad084e019ef80dd18ed55fa1279ff844f">&#9670;&#160;</a></span>m_textAngle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float BUI::ScrollZoom::m_textAngle</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_b_u_i.html">BUI</a></li><li class="navelem"><a class="el" href="class_b_u_i_1_1_scroll_zoom.html">ScrollZoom</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

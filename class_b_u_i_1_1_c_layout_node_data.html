@@ -1,0 +1,833 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>CBlueUI: BUI::CLayoutNodeData类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBlueUI
+   &#160;<span id="projectnumber">vxxx</span>
+   </div>
+   <div id="projectbrief">C++ 跨平台跨框架的数据可视化工具</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_b_u_i_1_1_c_layout_node_data.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="class_b_u_i_1_1_c_layout_node_data-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">BUI::CLayoutNodeData类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>UI控件布局对象  
+ <a href="class_b_u_i_1_1_c_layout_node_data.html#details">更多...</a></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> 类 BUI::CLayoutNodeData 继承关系图:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="class_b_u_i_1_1_c_layout_node_data.png" usemap="#BUI::CLayoutNodeData_map" alt=""/>
+  <map id="BUI::CLayoutNodeData_map" name="BUI::CLayoutNodeData_map">
+<area href="class_b_u_i_1_1_c_layout_base.html" title="布局信息基类" alt="BUI::CLayoutBase" shape="rect" coords="0,56,140,80"/>
+<area href="class_b_u_i_1_1_i_layout.html" title="布局基类" alt="BUI::ILayout" shape="rect" coords="0,0,140,24"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a1959b83a47ed119e8314e768bd37a909"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_node_data.html#a1959b83a47ed119e8314e768bd37a909">CLayoutNodeData</a> (<a class="el" href="class_b_u_i_1_1_i_node_data.html">INodeData</a> *pObj)</td></tr>
+<tr class="separator:a1959b83a47ed119e8314e768bd37a909"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ba41b33c426bd56f70d894205fe13b0"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_node_data.html#a5ba41b33c426bd56f70d894205fe13b0">~CLayoutNodeData</a> ()</td></tr>
+<tr class="separator:a5ba41b33c426bd56f70d894205fe13b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1d283fd2ea8b2e6a1b3a9a21cf72095"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_node_data.html#ab1d283fd2ea8b2e6a1b3a9a21cf72095">FindLayoutByName</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> name) override</td></tr>
+<tr class="memdesc:ab1d283fd2ea8b2e6a1b3a9a21cf72095"><td class="mdescLeft">&#160;</td><td class="mdescRight">查找布局  <br /></td></tr>
+<tr class="separator:ab1d283fd2ea8b2e6a1b3a9a21cf72095"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37ab7a90c6f8f753105b07c177e253ea"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_node_data.html#a37ab7a90c6f8f753105b07c177e253ea">Width</a> () override</td></tr>
+<tr class="memdesc:a37ab7a90c6f8f753105b07c177e253ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得布局容器的宽度  <br /></td></tr>
+<tr class="separator:a37ab7a90c6f8f753105b07c177e253ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21876597435e0fd8452504885e18e7c4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_node_data.html#a21876597435e0fd8452504885e18e7c4">Height</a> () override</td></tr>
+<tr class="memdesc:a21876597435e0fd8452504885e18e7c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">: 获得布局容器的高度  <br /></td></tr>
+<tr class="separator:a21876597435e0fd8452504885e18e7c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a227df49cc187064f7e3a58326f612f04"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_node_data.html#a227df49cc187064f7e3a58326f612f04">GetAdaptWidth</a> (int expH) override</td></tr>
+<tr class="memdesc:a227df49cc187064f7e3a58326f612f04"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得自适应宽度  <br /></td></tr>
+<tr class="separator:a227df49cc187064f7e3a58326f612f04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1b4cb98f22e9cc60eaf233999709ffa"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_node_data.html#ad1b4cb98f22e9cc60eaf233999709ffa">GetAdaptHeight</a> (int expW) override</td></tr>
+<tr class="memdesc:ad1b4cb98f22e9cc60eaf233999709ffa"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得自适应高度  <br /></td></tr>
+<tr class="separator:ad1b4cb98f22e9cc60eaf233999709ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a07d08e0d07d490f97afaf40faea9ec"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_node_data.html#a0a07d08e0d07d490f97afaf40faea9ec">GetSplitOffsetW</a> () override</td></tr>
+<tr class="memdesc:a0a07d08e0d07d490f97afaf40faea9ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得拆分宽度偏移  <br /></td></tr>
+<tr class="separator:a0a07d08e0d07d490f97afaf40faea9ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d285ee90b4aec977bbb2cfcabd78e22"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_node_data.html#a1d285ee90b4aec977bbb2cfcabd78e22">GetSplitOffsetH</a> () override</td></tr>
+<tr class="memdesc:a1d285ee90b4aec977bbb2cfcabd78e22"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得拆分高度偏移  <br /></td></tr>
+<tr class="separator:a1d285ee90b4aec977bbb2cfcabd78e22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ead304b7a7b3080a2321d92eef26b7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_node_data.html#a3ead304b7a7b3080a2321d92eef26b7d">GetPosition</a> (<a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> &amp;rc) override</td></tr>
+<tr class="separator:a3ead304b7a7b3080a2321d92eef26b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91949767b531130c96044b5b8622845e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_node_data.html#a91949767b531130c96044b5b8622845e">IsVisibleLayout</a> () override</td></tr>
+<tr class="separator:a91949767b531130c96044b5b8622845e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9eeb87d42835dc47e5ce6bb42a298d0e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_node_data.html#a9eeb87d42835dc47e5ce6bb42a298d0e">IsVaild</a> () override</td></tr>
+<tr class="separator:a9eeb87d42835dc47e5ce6bb42a298d0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c2068a4f5470d0a26b96f242a945fc8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_node_data.html#a0c2068a4f5470d0a26b96f242a945fc8">Layout</a> (int x, int y, int w, int h, <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> flags=0) override</td></tr>
+<tr class="memdesc:a0c2068a4f5470d0a26b96f242a945fc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">执行布局操作  <br /></td></tr>
+<tr class="separator:a0c2068a4f5470d0a26b96f242a945fc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff540649198adc866d8d8e6e216c11f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_node_data.html#aff540649198adc866d8d8e6e216c11f2">OnLayoutMessageProc</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> message, <a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a> wParam, <a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a> lParam) override</td></tr>
+<tr class="memdesc:aff540649198adc866d8d8e6e216c11f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">布局对象消息处理函数  <br /></td></tr>
+<tr class="separator:aff540649198adc866d8d8e6e216c11f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_b_u_i_1_1_c_layout_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_b_u_i_1_1_c_layout_base')"><img src="closed.png" alt="-"/>&#160;Public 成员函数 继承自 <a class="el" href="class_b_u_i_1_1_c_layout_base.html">BUI::CLayoutBase</a></td></tr>
+<tr class="memitem:a82c95cd225f747fe31f40b9d198adef5 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#a82c95cd225f747fe31f40b9d198adef5">CLayoutBase</a> ()</td></tr>
+<tr class="separator:a82c95cd225f747fe31f40b9d198adef5 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab084dd61d28afa31975985a5f933fec8 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#ab084dd61d28afa31975985a5f933fec8">~CLayoutBase</a> ()</td></tr>
+<tr class="separator:ab084dd61d28afa31975985a5f933fec8 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9200e4f9ad3327fff723ba3ef7038574 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a6f7e3a62da77f1cb7f7614bc59153e6e">AlignmentStyle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#a9200e4f9ad3327fff723ba3ef7038574">HorAlign</a> ()</td></tr>
+<tr class="separator:a9200e4f9ad3327fff723ba3ef7038574 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8d3255b7e522023b3219bd2fa2634f0 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a6f7e3a62da77f1cb7f7614bc59153e6e">AlignmentStyle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#ac8d3255b7e522023b3219bd2fa2634f0">VerAlign</a> ()</td></tr>
+<tr class="separator:ac8d3255b7e522023b3219bd2fa2634f0 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1654177e058b8529b585f69e03514c8 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#ab4b01f3da0a2276708526324bf66dbdb">SizeMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#aa1654177e058b8529b585f69e03514c8">WidthType</a> ()</td></tr>
+<tr class="separator:aa1654177e058b8529b585f69e03514c8 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe0dd77db0652ed179693f71e5be32d7 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#ab4b01f3da0a2276708526324bf66dbdb">SizeMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#abe0dd77db0652ed179693f71e5be32d7">HeightType</a> ()</td></tr>
+<tr class="separator:abe0dd77db0652ed179693f71e5be32d7 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49bae079d017b03bcd0b78cdf3565edd inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#a49bae079d017b03bcd0b78cdf3565edd">SetScaleFactor</a> (int scale)</td></tr>
+<tr class="memdesc:a49bae079d017b03bcd0b78cdf3565edd inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据屏幕DPI，设置缩放因子。100表示不缩放  <br /></td></tr>
+<tr class="separator:a49bae079d017b03bcd0b78cdf3565edd inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1646538652d147d6d769ede1ad61030 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#ab1646538652d147d6d769ede1ad61030">Width</a> ()</td></tr>
+<tr class="memdesc:ab1646538652d147d6d769ede1ad61030 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得布局容器的宽度  <br /></td></tr>
+<tr class="separator:ab1646538652d147d6d769ede1ad61030 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab04c8f4a028cfacce9e74a22b9dd1010 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#ab04c8f4a028cfacce9e74a22b9dd1010">Height</a> ()</td></tr>
+<tr class="memdesc:ab04c8f4a028cfacce9e74a22b9dd1010 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">: 获得布局容器的高度  <br /></td></tr>
+<tr class="separator:ab04c8f4a028cfacce9e74a22b9dd1010 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc93c3fb1df75f51d33af95daaf9c0cc inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#adc93c3fb1df75f51d33af95daaf9c0cc">GetPosition</a> (<a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> &amp;rc)</td></tr>
+<tr class="separator:adc93c3fb1df75f51d33af95daaf9c0cc inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5236521662b4487508fac0e2b14b37d inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#af5236521662b4487508fac0e2b14b37d">FindLayoutByName</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> name) override</td></tr>
+<tr class="memdesc:af5236521662b4487508fac0e2b14b37d inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">查找布局  <br /></td></tr>
+<tr class="separator:af5236521662b4487508fac0e2b14b37d inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08d4b82e834e89b597ba54c17e69d8ac inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#a08d4b82e834e89b597ba54c17e69d8ac">GetAdaptWidth</a> (int expH) override</td></tr>
+<tr class="memdesc:a08d4b82e834e89b597ba54c17e69d8ac inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得自适应宽度  <br /></td></tr>
+<tr class="separator:a08d4b82e834e89b597ba54c17e69d8ac inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3373fa759ad976aa8c7c7299bfd1538 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#ac3373fa759ad976aa8c7c7299bfd1538">GetAdaptHeight</a> (int expW) override</td></tr>
+<tr class="memdesc:ac3373fa759ad976aa8c7c7299bfd1538 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得自适应高度  <br /></td></tr>
+<tr class="separator:ac3373fa759ad976aa8c7c7299bfd1538 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8caf32af8982b4b7878d1396fa74cbb inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#aa8caf32af8982b4b7878d1396fa74cbb">GetSplitOffsetW</a> () override</td></tr>
+<tr class="memdesc:aa8caf32af8982b4b7878d1396fa74cbb inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得拆分宽度偏移  <br /></td></tr>
+<tr class="separator:aa8caf32af8982b4b7878d1396fa74cbb inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9649fdccb8ffb655e346d5e6d72b03c0 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#a9649fdccb8ffb655e346d5e6d72b03c0">GetSplitOffsetH</a> () override</td></tr>
+<tr class="memdesc:a9649fdccb8ffb655e346d5e6d72b03c0 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得拆分高度偏移  <br /></td></tr>
+<tr class="separator:a9649fdccb8ffb655e346d5e6d72b03c0 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25ea731deb14f71dbe82169c77025e8c inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#a25ea731deb14f71dbe82169c77025e8c">SetLayoutInfo</a> (int w, int h, <a class="el" href="_c_core_base_pro_8h.html#ab4b01f3da0a2276708526324bf66dbdb">SizeMode</a> tw, <a class="el" href="_c_core_base_pro_8h.html#ab4b01f3da0a2276708526324bf66dbdb">SizeMode</a> th) override</td></tr>
+<tr class="memdesc:a25ea731deb14f71dbe82169c77025e8c inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置布局信息  <br /></td></tr>
+<tr class="separator:a25ea731deb14f71dbe82169c77025e8c inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f86d9dbaec0b786c491ffe4db88184b inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#a1f86d9dbaec0b786c491ffe4db88184b">GetLayoutInfo</a> (int &amp;w, int &amp;h, <a class="el" href="_c_core_base_pro_8h.html#ab4b01f3da0a2276708526324bf66dbdb">SizeMode</a> &amp;tw, <a class="el" href="_c_core_base_pro_8h.html#ab4b01f3da0a2276708526324bf66dbdb">SizeMode</a> &amp;th) override</td></tr>
+<tr class="separator:a1f86d9dbaec0b786c491ffe4db88184b inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a653e7e00d75e6d42ab0e8a381b8a099a inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#a653e7e00d75e6d42ab0e8a381b8a099a">SetAlignment</a> (<a class="el" href="_c_core_base_pro_8h.html#a6f7e3a62da77f1cb7f7614bc59153e6e">AlignmentStyle</a> hor, <a class="el" href="_c_core_base_pro_8h.html#a6f7e3a62da77f1cb7f7614bc59153e6e">AlignmentStyle</a> ver) override</td></tr>
+<tr class="memdesc:a653e7e00d75e6d42ab0e8a381b8a099a inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置布局容器内的对象水平和垂直的对齐风格  <br /></td></tr>
+<tr class="separator:a653e7e00d75e6d42ab0e8a381b8a099a inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba05fefd929967818eba7ec5276984f6 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#aba05fefd929967818eba7ec5276984f6">SetPadding</a> (int l, int r, int t, int b) override</td></tr>
+<tr class="memdesc:aba05fefd929967818eba7ec5276984f6 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置内边距  <br /></td></tr>
+<tr class="separator:aba05fefd929967818eba7ec5276984f6 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4597259011511385558cc04d8cbccead inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#a4597259011511385558cc04d8cbccead">IsVaild</a> () override</td></tr>
+<tr class="separator:a4597259011511385558cc04d8cbccead inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae495c86c5a4cddefa00540cacba2ad4 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#aae495c86c5a4cddefa00540cacba2ad4">IsVisibleLayout</a> () override</td></tr>
+<tr class="separator:aae495c86c5a4cddefa00540cacba2ad4 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6efc4fadfee72de07548aa23bb78feeb inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#a6efc4fadfee72de07548aa23bb78feeb">Layout</a> (int x, int y, int w, int h, <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> flags=0) override</td></tr>
+<tr class="memdesc:a6efc4fadfee72de07548aa23bb78feeb inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">执行布局操作  <br /></td></tr>
+<tr class="separator:a6efc4fadfee72de07548aa23bb78feeb inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac69f95eb1990bff56bee61147918e163 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#ac69f95eb1990bff56bee61147918e163">OnLayoutMessageProc</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> message, <a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a> wParam, <a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a> lParam) override</td></tr>
+<tr class="memdesc:ac69f95eb1990bff56bee61147918e163 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">布局对象消息处理函数  <br /></td></tr>
+<tr class="separator:ac69f95eb1990bff56bee61147918e163 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32515806aa97d20e88c4ef6b811a9706 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#a32515806aa97d20e88c4ef6b811a9706">GetParentLayout</a> () override</td></tr>
+<tr class="separator:a32515806aa97d20e88c4ef6b811a9706 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbdbc3fa89f4bcbd10b6e07d08a186f8 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#afbdbc3fa89f4bcbd10b6e07d08a186f8">IsHasAdaptLayout</a> () override</td></tr>
+<tr class="separator:afbdbc3fa89f4bcbd10b6e07d08a186f8 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a603d41316513f86cd6fffa282e6c1ad6 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#a603d41316513f86cd6fffa282e6c1ad6">RebuildLayout</a> (bool isForceUpdate) override</td></tr>
+<tr class="memdesc:a603d41316513f86cd6fffa282e6c1ad6 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">重新布局  <br /></td></tr>
+<tr class="separator:a603d41316513f86cd6fffa282e6c1ad6 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa0a822ba4f9d87dcc32a0e008408453 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#aaf71c596602a7233419387100afbd329">LayoutType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#afa0a822ba4f9d87dcc32a0e008408453">GetLayoutType</a> () override</td></tr>
+<tr class="memdesc:afa0a822ba4f9d87dcc32a0e008408453 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得布局类型  <br /></td></tr>
+<tr class="separator:afa0a822ba4f9d87dcc32a0e008408453 inherit pub_methods_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_b_u_i_1_1_i_layout"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_b_u_i_1_1_i_layout')"><img src="closed.png" alt="-"/>&#160;Public 成员函数 继承自 <a class="el" href="class_b_u_i_1_1_i_layout.html">BUI::ILayout</a></td></tr>
+<tr class="memitem:aa1c86811af62e34e534fb579bf96061d inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_layout.html#aa1c86811af62e34e534fb579bf96061d">ILayout</a> ()</td></tr>
+<tr class="separator:aa1c86811af62e34e534fb579bf96061d inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19815f502d3125f4a0c56a825a08781e inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_layout.html#a19815f502d3125f4a0c56a825a08781e">~ILayout</a> ()</td></tr>
+<tr class="separator:a19815f502d3125f4a0c56a825a08781e inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fd956f0be22716690e9284949047a75 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_layout.html#a5fd956f0be22716690e9284949047a75">IsVaild</a> ()</td></tr>
+<tr class="separator:a5fd956f0be22716690e9284949047a75 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58ba5cb13f2868d54c55868512f48fcf inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_layout.html#a58ba5cb13f2868d54c55868512f48fcf">IsVisibleLayout</a> ()</td></tr>
+<tr class="separator:a58ba5cb13f2868d54c55868512f48fcf inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21394e9dafd1d02fdc7f7ebff075504e inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_layout.html#a21394e9dafd1d02fdc7f7ebff075504e">SetLayoutInfo</a> (int w, int h, <a class="el" href="_c_core_base_pro_8h.html#ab4b01f3da0a2276708526324bf66dbdb">SizeMode</a> tw, <a class="el" href="_c_core_base_pro_8h.html#ab4b01f3da0a2276708526324bf66dbdb">SizeMode</a> th)</td></tr>
+<tr class="separator:a21394e9dafd1d02fdc7f7ebff075504e inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6b3a0227a1ab7c2199307421e071b93 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_layout.html#af6b3a0227a1ab7c2199307421e071b93">GetLayoutInfo</a> (int &amp;w, int &amp;h, <a class="el" href="_c_core_base_pro_8h.html#ab4b01f3da0a2276708526324bf66dbdb">SizeMode</a> &amp;tw, <a class="el" href="_c_core_base_pro_8h.html#ab4b01f3da0a2276708526324bf66dbdb">SizeMode</a> &amp;th)</td></tr>
+<tr class="separator:af6b3a0227a1ab7c2199307421e071b93 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12081fa35b3ec4699528cbf2e62ac468 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_layout.html#a12081fa35b3ec4699528cbf2e62ac468">SetPadding</a> (int l, int r, int t, int b)</td></tr>
+<tr class="separator:a12081fa35b3ec4699528cbf2e62ac468 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44e52f61687be53c3685102c14dfe95c inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_layout.html#a44e52f61687be53c3685102c14dfe95c">SetAlignment</a> (<a class="el" href="_c_core_base_pro_8h.html#a6f7e3a62da77f1cb7f7614bc59153e6e">AlignmentStyle</a> hor, <a class="el" href="_c_core_base_pro_8h.html#a6f7e3a62da77f1cb7f7614bc59153e6e">AlignmentStyle</a> ver)</td></tr>
+<tr class="separator:a44e52f61687be53c3685102c14dfe95c inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa50707cb2954c3bf5b95f9ba3ba9d8b inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_layout.html#afa50707cb2954c3bf5b95f9ba3ba9d8b">Layout</a> (int x, int y, int w, int h, <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> flags=0)</td></tr>
+<tr class="memdesc:afa50707cb2954c3bf5b95f9ba3ba9d8b inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="mdescLeft">&#160;</td><td class="mdescRight">容器的在（x, y）的位置下。计算容器里对象的具体位置  <br /></td></tr>
+<tr class="separator:afa50707cb2954c3bf5b95f9ba3ba9d8b inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ef6331365059b9fc6c6fbac96be8cc1 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_layout.html#a3ef6331365059b9fc6c6fbac96be8cc1">OnLayoutMessageProc</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> message, <a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a> wParam, <a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a> lParam)</td></tr>
+<tr class="memdesc:a3ef6331365059b9fc6c6fbac96be8cc1 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="mdescLeft">&#160;</td><td class="mdescRight">(重载函数)布局对象消息处理函数  <br /></td></tr>
+<tr class="separator:a3ef6331365059b9fc6c6fbac96be8cc1 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d2ac962df317739d2c0fee75256286f inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_layout.html#a0d2ac962df317739d2c0fee75256286f">RebuildLayout</a> (bool isForceUpdate)</td></tr>
+<tr class="memdesc:a0d2ac962df317739d2c0fee75256286f inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="mdescLeft">&#160;</td><td class="mdescRight">重新布局  <br /></td></tr>
+<tr class="separator:a0d2ac962df317739d2c0fee75256286f inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0c364cf5e7b55db5ffd2ac7efaf3e91 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_layout.html#ab0c364cf5e7b55db5ffd2ac7efaf3e91">IsHasAdaptLayout</a> ()</td></tr>
+<tr class="separator:ab0c364cf5e7b55db5ffd2ac7efaf3e91 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e8e769f809bdc5c57bc10ade14fce55 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#aaf71c596602a7233419387100afbd329">LayoutType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_layout.html#a5e8e769f809bdc5c57bc10ade14fce55">GetLayoutType</a> ()=0</td></tr>
+<tr class="memdesc:a5e8e769f809bdc5c57bc10ade14fce55 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得布局类型  <br /></td></tr>
+<tr class="separator:a5e8e769f809bdc5c57bc10ade14fce55 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9efd9d9b94974fa5d0ac601ce4b5dac0 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_layout.html#a9efd9d9b94974fa5d0ac601ce4b5dac0">GetAdaptWidth</a> (int expH)=0</td></tr>
+<tr class="memdesc:a9efd9d9b94974fa5d0ac601ce4b5dac0 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得自适应宽度  <br /></td></tr>
+<tr class="separator:a9efd9d9b94974fa5d0ac601ce4b5dac0 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a254572c0cf936dce8454eb876fd6d1a5 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_layout.html#a254572c0cf936dce8454eb876fd6d1a5">GetAdaptHeight</a> (int expW)=0</td></tr>
+<tr class="memdesc:a254572c0cf936dce8454eb876fd6d1a5 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得自适应高度  <br /></td></tr>
+<tr class="separator:a254572c0cf936dce8454eb876fd6d1a5 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac504327a1c8f19efd0e4f5536013efe5 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_layout.html#ac504327a1c8f19efd0e4f5536013efe5">GetSplitOffsetW</a> ()=0</td></tr>
+<tr class="memdesc:ac504327a1c8f19efd0e4f5536013efe5 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得拆分宽度偏移  <br /></td></tr>
+<tr class="separator:ac504327a1c8f19efd0e4f5536013efe5 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8b97907e1695e29a2e8dbac287cc898 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_layout.html#ac8b97907e1695e29a2e8dbac287cc898">GetSplitOffsetH</a> ()=0</td></tr>
+<tr class="memdesc:ac8b97907e1695e29a2e8dbac287cc898 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得拆分高度偏移  <br /></td></tr>
+<tr class="separator:ac8b97907e1695e29a2e8dbac287cc898 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf2d8dc8259c00c71fef855ca63a41da inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_layout.html#adf2d8dc8259c00c71fef855ca63a41da">FindLayoutByName</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> name)=0</td></tr>
+<tr class="separator:adf2d8dc8259c00c71fef855ca63a41da inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a174e960355ddc86353b043d9a4972fc3 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_layout.html#a174e960355ddc86353b043d9a4972fc3">GetParentLayout</a> ()=0</td></tr>
+<tr class="separator:a174e960355ddc86353b043d9a4972fc3 inherit pub_methods_class_b_u_i_1_1_i_layout"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a9e47460296d7542fc770f04251871e08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_i_node_data.html">INodeData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_node_data.html#a9e47460296d7542fc770f04251871e08">m_pNodedata</a></td></tr>
+<tr class="separator:a9e47460296d7542fc770f04251871e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c171647c5a965389420254391a1f9a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_node_data.html#a6c171647c5a965389420254391a1f9a7">m_adaptSize</a></td></tr>
+<tr class="separator:a6c171647c5a965389420254391a1f9a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a990cb788dc467dcb11dffbf833ee3191"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_node_data.html#a990cb788dc467dcb11dffbf833ee3191">m_rcNode</a></td></tr>
+<tr class="separator:a990cb788dc467dcb11dffbf833ee3191"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_class_b_u_i_1_1_c_layout_base"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_b_u_i_1_1_c_layout_base')"><img src="closed.png" alt="-"/>&#160;Public 属性 继承自 <a class="el" href="class_b_u_i_1_1_c_layout_base.html">BUI::CLayoutBase</a></td></tr>
+<tr class="memitem:a1b5f27964e305ef5c8ec6fc44dcd3829 inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#aaf71c596602a7233419387100afbd329">LayoutType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#a1b5f27964e305ef5c8ec6fc44dcd3829">m_LayoutType</a></td></tr>
+<tr class="separator:a1b5f27964e305ef5c8ec6fc44dcd3829 inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5d02f6b0c61b72d728551ec8f24dfa2 inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_string_a_8h.html#af8dd6b396b025639b3d0b06cbf8000c0">BeString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#ab5d02f6b0c61b72d728551ec8f24dfa2">m_strName</a></td></tr>
+<tr class="separator:ab5d02f6b0c61b72d728551ec8f24dfa2 inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88b358a899348d6f353b1ac5fea0bb0e inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#a88b358a899348d6f353b1ac5fea0bb0e">m_nScaleFactor</a></td></tr>
+<tr class="separator:a88b358a899348d6f353b1ac5fea0bb0e inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb552a739bcebd3e0e5068584fe3527c inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#abb552a739bcebd3e0e5068584fe3527c">m_nCacheOffsetSize</a></td></tr>
+<tr class="separator:abb552a739bcebd3e0e5068584fe3527c inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d7d771d2f6693630919b6f28fff03b1 inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#a8d7d771d2f6693630919b6f28fff03b1">m_nWidth</a></td></tr>
+<tr class="separator:a8d7d771d2f6693630919b6f28fff03b1 inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afba4f766f1b44dcb6761eda9efcbea61 inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#afba4f766f1b44dcb6761eda9efcbea61">m_nHeight</a></td></tr>
+<tr class="separator:afba4f766f1b44dcb6761eda9efcbea61 inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a119e34813cf64974951f9919b7a2f269 inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#ab4b01f3da0a2276708526324bf66dbdb">SizeMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#a119e34813cf64974951f9919b7a2f269">m_nWidMode</a></td></tr>
+<tr class="separator:a119e34813cf64974951f9919b7a2f269 inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a45a93a24edfa2a60a34d7d8241bb4e inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#ab4b01f3da0a2276708526324bf66dbdb">SizeMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#a9a45a93a24edfa2a60a34d7d8241bb4e">m_nHeiMode</a></td></tr>
+<tr class="separator:a9a45a93a24edfa2a60a34d7d8241bb4e inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5326fb18b5426bd6c2aa034ee108cf8a inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a6f7e3a62da77f1cb7f7614bc59153e6e">AlignmentStyle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#a5326fb18b5426bd6c2aa034ee108cf8a">m_horAlign</a></td></tr>
+<tr class="separator:a5326fb18b5426bd6c2aa034ee108cf8a inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85622d97cc4301067a97d7e2e4c9a5be inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a6f7e3a62da77f1cb7f7614bc59153e6e">AlignmentStyle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#a85622d97cc4301067a97d7e2e4c9a5be">m_verAlign</a></td></tr>
+<tr class="separator:a85622d97cc4301067a97d7e2e4c9a5be inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee4893074429fde9179d18ebcbe93bf1 inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_c_layout_base.html">CLayoutBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#aee4893074429fde9179d18ebcbe93bf1">m_pParentLayout</a></td></tr>
+<tr class="separator:aee4893074429fde9179d18ebcbe93bf1 inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec3a11e5d82661cb3e004efe39279546 inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_b_u_i_1_1_layout_link_node.html">LayoutLinkNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#aec3a11e5d82661cb3e004efe39279546">m_link</a></td></tr>
+<tr class="separator:aec3a11e5d82661cb3e004efe39279546 inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ea31f58f8c5a4db0e6943a695a13389 inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top">PaddingInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#a0ea31f58f8c5a4db0e6943a695a13389">m_padding</a></td></tr>
+<tr class="separator:a0ea31f58f8c5a4db0e6943a695a13389 inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeab1cb7a6b3b2fbbe7173fd9e5d59840 inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_layout_base.html#aeab1cb7a6b3b2fbbe7173fd9e5d59840">m_szAdapt</a></td></tr>
+<tr class="separator:aeab1cb7a6b3b2fbbe7173fd9e5d59840 inherit pub_attribs_class_b_u_i_1_1_c_layout_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>UI控件布局对象 </p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a1959b83a47ed119e8314e768bd37a909" name="a1959b83a47ed119e8314e768bd37a909"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1959b83a47ed119e8314e768bd37a909">&#9670;&#160;</a></span>CLayoutNodeData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::CLayoutNodeData::CLayoutNodeData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_node_data.html">INodeData</a> *&#160;</td>
+          <td class="paramname"><em>pObj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ba41b33c426bd56f70d894205fe13b0" name="a5ba41b33c426bd56f70d894205fe13b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ba41b33c426bd56f70d894205fe13b0">&#9670;&#160;</a></span>~CLayoutNodeData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual BUI::CLayoutNodeData::~CLayoutNodeData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="ab1d283fd2ea8b2e6a1b3a9a21cf72095" name="ab1d283fd2ea8b2e6a1b3a9a21cf72095"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1d283fd2ea8b2e6a1b3a9a21cf72095">&#9670;&#160;</a></span>FindLayoutByName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> * BUI::CLayoutNodeData::FindLayoutByName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>查找布局 </p>
+
+<p>重载 <a class="el" href="class_b_u_i_1_1_c_layout_base.html#af5236521662b4487508fac0e2b14b37d">BUI::CLayoutBase</a> .</p>
+
+</div>
+</div>
+<a id="ad1b4cb98f22e9cc60eaf233999709ffa" name="ad1b4cb98f22e9cc60eaf233999709ffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1b4cb98f22e9cc60eaf233999709ffa">&#9670;&#160;</a></span>GetAdaptHeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::CLayoutNodeData::GetAdaptHeight </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>expW</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获得自适应高度 </p>
+
+<p>重载 <a class="el" href="class_b_u_i_1_1_c_layout_base.html#ac3373fa759ad976aa8c7c7299bfd1538">BUI::CLayoutBase</a> .</p>
+
+</div>
+</div>
+<a id="a227df49cc187064f7e3a58326f612f04" name="a227df49cc187064f7e3a58326f612f04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a227df49cc187064f7e3a58326f612f04">&#9670;&#160;</a></span>GetAdaptWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::CLayoutNodeData::GetAdaptWidth </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>expH</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获得自适应宽度 </p>
+
+<p>重载 <a class="el" href="class_b_u_i_1_1_c_layout_base.html#a08d4b82e834e89b597ba54c17e69d8ac">BUI::CLayoutBase</a> .</p>
+
+</div>
+</div>
+<a id="a3ead304b7a7b3080a2321d92eef26b7d" name="a3ead304b7a7b3080a2321d92eef26b7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ead304b7a7b3080a2321d92eef26b7d">&#9670;&#160;</a></span>GetPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CLayoutNodeData::GetPosition </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> &amp;&#160;</td>
+          <td class="paramname"><em>rc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>重载 <a class="el" href="class_b_u_i_1_1_c_layout_base.html#adc93c3fb1df75f51d33af95daaf9c0cc">BUI::CLayoutBase</a> .</p>
+
+</div>
+</div>
+<a id="a1d285ee90b4aec977bbb2cfcabd78e22" name="a1d285ee90b4aec977bbb2cfcabd78e22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d285ee90b4aec977bbb2cfcabd78e22">&#9670;&#160;</a></span>GetSplitOffsetH()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::CLayoutNodeData::GetSplitOffsetH </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获得拆分高度偏移 </p>
+
+<p>重载 <a class="el" href="class_b_u_i_1_1_c_layout_base.html#a9649fdccb8ffb655e346d5e6d72b03c0">BUI::CLayoutBase</a> .</p>
+
+</div>
+</div>
+<a id="a0a07d08e0d07d490f97afaf40faea9ec" name="a0a07d08e0d07d490f97afaf40faea9ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a07d08e0d07d490f97afaf40faea9ec">&#9670;&#160;</a></span>GetSplitOffsetW()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::CLayoutNodeData::GetSplitOffsetW </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获得拆分宽度偏移 </p>
+
+<p>重载 <a class="el" href="class_b_u_i_1_1_c_layout_base.html#aa8caf32af8982b4b7878d1396fa74cbb">BUI::CLayoutBase</a> .</p>
+
+</div>
+</div>
+<a id="a21876597435e0fd8452504885e18e7c4" name="a21876597435e0fd8452504885e18e7c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21876597435e0fd8452504885e18e7c4">&#9670;&#160;</a></span>Height()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::CLayoutNodeData::Height </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>: 获得布局容器的高度 </p>
+
+<p>重载 <a class="el" href="class_b_u_i_1_1_c_layout_base.html#ab04c8f4a028cfacce9e74a22b9dd1010">BUI::CLayoutBase</a> .</p>
+
+</div>
+</div>
+<a id="a9eeb87d42835dc47e5ce6bb42a298d0e" name="a9eeb87d42835dc47e5ce6bb42a298d0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9eeb87d42835dc47e5ce6bb42a298d0e">&#9670;&#160;</a></span>IsVaild()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BUI::CLayoutNodeData::IsVaild </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>重载 <a class="el" href="class_b_u_i_1_1_c_layout_base.html#a4597259011511385558cc04d8cbccead">BUI::CLayoutBase</a> .</p>
+
+</div>
+</div>
+<a id="a91949767b531130c96044b5b8622845e" name="a91949767b531130c96044b5b8622845e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91949767b531130c96044b5b8622845e">&#9670;&#160;</a></span>IsVisibleLayout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BUI::CLayoutNodeData::IsVisibleLayout </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>重载 <a class="el" href="class_b_u_i_1_1_c_layout_base.html#aae495c86c5a4cddefa00540cacba2ad4">BUI::CLayoutBase</a> .</p>
+
+</div>
+</div>
+<a id="a0c2068a4f5470d0a26b96f242a945fc8" name="a0c2068a4f5470d0a26b96f242a945fc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c2068a4f5470d0a26b96f242a945fc8">&#9670;&#160;</a></span>Layout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CLayoutNodeData::Layout </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>h</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>执行布局操作 </p>
+
+<p>重载 <a class="el" href="class_b_u_i_1_1_c_layout_base.html#a6efc4fadfee72de07548aa23bb78feeb">BUI::CLayoutBase</a> .</p>
+
+</div>
+</div>
+<a id="aff540649198adc866d8d8e6e216c11f2" name="aff540649198adc866d8d8e6e216c11f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff540649198adc866d8d8e6e216c11f2">&#9670;&#160;</a></span>OnLayoutMessageProc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::CLayoutNodeData::OnLayoutMessageProc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a>&#160;</td>
+          <td class="paramname"><em>wParam</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a>&#160;</td>
+          <td class="paramname"><em>lParam</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>布局对象消息处理函数 </p>
+
+<p>重载 <a class="el" href="class_b_u_i_1_1_c_layout_base.html#ac69f95eb1990bff56bee61147918e163">BUI::CLayoutBase</a> .</p>
+
+</div>
+</div>
+<a id="a37ab7a90c6f8f753105b07c177e253ea" name="a37ab7a90c6f8f753105b07c177e253ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37ab7a90c6f8f753105b07c177e253ea">&#9670;&#160;</a></span>Width()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::CLayoutNodeData::Width </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获得布局容器的宽度 </p>
+<dl class="section return"><dt>返回</dt><dd>int </dd></dl>
+
+<p>重载 <a class="el" href="class_b_u_i_1_1_c_layout_base.html#ab1646538652d147d6d769ede1ad61030">BUI::CLayoutBase</a> .</p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="a6c171647c5a965389420254391a1f9a7" name="a6c171647c5a965389420254391a1f9a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c171647c5a965389420254391a1f9a7">&#9670;&#160;</a></span>m_adaptSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::CLayoutNodeData::m_adaptSize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e47460296d7542fc770f04251871e08" name="a9e47460296d7542fc770f04251871e08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e47460296d7542fc770f04251871e08">&#9670;&#160;</a></span>m_pNodedata</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_i_node_data.html">INodeData</a>* BUI::CLayoutNodeData::m_pNodedata</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a990cb788dc467dcb11dffbf833ee3191" name="a990cb788dc467dcb11dffbf833ee3191"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a990cb788dc467dcb11dffbf833ee3191">&#9670;&#160;</a></span>m_rcNode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> BUI::CLayoutNodeData::m_rcNode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_b_u_i.html">BUI</a></li><li class="navelem"><a class="el" href="class_b_u_i_1_1_c_layout_node_data.html">CLayoutNodeData</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

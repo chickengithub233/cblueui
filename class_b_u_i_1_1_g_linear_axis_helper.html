@@ -1,0 +1,974 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>CBlueUI: BUI::GLinearAxisHelper类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBlueUI
+   &#160;<span id="projectnumber">vxxx</span>
+   </div>
+   <div id="projectbrief">C++ 跨平台跨框架的数据可视化工具</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_b_u_i_1_1_g_linear_axis_helper.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="class_b_u_i_1_1_g_linear_axis_helper-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">BUI::GLinearAxisHelper类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a758f830a20300947ead8bf37432bdd21"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#a758f830a20300947ead8bf37432bdd21">GLinearAxisHelper</a> (const <a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> &amp;pt0, const <a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> &amp;pt1, const <a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> &amp;ptCenter, const <a class="el" href="class_b_u_i_1_1_scroll_zoom.html">ScrollZoom</a> &amp;axisinfo, <a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> *vn_label=NULL)</td></tr>
+<tr class="separator:a758f830a20300947ead8bf37432bdd21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad37bc910f7e63b058dc0d5c96d046dc3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#ad37bc910f7e63b058dc0d5c96d046dc3">GLinearAxisHelper</a> (const <a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a> &amp;pt0, const <a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a> &amp;pt1, const <a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> &amp;ptCenter, const <a class="el" href="class_b_u_i_1_1_scroll_zoom.html">ScrollZoom</a> &amp;axisinfo, <a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> *vn_label=NULL)</td></tr>
+<tr class="separator:ad37bc910f7e63b058dc0d5c96d046dc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1a095f1fcce7d4a3c9ea5da18ee6689"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#ac1a095f1fcce7d4a3c9ea5da18ee6689">~GLinearAxisHelper</a> ()</td></tr>
+<tr class="separator:ac1a095f1fcce7d4a3c9ea5da18ee6689"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aad05351e18c9a8b3bfb47fd1a47a03"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#a6aad05351e18c9a8b3bfb47fd1a47a03">GetFirstMinorValue</a> ()</td></tr>
+<tr class="separator:a6aad05351e18c9a8b3bfb47fd1a47a03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a444f42227598eb6342153f4e2ad3ac73"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#a444f42227598eb6342153f4e2ad3ac73">GetFirstMajorValue</a> ()</td></tr>
+<tr class="separator:a444f42227598eb6342153f4e2ad3ac73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cc3e086c1115fdba2ab26184821c571"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#a7cc3e086c1115fdba2ab26184821c571">GetTickMarkLineDeta</a> (double &amp;d1, double &amp;d2, <a class="el" href="_c_core_base_pro_8h.html#aa00b1734696c9184e7adbd1c484b4ed9">TickMarkPositon</a> type, int size, int direct)</td></tr>
+<tr class="separator:a7cc3e086c1115fdba2ab26184821c571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6eb6be4b6eea6e7b33bf95162fd6827"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#ac6eb6be4b6eea6e7b33bf95162fd6827">IsInViewport</a> (double v) const</td></tr>
+<tr class="separator:ac6eb6be4b6eea6e7b33bf95162fd6827"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbb7a33551df957e00d1f7f695377799"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#afbb7a33551df957e00d1f7f695377799">GetScreenPointByValue</a> (double v)</td></tr>
+<tr class="separator:afbb7a33551df957e00d1f7f695377799"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b0e9e452b3e6ab003208e8696a9c3b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#a3b0e9e452b3e6ab003208e8696a9c3b6">GetScreenPointByPercent</a> (double k)</td></tr>
+<tr class="separator:a3b0e9e452b3e6ab003208e8696a9c3b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ae6b19ed49718e26d17debfc4e26023"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#a6ae6b19ed49718e26d17debfc4e26023">GetScreenVectorByValue</a> (double dv)</td></tr>
+<tr class="separator:a6ae6b19ed49718e26d17debfc4e26023"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27ddfd461e11a7cc3b08d220010c95d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#a27ddfd461e11a7cc3b08d220010c95d3">DrawBaseLine</a> (<a class="el" href="class_b_u_i_1_1_i_surface.html">ISurface</a> *pSurface, double v1, double v2, const <a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> &amp;dn, const <a class="el" href="class_g_color.html">GColor</a> &amp;color, int size=1, <a class="el" href="struct_b_u_i_1_1_line_style.html">LineStyle</a> *style=NULL)</td></tr>
+<tr class="memdesc:a27ddfd461e11a7cc3b08d220010c95d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">绘制沿轴方向的线  <br /></td></tr>
+<tr class="separator:a27ddfd461e11a7cc3b08d220010c95d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20754518d0a2cddb349a3ced0c2fc24d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#a20754518d0a2cddb349a3ced0c2fc24d">DrawNormalVectorLine</a> (<a class="el" href="class_b_u_i_1_1_i_surface.html">ISurface</a> *pSurface, double v, const <a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> &amp;dn1, const <a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> &amp;dn2, const <a class="el" href="class_g_color.html">GColor</a> &amp;color, int size=1, <a class="el" href="struct_b_u_i_1_1_line_style.html">LineStyle</a> *style=NULL)</td></tr>
+<tr class="memdesc:a20754518d0a2cddb349a3ced0c2fc24d"><td class="mdescLeft">&#160;</td><td class="mdescRight">绘制沿着法线方向的线  <br /></td></tr>
+<tr class="separator:a20754518d0a2cddb349a3ced0c2fc24d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b9942504aa1b9e7bd3825996ba9b688"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#a2b9942504aa1b9e7bd3825996ba9b688">GetLabelTextRect</a> (<a class="el" href="class_b_u_i_1_1_i_surface.html">ISurface</a> *pSurface, double v, const <a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> &amp;dn, <a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len, <a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> szTxt)</td></tr>
+<tr class="separator:a2b9942504aa1b9e7bd3825996ba9b688"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa4d6e6adeb5f8004b9269c5dfeed631"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#afa4d6e6adeb5f8004b9269c5dfeed631">DrawNormalVectorTextAngle</a> (<a class="el" href="class_b_u_i_1_1_i_surface.html">ISurface</a> *pSurface, double v, const <a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> &amp;dn, <a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len, double text_angle, <a class="el" href="_c_core_base_pro_8h.html#a4d60ab1eb263cc8f6138875227c21cd8">COLORREF</a> &amp;color)</td></tr>
+<tr class="separator:afa4d6e6adeb5f8004b9269c5dfeed631"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a271cffdf688398a41aff3d30ec7d134e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#a271cffdf688398a41aff3d30ec7d134e">DrawCursor</a> (<a class="el" href="class_b_u_i_1_1_i_surface.html">ISurface</a> *pSurface, const <a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a> &amp;pt1, const <a class="el" href="class_g_color.html">GColor</a> &amp;color, int size)</td></tr>
+<tr class="separator:a271cffdf688398a41aff3d30ec7d134e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a34cde4029b4838e051e01dab18c8fd11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#a34cde4029b4838e051e01dab18c8fd11">m_begin</a></td></tr>
+<tr class="separator:a34cde4029b4838e051e01dab18c8fd11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a460e89b51d0eb2401823491eff9b368f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#a460e89b51d0eb2401823491eff9b368f">m_vp</a></td></tr>
+<tr class="separator:a460e89b51d0eb2401823491eff9b368f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6008716a94283589d0471d408a02009"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#aa6008716a94283589d0471d408a02009">m_vi</a></td></tr>
+<tr class="separator:aa6008716a94283589d0471d408a02009"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf3b9cf0c322526addfc9014bde408b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#abf3b9cf0c322526addfc9014bde408b4">m_vn</a></td></tr>
+<tr class="separator:abf3b9cf0c322526addfc9014bde408b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f9798b6e490bd1968faaddfbfd121fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#a9f9798b6e490bd1968faaddfbfd121fa">m_vnd</a></td></tr>
+<tr class="separator:a9f9798b6e490bd1968faaddfbfd121fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afce53bfccb41cb46eab2144eb8ffa390"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#afce53bfccb41cb46eab2144eb8ffa390">m_vdMinor</a></td></tr>
+<tr class="separator:afce53bfccb41cb46eab2144eb8ffa390"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9325f24da713acaa418cdb53ef4ac85f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#a9325f24da713acaa418cdb53ef4ac85f">m_vdMajor</a></td></tr>
+<tr class="separator:a9325f24da713acaa418cdb53ef4ac85f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdf801f8097e45d6b6f0bc130d0a0046"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#abdf801f8097e45d6b6f0bc130d0a0046">m_dataMin</a></td></tr>
+<tr class="separator:abdf801f8097e45d6b6f0bc130d0a0046"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ba31c42a1027c8a85ff8e42e620ebf4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#a6ba31c42a1027c8a85ff8e42e620ebf4">m_dataMax</a></td></tr>
+<tr class="separator:a6ba31c42a1027c8a85ff8e42e620ebf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac70727172a0def2c0d62de97fbc1191f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#ac70727172a0def2c0d62de97fbc1191f">m_showMin</a></td></tr>
+<tr class="separator:ac70727172a0def2c0d62de97fbc1191f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76e4f6e3d2f5a2b69a132a4b091e4043"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#a76e4f6e3d2f5a2b69a132a4b091e4043">m_showMax</a></td></tr>
+<tr class="separator:a76e4f6e3d2f5a2b69a132a4b091e4043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae76147e7a81f1eca419bbc53f48305ae"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#ae76147e7a81f1eca419bbc53f48305ae">m_minor</a></td></tr>
+<tr class="separator:ae76147e7a81f1eca419bbc53f48305ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71327927b3bff4ca7b1c1048f1c653d8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#a71327927b3bff4ca7b1c1048f1c653d8">m_major</a></td></tr>
+<tr class="separator:a71327927b3bff4ca7b1c1048f1c653d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab142d3eb9ee8e5bcb7372aae6d43592c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#ab142d3eb9ee8e5bcb7372aae6d43592c">m_k</a></td></tr>
+<tr class="separator:ab142d3eb9ee8e5bcb7372aae6d43592c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29b348ee726a46f3f36d967e262507e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html#a29b348ee726a46f3f36d967e262507e5">m_vpk</a></td></tr>
+<tr class="separator:a29b348ee726a46f3f36d967e262507e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a758f830a20300947ead8bf37432bdd21" name="a758f830a20300947ead8bf37432bdd21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a758f830a20300947ead8bf37432bdd21">&#9670;&#160;</a></span>GLinearAxisHelper() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::GLinearAxisHelper::GLinearAxisHelper </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> &amp;&#160;</td>
+          <td class="paramname"><em>pt0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> &amp;&#160;</td>
+          <td class="paramname"><em>pt1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> &amp;&#160;</td>
+          <td class="paramname"><em>ptCenter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_scroll_zoom.html">ScrollZoom</a> &amp;&#160;</td>
+          <td class="paramname"><em>axisinfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> *&#160;</td>
+          <td class="paramname"><em>vn_label</em> = <code>NULL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad37bc910f7e63b058dc0d5c96d046dc3" name="ad37bc910f7e63b058dc0d5c96d046dc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad37bc910f7e63b058dc0d5c96d046dc3">&#9670;&#160;</a></span>GLinearAxisHelper() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::GLinearAxisHelper::GLinearAxisHelper </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a> &amp;&#160;</td>
+          <td class="paramname"><em>pt0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a> &amp;&#160;</td>
+          <td class="paramname"><em>pt1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> &amp;&#160;</td>
+          <td class="paramname"><em>ptCenter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_scroll_zoom.html">ScrollZoom</a> &amp;&#160;</td>
+          <td class="paramname"><em>axisinfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> *&#160;</td>
+          <td class="paramname"><em>vn_label</em> = <code>NULL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1a095f1fcce7d4a3c9ea5da18ee6689" name="ac1a095f1fcce7d4a3c9ea5da18ee6689"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1a095f1fcce7d4a3c9ea5da18ee6689">&#9670;&#160;</a></span>~GLinearAxisHelper()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::GLinearAxisHelper::~GLinearAxisHelper </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="a27ddfd461e11a7cc3b08d220010c95d3" name="a27ddfd461e11a7cc3b08d220010c95d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27ddfd461e11a7cc3b08d220010c95d3">&#9670;&#160;</a></span>DrawBaseLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GLinearAxisHelper::DrawBaseLine </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_surface.html">ISurface</a> *&#160;</td>
+          <td class="paramname"><em>pSurface</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> &amp;&#160;</td>
+          <td class="paramname"><em>dn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_g_color.html">GColor</a> &amp;&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_b_u_i_1_1_line_style.html">LineStyle</a> *&#160;</td>
+          <td class="paramname"><em>style</em> = <code>NULL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>绘制沿轴方向的线 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v1</td><td>起点 </td></tr>
+    <tr><td class="paramname">v2</td><td>终点 </td></tr>
+    <tr><td class="paramname">dn</td><td>表示在法线方向上的偏移量 </td></tr>
+    <tr><td class="paramname">color</td><td>线条颜色 </td></tr>
+    <tr><td class="paramname">size</td><td>大小 </td></tr>
+    <tr><td class="paramname">style</td><td>风格（实线，虚线等） </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a271cffdf688398a41aff3d30ec7d134e" name="a271cffdf688398a41aff3d30ec7d134e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a271cffdf688398a41aff3d30ec7d134e">&#9670;&#160;</a></span>DrawCursor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GLinearAxisHelper::DrawCursor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_surface.html">ISurface</a> *&#160;</td>
+          <td class="paramname"><em>pSurface</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a> &amp;&#160;</td>
+          <td class="paramname"><em>pt1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_g_color.html">GColor</a> &amp;&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20754518d0a2cddb349a3ced0c2fc24d" name="a20754518d0a2cddb349a3ced0c2fc24d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20754518d0a2cddb349a3ced0c2fc24d">&#9670;&#160;</a></span>DrawNormalVectorLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GLinearAxisHelper::DrawNormalVectorLine </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_surface.html">ISurface</a> *&#160;</td>
+          <td class="paramname"><em>pSurface</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> &amp;&#160;</td>
+          <td class="paramname"><em>dn1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> &amp;&#160;</td>
+          <td class="paramname"><em>dn2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_g_color.html">GColor</a> &amp;&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_b_u_i_1_1_line_style.html">LineStyle</a> *&#160;</td>
+          <td class="paramname"><em>style</em> = <code>NULL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>绘制沿着法线方向的线 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>计算值 </td></tr>
+    <tr><td class="paramname">dn1</td><td>法线方向起点偏移 </td></tr>
+    <tr><td class="paramname">dn2</td><td>法线方向终点偏移 </td></tr>
+    <tr><td class="paramname">color</td><td>线条颜色 </td></tr>
+    <tr><td class="paramname">size</td><td>大小 </td></tr>
+    <tr><td class="paramname">style</td><td>风格（实线，虚线等） </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afa4d6e6adeb5f8004b9269c5dfeed631" name="afa4d6e6adeb5f8004b9269c5dfeed631"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa4d6e6adeb5f8004b9269c5dfeed631">&#9670;&#160;</a></span>DrawNormalVectorTextAngle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GLinearAxisHelper::DrawNormalVectorTextAngle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_surface.html">ISurface</a> *&#160;</td>
+          <td class="paramname"><em>pSurface</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> &amp;&#160;</td>
+          <td class="paramname"><em>dn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>text_angle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a4d60ab1eb263cc8f6138875227c21cd8">COLORREF</a> &amp;&#160;</td>
+          <td class="paramname"><em>color</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a444f42227598eb6342153f4e2ad3ac73" name="a444f42227598eb6342153f4e2ad3ac73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a444f42227598eb6342153f4e2ad3ac73">&#9670;&#160;</a></span>GetFirstMajorValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::GLinearAxisHelper::GetFirstMajorValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6aad05351e18c9a8b3bfb47fd1a47a03" name="a6aad05351e18c9a8b3bfb47fd1a47a03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6aad05351e18c9a8b3bfb47fd1a47a03">&#9670;&#160;</a></span>GetFirstMinorValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::GLinearAxisHelper::GetFirstMinorValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b9942504aa1b9e7bd3825996ba9b688" name="a2b9942504aa1b9e7bd3825996ba9b688"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b9942504aa1b9e7bd3825996ba9b688">&#9670;&#160;</a></span>GetLabelTextRect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> BUI::GLinearAxisHelper::GetLabelTextRect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_surface.html">ISurface</a> *&#160;</td>
+          <td class="paramname"><em>pSurface</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> &amp;&#160;</td>
+          <td class="paramname"><em>dn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td>
+          <td class="paramname"><em>szTxt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3b0e9e452b3e6ab003208e8696a9c3b6" name="a3b0e9e452b3e6ab003208e8696a9c3b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b0e9e452b3e6ab003208e8696a9c3b6">&#9670;&#160;</a></span>GetScreenPointByPercent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a> BUI::GLinearAxisHelper::GetScreenPointByPercent </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>k</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afbb7a33551df957e00d1f7f695377799" name="afbb7a33551df957e00d1f7f695377799"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbb7a33551df957e00d1f7f695377799">&#9670;&#160;</a></span>GetScreenPointByValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a> BUI::GLinearAxisHelper::GetScreenPointByValue </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ae6b19ed49718e26d17debfc4e26023" name="a6ae6b19ed49718e26d17debfc4e26023"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ae6b19ed49718e26d17debfc4e26023">&#9670;&#160;</a></span>GetScreenVectorByValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> BUI::GLinearAxisHelper::GetScreenVectorByValue </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dv</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7cc3e086c1115fdba2ab26184821c571" name="a7cc3e086c1115fdba2ab26184821c571"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cc3e086c1115fdba2ab26184821c571">&#9670;&#160;</a></span>GetTickMarkLineDeta()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GLinearAxisHelper::GetTickMarkLineDeta </td>
+          <td>(</td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>d1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>d2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#aa00b1734696c9184e7adbd1c484b4ed9">TickMarkPositon</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>direct</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6eb6be4b6eea6e7b33bf95162fd6827" name="ac6eb6be4b6eea6e7b33bf95162fd6827"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6eb6be4b6eea6e7b33bf95162fd6827">&#9670;&#160;</a></span>IsInViewport()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::GLinearAxisHelper::IsInViewport </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="a34cde4029b4838e051e01dab18c8fd11" name="a34cde4029b4838e051e01dab18c8fd11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34cde4029b4838e051e01dab18c8fd11">&#9670;&#160;</a></span>m_begin</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a> BUI::GLinearAxisHelper::m_begin</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ba31c42a1027c8a85ff8e42e620ebf4" name="a6ba31c42a1027c8a85ff8e42e620ebf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ba31c42a1027c8a85ff8e42e620ebf4">&#9670;&#160;</a></span>m_dataMax</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::GLinearAxisHelper::m_dataMax</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abdf801f8097e45d6b6f0bc130d0a0046" name="abdf801f8097e45d6b6f0bc130d0a0046"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdf801f8097e45d6b6f0bc130d0a0046">&#9670;&#160;</a></span>m_dataMin</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::GLinearAxisHelper::m_dataMin</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab142d3eb9ee8e5bcb7372aae6d43592c" name="ab142d3eb9ee8e5bcb7372aae6d43592c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab142d3eb9ee8e5bcb7372aae6d43592c">&#9670;&#160;</a></span>m_k</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::GLinearAxisHelper::m_k</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71327927b3bff4ca7b1c1048f1c653d8" name="a71327927b3bff4ca7b1c1048f1c653d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71327927b3bff4ca7b1c1048f1c653d8">&#9670;&#160;</a></span>m_major</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::GLinearAxisHelper::m_major</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae76147e7a81f1eca419bbc53f48305ae" name="ae76147e7a81f1eca419bbc53f48305ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae76147e7a81f1eca419bbc53f48305ae">&#9670;&#160;</a></span>m_minor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::GLinearAxisHelper::m_minor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a76e4f6e3d2f5a2b69a132a4b091e4043" name="a76e4f6e3d2f5a2b69a132a4b091e4043"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76e4f6e3d2f5a2b69a132a4b091e4043">&#9670;&#160;</a></span>m_showMax</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::GLinearAxisHelper::m_showMax</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac70727172a0def2c0d62de97fbc1191f" name="ac70727172a0def2c0d62de97fbc1191f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac70727172a0def2c0d62de97fbc1191f">&#9670;&#160;</a></span>m_showMin</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::GLinearAxisHelper::m_showMin</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9325f24da713acaa418cdb53ef4ac85f" name="a9325f24da713acaa418cdb53ef4ac85f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9325f24da713acaa418cdb53ef4ac85f">&#9670;&#160;</a></span>m_vdMajor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> BUI::GLinearAxisHelper::m_vdMajor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afce53bfccb41cb46eab2144eb8ffa390" name="afce53bfccb41cb46eab2144eb8ffa390"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afce53bfccb41cb46eab2144eb8ffa390">&#9670;&#160;</a></span>m_vdMinor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> BUI::GLinearAxisHelper::m_vdMinor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa6008716a94283589d0471d408a02009" name="aa6008716a94283589d0471d408a02009"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6008716a94283589d0471d408a02009">&#9670;&#160;</a></span>m_vi</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> BUI::GLinearAxisHelper::m_vi</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf3b9cf0c322526addfc9014bde408b4" name="abf3b9cf0c322526addfc9014bde408b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf3b9cf0c322526addfc9014bde408b4">&#9670;&#160;</a></span>m_vn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> BUI::GLinearAxisHelper::m_vn</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9f9798b6e490bd1968faaddfbfd121fa" name="a9f9798b6e490bd1968faaddfbfd121fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f9798b6e490bd1968faaddfbfd121fa">&#9670;&#160;</a></span>m_vnd</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> BUI::GLinearAxisHelper::m_vnd</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a460e89b51d0eb2401823491eff9b368f" name="a460e89b51d0eb2401823491eff9b368f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a460e89b51d0eb2401823491eff9b368f">&#9670;&#160;</a></span>m_vp</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> BUI::GLinearAxisHelper::m_vp</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a29b348ee726a46f3f36d967e262507e5" name="a29b348ee726a46f3f36d967e262507e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29b348ee726a46f3f36d967e262507e5">&#9670;&#160;</a></span>m_vpk</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> BUI::GLinearAxisHelper::m_vpk</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_b_u_i.html">BUI</a></li><li class="navelem"><a class="el" href="class_b_u_i_1_1_g_linear_axis_helper.html">GLinearAxisHelper</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

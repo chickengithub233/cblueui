@@ -1,0 +1,861 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>CBlueUI: CShadowWnd类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBlueUI
+   &#160;<span id="projectnumber">vxxx</span>
+   </div>
+   <div id="projectbrief">C++ 跨平台跨框架的数据可视化工具</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_c_shadow_wnd.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public 类型</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="#pub-static-attribs">静态 Public 属性</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="class_c_shadow_wnd-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">CShadowWnd类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public 类型</h2></td></tr>
+<tr class="memitem:ade18e0e73e9b5fc75339a909632b2ac8"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>(WINAPI *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#ade18e0e73e9b5fc75339a909632b2ac8">pfnUpdateLayeredWindow</a>) (HWND hWnd, HDC hdcDst, <a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> *pptDst, <a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> *psize, HDC hdcSrc, <a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> *pptSrc, <a class="el" href="_c_core_base_pro_8h.html#a4d60ab1eb263cc8f6138875227c21cd8">COLORREF</a> crKey, BLENDFUNCTION *pblend, <a class="el" href="_c_core_base_pro_8h.html#ad342ac907eb044443153a22f964bf0af">DWORD</a> dwFlags)</td></tr>
+<tr class="separator:ade18e0e73e9b5fc75339a909632b2ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b5946dd88e6fc3e74a3c6d9591957a1"><td class="memItemLeft" align="right" valign="top">typedef HRESULT(WINAPI *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#a1b5946dd88e6fc3e74a3c6d9591957a1">pfnDwmIsCompositionEnabled</a>) (<a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> *pfEnabled)</td></tr>
+<tr class="separator:a1b5946dd88e6fc3e74a3c6d9591957a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:ab327c03f482953c9b21d60f4ce5f251a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#ab327c03f482953c9b21d60f4ce5f251a">CShadowWnd</a> (void)</td></tr>
+<tr class="separator:ab327c03f482953c9b21d60f4ce5f251a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a545deffbf9ab4abedbe29bfa9e01940c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#a545deffbf9ab4abedbe29bfa9e01940c">~CShadowWnd</a> (void)</td></tr>
+<tr class="separator:a545deffbf9ab4abedbe29bfa9e01940c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d3a5e1246f1ca23f69695622342c757"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#a0d3a5e1246f1ca23f69695622342c757">Create</a> (HWND hParentWnd)</td></tr>
+<tr class="separator:a0d3a5e1246f1ca23f69695622342c757"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af621406cd6f2cadaf2a70226c72c794e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#af621406cd6f2cadaf2a70226c72c794e">SetShowParm</a> (int nShadowSize=0, int nSharpness=5, int nDarkness=200, int nPosX=5, int nPosY=5, <a class="el" href="_c_core_base_pro_8h.html#a4d60ab1eb263cc8f6138875227c21cd8">COLORREF</a> color=0x000000)</td></tr>
+<tr class="separator:af621406cd6f2cadaf2a70226c72c794e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1df87496a7bc6e073d151299049a52eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#a1df87496a7bc6e073d151299049a52eb">SetAllFill</a> (<a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> bAll)</td></tr>
+<tr class="separator:a1df87496a7bc6e073d151299049a52eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa3e1c9a559250e381faf88c684bed99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#aaa3e1c9a559250e381faf88c684bed99">Update</a> (HWND hParent)</td></tr>
+<tr class="separator:aaa3e1c9a559250e381faf88c684bed99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b653a2a75be2223030c2804ae4b0d94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#a7b653a2a75be2223030c2804ae4b0d94">Show</a> (HWND hParent)</td></tr>
+<tr class="separator:a7b653a2a75be2223030c2804ae4b0d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a7d9c939ca747257e9409f7e89bce2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#a0a7d9c939ca747257e9409f7e89bce2b">OnFinalMessage</a> ()</td></tr>
+<tr class="separator:a0a7d9c939ca747257e9409f7e89bce2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:a7c61a3dbc48a1e663fab99bd4489aaa5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#a7c61a3dbc48a1e663fab99bd4489aaa5">Initialize</a> (HINSTANCE hInstance)</td></tr>
+<tr class="separator:a7c61a3dbc48a1e663fab99bd4489aaa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:ab064ea807391da64fdcdff7f7ce76b3f"><td class="memItemLeft" align="right" valign="top">HWND&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#ab064ea807391da64fdcdff7f7ce76b3f">m_hWnd</a></td></tr>
+<tr class="separator:ab064ea807391da64fdcdff7f7ce76b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac5624fc60be6c4b972277db7020073e"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#aac5624fc60be6c4b972277db7020073e">m_pThunk</a></td></tr>
+<tr class="separator:aac5624fc60be6c4b972277db7020073e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a690075feecc6fd40bee82c43cacb00e1"><td class="memItemLeft" align="right" valign="top">HWND&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#a690075feecc6fd40bee82c43cacb00e1">m_hParentWnd</a></td></tr>
+<tr class="separator:a690075feecc6fd40bee82c43cacb00e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcfe9c44b85e1e800d6bd803bc2bd615"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#ac386d39486360b2f58122f4ff0f25f18">LONG_PTR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#abcfe9c44b85e1e800d6bd803bc2bd615">m_OriParentProc</a></td></tr>
+<tr class="separator:abcfe9c44b85e1e800d6bd803bc2bd615"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a524dbae24ee76650804d474cc947b260"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a4ae1dab0fb4b072a66584546209e7d58">BYTE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#a524dbae24ee76650804d474cc947b260">m_Status</a></td></tr>
+<tr class="separator:a524dbae24ee76650804d474cc947b260"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f2538e6d7f360a08ef01e2aa5940e9b"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#a8f2538e6d7f360a08ef01e2aa5940e9b">m_nDarkness</a></td></tr>
+<tr class="separator:a8f2538e6d7f360a08ef01e2aa5940e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ca5ea08313f44af92b89fe79ba34838"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#a6ca5ea08313f44af92b89fe79ba34838">m_nSharpness</a></td></tr>
+<tr class="separator:a6ca5ea08313f44af92b89fe79ba34838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a614316c71f1bcce20d70e7d1274c5283"><td class="memItemLeft" align="right" valign="top">signed char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#a614316c71f1bcce20d70e7d1274c5283">m_nSize</a></td></tr>
+<tr class="separator:a614316c71f1bcce20d70e7d1274c5283"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2f352b9a61cd419a342b5604d0767b1"><td class="memItemLeft" align="right" valign="top">signed char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#af2f352b9a61cd419a342b5604d0767b1">m_nxOffset</a></td></tr>
+<tr class="separator:af2f352b9a61cd419a342b5604d0767b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37a04a14dfade61ec7ea72d67f1bd5c9"><td class="memItemLeft" align="right" valign="top">signed char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#a37a04a14dfade61ec7ea72d67f1bd5c9">m_nyOffset</a></td></tr>
+<tr class="separator:a37a04a14dfade61ec7ea72d67f1bd5c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af143f1b797994b016fe6cb61ac8ddde5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#af143f1b797994b016fe6cb61ac8ddde5">m_WndSize</a></td></tr>
+<tr class="separator:af143f1b797994b016fe6cb61ac8ddde5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35cccbb88c004f68a8381d5d6f23b6a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#a35cccbb88c004f68a8381d5d6f23b6a8">m_bUpdate</a></td></tr>
+<tr class="separator:a35cccbb88c004f68a8381d5d6f23b6a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabf1c7ef17fd68498cd6493f4a1e7dda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#aabf1c7ef17fd68498cd6493f4a1e7dda">m_bAllfill</a></td></tr>
+<tr class="separator:aabf1c7ef17fd68498cd6493f4a1e7dda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2884d4e6e5973fea93a08aa565712018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#a2884d4e6e5973fea93a08aa565712018">m_rcHwnd</a></td></tr>
+<tr class="separator:a2884d4e6e5973fea93a08aa565712018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27ddd8fd28e96131e6f2730b6c621d12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#a27ddd8fd28e96131e6f2730b6c621d12">m_size</a></td></tr>
+<tr class="separator:a27ddd8fd28e96131e6f2730b6c621d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab403f4f4e81da5fa36dfd5b314a7c07b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a4d60ab1eb263cc8f6138875227c21cd8">COLORREF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#ab403f4f4e81da5fa36dfd5b314a7c07b">m_Color</a></td></tr>
+<tr class="separator:ab403f4f4e81da5fa36dfd5b314a7c07b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+静态 Public 属性</h2></td></tr>
+<tr class="memitem:a8e99481bf3cf73ea94b785b090a7eaec"><td class="memItemLeft" align="right" valign="top">static HINSTANCE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#a8e99481bf3cf73ea94b785b090a7eaec">s_hInstance</a></td></tr>
+<tr class="separator:a8e99481bf3cf73ea94b785b090a7eaec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d2726ae21b667a368ed636d7fc9391d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_c_shadow_wnd.html#ade18e0e73e9b5fc75339a909632b2ac8">pfnUpdateLayeredWindow</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#a2d2726ae21b667a368ed636d7fc9391d">s_UpdateLayeredWindow</a></td></tr>
+<tr class="separator:a2d2726ae21b667a368ed636d7fc9391d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9efe3bc420eb16ca9d91c794b7b96ea"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#ac9efe3bc420eb16ca9d91c794b7b96ea">s_bVista</a></td></tr>
+<tr class="separator:ac9efe3bc420eb16ca9d91c794b7b96ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fe5923fde9254f44106837d2a4f165a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_c_shadow_wnd.html#a1b5946dd88e6fc3e74a3c6d9591957a1">pfnDwmIsCompositionEnabled</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#a5fe5923fde9254f44106837d2a4f165a">s_DwmIsCompositionEnabled</a></td></tr>
+<tr class="separator:a5fe5923fde9254f44106837d2a4f165a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:a955979c48e29b43a1440f52a47553089"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#a955979c48e29b43a1440f52a47553089">MakeShadow</a> (<a class="el" href="_c_core_base_pro_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> *pShadBits, HWND hParent, <a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> *rcParent)</td></tr>
+<tr class="separator:a955979c48e29b43a1440f52a47553089"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49b459efedb59a087102ab4bdba6e430"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#ad342ac907eb044443153a22f964bf0af">DWORD</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_shadow_wnd.html#a49b459efedb59a087102ab4bdba6e430">PreMultiply</a> (<a class="el" href="_c_core_base_pro_8h.html#a4d60ab1eb263cc8f6138875227c21cd8">COLORREF</a> cl, unsigned char nAlpha)</td></tr>
+<tr class="separator:a49b459efedb59a087102ab4bdba6e430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">成员类型定义说明</h2>
+<a id="a1b5946dd88e6fc3e74a3c6d9591957a1" name="a1b5946dd88e6fc3e74a3c6d9591957a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b5946dd88e6fc3e74a3c6d9591957a1">&#9670;&#160;</a></span>pfnDwmIsCompositionEnabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef HRESULT(WINAPI * CShadowWnd::pfnDwmIsCompositionEnabled) (<a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> *pfEnabled)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ade18e0e73e9b5fc75339a909632b2ac8" name="ade18e0e73e9b5fc75339a909632b2ac8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade18e0e73e9b5fc75339a909632b2ac8">&#9670;&#160;</a></span>pfnUpdateLayeredWindow</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>(WINAPI * CShadowWnd::pfnUpdateLayeredWindow) (HWND hWnd, HDC hdcDst, <a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> *pptDst, <a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> *psize, HDC hdcSrc, <a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> *pptSrc, <a class="el" href="_c_core_base_pro_8h.html#a4d60ab1eb263cc8f6138875227c21cd8">COLORREF</a> crKey, BLENDFUNCTION *pblend, <a class="el" href="_c_core_base_pro_8h.html#ad342ac907eb044443153a22f964bf0af">DWORD</a> dwFlags)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">构造及析构函数说明</h2>
+<a id="ab327c03f482953c9b21d60f4ce5f251a" name="ab327c03f482953c9b21d60f4ce5f251a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab327c03f482953c9b21d60f4ce5f251a">&#9670;&#160;</a></span>CShadowWnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CShadowWnd::CShadowWnd </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a545deffbf9ab4abedbe29bfa9e01940c" name="a545deffbf9ab4abedbe29bfa9e01940c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a545deffbf9ab4abedbe29bfa9e01940c">&#9670;&#160;</a></span>~CShadowWnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual CShadowWnd::~CShadowWnd </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="a0d3a5e1246f1ca23f69695622342c757" name="a0d3a5e1246f1ca23f69695622342c757"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d3a5e1246f1ca23f69695622342c757">&#9670;&#160;</a></span>Create()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CShadowWnd::Create </td>
+          <td>(</td>
+          <td class="paramtype">HWND&#160;</td>
+          <td class="paramname"><em>hParentWnd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c61a3dbc48a1e663fab99bd4489aaa5" name="a7c61a3dbc48a1e663fab99bd4489aaa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c61a3dbc48a1e663fab99bd4489aaa5">&#9670;&#160;</a></span>Initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> CShadowWnd::Initialize </td>
+          <td>(</td>
+          <td class="paramtype">HINSTANCE&#160;</td>
+          <td class="paramname"><em>hInstance</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a955979c48e29b43a1440f52a47553089" name="a955979c48e29b43a1440f52a47553089"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a955979c48e29b43a1440f52a47553089">&#9670;&#160;</a></span>MakeShadow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CShadowWnd::MakeShadow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae1e6edbbc26d6fbc71a90190d0266018">UINT32</a> *&#160;</td>
+          <td class="paramname"><em>pShadBits</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">HWND&#160;</td>
+          <td class="paramname"><em>hParent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> *&#160;</td>
+          <td class="paramname"><em>rcParent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a7d9c939ca747257e9409f7e89bce2b" name="a0a7d9c939ca747257e9409f7e89bce2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a7d9c939ca747257e9409f7e89bce2b">&#9670;&#160;</a></span>OnFinalMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CShadowWnd::OnFinalMessage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a49b459efedb59a087102ab4bdba6e430" name="a49b459efedb59a087102ab4bdba6e430"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49b459efedb59a087102ab4bdba6e430">&#9670;&#160;</a></span>PreMultiply()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#ad342ac907eb044443153a22f964bf0af">DWORD</a> CShadowWnd::PreMultiply </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a4d60ab1eb263cc8f6138875227c21cd8">COLORREF</a>&#160;</td>
+          <td class="paramname"><em>cl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned char&#160;</td>
+          <td class="paramname"><em>nAlpha</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1df87496a7bc6e073d151299049a52eb" name="a1df87496a7bc6e073d151299049a52eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1df87496a7bc6e073d151299049a52eb">&#9670;&#160;</a></span>SetAllFill()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CShadowWnd::SetAllFill </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>bAll</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af621406cd6f2cadaf2a70226c72c794e" name="af621406cd6f2cadaf2a70226c72c794e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af621406cd6f2cadaf2a70226c72c794e">&#9670;&#160;</a></span>SetShowParm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> CShadowWnd::SetShowParm </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nShadowSize</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nSharpness</em> = <code>5</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nDarkness</em> = <code>200</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nPosX</em> = <code>5</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nPosY</em> = <code>5</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a4d60ab1eb263cc8f6138875227c21cd8">COLORREF</a>&#160;</td>
+          <td class="paramname"><em>color</em> = <code>0x000000</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b653a2a75be2223030c2804ae4b0d94" name="a7b653a2a75be2223030c2804ae4b0d94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b653a2a75be2223030c2804ae4b0d94">&#9670;&#160;</a></span>Show()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CShadowWnd::Show </td>
+          <td>(</td>
+          <td class="paramtype">HWND&#160;</td>
+          <td class="paramname"><em>hParent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaa3e1c9a559250e381faf88c684bed99" name="aaa3e1c9a559250e381faf88c684bed99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa3e1c9a559250e381faf88c684bed99">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CShadowWnd::Update </td>
+          <td>(</td>
+          <td class="paramtype">HWND&#160;</td>
+          <td class="paramname"><em>hParent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="aabf1c7ef17fd68498cd6493f4a1e7dda" name="aabf1c7ef17fd68498cd6493f4a1e7dda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabf1c7ef17fd68498cd6493f4a1e7dda">&#9670;&#160;</a></span>m_bAllfill</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> CShadowWnd::m_bAllfill</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a35cccbb88c004f68a8381d5d6f23b6a8" name="a35cccbb88c004f68a8381d5d6f23b6a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35cccbb88c004f68a8381d5d6f23b6a8">&#9670;&#160;</a></span>m_bUpdate</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> CShadowWnd::m_bUpdate</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab403f4f4e81da5fa36dfd5b314a7c07b" name="ab403f4f4e81da5fa36dfd5b314a7c07b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab403f4f4e81da5fa36dfd5b314a7c07b">&#9670;&#160;</a></span>m_Color</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a4d60ab1eb263cc8f6138875227c21cd8">COLORREF</a> CShadowWnd::m_Color</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a690075feecc6fd40bee82c43cacb00e1" name="a690075feecc6fd40bee82c43cacb00e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a690075feecc6fd40bee82c43cacb00e1">&#9670;&#160;</a></span>m_hParentWnd</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HWND CShadowWnd::m_hParentWnd</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab064ea807391da64fdcdff7f7ce76b3f" name="ab064ea807391da64fdcdff7f7ce76b3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab064ea807391da64fdcdff7f7ce76b3f">&#9670;&#160;</a></span>m_hWnd</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HWND CShadowWnd::m_hWnd</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8f2538e6d7f360a08ef01e2aa5940e9b" name="a8f2538e6d7f360a08ef01e2aa5940e9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f2538e6d7f360a08ef01e2aa5940e9b">&#9670;&#160;</a></span>m_nDarkness</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char CShadowWnd::m_nDarkness</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ca5ea08313f44af92b89fe79ba34838" name="a6ca5ea08313f44af92b89fe79ba34838"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ca5ea08313f44af92b89fe79ba34838">&#9670;&#160;</a></span>m_nSharpness</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char CShadowWnd::m_nSharpness</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a614316c71f1bcce20d70e7d1274c5283" name="a614316c71f1bcce20d70e7d1274c5283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a614316c71f1bcce20d70e7d1274c5283">&#9670;&#160;</a></span>m_nSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">signed char CShadowWnd::m_nSize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af2f352b9a61cd419a342b5604d0767b1" name="af2f352b9a61cd419a342b5604d0767b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2f352b9a61cd419a342b5604d0767b1">&#9670;&#160;</a></span>m_nxOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">signed char CShadowWnd::m_nxOffset</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a37a04a14dfade61ec7ea72d67f1bd5c9" name="a37a04a14dfade61ec7ea72d67f1bd5c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37a04a14dfade61ec7ea72d67f1bd5c9">&#9670;&#160;</a></span>m_nyOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">signed char CShadowWnd::m_nyOffset</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abcfe9c44b85e1e800d6bd803bc2bd615" name="abcfe9c44b85e1e800d6bd803bc2bd615"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcfe9c44b85e1e800d6bd803bc2bd615">&#9670;&#160;</a></span>m_OriParentProc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#ac386d39486360b2f58122f4ff0f25f18">LONG_PTR</a> CShadowWnd::m_OriParentProc</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aac5624fc60be6c4b972277db7020073e" name="aac5624fc60be6c4b972277db7020073e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac5624fc60be6c4b972277db7020073e">&#9670;&#160;</a></span>m_pThunk</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* CShadowWnd::m_pThunk</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2884d4e6e5973fea93a08aa565712018" name="a2884d4e6e5973fea93a08aa565712018"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2884d4e6e5973fea93a08aa565712018">&#9670;&#160;</a></span>m_rcHwnd</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> CShadowWnd::m_rcHwnd</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a27ddd8fd28e96131e6f2730b6c621d12" name="a27ddd8fd28e96131e6f2730b6c621d12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27ddd8fd28e96131e6f2730b6c621d12">&#9670;&#160;</a></span>m_size</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> CShadowWnd::m_size</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a524dbae24ee76650804d474cc947b260" name="a524dbae24ee76650804d474cc947b260"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a524dbae24ee76650804d474cc947b260">&#9670;&#160;</a></span>m_Status</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a4ae1dab0fb4b072a66584546209e7d58">BYTE</a> CShadowWnd::m_Status</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af143f1b797994b016fe6cb61ac8ddde5" name="af143f1b797994b016fe6cb61ac8ddde5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af143f1b797994b016fe6cb61ac8ddde5">&#9670;&#160;</a></span>m_WndSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a> CShadowWnd::m_WndSize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac9efe3bc420eb16ca9d91c794b7b96ea" name="ac9efe3bc420eb16ca9d91c794b7b96ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9efe3bc420eb16ca9d91c794b7b96ea">&#9670;&#160;</a></span>s_bVista</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> CShadowWnd::s_bVista</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5fe5923fde9254f44106837d2a4f165a" name="a5fe5923fde9254f44106837d2a4f165a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fe5923fde9254f44106837d2a4f165a">&#9670;&#160;</a></span>s_DwmIsCompositionEnabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_c_shadow_wnd.html#a1b5946dd88e6fc3e74a3c6d9591957a1">pfnDwmIsCompositionEnabled</a> CShadowWnd::s_DwmIsCompositionEnabled</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8e99481bf3cf73ea94b785b090a7eaec" name="a8e99481bf3cf73ea94b785b090a7eaec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e99481bf3cf73ea94b785b090a7eaec">&#9670;&#160;</a></span>s_hInstance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">HINSTANCE CShadowWnd::s_hInstance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2d2726ae21b667a368ed636d7fc9391d" name="a2d2726ae21b667a368ed636d7fc9391d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d2726ae21b667a368ed636d7fc9391d">&#9670;&#160;</a></span>s_UpdateLayeredWindow</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_c_shadow_wnd.html#ade18e0e73e9b5fc75339a909632b2ac8">pfnUpdateLayeredWindow</a> CShadowWnd::s_UpdateLayeredWindow</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_c_shadow_wnd.html">CShadowWnd</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

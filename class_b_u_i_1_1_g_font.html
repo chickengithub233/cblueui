@@ -1,0 +1,2955 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>CBlueUI: BUI::GFont类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBlueUI
+   &#160;<span id="projectnumber">vxxx</span>
+   </div>
+   <div id="projectbrief">C++ 跨平台跨框架的数据可视化工具</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_b_u_i_1_1_g_font.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="class_b_u_i_1_1_g_font-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">BUI::GFont类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a5c37b1785105031d35120bc6b80f2bd0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a5c37b1785105031d35120bc6b80f2bd0">GFont</a> ()</td></tr>
+<tr class="separator:a5c37b1785105031d35120bc6b80f2bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a618aae170e56ef2a57abee31e394a8bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a618aae170e56ef2a57abee31e394a8bb">~GFont</a> ()</td></tr>
+<tr class="separator:a618aae170e56ef2a57abee31e394a8bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee311469f120c432d712fa00f3b8a44e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#aee311469f120c432d712fa00f3b8a44e">CreateFontObject</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> name, int fHeight, <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> style)</td></tr>
+<tr class="memdesc:aee311469f120c432d712fa00f3b8a44e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Font Object object  <br /></td></tr>
+<tr class="separator:aee311469f120c432d712fa00f3b8a44e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a240e57160f4ef29c57689d92c793f64b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a240e57160f4ef29c57689d92c793f64b">FontPixelHeight</a> () const</td></tr>
+<tr class="separator:a240e57160f4ef29c57689d92c793f64b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d9d5fb6e1444889751f39adb55d9de6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a7d9d5fb6e1444889751f39adb55d9de6">FontPointHeight</a> () const</td></tr>
+<tr class="separator:a7d9d5fb6e1444889751f39adb55d9de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42bf0a408ebae81426d51b11568f0d05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a42bf0a408ebae81426d51b11568f0d05">FontStyle</a> () const</td></tr>
+<tr class="separator:a42bf0a408ebae81426d51b11568f0d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bf3bd2f5dbd8cef556d413b3f0d631a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a3bf3bd2f5dbd8cef556d413b3f0d631a">FontName</a> () const</td></tr>
+<tr class="separator:a3bf3bd2f5dbd8cef556d413b3f0d631a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afab9f45ecc91665cbae38bf23f680ffa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#afab9f45ecc91665cbae38bf23f680ffa">GetTextSize</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len=-1) const</td></tr>
+<tr class="separator:afab9f45ecc91665cbae38bf23f680ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a407dce40d0b4b43550c1e6b32b1cc418"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a407dce40d0b4b43550c1e6b32b1cc418">GetTextSizeW</a> (<a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a> text, int len=-1) const</td></tr>
+<tr class="separator:a407dce40d0b4b43550c1e6b32b1cc418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76ad287740ef27db7b90ff90710ce4f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a76ad287740ef27db7b90ff90710ce4f2">GetTextSizeA</a> (const char *text, int len=-1) const</td></tr>
+<tr class="separator:a76ad287740ef27db7b90ff90710ce4f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bc51635e1aff92e88f59b9126255acc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a0bc51635e1aff92e88f59b9126255acc">GetTextCharsSize</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, std::vector&lt; int &gt; &amp;outList) const</td></tr>
+<tr class="separator:a0bc51635e1aff92e88f59b9126255acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba802ff40b4232ad4d39f3b438a2fccb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#aba802ff40b4232ad4d39f3b438a2fccb">GetTextSizeWithNewline</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len, TextMultilineInfo *textinfo, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> isOnlyMaxSize=<a class="el" href="_c_core_base_pro_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>) const</td></tr>
+<tr class="separator:aba802ff40b4232ad4d39f3b438a2fccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3526aac473e529b8fdd712fa628e743"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#ae3526aac473e529b8fdd712fa628e743">GetTextGlyph</a> (<a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> &amp;path, <a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len, int word_space=0)</td></tr>
+<tr class="separator:ae3526aac473e529b8fdd712fa628e743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c37b1785105031d35120bc6b80f2bd0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a5c37b1785105031d35120bc6b80f2bd0">GFont</a> ()</td></tr>
+<tr class="separator:a5c37b1785105031d35120bc6b80f2bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a618aae170e56ef2a57abee31e394a8bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a618aae170e56ef2a57abee31e394a8bb">~GFont</a> ()</td></tr>
+<tr class="separator:a618aae170e56ef2a57abee31e394a8bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee311469f120c432d712fa00f3b8a44e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#aee311469f120c432d712fa00f3b8a44e">CreateFontObject</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> name, int fHeight, <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> style)</td></tr>
+<tr class="memdesc:aee311469f120c432d712fa00f3b8a44e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Font Object object  <br /></td></tr>
+<tr class="separator:aee311469f120c432d712fa00f3b8a44e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a240e57160f4ef29c57689d92c793f64b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a240e57160f4ef29c57689d92c793f64b">FontPixelHeight</a> () const</td></tr>
+<tr class="separator:a240e57160f4ef29c57689d92c793f64b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d9d5fb6e1444889751f39adb55d9de6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a7d9d5fb6e1444889751f39adb55d9de6">FontPointHeight</a> () const</td></tr>
+<tr class="separator:a7d9d5fb6e1444889751f39adb55d9de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42bf0a408ebae81426d51b11568f0d05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a42bf0a408ebae81426d51b11568f0d05">FontStyle</a> () const</td></tr>
+<tr class="separator:a42bf0a408ebae81426d51b11568f0d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bf3bd2f5dbd8cef556d413b3f0d631a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a3bf3bd2f5dbd8cef556d413b3f0d631a">FontName</a> () const</td></tr>
+<tr class="separator:a3bf3bd2f5dbd8cef556d413b3f0d631a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afab9f45ecc91665cbae38bf23f680ffa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#afab9f45ecc91665cbae38bf23f680ffa">GetTextSize</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len=-1) const</td></tr>
+<tr class="separator:afab9f45ecc91665cbae38bf23f680ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a407dce40d0b4b43550c1e6b32b1cc418"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a407dce40d0b4b43550c1e6b32b1cc418">GetTextSizeW</a> (<a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a> text, int len=-1) const</td></tr>
+<tr class="separator:a407dce40d0b4b43550c1e6b32b1cc418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76ad287740ef27db7b90ff90710ce4f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a76ad287740ef27db7b90ff90710ce4f2">GetTextSizeA</a> (const char *text, int len=-1) const</td></tr>
+<tr class="separator:a76ad287740ef27db7b90ff90710ce4f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bc51635e1aff92e88f59b9126255acc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a0bc51635e1aff92e88f59b9126255acc">GetTextCharsSize</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, std::vector&lt; int &gt; &amp;outList) const</td></tr>
+<tr class="separator:a0bc51635e1aff92e88f59b9126255acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba802ff40b4232ad4d39f3b438a2fccb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#aba802ff40b4232ad4d39f3b438a2fccb">GetTextSizeWithNewline</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len, TextMultilineInfo *textinfo, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> isOnlyMaxSize=<a class="el" href="_c_core_base_pro_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>) const</td></tr>
+<tr class="separator:aba802ff40b4232ad4d39f3b438a2fccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3526aac473e529b8fdd712fa628e743"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#ae3526aac473e529b8fdd712fa628e743">GetTextGlyph</a> (<a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> &amp;path, <a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len, int word_space=0)</td></tr>
+<tr class="separator:ae3526aac473e529b8fdd712fa628e743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c37b1785105031d35120bc6b80f2bd0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a5c37b1785105031d35120bc6b80f2bd0">GFont</a> ()</td></tr>
+<tr class="separator:a5c37b1785105031d35120bc6b80f2bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a618aae170e56ef2a57abee31e394a8bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a618aae170e56ef2a57abee31e394a8bb">~GFont</a> ()</td></tr>
+<tr class="separator:a618aae170e56ef2a57abee31e394a8bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee311469f120c432d712fa00f3b8a44e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#aee311469f120c432d712fa00f3b8a44e">CreateFontObject</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> name, int fHeight, <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> style)</td></tr>
+<tr class="memdesc:aee311469f120c432d712fa00f3b8a44e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Font Object object  <br /></td></tr>
+<tr class="separator:aee311469f120c432d712fa00f3b8a44e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a240e57160f4ef29c57689d92c793f64b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a240e57160f4ef29c57689d92c793f64b">FontPixelHeight</a> () const</td></tr>
+<tr class="separator:a240e57160f4ef29c57689d92c793f64b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d9d5fb6e1444889751f39adb55d9de6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a7d9d5fb6e1444889751f39adb55d9de6">FontPointHeight</a> () const</td></tr>
+<tr class="separator:a7d9d5fb6e1444889751f39adb55d9de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42bf0a408ebae81426d51b11568f0d05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a42bf0a408ebae81426d51b11568f0d05">FontStyle</a> () const</td></tr>
+<tr class="separator:a42bf0a408ebae81426d51b11568f0d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bf3bd2f5dbd8cef556d413b3f0d631a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a3bf3bd2f5dbd8cef556d413b3f0d631a">FontName</a> () const</td></tr>
+<tr class="separator:a3bf3bd2f5dbd8cef556d413b3f0d631a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afab9f45ecc91665cbae38bf23f680ffa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#afab9f45ecc91665cbae38bf23f680ffa">GetTextSize</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len=-1) const</td></tr>
+<tr class="separator:afab9f45ecc91665cbae38bf23f680ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71356d05ee4f3ccda647006c13762211"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a71356d05ee4f3ccda647006c13762211">GetTextSizeA</a> (<a class="el" href="_c_core_base_pro_8h.html#adbea528b1294c9a1dfda3dfa33ff1472">LPCSTR</a> text, int len=-1) const</td></tr>
+<tr class="separator:a71356d05ee4f3ccda647006c13762211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a407dce40d0b4b43550c1e6b32b1cc418"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a407dce40d0b4b43550c1e6b32b1cc418">GetTextSizeW</a> (<a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a> text, int len=-1) const</td></tr>
+<tr class="separator:a407dce40d0b4b43550c1e6b32b1cc418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bc51635e1aff92e88f59b9126255acc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a0bc51635e1aff92e88f59b9126255acc">GetTextCharsSize</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, std::vector&lt; int &gt; &amp;outList) const</td></tr>
+<tr class="separator:a0bc51635e1aff92e88f59b9126255acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba802ff40b4232ad4d39f3b438a2fccb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#aba802ff40b4232ad4d39f3b438a2fccb">GetTextSizeWithNewline</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len, TextMultilineInfo *textinfo, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> isOnlyMaxSize=<a class="el" href="_c_core_base_pro_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>) const</td></tr>
+<tr class="separator:aba802ff40b4232ad4d39f3b438a2fccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3526aac473e529b8fdd712fa628e743"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#ae3526aac473e529b8fdd712fa628e743">GetTextGlyph</a> (<a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> &amp;path, <a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len, int word_space=0)</td></tr>
+<tr class="separator:ae3526aac473e529b8fdd712fa628e743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c37b1785105031d35120bc6b80f2bd0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a5c37b1785105031d35120bc6b80f2bd0">GFont</a> ()</td></tr>
+<tr class="separator:a5c37b1785105031d35120bc6b80f2bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a618aae170e56ef2a57abee31e394a8bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a618aae170e56ef2a57abee31e394a8bb">~GFont</a> ()</td></tr>
+<tr class="separator:a618aae170e56ef2a57abee31e394a8bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee311469f120c432d712fa00f3b8a44e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#aee311469f120c432d712fa00f3b8a44e">CreateFontObject</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> name, int fHeight, <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> style)</td></tr>
+<tr class="memdesc:aee311469f120c432d712fa00f3b8a44e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Font Object object  <br /></td></tr>
+<tr class="separator:aee311469f120c432d712fa00f3b8a44e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a240e57160f4ef29c57689d92c793f64b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a240e57160f4ef29c57689d92c793f64b">FontPixelHeight</a> () const</td></tr>
+<tr class="separator:a240e57160f4ef29c57689d92c793f64b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d9d5fb6e1444889751f39adb55d9de6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a7d9d5fb6e1444889751f39adb55d9de6">FontPointHeight</a> () const</td></tr>
+<tr class="separator:a7d9d5fb6e1444889751f39adb55d9de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42bf0a408ebae81426d51b11568f0d05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a42bf0a408ebae81426d51b11568f0d05">FontStyle</a> () const</td></tr>
+<tr class="separator:a42bf0a408ebae81426d51b11568f0d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bf3bd2f5dbd8cef556d413b3f0d631a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a3bf3bd2f5dbd8cef556d413b3f0d631a">FontName</a> () const</td></tr>
+<tr class="separator:a3bf3bd2f5dbd8cef556d413b3f0d631a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afab9f45ecc91665cbae38bf23f680ffa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#afab9f45ecc91665cbae38bf23f680ffa">GetTextSize</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len=-1) const</td></tr>
+<tr class="separator:afab9f45ecc91665cbae38bf23f680ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71356d05ee4f3ccda647006c13762211"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a71356d05ee4f3ccda647006c13762211">GetTextSizeA</a> (<a class="el" href="_c_core_base_pro_8h.html#adbea528b1294c9a1dfda3dfa33ff1472">LPCSTR</a> text, int len=-1) const</td></tr>
+<tr class="separator:a71356d05ee4f3ccda647006c13762211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a407dce40d0b4b43550c1e6b32b1cc418"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a407dce40d0b4b43550c1e6b32b1cc418">GetTextSizeW</a> (<a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a> text, int len=-1) const</td></tr>
+<tr class="separator:a407dce40d0b4b43550c1e6b32b1cc418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bc51635e1aff92e88f59b9126255acc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a0bc51635e1aff92e88f59b9126255acc">GetTextCharsSize</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, std::vector&lt; int &gt; &amp;outList) const</td></tr>
+<tr class="separator:a0bc51635e1aff92e88f59b9126255acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba802ff40b4232ad4d39f3b438a2fccb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#aba802ff40b4232ad4d39f3b438a2fccb">GetTextSizeWithNewline</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len, TextMultilineInfo *textinfo, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> isOnlyMaxSize=<a class="el" href="_c_core_base_pro_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>) const</td></tr>
+<tr class="separator:aba802ff40b4232ad4d39f3b438a2fccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3526aac473e529b8fdd712fa628e743"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#ae3526aac473e529b8fdd712fa628e743">GetTextGlyph</a> (<a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> &amp;path, <a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len, int word_space=0)</td></tr>
+<tr class="separator:ae3526aac473e529b8fdd712fa628e743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c37b1785105031d35120bc6b80f2bd0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a5c37b1785105031d35120bc6b80f2bd0">GFont</a> ()</td></tr>
+<tr class="separator:a5c37b1785105031d35120bc6b80f2bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a618aae170e56ef2a57abee31e394a8bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a618aae170e56ef2a57abee31e394a8bb">~GFont</a> ()</td></tr>
+<tr class="separator:a618aae170e56ef2a57abee31e394a8bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee311469f120c432d712fa00f3b8a44e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#aee311469f120c432d712fa00f3b8a44e">CreateFontObject</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> name, int fHeight, <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> style)</td></tr>
+<tr class="memdesc:aee311469f120c432d712fa00f3b8a44e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Font Object object  <br /></td></tr>
+<tr class="separator:aee311469f120c432d712fa00f3b8a44e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a240e57160f4ef29c57689d92c793f64b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a240e57160f4ef29c57689d92c793f64b">FontPixelHeight</a> () const</td></tr>
+<tr class="separator:a240e57160f4ef29c57689d92c793f64b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d9d5fb6e1444889751f39adb55d9de6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a7d9d5fb6e1444889751f39adb55d9de6">FontPointHeight</a> () const</td></tr>
+<tr class="separator:a7d9d5fb6e1444889751f39adb55d9de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42bf0a408ebae81426d51b11568f0d05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a42bf0a408ebae81426d51b11568f0d05">FontStyle</a> () const</td></tr>
+<tr class="separator:a42bf0a408ebae81426d51b11568f0d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bf3bd2f5dbd8cef556d413b3f0d631a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a3bf3bd2f5dbd8cef556d413b3f0d631a">FontName</a> () const</td></tr>
+<tr class="separator:a3bf3bd2f5dbd8cef556d413b3f0d631a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afab9f45ecc91665cbae38bf23f680ffa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#afab9f45ecc91665cbae38bf23f680ffa">GetTextSize</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len=-1) const</td></tr>
+<tr class="separator:afab9f45ecc91665cbae38bf23f680ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71356d05ee4f3ccda647006c13762211"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a71356d05ee4f3ccda647006c13762211">GetTextSizeA</a> (<a class="el" href="_c_core_base_pro_8h.html#adbea528b1294c9a1dfda3dfa33ff1472">LPCSTR</a> text, int len=-1) const</td></tr>
+<tr class="separator:a71356d05ee4f3ccda647006c13762211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a407dce40d0b4b43550c1e6b32b1cc418"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a407dce40d0b4b43550c1e6b32b1cc418">GetTextSizeW</a> (<a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a> text, int len=-1) const</td></tr>
+<tr class="separator:a407dce40d0b4b43550c1e6b32b1cc418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bc51635e1aff92e88f59b9126255acc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a0bc51635e1aff92e88f59b9126255acc">GetTextCharsSize</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, std::vector&lt; int &gt; &amp;outList) const</td></tr>
+<tr class="separator:a0bc51635e1aff92e88f59b9126255acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba802ff40b4232ad4d39f3b438a2fccb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#aba802ff40b4232ad4d39f3b438a2fccb">GetTextSizeWithNewline</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len, TextMultilineInfo *textinfo, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> isOnlyMaxSize=<a class="el" href="_c_core_base_pro_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>) const</td></tr>
+<tr class="separator:aba802ff40b4232ad4d39f3b438a2fccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3526aac473e529b8fdd712fa628e743"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#ae3526aac473e529b8fdd712fa628e743">GetTextGlyph</a> (<a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> &amp;path, <a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len, int word_space=0)</td></tr>
+<tr class="separator:ae3526aac473e529b8fdd712fa628e743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad723df411adf8da12b435bff1cb9b7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#aad723df411adf8da12b435bff1cb9b7a">ApplyAttribute</a> (float scale)</td></tr>
+<tr class="separator:aad723df411adf8da12b435bff1cb9b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c37b1785105031d35120bc6b80f2bd0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a5c37b1785105031d35120bc6b80f2bd0">GFont</a> ()</td></tr>
+<tr class="separator:a5c37b1785105031d35120bc6b80f2bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a618aae170e56ef2a57abee31e394a8bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a618aae170e56ef2a57abee31e394a8bb">~GFont</a> ()</td></tr>
+<tr class="separator:a618aae170e56ef2a57abee31e394a8bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee311469f120c432d712fa00f3b8a44e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#aee311469f120c432d712fa00f3b8a44e">CreateFontObject</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> name, int fHeight, <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> style)</td></tr>
+<tr class="memdesc:aee311469f120c432d712fa00f3b8a44e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Font Object object  <br /></td></tr>
+<tr class="separator:aee311469f120c432d712fa00f3b8a44e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a240e57160f4ef29c57689d92c793f64b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a240e57160f4ef29c57689d92c793f64b">FontPixelHeight</a> () const</td></tr>
+<tr class="separator:a240e57160f4ef29c57689d92c793f64b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d9d5fb6e1444889751f39adb55d9de6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a7d9d5fb6e1444889751f39adb55d9de6">FontPointHeight</a> () const</td></tr>
+<tr class="separator:a7d9d5fb6e1444889751f39adb55d9de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42bf0a408ebae81426d51b11568f0d05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a42bf0a408ebae81426d51b11568f0d05">FontStyle</a> () const</td></tr>
+<tr class="separator:a42bf0a408ebae81426d51b11568f0d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bf3bd2f5dbd8cef556d413b3f0d631a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a3bf3bd2f5dbd8cef556d413b3f0d631a">FontName</a> () const</td></tr>
+<tr class="separator:a3bf3bd2f5dbd8cef556d413b3f0d631a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afab9f45ecc91665cbae38bf23f680ffa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#afab9f45ecc91665cbae38bf23f680ffa">GetTextSize</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len=-1) const</td></tr>
+<tr class="separator:afab9f45ecc91665cbae38bf23f680ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a407dce40d0b4b43550c1e6b32b1cc418"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a407dce40d0b4b43550c1e6b32b1cc418">GetTextSizeW</a> (<a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a> text, int len=-1) const</td></tr>
+<tr class="separator:a407dce40d0b4b43550c1e6b32b1cc418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76ad287740ef27db7b90ff90710ce4f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a76ad287740ef27db7b90ff90710ce4f2">GetTextSizeA</a> (const char *text, int len=-1) const</td></tr>
+<tr class="separator:a76ad287740ef27db7b90ff90710ce4f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bc51635e1aff92e88f59b9126255acc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a0bc51635e1aff92e88f59b9126255acc">GetTextCharsSize</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, std::vector&lt; int &gt; &amp;outList) const</td></tr>
+<tr class="memdesc:a0bc51635e1aff92e88f59b9126255acc"><td class="mdescLeft">&#160;</td><td class="mdescRight">将字符串每个字符的宽度，读取到数组中  <br /></td></tr>
+<tr class="separator:a0bc51635e1aff92e88f59b9126255acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba802ff40b4232ad4d39f3b438a2fccb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#aba802ff40b4232ad4d39f3b438a2fccb">GetTextSizeWithNewline</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len, TextMultilineInfo *textinfo, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> isOnlyMaxSize=<a class="el" href="_c_core_base_pro_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>) const</td></tr>
+<tr class="separator:aba802ff40b4232ad4d39f3b438a2fccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3526aac473e529b8fdd712fa628e743"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#ae3526aac473e529b8fdd712fa628e743">GetTextGlyph</a> (<a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> &amp;path, <a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len, int word_space=0)</td></tr>
+<tr class="separator:ae3526aac473e529b8fdd712fa628e743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c37b1785105031d35120bc6b80f2bd0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a5c37b1785105031d35120bc6b80f2bd0">GFont</a> ()</td></tr>
+<tr class="separator:a5c37b1785105031d35120bc6b80f2bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a618aae170e56ef2a57abee31e394a8bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a618aae170e56ef2a57abee31e394a8bb">~GFont</a> ()</td></tr>
+<tr class="separator:a618aae170e56ef2a57abee31e394a8bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee311469f120c432d712fa00f3b8a44e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#aee311469f120c432d712fa00f3b8a44e">CreateFontObject</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> name, int fHeight, <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> style)</td></tr>
+<tr class="memdesc:aee311469f120c432d712fa00f3b8a44e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Font Object object  <br /></td></tr>
+<tr class="separator:aee311469f120c432d712fa00f3b8a44e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a240e57160f4ef29c57689d92c793f64b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a240e57160f4ef29c57689d92c793f64b">FontPixelHeight</a> () const</td></tr>
+<tr class="separator:a240e57160f4ef29c57689d92c793f64b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d9d5fb6e1444889751f39adb55d9de6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a7d9d5fb6e1444889751f39adb55d9de6">FontPointHeight</a> () const</td></tr>
+<tr class="separator:a7d9d5fb6e1444889751f39adb55d9de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42bf0a408ebae81426d51b11568f0d05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a42bf0a408ebae81426d51b11568f0d05">FontStyle</a> () const</td></tr>
+<tr class="separator:a42bf0a408ebae81426d51b11568f0d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bf3bd2f5dbd8cef556d413b3f0d631a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a3bf3bd2f5dbd8cef556d413b3f0d631a">FontName</a> () const</td></tr>
+<tr class="separator:a3bf3bd2f5dbd8cef556d413b3f0d631a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afab9f45ecc91665cbae38bf23f680ffa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#afab9f45ecc91665cbae38bf23f680ffa">GetTextSize</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len=-1) const</td></tr>
+<tr class="separator:afab9f45ecc91665cbae38bf23f680ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a407dce40d0b4b43550c1e6b32b1cc418"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a407dce40d0b4b43550c1e6b32b1cc418">GetTextSizeW</a> (<a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a> text, int len=-1) const</td></tr>
+<tr class="separator:a407dce40d0b4b43550c1e6b32b1cc418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76ad287740ef27db7b90ff90710ce4f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a76ad287740ef27db7b90ff90710ce4f2">GetTextSizeA</a> (const char *text, int len=-1) const</td></tr>
+<tr class="separator:a76ad287740ef27db7b90ff90710ce4f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bc51635e1aff92e88f59b9126255acc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a0bc51635e1aff92e88f59b9126255acc">GetTextCharsSize</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, std::vector&lt; int &gt; &amp;outList) const</td></tr>
+<tr class="separator:a0bc51635e1aff92e88f59b9126255acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba802ff40b4232ad4d39f3b438a2fccb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#aba802ff40b4232ad4d39f3b438a2fccb">GetTextSizeWithNewline</a> (<a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len, TextMultilineInfo *textinfo, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> isOnlyMaxSize=<a class="el" href="_c_core_base_pro_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>) const</td></tr>
+<tr class="separator:aba802ff40b4232ad4d39f3b438a2fccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0ff88e40b3ed3c9252f5ee618ee76a5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#af0ff88e40b3ed3c9252f5ee618ee76a5">GetTextGlyph</a> (<a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> &amp;path, <a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, int len, int word_space=0) const</td></tr>
+<tr class="separator:af0ff88e40b3ed3c9252f5ee618ee76a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a647323451f163167e592485e81763799"><td class="memItemLeft" align="right" valign="top">PangoFontDescription *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a647323451f163167e592485e81763799">m_font</a></td></tr>
+<tr class="separator:a647323451f163167e592485e81763799"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2013459b1ce4e39d272b2e8815801526"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a2013459b1ce4e39d272b2e8815801526">m_dy</a></td></tr>
+<tr class="separator:a2013459b1ce4e39d272b2e8815801526"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a082554a336703653415c5e2ddf2d050e"><td class="memItemLeft" align="right" valign="top">QFont&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a082554a336703653415c5e2ddf2d050e">m_qt_font</a></td></tr>
+<tr class="separator:a082554a336703653415c5e2ddf2d050e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14bc57ac75cecb5a17e6a21f22c89ebd"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a14bc57ac75cecb5a17e6a21f22c89ebd">m_CTFont</a></td></tr>
+<tr class="separator:a14bc57ac75cecb5a17e6a21f22c89ebd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a384c78fad64f77caa6760a9811f0d5ec"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a384c78fad64f77caa6760a9811f0d5ec">m_ttfFont</a></td></tr>
+<tr class="separator:a384c78fad64f77caa6760a9811f0d5ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfeaaaba46a5a09a45802f00b963f86a"><td class="memItemLeft" align="right" valign="top">HFONT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#abfeaaaba46a5a09a45802f00b963f86a">m_hFontGDI</a></td></tr>
+<tr class="separator:abfeaaaba46a5a09a45802f00b963f86a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44e811a1c4c0dfbaf7ddfa077c3f9b73"><td class="memItemLeft" align="right" valign="top">LOGFONT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a44e811a1c4c0dfbaf7ddfa077c3f9b73">m_lf</a></td></tr>
+<tr class="separator:a44e811a1c4c0dfbaf7ddfa077c3f9b73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af08c2661a674549b7a4986c598922ce1"><td class="memItemLeft" align="right" valign="top">wxFont *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#af08c2661a674549b7a4986c598922ce1">m_wxfont</a></td></tr>
+<tr class="separator:af08c2661a674549b7a4986c598922ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a9cc92bc006b34064c2b838da34d353a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_string_a_8h.html#af8dd6b396b025639b3d0b06cbf8000c0">BeString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a9cc92bc006b34064c2b838da34d353a6">m_fontname</a></td></tr>
+<tr class="separator:a9cc92bc006b34064c2b838da34d353a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17df93c570896760fa019746257a8e25"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a17df93c570896760fa019746257a8e25">m_fHeight</a></td></tr>
+<tr class="separator:a17df93c570896760fa019746257a8e25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a243a1be3997f85191af4e77b8c771553"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a243a1be3997f85191af4e77b8c771553">m_pointHeight</a></td></tr>
+<tr class="separator:a243a1be3997f85191af4e77b8c771553"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ea8af92b1c9e20a398e540333238902"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_font.html#a4ea8af92b1c9e20a398e540333238902">m_fStyle</a></td></tr>
+<tr class="separator:a4ea8af92b1c9e20a398e540333238902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a5c37b1785105031d35120bc6b80f2bd0" name="a5c37b1785105031d35120bc6b80f2bd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c37b1785105031d35120bc6b80f2bd0">&#9670;&#160;</a></span>GFont() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::GFont::GFont </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a618aae170e56ef2a57abee31e394a8bb" name="a618aae170e56ef2a57abee31e394a8bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a618aae170e56ef2a57abee31e394a8bb">&#9670;&#160;</a></span>~GFont() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::GFont::~GFont </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c37b1785105031d35120bc6b80f2bd0" name="a5c37b1785105031d35120bc6b80f2bd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c37b1785105031d35120bc6b80f2bd0">&#9670;&#160;</a></span>GFont() <span class="overload">[2/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::GFont::GFont </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a618aae170e56ef2a57abee31e394a8bb" name="a618aae170e56ef2a57abee31e394a8bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a618aae170e56ef2a57abee31e394a8bb">&#9670;&#160;</a></span>~GFont() <span class="overload">[2/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::GFont::~GFont </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c37b1785105031d35120bc6b80f2bd0" name="a5c37b1785105031d35120bc6b80f2bd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c37b1785105031d35120bc6b80f2bd0">&#9670;&#160;</a></span>GFont() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::GFont::GFont </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a618aae170e56ef2a57abee31e394a8bb" name="a618aae170e56ef2a57abee31e394a8bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a618aae170e56ef2a57abee31e394a8bb">&#9670;&#160;</a></span>~GFont() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::GFont::~GFont </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c37b1785105031d35120bc6b80f2bd0" name="a5c37b1785105031d35120bc6b80f2bd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c37b1785105031d35120bc6b80f2bd0">&#9670;&#160;</a></span>GFont() <span class="overload">[4/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::GFont::GFont </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a618aae170e56ef2a57abee31e394a8bb" name="a618aae170e56ef2a57abee31e394a8bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a618aae170e56ef2a57abee31e394a8bb">&#9670;&#160;</a></span>~GFont() <span class="overload">[4/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::GFont::~GFont </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c37b1785105031d35120bc6b80f2bd0" name="a5c37b1785105031d35120bc6b80f2bd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c37b1785105031d35120bc6b80f2bd0">&#9670;&#160;</a></span>GFont() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::GFont::GFont </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a618aae170e56ef2a57abee31e394a8bb" name="a618aae170e56ef2a57abee31e394a8bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a618aae170e56ef2a57abee31e394a8bb">&#9670;&#160;</a></span>~GFont() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::GFont::~GFont </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c37b1785105031d35120bc6b80f2bd0" name="a5c37b1785105031d35120bc6b80f2bd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c37b1785105031d35120bc6b80f2bd0">&#9670;&#160;</a></span>GFont() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::GFont::GFont </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a618aae170e56ef2a57abee31e394a8bb" name="a618aae170e56ef2a57abee31e394a8bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a618aae170e56ef2a57abee31e394a8bb">&#9670;&#160;</a></span>~GFont() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::GFont::~GFont </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c37b1785105031d35120bc6b80f2bd0" name="a5c37b1785105031d35120bc6b80f2bd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c37b1785105031d35120bc6b80f2bd0">&#9670;&#160;</a></span>GFont() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::GFont::GFont </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a618aae170e56ef2a57abee31e394a8bb" name="a618aae170e56ef2a57abee31e394a8bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a618aae170e56ef2a57abee31e394a8bb">&#9670;&#160;</a></span>~GFont() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::GFont::~GFont </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="aad723df411adf8da12b435bff1cb9b7a" name="aad723df411adf8da12b435bff1cb9b7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad723df411adf8da12b435bff1cb9b7a">&#9670;&#160;</a></span>ApplyAttribute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GFont::ApplyAttribute </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scale</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aee311469f120c432d712fa00f3b8a44e" name="aee311469f120c432d712fa00f3b8a44e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee311469f120c432d712fa00f3b8a44e">&#9670;&#160;</a></span>CreateFontObject() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GFont::CreateFontObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fHeight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>style</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a Font Object object </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>字体名称 </td></tr>
+    <tr><td class="paramname">fHeight</td><td>字体高度 </td></tr>
+    <tr><td class="paramname">style</td><td>字体风格:SGFontStyle={FS_BOLD,FS_ITALIC,FS_UNDERLINE} </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aee311469f120c432d712fa00f3b8a44e" name="aee311469f120c432d712fa00f3b8a44e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee311469f120c432d712fa00f3b8a44e">&#9670;&#160;</a></span>CreateFontObject() <span class="overload">[2/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GFont::CreateFontObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fHeight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>style</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a Font Object object </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>字体名称 </td></tr>
+    <tr><td class="paramname">fHeight</td><td>字体高度 </td></tr>
+    <tr><td class="paramname">style</td><td>字体风格:SGFontStyle={FS_BOLD,FS_ITALIC,FS_UNDERLINE} </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aee311469f120c432d712fa00f3b8a44e" name="aee311469f120c432d712fa00f3b8a44e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee311469f120c432d712fa00f3b8a44e">&#9670;&#160;</a></span>CreateFontObject() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GFont::CreateFontObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fHeight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>style</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a Font Object object </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>字体名称 </td></tr>
+    <tr><td class="paramname">fHeight</td><td>字体高度 </td></tr>
+    <tr><td class="paramname">style</td><td>字体风格:SGFontStyle={FS_BOLD,FS_ITALIC,FS_UNDERLINE} </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aee311469f120c432d712fa00f3b8a44e" name="aee311469f120c432d712fa00f3b8a44e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee311469f120c432d712fa00f3b8a44e">&#9670;&#160;</a></span>CreateFontObject() <span class="overload">[4/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GFont::CreateFontObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fHeight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>style</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a Font Object object </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>字体名称 </td></tr>
+    <tr><td class="paramname">fHeight</td><td>字体高度 </td></tr>
+    <tr><td class="paramname">style</td><td>字体风格:SGFontStyle={FS_BOLD,FS_ITALIC,FS_UNDERLINE} </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aee311469f120c432d712fa00f3b8a44e" name="aee311469f120c432d712fa00f3b8a44e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee311469f120c432d712fa00f3b8a44e">&#9670;&#160;</a></span>CreateFontObject() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GFont::CreateFontObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fHeight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>style</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a Font Object object </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>字体名称 </td></tr>
+    <tr><td class="paramname">fHeight</td><td>字体高度 </td></tr>
+    <tr><td class="paramname">style</td><td>字体风格:SGFontStyle={FS_BOLD,FS_ITALIC,FS_UNDERLINE} </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aee311469f120c432d712fa00f3b8a44e" name="aee311469f120c432d712fa00f3b8a44e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee311469f120c432d712fa00f3b8a44e">&#9670;&#160;</a></span>CreateFontObject() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GFont::CreateFontObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fHeight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>style</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a Font Object object </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>字体名称 </td></tr>
+    <tr><td class="paramname">fHeight</td><td>字体高度 </td></tr>
+    <tr><td class="paramname">style</td><td>字体风格:SGFontStyle={FS_BOLD,FS_ITALIC,FS_UNDERLINE} </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aee311469f120c432d712fa00f3b8a44e" name="aee311469f120c432d712fa00f3b8a44e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee311469f120c432d712fa00f3b8a44e">&#9670;&#160;</a></span>CreateFontObject() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GFont::CreateFontObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fHeight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>style</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a Font Object object </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>字体名称 </td></tr>
+    <tr><td class="paramname">fHeight</td><td>字体高度 </td></tr>
+    <tr><td class="paramname">style</td><td>字体风格:SGFontStyle={FS_BOLD,FS_ITALIC,FS_UNDERLINE} </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3bf3bd2f5dbd8cef556d413b3f0d631a" name="a3bf3bd2f5dbd8cef556d413b3f0d631a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bf3bd2f5dbd8cef556d413b3f0d631a">&#9670;&#160;</a></span>FontName() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> BUI::GFont::FontName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3bf3bd2f5dbd8cef556d413b3f0d631a" name="a3bf3bd2f5dbd8cef556d413b3f0d631a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bf3bd2f5dbd8cef556d413b3f0d631a">&#9670;&#160;</a></span>FontName() <span class="overload">[2/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> BUI::GFont::FontName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3bf3bd2f5dbd8cef556d413b3f0d631a" name="a3bf3bd2f5dbd8cef556d413b3f0d631a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bf3bd2f5dbd8cef556d413b3f0d631a">&#9670;&#160;</a></span>FontName() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> BUI::GFont::FontName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3bf3bd2f5dbd8cef556d413b3f0d631a" name="a3bf3bd2f5dbd8cef556d413b3f0d631a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bf3bd2f5dbd8cef556d413b3f0d631a">&#9670;&#160;</a></span>FontName() <span class="overload">[4/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> BUI::GFont::FontName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3bf3bd2f5dbd8cef556d413b3f0d631a" name="a3bf3bd2f5dbd8cef556d413b3f0d631a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bf3bd2f5dbd8cef556d413b3f0d631a">&#9670;&#160;</a></span>FontName() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> BUI::GFont::FontName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3bf3bd2f5dbd8cef556d413b3f0d631a" name="a3bf3bd2f5dbd8cef556d413b3f0d631a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bf3bd2f5dbd8cef556d413b3f0d631a">&#9670;&#160;</a></span>FontName() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> BUI::GFont::FontName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3bf3bd2f5dbd8cef556d413b3f0d631a" name="a3bf3bd2f5dbd8cef556d413b3f0d631a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bf3bd2f5dbd8cef556d413b3f0d631a">&#9670;&#160;</a></span>FontName() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> BUI::GFont::FontName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a240e57160f4ef29c57689d92c793f64b" name="a240e57160f4ef29c57689d92c793f64b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a240e57160f4ef29c57689d92c793f64b">&#9670;&#160;</a></span>FontPixelHeight() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::FontPixelHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a240e57160f4ef29c57689d92c793f64b" name="a240e57160f4ef29c57689d92c793f64b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a240e57160f4ef29c57689d92c793f64b">&#9670;&#160;</a></span>FontPixelHeight() <span class="overload">[2/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::FontPixelHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a240e57160f4ef29c57689d92c793f64b" name="a240e57160f4ef29c57689d92c793f64b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a240e57160f4ef29c57689d92c793f64b">&#9670;&#160;</a></span>FontPixelHeight() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::FontPixelHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a240e57160f4ef29c57689d92c793f64b" name="a240e57160f4ef29c57689d92c793f64b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a240e57160f4ef29c57689d92c793f64b">&#9670;&#160;</a></span>FontPixelHeight() <span class="overload">[4/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::FontPixelHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a240e57160f4ef29c57689d92c793f64b" name="a240e57160f4ef29c57689d92c793f64b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a240e57160f4ef29c57689d92c793f64b">&#9670;&#160;</a></span>FontPixelHeight() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::FontPixelHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a240e57160f4ef29c57689d92c793f64b" name="a240e57160f4ef29c57689d92c793f64b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a240e57160f4ef29c57689d92c793f64b">&#9670;&#160;</a></span>FontPixelHeight() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::FontPixelHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a240e57160f4ef29c57689d92c793f64b" name="a240e57160f4ef29c57689d92c793f64b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a240e57160f4ef29c57689d92c793f64b">&#9670;&#160;</a></span>FontPixelHeight() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::FontPixelHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d9d5fb6e1444889751f39adb55d9de6" name="a7d9d5fb6e1444889751f39adb55d9de6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d9d5fb6e1444889751f39adb55d9de6">&#9670;&#160;</a></span>FontPointHeight() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::FontPointHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d9d5fb6e1444889751f39adb55d9de6" name="a7d9d5fb6e1444889751f39adb55d9de6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d9d5fb6e1444889751f39adb55d9de6">&#9670;&#160;</a></span>FontPointHeight() <span class="overload">[2/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::FontPointHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d9d5fb6e1444889751f39adb55d9de6" name="a7d9d5fb6e1444889751f39adb55d9de6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d9d5fb6e1444889751f39adb55d9de6">&#9670;&#160;</a></span>FontPointHeight() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::FontPointHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d9d5fb6e1444889751f39adb55d9de6" name="a7d9d5fb6e1444889751f39adb55d9de6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d9d5fb6e1444889751f39adb55d9de6">&#9670;&#160;</a></span>FontPointHeight() <span class="overload">[4/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::FontPointHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d9d5fb6e1444889751f39adb55d9de6" name="a7d9d5fb6e1444889751f39adb55d9de6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d9d5fb6e1444889751f39adb55d9de6">&#9670;&#160;</a></span>FontPointHeight() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::FontPointHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d9d5fb6e1444889751f39adb55d9de6" name="a7d9d5fb6e1444889751f39adb55d9de6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d9d5fb6e1444889751f39adb55d9de6">&#9670;&#160;</a></span>FontPointHeight() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::FontPointHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d9d5fb6e1444889751f39adb55d9de6" name="a7d9d5fb6e1444889751f39adb55d9de6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d9d5fb6e1444889751f39adb55d9de6">&#9670;&#160;</a></span>FontPointHeight() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::FontPointHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42bf0a408ebae81426d51b11568f0d05" name="a42bf0a408ebae81426d51b11568f0d05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42bf0a408ebae81426d51b11568f0d05">&#9670;&#160;</a></span>FontStyle() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> BUI::GFont::FontStyle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42bf0a408ebae81426d51b11568f0d05" name="a42bf0a408ebae81426d51b11568f0d05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42bf0a408ebae81426d51b11568f0d05">&#9670;&#160;</a></span>FontStyle() <span class="overload">[2/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> BUI::GFont::FontStyle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42bf0a408ebae81426d51b11568f0d05" name="a42bf0a408ebae81426d51b11568f0d05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42bf0a408ebae81426d51b11568f0d05">&#9670;&#160;</a></span>FontStyle() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> BUI::GFont::FontStyle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42bf0a408ebae81426d51b11568f0d05" name="a42bf0a408ebae81426d51b11568f0d05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42bf0a408ebae81426d51b11568f0d05">&#9670;&#160;</a></span>FontStyle() <span class="overload">[4/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> BUI::GFont::FontStyle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42bf0a408ebae81426d51b11568f0d05" name="a42bf0a408ebae81426d51b11568f0d05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42bf0a408ebae81426d51b11568f0d05">&#9670;&#160;</a></span>FontStyle() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> BUI::GFont::FontStyle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42bf0a408ebae81426d51b11568f0d05" name="a42bf0a408ebae81426d51b11568f0d05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42bf0a408ebae81426d51b11568f0d05">&#9670;&#160;</a></span>FontStyle() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> BUI::GFont::FontStyle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42bf0a408ebae81426d51b11568f0d05" name="a42bf0a408ebae81426d51b11568f0d05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42bf0a408ebae81426d51b11568f0d05">&#9670;&#160;</a></span>FontStyle() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> BUI::GFont::FontStyle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0bc51635e1aff92e88f59b9126255acc" name="a0bc51635e1aff92e88f59b9126255acc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bc51635e1aff92e88f59b9126255acc">&#9670;&#160;</a></span>GetTextCharsSize() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GFont::GetTextCharsSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>outList</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0bc51635e1aff92e88f59b9126255acc" name="a0bc51635e1aff92e88f59b9126255acc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bc51635e1aff92e88f59b9126255acc">&#9670;&#160;</a></span>GetTextCharsSize() <span class="overload">[2/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GFont::GetTextCharsSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>outList</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0bc51635e1aff92e88f59b9126255acc" name="a0bc51635e1aff92e88f59b9126255acc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bc51635e1aff92e88f59b9126255acc">&#9670;&#160;</a></span>GetTextCharsSize() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GFont::GetTextCharsSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>outList</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0bc51635e1aff92e88f59b9126255acc" name="a0bc51635e1aff92e88f59b9126255acc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bc51635e1aff92e88f59b9126255acc">&#9670;&#160;</a></span>GetTextCharsSize() <span class="overload">[4/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GFont::GetTextCharsSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>outList</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0bc51635e1aff92e88f59b9126255acc" name="a0bc51635e1aff92e88f59b9126255acc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bc51635e1aff92e88f59b9126255acc">&#9670;&#160;</a></span>GetTextCharsSize() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GFont::GetTextCharsSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>outList</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0bc51635e1aff92e88f59b9126255acc" name="a0bc51635e1aff92e88f59b9126255acc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bc51635e1aff92e88f59b9126255acc">&#9670;&#160;</a></span>GetTextCharsSize() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GFont::GetTextCharsSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>outList</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>将字符串每个字符的宽度，读取到数组中 </p>
+
+</div>
+</div>
+<a id="a0bc51635e1aff92e88f59b9126255acc" name="a0bc51635e1aff92e88f59b9126255acc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bc51635e1aff92e88f59b9126255acc">&#9670;&#160;</a></span>GetTextCharsSize() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GFont::GetTextCharsSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>outList</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3526aac473e529b8fdd712fa628e743" name="ae3526aac473e529b8fdd712fa628e743"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3526aac473e529b8fdd712fa628e743">&#9670;&#160;</a></span>GetTextGlyph() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::GetTextGlyph </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>word_space</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3526aac473e529b8fdd712fa628e743" name="ae3526aac473e529b8fdd712fa628e743"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3526aac473e529b8fdd712fa628e743">&#9670;&#160;</a></span>GetTextGlyph() <span class="overload">[2/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::GetTextGlyph </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>word_space</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3526aac473e529b8fdd712fa628e743" name="ae3526aac473e529b8fdd712fa628e743"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3526aac473e529b8fdd712fa628e743">&#9670;&#160;</a></span>GetTextGlyph() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::GetTextGlyph </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>word_space</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3526aac473e529b8fdd712fa628e743" name="ae3526aac473e529b8fdd712fa628e743"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3526aac473e529b8fdd712fa628e743">&#9670;&#160;</a></span>GetTextGlyph() <span class="overload">[4/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::GetTextGlyph </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>word_space</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3526aac473e529b8fdd712fa628e743" name="ae3526aac473e529b8fdd712fa628e743"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3526aac473e529b8fdd712fa628e743">&#9670;&#160;</a></span>GetTextGlyph() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::GetTextGlyph </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>word_space</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3526aac473e529b8fdd712fa628e743" name="ae3526aac473e529b8fdd712fa628e743"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3526aac473e529b8fdd712fa628e743">&#9670;&#160;</a></span>GetTextGlyph() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::GetTextGlyph </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>word_space</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af0ff88e40b3ed3c9252f5ee618ee76a5" name="af0ff88e40b3ed3c9252f5ee618ee76a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0ff88e40b3ed3c9252f5ee618ee76a5">&#9670;&#160;</a></span>GetTextGlyph() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::GetTextGlyph </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>word_space</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afab9f45ecc91665cbae38bf23f680ffa" name="afab9f45ecc91665cbae38bf23f680ffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afab9f45ecc91665cbae38bf23f680ffa">&#9670;&#160;</a></span>GetTextSize() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::GFont::GetTextSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afab9f45ecc91665cbae38bf23f680ffa" name="afab9f45ecc91665cbae38bf23f680ffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afab9f45ecc91665cbae38bf23f680ffa">&#9670;&#160;</a></span>GetTextSize() <span class="overload">[2/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::GFont::GetTextSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afab9f45ecc91665cbae38bf23f680ffa" name="afab9f45ecc91665cbae38bf23f680ffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afab9f45ecc91665cbae38bf23f680ffa">&#9670;&#160;</a></span>GetTextSize() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::GFont::GetTextSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afab9f45ecc91665cbae38bf23f680ffa" name="afab9f45ecc91665cbae38bf23f680ffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afab9f45ecc91665cbae38bf23f680ffa">&#9670;&#160;</a></span>GetTextSize() <span class="overload">[4/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::GFont::GetTextSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afab9f45ecc91665cbae38bf23f680ffa" name="afab9f45ecc91665cbae38bf23f680ffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afab9f45ecc91665cbae38bf23f680ffa">&#9670;&#160;</a></span>GetTextSize() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::GFont::GetTextSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afab9f45ecc91665cbae38bf23f680ffa" name="afab9f45ecc91665cbae38bf23f680ffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afab9f45ecc91665cbae38bf23f680ffa">&#9670;&#160;</a></span>GetTextSize() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::GFont::GetTextSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afab9f45ecc91665cbae38bf23f680ffa" name="afab9f45ecc91665cbae38bf23f680ffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afab9f45ecc91665cbae38bf23f680ffa">&#9670;&#160;</a></span>GetTextSize() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::GFont::GetTextSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a76ad287740ef27db7b90ff90710ce4f2" name="a76ad287740ef27db7b90ff90710ce4f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76ad287740ef27db7b90ff90710ce4f2">&#9670;&#160;</a></span>GetTextSizeA() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::GFont::GetTextSizeA </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a76ad287740ef27db7b90ff90710ce4f2" name="a76ad287740ef27db7b90ff90710ce4f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76ad287740ef27db7b90ff90710ce4f2">&#9670;&#160;</a></span>GetTextSizeA() <span class="overload">[2/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::GFont::GetTextSizeA </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a76ad287740ef27db7b90ff90710ce4f2" name="a76ad287740ef27db7b90ff90710ce4f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76ad287740ef27db7b90ff90710ce4f2">&#9670;&#160;</a></span>GetTextSizeA() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::GFont::GetTextSizeA </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a76ad287740ef27db7b90ff90710ce4f2" name="a76ad287740ef27db7b90ff90710ce4f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76ad287740ef27db7b90ff90710ce4f2">&#9670;&#160;</a></span>GetTextSizeA() <span class="overload">[4/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::GFont::GetTextSizeA </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71356d05ee4f3ccda647006c13762211" name="a71356d05ee4f3ccda647006c13762211"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71356d05ee4f3ccda647006c13762211">&#9670;&#160;</a></span>GetTextSizeA() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::GFont::GetTextSizeA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#adbea528b1294c9a1dfda3dfa33ff1472">LPCSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71356d05ee4f3ccda647006c13762211" name="a71356d05ee4f3ccda647006c13762211"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71356d05ee4f3ccda647006c13762211">&#9670;&#160;</a></span>GetTextSizeA() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::GFont::GetTextSizeA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#adbea528b1294c9a1dfda3dfa33ff1472">LPCSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71356d05ee4f3ccda647006c13762211" name="a71356d05ee4f3ccda647006c13762211"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71356d05ee4f3ccda647006c13762211">&#9670;&#160;</a></span>GetTextSizeA() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::GFont::GetTextSizeA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#adbea528b1294c9a1dfda3dfa33ff1472">LPCSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a407dce40d0b4b43550c1e6b32b1cc418" name="a407dce40d0b4b43550c1e6b32b1cc418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a407dce40d0b4b43550c1e6b32b1cc418">&#9670;&#160;</a></span>GetTextSizeW() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::GFont::GetTextSizeW </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a407dce40d0b4b43550c1e6b32b1cc418" name="a407dce40d0b4b43550c1e6b32b1cc418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a407dce40d0b4b43550c1e6b32b1cc418">&#9670;&#160;</a></span>GetTextSizeW() <span class="overload">[2/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::GFont::GetTextSizeW </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a407dce40d0b4b43550c1e6b32b1cc418" name="a407dce40d0b4b43550c1e6b32b1cc418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a407dce40d0b4b43550c1e6b32b1cc418">&#9670;&#160;</a></span>GetTextSizeW() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::GFont::GetTextSizeW </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a407dce40d0b4b43550c1e6b32b1cc418" name="a407dce40d0b4b43550c1e6b32b1cc418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a407dce40d0b4b43550c1e6b32b1cc418">&#9670;&#160;</a></span>GetTextSizeW() <span class="overload">[4/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::GFont::GetTextSizeW </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a407dce40d0b4b43550c1e6b32b1cc418" name="a407dce40d0b4b43550c1e6b32b1cc418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a407dce40d0b4b43550c1e6b32b1cc418">&#9670;&#160;</a></span>GetTextSizeW() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::GFont::GetTextSizeW </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a407dce40d0b4b43550c1e6b32b1cc418" name="a407dce40d0b4b43550c1e6b32b1cc418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a407dce40d0b4b43550c1e6b32b1cc418">&#9670;&#160;</a></span>GetTextSizeW() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::GFont::GetTextSizeW </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a407dce40d0b4b43550c1e6b32b1cc418" name="a407dce40d0b4b43550c1e6b32b1cc418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a407dce40d0b4b43550c1e6b32b1cc418">&#9670;&#160;</a></span>GetTextSizeW() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::GFont::GetTextSizeW </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba802ff40b4232ad4d39f3b438a2fccb" name="aba802ff40b4232ad4d39f3b438a2fccb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba802ff40b4232ad4d39f3b438a2fccb">&#9670;&#160;</a></span>GetTextSizeWithNewline() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::GetTextSizeWithNewline </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TextMultilineInfo *&#160;</td>
+          <td class="paramname"><em>textinfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>isOnlyMaxSize</em> = <code><a class="el" href="_c_core_base_pro_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba802ff40b4232ad4d39f3b438a2fccb" name="aba802ff40b4232ad4d39f3b438a2fccb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba802ff40b4232ad4d39f3b438a2fccb">&#9670;&#160;</a></span>GetTextSizeWithNewline() <span class="overload">[2/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::GetTextSizeWithNewline </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TextMultilineInfo *&#160;</td>
+          <td class="paramname"><em>textinfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>isOnlyMaxSize</em> = <code><a class="el" href="_c_core_base_pro_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba802ff40b4232ad4d39f3b438a2fccb" name="aba802ff40b4232ad4d39f3b438a2fccb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba802ff40b4232ad4d39f3b438a2fccb">&#9670;&#160;</a></span>GetTextSizeWithNewline() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::GetTextSizeWithNewline </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TextMultilineInfo *&#160;</td>
+          <td class="paramname"><em>textinfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>isOnlyMaxSize</em> = <code><a class="el" href="_c_core_base_pro_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba802ff40b4232ad4d39f3b438a2fccb" name="aba802ff40b4232ad4d39f3b438a2fccb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba802ff40b4232ad4d39f3b438a2fccb">&#9670;&#160;</a></span>GetTextSizeWithNewline() <span class="overload">[4/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::GetTextSizeWithNewline </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TextMultilineInfo *&#160;</td>
+          <td class="paramname"><em>textinfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>isOnlyMaxSize</em> = <code><a class="el" href="_c_core_base_pro_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba802ff40b4232ad4d39f3b438a2fccb" name="aba802ff40b4232ad4d39f3b438a2fccb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba802ff40b4232ad4d39f3b438a2fccb">&#9670;&#160;</a></span>GetTextSizeWithNewline() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::GetTextSizeWithNewline </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TextMultilineInfo *&#160;</td>
+          <td class="paramname"><em>textinfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>isOnlyMaxSize</em> = <code><a class="el" href="_c_core_base_pro_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba802ff40b4232ad4d39f3b438a2fccb" name="aba802ff40b4232ad4d39f3b438a2fccb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba802ff40b4232ad4d39f3b438a2fccb">&#9670;&#160;</a></span>GetTextSizeWithNewline() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::GetTextSizeWithNewline </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TextMultilineInfo *&#160;</td>
+          <td class="paramname"><em>textinfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>isOnlyMaxSize</em> = <code><a class="el" href="_c_core_base_pro_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba802ff40b4232ad4d39f3b438a2fccb" name="aba802ff40b4232ad4d39f3b438a2fccb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba802ff40b4232ad4d39f3b438a2fccb">&#9670;&#160;</a></span>GetTextSizeWithNewline() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::GetTextSizeWithNewline </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TextMultilineInfo *&#160;</td>
+          <td class="paramname"><em>textinfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>isOnlyMaxSize</em> = <code><a class="el" href="_c_core_base_pro_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="a14bc57ac75cecb5a17e6a21f22c89ebd" name="a14bc57ac75cecb5a17e6a21f22c89ebd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14bc57ac75cecb5a17e6a21f22c89ebd">&#9670;&#160;</a></span>m_CTFont</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* BUI::GFont::m_CTFont</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2013459b1ce4e39d272b2e8815801526" name="a2013459b1ce4e39d272b2e8815801526"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2013459b1ce4e39d272b2e8815801526">&#9670;&#160;</a></span>m_dy</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::m_dy</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17df93c570896760fa019746257a8e25" name="a17df93c570896760fa019746257a8e25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17df93c570896760fa019746257a8e25">&#9670;&#160;</a></span>m_fHeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::m_fHeight</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a647323451f163167e592485e81763799" name="a647323451f163167e592485e81763799"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a647323451f163167e592485e81763799">&#9670;&#160;</a></span>m_font</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PangoFontDescription * BUI::GFont::m_font</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9cc92bc006b34064c2b838da34d353a6" name="a9cc92bc006b34064c2b838da34d353a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cc92bc006b34064c2b838da34d353a6">&#9670;&#160;</a></span>m_fontname</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_string_a_8h.html#af8dd6b396b025639b3d0b06cbf8000c0">BeString</a> BUI::GFont::m_fontname</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ea8af92b1c9e20a398e540333238902" name="a4ea8af92b1c9e20a398e540333238902"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ea8af92b1c9e20a398e540333238902">&#9670;&#160;</a></span>m_fStyle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> BUI::GFont::m_fStyle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abfeaaaba46a5a09a45802f00b963f86a" name="abfeaaaba46a5a09a45802f00b963f86a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfeaaaba46a5a09a45802f00b963f86a">&#9670;&#160;</a></span>m_hFontGDI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HFONT BUI::GFont::m_hFontGDI</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44e811a1c4c0dfbaf7ddfa077c3f9b73" name="a44e811a1c4c0dfbaf7ddfa077c3f9b73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44e811a1c4c0dfbaf7ddfa077c3f9b73">&#9670;&#160;</a></span>m_lf</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LOGFONT BUI::GFont::m_lf</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a243a1be3997f85191af4e77b8c771553" name="a243a1be3997f85191af4e77b8c771553"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a243a1be3997f85191af4e77b8c771553">&#9670;&#160;</a></span>m_pointHeight</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GFont::m_pointHeight</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a082554a336703653415c5e2ddf2d050e" name="a082554a336703653415c5e2ddf2d050e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a082554a336703653415c5e2ddf2d050e">&#9670;&#160;</a></span>m_qt_font</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QFont BUI::GFont::m_qt_font</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a384c78fad64f77caa6760a9811f0d5ec" name="a384c78fad64f77caa6760a9811f0d5ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a384c78fad64f77caa6760a9811f0d5ec">&#9670;&#160;</a></span>m_ttfFont</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* BUI::GFont::m_ttfFont</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af08c2661a674549b7a4986c598922ce1" name="af08c2661a674549b7a4986c598922ce1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af08c2661a674549b7a4986c598922ce1">&#9670;&#160;</a></span>m_wxfont</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wxFont* BUI::GFont::m_wxfont</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_b_u_i.html">BUI</a></li><li class="navelem"><a class="el" href="class_b_u_i_1_1_g_font.html">GFont</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>
