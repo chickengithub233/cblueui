@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<UI size="1100,700">
+	<Control Class="CLabelUI" position="{0,0,100,100}" Name="title" Layout="fill,40" back-show="always" text-align="hcenter|vcenter" text="tr:三维展示" />
+	<Control Class="CView3dUI" name="view3dtest" Layout="fill, fill" layout-align="hcenter" border-show="true" BarcodeMargin="30" />
+</UI>

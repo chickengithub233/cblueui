@@ -1,0 +1,375 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>CBlueUI: CTimerWheel类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBlueUI
+   &#160;<span id="projectnumber">vxxx</span>
+   </div>
+   <div id="projectbrief">C++ 跨平台跨框架的数据可视化工具</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_c_timer_wheel.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="class_c_timer_wheel-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">CTimerWheel类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>定时器，以时间轮方式实现  
+ <a href="class_c_timer_wheel.html#details">更多...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:aa4ab9b194e13ec1ffd161932c4839306"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_timer_wheel.html#aa4ab9b194e13ec1ffd161932c4839306">CTimerWheel</a> ()</td></tr>
+<tr class="separator:aa4ab9b194e13ec1ffd161932c4839306"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a8f697fbed6719eb8465b6cf91f8ef8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_timer_wheel.html#a5a8f697fbed6719eb8465b6cf91f8ef8">~CTimerWheel</a> ()</td></tr>
+<tr class="separator:a5a8f697fbed6719eb8465b6cf91f8ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4f1b7f2cf43cccb986a25a62b1ee747"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_timer_wheel.html#af4f1b7f2cf43cccb986a25a62b1ee747">InitWheel</a> (uint16_t interval, uint64_t currtime)</td></tr>
+<tr class="separator:af4f1b7f2cf43cccb986a25a62b1ee747"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a6ecac5c90e07a91fe92def1bc16a4b"><td class="memItemLeft" align="right" valign="top">timer_handler *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_timer_wheel.html#a0a6ecac5c90e07a91fe92def1bc16a4b">AddTimer</a> (<a class="el" href="_c_timer_wheel_8h.html#aec3f0021e155050c42c7b73d618b9c2a">timer_cb_t</a> cb, uint32_t loop, uint32_t delay, uint32_t times=0)</td></tr>
+<tr class="separator:a0a6ecac5c90e07a91fe92def1bc16a4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a20e791bb86120616d80a2a1ee19da8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_timer_wheel.html#a4a20e791bb86120616d80a2a1ee19da8">KillTimer</a> (timer_handler *timer)</td></tr>
+<tr class="separator:a4a20e791bb86120616d80a2a1ee19da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa096c282ab9517aae14e9c7648061d44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_timer_wheel.html#aa096c282ab9517aae14e9c7648061d44">Stop</a> ()</td></tr>
+<tr class="separator:aa096c282ab9517aae14e9c7648061d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:afc2cad23db8fb685c133742459a1a498"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structtimerwheel.html">timerwheel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_timer_wheel.html#afc2cad23db8fb685c133742459a1a498">m_tw_</a></td></tr>
+<tr class="separator:afc2cad23db8fb685c133742459a1a498"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb0555af0f4acfa83de28d908effbf3f"><td class="memItemLeft" align="right" valign="top">std::thread&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_timer_wheel.html#afb0555af0f4acfa83de28d908effbf3f">m_th_</a></td></tr>
+<tr class="separator:afb0555af0f4acfa83de28d908effbf3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa000884eb0d02090c0100cd76aae0b9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_timer_wheel.html#afa000884eb0d02090c0100cd76aae0b9">is_start</a></td></tr>
+<tr class="separator:afa000884eb0d02090c0100cd76aae0b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>定时器，以时间轮方式实现 </p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="aa4ab9b194e13ec1ffd161932c4839306" name="aa4ab9b194e13ec1ffd161932c4839306"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4ab9b194e13ec1ffd161932c4839306">&#9670;&#160;</a></span>CTimerWheel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CTimerWheel::CTimerWheel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5a8f697fbed6719eb8465b6cf91f8ef8" name="a5a8f697fbed6719eb8465b6cf91f8ef8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a8f697fbed6719eb8465b6cf91f8ef8">&#9670;&#160;</a></span>~CTimerWheel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CTimerWheel::~CTimerWheel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="a0a6ecac5c90e07a91fe92def1bc16a4b" name="a0a6ecac5c90e07a91fe92def1bc16a4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a6ecac5c90e07a91fe92def1bc16a4b">&#9670;&#160;</a></span>AddTimer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">timer_handler * CTimerWheel::AddTimer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_timer_wheel_8h.html#aec3f0021e155050c42c7b73d618b9c2a">timer_cb_t</a>&#160;</td>
+          <td class="paramname"><em>cb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>loop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>delay</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>times</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af4f1b7f2cf43cccb986a25a62b1ee747" name="af4f1b7f2cf43cccb986a25a62b1ee747"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4f1b7f2cf43cccb986a25a62b1ee747">&#9670;&#160;</a></span>InitWheel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CTimerWheel::InitWheel </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>interval</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>currtime</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a20e791bb86120616d80a2a1ee19da8" name="a4a20e791bb86120616d80a2a1ee19da8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a20e791bb86120616d80a2a1ee19da8">&#9670;&#160;</a></span>KillTimer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CTimerWheel::KillTimer </td>
+          <td>(</td>
+          <td class="paramtype">timer_handler *&#160;</td>
+          <td class="paramname"><em>timer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa096c282ab9517aae14e9c7648061d44" name="aa096c282ab9517aae14e9c7648061d44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa096c282ab9517aae14e9c7648061d44">&#9670;&#160;</a></span>Stop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CTimerWheel::Stop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="afa000884eb0d02090c0100cd76aae0b9" name="afa000884eb0d02090c0100cd76aae0b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa000884eb0d02090c0100cd76aae0b9">&#9670;&#160;</a></span>is_start</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CTimerWheel::is_start</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb0555af0f4acfa83de28d908effbf3f" name="afb0555af0f4acfa83de28d908effbf3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb0555af0f4acfa83de28d908effbf3f">&#9670;&#160;</a></span>m_th_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::thread CTimerWheel::m_th_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc2cad23db8fb685c133742459a1a498" name="afc2cad23db8fb685c133742459a1a498"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc2cad23db8fb685c133742459a1a498">&#9670;&#160;</a></span>m_tw_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structtimerwheel.html">timerwheel</a>* CTimerWheel::m_tw_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_c_timer_wheel.html">CTimerWheel</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

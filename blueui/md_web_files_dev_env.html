@@ -1,0 +1,547 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>CBlueUI: 使用教程</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBlueUI
+   &#160;<span id="projectnumber">vxxx</span>
+   </div>
+   <div id="projectbrief">C++ 跨平台跨框架的数据可视化工具</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('md_web_files_dev_env.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div><div class="header">
+  <div class="headertitle"><div class="title">使用教程 </div></div>
+</div><!--header-->
+<div class="contents">
+<div class="toc"><h3>目录</h3>
+<ul><li class="level1"><a href="#autotoc_md2">1.基本概念</a><ul><li class="level2"><a href="#autotoc_md3">1.1. 运行机制</a></li>
+<li class="level2"><a href="#autotoc_md4">1.2. 资源文件语法格式</a></li>
+<li class="level2"><a href="#autotoc_md5">1.3. UI文件语法格式</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#buildEnvCmake">2.使用CMake工具导入该库</a></li>
+<li class="level1"><a href="#buildUse">3.代码示例和控件的事件绑定</a></li>
+<li class="level1"><a href="#createControl">4.在源代码中动态手动创建控件方法</a></li>
+<li class="level1"><a href="#autotoc_md6">5.与其它第三方框架混合使用。</a></li>
+<li class="level1"><a href="#autotoc_md7">6.常用控件CControlUI类名汇总</a></li>
+<li class="level1"><a href="#autotoc_md8">7.框架设计重要算法备忘录</a><ul><li class="level2"><a href="#autotoc_md9">7.1. 海量控件场景下，如何设计高效的命中定位控件？</a></li>
+<li class="level2"><a href="#autotoc_md10">7.2. 内置布局算法，减少开发代码(后发优势)</a></li>
+<li class="level2"><a href="#LayoutFileDemo">7.3. 布局标签语法示例</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md2"></a>
+1.基本概念</h1>
+<p>在您开始使用之前，一起来了解一些概念。</p>
+<p>在UI系统中，控件是定义在平面(屏幕)中的一块区域(Area)。区域有位置属性。 根据位置属性响应鼠标等外设的动作。并用图形接口输出到屏幕中。这也是几乎所有UI系统的底层原理。在实际的设计中，会涉及控件遮盖，鼠标命中定位，如何绘制，如何提升效率，如何布局，多方面的问题。这是一个深度建模的过程。</p>
+<h2><a class="anchor" id="autotoc_md3"></a>
+1.1. 运行机制</h2>
+<p>如果您了解web浏览器工作机制(解析html)。这将有助于理解CBlueUI。类似的CBlueUI将xml格式的ui文件，解析成一个个控件。</p>
+<div align="center"> <b>加载过程示意图</b> </div> <div align="center"><a href="img/load_flow.png"><img src="img/load_flow.png" alt="" align="center" class="inline"/></a></div><div align="center"> <b>控件数据结构图</b> </div> <div align="center"><a href="img/design_control.png"><img src="img/design_control.png" alt="" class="inline"/></a></div><h2><a class="anchor" id="autotoc_md4"></a>
+1.2. 资源文件语法格式</h2>
+<p>首先看一个简单的例子，详细看里面的注释内容。</p>
+<p>在例子中每一个元素都有一个id属性。id是资源唯一标识符。在UI文件中可以通过id找到资源对象。</p>
+<p>比如设置控件的字体 font="title"</p>
+<p>share-res.xml </p><div class="fragment"><div class="line">&lt;?<span class="keyword">xml</span> <span class="keyword">version</span>=<span class="stringliteral">&quot;1.0&quot;</span> <span class="keyword">encoding</span>=<span class="stringliteral">&quot;utf-8&quot;</span> <span class="keyword">standalone</span>=<span class="stringliteral">&quot;no&quot;</span> ?&gt;</div>
+<div class="line">&lt;<span class="keywordtype">ui</span>&gt;</div>
+<div class="line">    <span class="comment">&lt;!-- 字体对象资源--&gt;</span></div>
+<div class="line">    &lt;<span class="keywordtype">Font</span> <span class="keyword">shared</span>=<span class="stringliteral">&quot;true&quot;</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;title&quot;</span> <span class="keyword">font-family</span>=<span class="stringliteral">&quot;宋体&quot;</span> <span class="keyword">font-Weight</span>=<span class="stringliteral">&quot;11&quot;</span> <span class="keyword">default</span>=<span class="stringliteral">&quot;true&quot;</span>/&gt;</div>
+<div class="line">    <span class="comment">&lt;!-- 多状态的颜色集合--&gt;</span></div>
+<div class="line">    &lt;<span class="keywordtype">Color</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;colors_white&quot;</span> <span class="keyword">normal</span>=<span class="stringliteral">&quot;0xffffff&quot;</span> <span class="keyword">highlight</span>=<span class="stringliteral">&quot;0xFF8613&quot;</span> <span class="keyword">selected</span>=<span class="stringliteral">&quot;0xFF8613&quot;</span> <span class="keyword">disable</span>=<span class="stringliteral">&quot;0xffffff&quot;</span>/&gt;</div>
+<div class="line">    <span class="comment">&lt;!-- 渐变颜色表插值器--&gt;</span></div>
+<div class="line">    &lt;<span class="keywordtype">linearColors</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;nodeedit_colors&quot;</span> <span class="keyword">size</span>=<span class="stringliteral">&quot;1024&quot;</span> <span class="keyword">model</span>=<span class="stringliteral">&quot;hsv&quot;</span> <span class="keyword">c1</span>=<span class="stringliteral">&quot;hsv(201,100,79)&quot;</span> <span class="keyword">c2</span>= <span class="stringliteral">&quot;hsv(201,63,98)&quot;</span>/&gt;</div>
+<div class="line">    <span class="comment">&lt;!-- 渐变颜色表--&gt;</span></div>
+<div class="line">    &lt;<span class="keywordtype">StopColors</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;blue123&quot;</span> <span class="keyword">size</span>=<span class="stringliteral">&quot;512&quot;</span>&gt;</div>
+<div class="line">      &lt;<span class="keywordtype">stop</span> <span class="keyword">offset</span>=<span class="stringliteral">&quot;0%&quot;</span> <span class="keyword">color</span>=<span class="stringliteral">&quot;hsv(0,100,96)&quot;</span> <span class="keyword">opacity</span>=<span class="stringliteral">&quot;1&quot;</span>/&gt;</div>
+<div class="line">      &lt;<span class="keywordtype">stop</span> <span class="keyword">offset</span>=<span class="stringliteral">&quot;30%&quot;</span> <span class="keyword">color</span>=<span class="stringliteral">&quot;hsv(108,100,96)&quot;</span> <span class="keyword">opacity</span>=<span class="stringliteral">&quot;1&quot;</span>/&gt;</div>
+<div class="line">      &lt;<span class="keywordtype">stop</span> <span class="keyword">offset</span>=<span class="stringliteral">&quot;60%&quot;</span> <span class="keyword">color</span>=<span class="stringliteral">&quot;hsv(220,100,96)&quot;</span> <span class="keyword">opacity</span>=<span class="stringliteral">&quot;1&quot;</span>/&gt;</div>
+<div class="line">      &lt;<span class="keywordtype">stop</span> <span class="keyword">offset</span>=<span class="stringliteral">&quot;90%&quot;</span> <span class="keyword">color</span>=<span class="stringliteral">&quot;hsv(320,100,96)&quot;</span> <span class="keyword">opacity</span>=<span class="stringliteral">&quot;1&quot;</span>/&gt;</div>
+<div class="line">      &lt;<span class="keywordtype">stop</span> <span class="keyword">offset</span>=<span class="stringliteral">&quot;100%&quot;</span> <span class="keyword">color</span>=<span class="stringliteral">&quot;hsv(360,100,96)&quot;</span> <span class="keyword">opacity</span>=<span class="stringliteral">&quot;1&quot;</span>/&gt;</div>
+<div class="line">    &lt;/<span class="keywordtype">StopColors</span>&gt;</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">&lt;!-- 线性渐变画刷：由渐变方式和渐变颜色表组成--&gt;</span></div>
+<div class="line">    &lt;<span class="keywordtype">linearGradient</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;bru_nodeedit_nor&quot;</span> <span class="keyword">x1</span>=<span class="stringliteral">&quot;0%&quot;</span> <span class="keyword">y1</span>=<span class="stringliteral">&quot;0%&quot;</span> <span class="keyword">x2</span>=<span class="stringliteral">&quot;0&quot;</span> <span class="keyword">y2</span>=<span class="stringliteral">&quot;100%&quot;</span> <span class="keyword">color</span>=<span class="stringliteral">&quot;nodeedit_colors&quot;</span>/&gt;</div>
+<div class="line">    <span class="comment">&lt;!-- 放射渐变画刷：由渐变方式和渐变颜色表组成--&gt;</span></div>
+<div class="line">    &lt;<span class="keywordtype">radialGradient</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;radial_blue&quot;</span> <span class="keyword">cx</span>=<span class="stringliteral">&quot;50%&quot;</span> <span class="keyword">cy</span>=<span class="stringliteral">&quot;50%&quot;</span> <span class="keyword">r</span>=<span class="stringliteral">&quot;50%&quot;</span> <span class="keyword">fx</span>=<span class="stringliteral">&quot;50%&quot;</span> <span class="keyword">fy</span>=<span class="stringliteral">&quot;50%&quot;</span> <span class="keyword">color</span>=<span class="stringliteral">&quot;blue&quot;</span>/&gt;</div>
+<div class="line">    <span class="comment">&lt;!-- 圆周渐变画刷：由渐变方式和渐变颜色表组成--&gt;</span></div>
+<div class="line">    &lt;<span class="keywordtype">conicGradient</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;conic_blue&quot;</span> <span class="keyword">cx</span>=<span class="stringliteral">&quot;50%&quot;</span> <span class="keyword">cy</span>=<span class="stringliteral">&quot;50%&quot;</span> <span class="keyword">angle-start</span>=<span class="stringliteral">&quot;-20&quot;</span> <span class="keyword">color</span>=<span class="stringliteral">&quot;blue&quot;</span>/&gt;</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">&lt;!-- 渐变画刷状态集合：普通，高亮，选中，禁用--&gt;</span></div>
+<div class="line">    &lt;<span class="keywordtype">Brush</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;gstyle_btnblue&quot;</span> <span class="keyword">normal</span>=<span class="stringliteral">&quot;bru_btnblue_nor&quot;</span> <span class="keyword">highlight</span>=<span class="stringliteral">&quot;bru_btnblue_hot&quot;</span> <span class="keyword">selected</span>=<span class="stringliteral">&quot;bru_btnblue_hot&quot;</span> <span class="keyword">disable</span>=<span class="stringliteral">&quot;bru_btnblue_nor&quot;</span>/&gt;</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">&lt;!-- 图标资源--&gt;</span></div>
+<div class="line">    &lt;<span class="keywordtype">GImage</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;5&quot;</span> <span class="keyword">url</span>=<span class="stringliteral">&quot;.././res/Image/分割入位.png&quot;</span>/&gt;</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">&lt;!-- 美工切图有时会切横排，竖排，有时分开单个文件，完美支持不同场景，不依赖美工--&gt;</span></div>
+<div class="line">    <span class="comment">&lt;!-- 多帧图标状态集合：普通，高亮，选中，禁用在同一个图片文件中 frames图片总帧数 layout横排还是竖排 source-list为四种状态的帧索引--&gt;</span></div>
+<div class="line">    &lt;<span class="keywordtype">GImageIconSingle</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;0&quot;</span> <span class="keyword">url</span>=<span class="stringliteral">&quot;.././res/Image/IMG_0118.JPG&quot;</span> <span class="keyword">frames</span>=<span class="stringliteral">&quot;1&quot;</span> <span class="keyword">layout</span>=<span class="stringliteral">&quot;vertical&quot;</span> <span class="keyword">source-list</span>=<span class="stringliteral">&quot;0,0,0,0&quot;</span>/&gt;</div>
+<div class="line">    <span class="comment">&lt;!-- 图标状态集合：普通，高亮，选中，禁用分别为单个一帧图片--&gt;</span></div>
+<div class="line">    &lt;<span class="keywordtype">GImageIconMulti</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;button:add&quot;</span> <span class="keyword">normal</span>=<span class="stringliteral">&quot;.././res/Image/favourite_normal.png&quot;</span> </div>
+<div class="line">        <span class="keyword">highlight</span>=<span class="stringliteral">&quot;.././res/Image/favourite_normal.png&quot;</span> </div>
+<div class="line">        <span class="keyword">selected</span>=<span class="stringliteral">&quot;.././res/Image/favourite_normal.png&quot;</span> </div>
+<div class="line">        <span class="keyword">disable</span>=<span class="stringliteral">&quot;.././res/Image/favourite_disable.png&quot;</span>/&gt;</div>
+<div class="line"> </div>
+<div class="line">&lt;/<span class="keywordtype">ui</span>&gt;</div>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md5"></a>
+1.3. UI文件语法格式</h2>
+<p>还是来看一个标准窗口的模板示例。详细看里面的注释内容。 main-frame.xml </p><div class="fragment"><div class="line">&lt;?<span class="keyword">xml</span> <span class="keyword">version</span>=<span class="stringliteral">&quot;1.0&quot;</span> <span class="keyword">encoding</span>=<span class="stringliteral">&quot;utf-8&quot;</span> <span class="keyword">standalone</span>=<span class="stringliteral">&quot;no&quot;</span> ?&gt;</div>
+<div class="line"><span class="comment">&lt;!-- size 窗口大小 --&gt;</span></div>
+<div class="line">&lt;<span class="keywordtype">UI</span> <span class="keyword">size</span>=<span class="stringliteral">&quot;1200,700&quot;</span>&gt;</div>
+<div class="line">    <span class="comment">&lt;!-- 垂直布局对象，布局对象不是控件，把布局对象当控件处理，会造成控件的资源浪费，当需要对控件分组时，才使用容器布局控件 CContainLayoutUI --&gt;</span></div>
+<div class="line">    &lt;<span class="keywordtype">vLayout</span> <span class="keyword">Layout</span>=<span class="stringliteral">&quot;fill,fill&quot;</span>&gt;</div>
+<div class="line">        <span class="comment">&lt;!--弹簧布局 --&gt;</span></div>
+<div class="line">        &lt;<span class="keywordtype">Spacer</span> <span class="keyword">Layout</span>=<span class="stringliteral">&quot;fill,4&quot;</span>/&gt;</div>
+<div class="line">        <span class="comment">&lt;!--水平布局对象 --&gt;</span></div>
+<div class="line">        &lt;<span class="keywordtype">Hlayout</span> <span class="keyword">Layout</span>=<span class="stringliteral">&quot;fill,30&quot;</span>&gt;</div>
+<div class="line">            <span class="comment">&lt;!-- 控件元素 class 为类名全称, Layout布局参数, name 标识控件标识符, 其余参数是控件自身属性，属性值参考ShellAttribute虚函数 --&gt;</span></div>
+<div class="line">            &lt;<span class="keywordtype">Control</span> <span class="keyword">Class</span>=<span class="stringliteral">&quot;CLabelUI&quot;</span> <span class="keyword">position</span>=<span class="stringliteral">&quot;{0,0,100,100}&quot;</span> <span class="keyword">Name</span>=<span class="stringliteral">&quot;title&quot;</span> <span class="keyword">Layout</span>=<span class="stringliteral">&quot;fill,fill&quot;</span> <span class="keyword">Font</span>=<span class="stringliteral">&quot;3&quot;</span> <span class="keyword">text</span>=<span class="stringliteral">&quot;UMLView 类图&quot;</span> <span class="keyword">textstyle</span>=<span class="stringliteral">&quot;normal:#fcfcfc&quot;</span> <span class="keyword">labeltype</span>=<span class="stringliteral">&quot;label&quot;</span>/&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">Spacer</span> <span class="keyword">Layout</span>=<span class="stringliteral">&quot;30,fill&quot;</span>/&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">Control</span> <span class="keyword">Class</span>=<span class="stringliteral">&quot;CButtonSysUI&quot;</span> <span class="keyword">Name</span>=<span class="stringliteral">&quot;minbtn&quot;</span> <span class="keyword">Layout</span>=<span class="stringliteral">&quot;30,fill:25&quot;</span> <span class="keyword">sysType</span>=<span class="stringliteral">&quot;min&quot;</span>/&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">Control</span> <span class="keyword">Class</span>=<span class="stringliteral">&quot;CButtonSysUI&quot;</span> <span class="keyword">Name</span>=<span class="stringliteral">&quot;maxbtn&quot;</span> <span class="keyword">Layout</span>=<span class="stringliteral">&quot;30,fill:25&quot;</span> <span class="keyword">sysType</span>=<span class="stringliteral">&quot;Max&quot;</span>/&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">Control</span> <span class="keyword">Class</span>=<span class="stringliteral">&quot;CButtonSysUI&quot;</span> <span class="keyword">Name</span>=<span class="stringliteral">&quot;closebtn&quot;</span> <span class="keyword">Layout</span>=<span class="stringliteral">&quot;30,fill:25&quot;</span> <span class="keyword">sysType</span>=<span class="stringliteral">&quot;close&quot;</span>/&gt;</div>
+<div class="line">        &lt;/<span class="keywordtype">Hlayout</span>&gt;</div>
+<div class="line"> </div>
+<div class="line">        &lt;<span class="keywordtype">Spacer</span> <span class="keyword">Layout</span>=<span class="stringliteral">&quot;fill,25&quot;</span>/&gt;</div>
+<div class="line">        &lt;<span class="keywordtype">Hlayout</span> <span class="keyword">Layout</span>=<span class="stringliteral">&quot;fill,fill&quot;</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">Control</span> <span class="keyword">Class</span>=<span class="stringliteral">&quot;CListBoxUI&quot;</span> <span class="keyword">Name</span>=<span class="stringliteral">&quot;macdeskui&quot;</span> <span class="keyword">Layout</span>=<span class="stringliteral">&quot;250,fill:40&quot;</span> <span class="keyword">colCount</span>=<span class="stringliteral">&quot;2&quot;</span> <span class="keyword">width_item</span>=<span class="stringliteral">&quot;100&quot;</span> <span class="keyword">height_item</span>=<span class="stringliteral">&quot;100&quot;</span> <span class="keyword">interval</span>=<span class="stringliteral">&#39;5&#39;</span> <span class="keyword">scroll-autohide</span>=<span class="stringliteral">&quot;true&quot;</span>/&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">Control</span> <span class="keyword">Class</span>=<span class="stringliteral">&quot;CContainerUI&quot;</span> <span class="keyword">Name</span>=<span class="stringliteral">&quot;uml_container&quot;</span> <span class="keyword">Layout</span>=<span class="stringliteral">&quot;fill,fill&quot;</span> <span class="keyword">style</span>=<span class="stringliteral">&quot;notitle&quot;</span> <span class="keyword">drag</span>=<span class="stringliteral">&quot;none&quot;</span> <span class="keyword">back-show</span>=<span class="stringliteral">&quot;always&quot;</span>/&gt;</div>
+<div class="line">        &lt;/<span class="keywordtype">Hlayout</span>&gt;</div>
+<div class="line">    &lt;/<span class="keywordtype">vLayout</span>&gt;</div>
+<div class="line">&lt;/<span class="keywordtype">UI</span>&gt;</div>
+</div><!-- fragment --><p> 用设计器查看一下效果</p>
+<p><a href="img/design01.png"><img src="img/design01.png" alt="" class="inline"/></a></p>
+<h1><a class="anchor" id="buildEnvCmake"></a>
+2.使用CMake工具导入该库</h1>
+<p>CMake是简单易学的工程构建工具。可自动生成各类开发工具的工程文件。请自行前往<a href="https://cmake.org/">CMake官网</a>下载.<br  />
+ <sub>若您按照说明文档，无法构建成功，请联系<a href="#cblueui_author">作者</a>。承诺提供长期服务。</sub></p><ul>
+<li>您可以下载本产品中自带的标准构建源码<a href="#downloadDemo">demo</a>。直接使用cmake构建，然后编译运行<br  />
+</li>
+<li>您也可以直接链接，集成到成熟的产品项目中 <div class="fragment"><div class="line">list(APPEND CMAKE_PREFIX_PATH &quot;library_dir&quot;) # 替换library_dir为库解压目录</div>
+<div class="line">find_package(CBlueUI)     # 添加依赖关系</div>
+<div class="line">target_link_libraries(${target} CBlueUI) # target 为输出目标</div>
+</div><!-- fragment --></li>
+</ul>
+<h1><a class="anchor" id="buildUse"></a>
+3.代码示例和控件的事件绑定</h1>
+<p>CBlueUI把绑定事件足够简化，开发者不需要记忆，鼠标按下，鼠标释放，鼠标移动等消息。 如果开发者，需要截获响应这部分消息，框架保留了截获消息的接口。这不是一个好的方式。</p>
+<p>抽象定义:当控件所表征的状态或者数据发生变化时，事件需要被执行。<br  />
+ 在CBlueUI中每一个控件和单元格都可以绑定事件。</p>
+<p>BindAction为控件提供了绑定处理函数的接口。 下面是一段滑块控件在值发生改变时，将值赋值给另外一个进度条控件，实现同步功能</p>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="_c_blue_u_i_8h.html">CBlueUI.h</a>&quot;</span></div>
+<div class="line"><span class="comment">// 此类是各类消息处理类。处理特殊的消息。保留消息截获接口</span></div>
+<div class="line"><span class="comment">// 对于控件执行的动作，是可以直接绑定动作。</span></div>
+<div class="line"><span class="keyword">class </span>C00_uidemoHandler : <span class="keyword">public</span> CManagerHandler</div>
+<div class="line">{</div>
+<div class="line">  <span class="keyword">public</span>:</div>
+<div class="line">  C00_uidemoHandler(IManageHandler* pM);</div>
+<div class="line">  <span class="keyword">virtual</span> ~C00_uidemoHandler();</div>
+<div class="line"> </div>
+<div class="line">  <span class="keywordtype">void</span> InitUI(<a class="code hl_typedef" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> isNeedDestory = <a class="code hl_define" href="_c_core_base_pro_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>, CControlUI* parent = NULL)</div>
+<div class="line">  {</div>
+<div class="line">    IManageHandler* pManger = pM;</div>
+<div class="line">    <span class="keywordflow">if</span> (pManger == NULL)</div>
+<div class="line">      <span class="keywordflow">return</span>;</div>
+<div class="line">    CButtonUI* pBtn = NULL;</div>
+<div class="line">    <a class="code hl_define" href="_u_i_manager_8h.html#aed59c73922b1e11d51bd24d31c392851" title="自动绑定控件">BIND_CTL_VARIABLE_BY_NAME_AUTO</a>(pManger, parent,   CButtonUI,              m_ui_title,                _T(<span class="stringliteral">&quot;btn_name&quot;</span>)                 );</div>
+<div class="line">    <span class="keywordflow">if</span>(pBtn)</div>
+<div class="line">    {</div>
+<div class="line">      <span class="keyword">auto</span> lamda = []() {</div>
+<div class="line">        <span class="comment">// TODO: 按钮的动作在这里执行，lamda表达式你可以简单的当作于隐式函数。没有外置声明</span></div>
+<div class="line">        <span class="keywordflow">return</span> <a class="code hl_define" href="_c_core_base_pro_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
+<div class="line">      };</div>
+<div class="line"> </div>
+<div class="line">      std::shared_ptr&lt;IActionNotify&gt; action = std::make_shared&lt;FunctorAction&lt;&gt; &gt;(lamda);</div>
+<div class="line">      pBtn-&gt;BindAction(action); <span class="comment">//绑定响应事件</span></div>
+<div class="line">    }</div>
+<div class="line">  }</div>
+<div class="line">  <span class="comment">/* override CManagerHandler methods:*/</span></div>
+<div class="line">  <a class="code hl_typedef" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> OnMessageHandler(<a class="code hl_typedef" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> message, <a class="code hl_typedef" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a> wp, <a class="code hl_typedef" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a> lp)<span class="keyword"> override</span></div>
+<div class="line"><span class="keyword">  </span>{</div>
+<div class="line">    <span class="keywordflow">switch</span> (message)</div>
+<div class="line">    {</div>
+<div class="line">      <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="_c_core_base_pro_8h.html#a19d27aba2bc3e16ba608b8340f0b1480ab647150a6ae3ea1363b1e946e525f0c0">MSG_MANAGER_BIND_UI</a>:</div>
+<div class="line">        InitUI();</div>
+<div class="line">        <span class="keywordflow">break</span>;</div>
+<div class="line">      <span class="keywordflow">default</span>:</div>
+<div class="line">        <span class="keywordflow">break</span>;</div>
+<div class="line">    }</div>
+<div class="line">    <span class="keywordflow">return</span> <a class="code hl_define" href="_c_core_base_pro_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line">  }</div>
+<div class="line">};</div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> main() </div>
+<div class="line">{</div>
+<div class="line">  <span class="comment">// 1.初始化垃圾回收机制，在MFC中可以把这一步放到APP OnInit函数的开头</span></div>
+<div class="line">  UISystemStartUp duistartup;</div>
+<div class="line">  <a class="code hl_function" href="namespace_b_u_i.html#a4260236f9f42fa02c93788c56eae05df" title="初始化UI系统，并启动服务">InitializeUISystem</a>(&amp;duistartup); </div>
+<div class="line"> </div>
+<div class="line">  <span class="comment">// 2. UI文件定义</span></div>
+<div class="line">  <span class="keyword">const</span> <span class="keywordtype">char</span>* res_file = <span class="stringliteral">&quot;../res/image_def.xml&quot;</span>; <span class="comment">// 资源文件(可以为空，表示没有资源文件)</span></div>
+<div class="line">  <span class="keyword">const</span> <span class="keywordtype">char</span>* main_xml_file = <span class="stringliteral">&quot;../res/00_uidemo.xml&quot;</span>; <span class="comment">// UI文件</span></div>
+<div class="line"> </div>
+<div class="line">  <span class="keywordflow">if</span> (!<a class="code hl_function" href="namespace_utils_file_system.html#a7db6f82762479755b426e665fc0f603a" title="验证文件夹是否存在">UtilsFileSystem::IsExistsA</a>(res_file))</div>
+<div class="line">    <a class="code hl_define" href="_loggerdebug_8h.html#a4a6de97dc4b91cf08d0a68dc41213a5e">DTRACE_FORMATE_A</a>(<span class="stringliteral">&quot;File is not exist:%s&quot;</span>, res_file);</div>
+<div class="line">  <span class="keywordflow">else</span></div>
+<div class="line">    XmlBuilder::ApplyResourceWithFile(res_file);</div>
+<div class="line"> </div>
+<div class="line">  <span class="keywordflow">if</span> (!<a class="code hl_function" href="namespace_utils_file_system.html#a7db6f82762479755b426e665fc0f603a" title="验证文件夹是否存在">UtilsFileSystem::IsExistsA</a>(main_xml_file))</div>
+<div class="line">  {</div>
+<div class="line">    <a class="code hl_define" href="_loggerdebug_8h.html#a4a6de97dc4b91cf08d0a68dc41213a5e">DTRACE_FORMATE_A</a>(<span class="stringliteral">&quot;File is not exist:%s&quot;</span>, main_xml_file);</div>
+<div class="line">    <span class="keywordflow">return</span> 0;</div>
+<div class="line">  }</div>
+<div class="line"> </div>
+<div class="line">  <span class="comment">// 3. 创建窗口，此时窗口时独立的</span></div>
+<div class="line">  <a class="code hl_typedef" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> rcWnd = {100, 100, 1200, 800};</div>
+<div class="line">  WindowPlatform dlg;</div>
+<div class="line">  dlg.CreatePlatform(NULL, _Txt(<span class="stringliteral">&quot;CBlueUI Example&quot;</span>), <a class="code hl_enumvalue" href="_c_core_base_pro_8h.html#a0c12612a159bb945fad1295a3b96ecf8a9566fe470dc6dc4f788fa5fa58e4993b">WIDGET_VISIBLE</a>, rcWnd);</div>
+<div class="line">  UIManager m_manger;</div>
+<div class="line">  </div>
+<div class="line">  <span class="comment">// 5. 创建适配器并与UIManager连接</span></div>
+<div class="line">  C00_uidemoHandler mainHandler(&amp;m_manger);  </div>
+<div class="line">  std::shared_ptr&lt;IAdapterPlatform&gt; adapter = dlg.CreateAapter(&amp;m_manger); <span class="comment">// &amp;m_manger 为外部消息处理对象, 可以为空</span></div>
+<div class="line">  m_manger.InitPlatformAdapter(adapter);  </div>
+<div class="line"> </div>
+<div class="line">  <span class="comment">// 7 .解析UI文件，创建UI控件</span></div>
+<div class="line">  XmlBuilder parse;</div>
+<div class="line">  parse.LoadUIFileA(main_xml_file, &amp;m_manger, NULL, NULL, &amp;mainHandler);</div>
+<div class="line">  </div>
+<div class="line">  <span class="comment">// 9. 显示窗口</span></div>
+<div class="line">  dlg.CenterWindow();</div>
+<div class="line">  dlg.DoModal();</div>
+<div class="line">}</div>
+</div><!-- fragment --><h1><a class="anchor" id="createControl"></a>
+4.在源代码中动态手动创建控件方法</h1>
+<ul>
+<li>调用Create方法。 <div class="fragment"><div class="line"><span class="comment">/** @brief 创建虚拟控件:创建过程中，会将控件加入到全局的垃圾管理机制中。用于在程序退出时，释放内存</span></div>
+<div class="line"><span class="comment">  * @param pManger 管理对象 不能为空对象</span></div>
+<div class="line"><span class="comment">  * @param strObjName 控件的检索标识符号，可用来查找控件</span></div>
+<div class="line"><span class="comment">  * @param strText 控件文本内容</span></div>
+<div class="line"><span class="comment">  * @param style   控件风格</span></div>
+<div class="line"><span class="comment">  * @param rc      位置信息</span></div>
+<div class="line"><span class="comment">  * @param parent  父控件指针</span></div>
+<div class="line"><span class="comment">  * @param nID     整型检索ID</span></div>
+<div class="line"><span class="comment">  * @return BOOL   TRUE 创建成功 FALSE创建失败</span></div>
+<div class="line"><span class="comment"></span> </div>
+<div class="line"><span class="comment">BOOL Create(IManageHandler* pManger, </span></div>
+<div class="line"><span class="comment">LPCTSTR strObjName,</span></div>
+<div class="line"><span class="comment">  LPCTSTR strText, </span></div>
+<div class="line"><span class="comment">  DWORD style, </span></div>
+<div class="line"><span class="comment">  RECT rc, </span></div>
+<div class="line"><span class="comment">  CControlUI* parent = NULL, </span></div>
+<div class="line"><span class="comment">  UINT nID = 0);</span></div>
+<div class="line"><span class="comment">  */</span>   </div>
+<div class="line">CButtonUI btn; </div>
+<div class="line"><a class="code hl_typedef" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> rc = {100,100, 200, 280};</div>
+<div class="line"><span class="comment">// m_manger 是窗口UI管理的类。窗口创建已经初始化。生命周期和窗口一致。一对一的关系</span></div>
+<div class="line">btn.Create(&amp;m_manger, _Txt(<span class="stringliteral">&quot;btnRun&quot;</span>), _Txt(<span class="stringliteral">&quot;打开文档&quot;</span>), 0, rc, NULL); </div>
+</div><!-- fragment --></li>
+</ul>
+<h1><a class="anchor" id="autotoc_md6"></a>
+5.与其它第三方框架混合使用。</h1>
+<ul>
+<li>首先下载对应框架的发布版本</li>
+<li>原理：为窗口新建适配器，然后与之绑定。这样就完成嵌入。这里拿Window窗口句柄举例 <div class="fragment"><div class="line">HWND hwnd = ? <span class="comment">// TODO: 无论采用哪种框架和语言，window窗口都可以获得窗口句柄</span></div>
+<div class="line"><span class="comment">// 3. 关联HWND，创建适配器</span></div>
+<div class="line">UIManager m_manger;</div>
+<div class="line">std::shared_ptr&lt;IAdapterPlatform&gt; adapter(<span class="keyword">new</span> AdapterPlatformWin(&amp;m_manger, hwnd) );</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// window</span></div>
+<div class="line">std::shared_ptr&lt;IAdapterPlatform&gt; adapter = </div>
+<div class="line">std::make_shared&lt;AdapterPlatformWxWidgets&gt;(manager, wnd_.GetwxWindow());</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// sdl2</span></div>
+<div class="line"><span class="comment">// std::shared_ptr&lt;IAdapterPlatform&gt; adapter = </span></div>
+<div class="line"><span class="comment">// std::make_shared&lt;AdapterPlatformSDL2&gt;(manager, &amp;m_wnd);</span></div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// Qt5+</span></div>
+<div class="line"><span class="comment">// std::shared_ptr&lt;IAdapterPlatform&gt; adapter = </span></div>
+<div class="line"><span class="comment">// std::make_shared&lt;AdapterPlatformQt&gt;(manager, &amp;wnd_);</span></div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// GTK</span></div>
+<div class="line"><span class="comment">// std::shared_ptr&lt;IAdapterPlatform&gt; adapter = </span></div>
+<div class="line"><span class="comment">// std::make_shared&lt;AdapterPlatformGTK&gt;(manager, wnd_.m_window);</span></div>
+<div class="line"><span class="comment">// wx</span></div>
+<div class="line"><span class="comment">// std::shared_ptr&lt;IAdapterPlatform&gt; adapter = </span></div>
+<div class="line"><span class="comment">// std::make_shared&lt;AdapterPlatformWxWidgets&gt;(manager, wnd_.GetwxWindow());</span></div>
+<div class="line"> </div>
+<div class="line">m_manger.InitPlatformAdapter(adapter);</div>
+</div><!-- fragment --></li>
+</ul>
+<h1><a class="anchor" id="autotoc_md7"></a>
+6.常用控件CControlUI类名汇总</h1>
+<div> <div style="width: 50%; float: left;"></div></div><div><div style="width: 50%; float: left;"><ul>
+<li><a href="javascript:;">CButtonMenuUI</a> 菜单按钮 <br  />
+</li>
+<li><a href="javascript:;">CButtonImageUI</a> 切图按钮按钮</li>
+<li><a href="javascript:;">CButtonSwitchImageUI</a> 切图开关按钮</li>
+<li><a href="javascript:;">CCheckBoxUI</a> 复选框<ul>
+<li><a href="javascript:;">CBinaryBoxUI</a> 二态按钮</li>
+</ul>
+</li>
+<li><a href="javascript:;">CColorPickerUI</a> 颜色面板</li>
+<li><a href="javascript:;">CContainTabUI</a> 标签页容器</li>
+<li><a href="javascript:;">CDateTimeUI</a> 日历</li>
+<li><a href="javascript:;">CDigitLcdUI</a> 液晶数字</li>
+<li><a href="javascript:;">CStaticMarkUI</a> 静态通知标记</li>
+<li><a href="javascript:;">CLineUI</a> 线条</li>
+<li><a href="javascript:;">CLineArrowUI</a> 带箭头线条</li>
+<li><a href="javascript:;">CEditTextUI</a> 输入框<ul>
+<li><a href="javascript:;">CComboBaseUI</a> 下拉框基类<ul>
+<li><a href="javascript:;">CComboListUI</a> 下拉列表</li>
+<li><a href="javascript:;">CComboDateUI</a> 下拉日历</li>
+<li><a href="javascript:;">CComboDateRangeUI</a> 下拉日期范围</li>
+<li><a href="javascript:;">CComboColorPickerUI</a> 下拉颜色板</li>
+<li><a href="javascript:;">CCustomComboxUI</a> 下拉自定义控件</li>
+</ul>
+</li>
+<li><a href="javascript:;">CEditKeyBoardUI</a> 快捷键输入框</li>
+<li><a href="javascript:;">CEditSpinBoxUI</a> 步进式输入框</li>
+</ul>
+</li>
+<li><a href="javascript:;">CEditCombinationUI</a> 组合基类<ul>
+<li><a href="javascript:;">CEditIPAddressUI</a> IP地址</li>
+</ul>
+</li>
+<li><a href="javascript:;">CImageViewUI</a> 单图片视图<ul>
+<li><a href="javascript:;">CImageViewListUI</a> 多图片视图</li>
+</ul>
+</li>
+<li><a href="javascript:;">CGIFViewUI</a> GIF控件</li>
+<li><a href="javascript:;">CLabelMultiStyleUI</a> 多行文本</li>
+<li><a href="javascript:;">CSplitBarUI</a> 拆分条</li>
+<li><a href="javascript:;">CListBoxUI</a> 列表控件</li>
+<li><a href="javascript:;">CTreeListUI</a> 树列表控件 <br  />
+</li>
+</ul>
+</div></div><div><div style="width: 50%; float: left;"></div></div><div><div style="width: 50%; float: left;"></div></div><div><div style="width: 50%; float: left;"><ul>
+<li><a href="javascript:;">CEditRichUI</a> 富文本输入框</li>
+<li><a href="javascript:;">CPaginationUI</a> 翻页控件</li>
+<li><a href="javascript:;">CLabelUI</a> 静态文本<ul>
+<li><a href="javascript:;">CButtonUI</a> 普通按钮<ul>
+<li><a href="javascript:;">CButtonSysUI</a> 系统按钮</li>
+<li><a href="javascript:;">CButtonSVGUI</a> SVG图标按钮</li>
+<li><a href="javascript:;">CButtonGradientUI</a> 渐变色按钮<ul>
+<li><a href="javascript:;">CButtonPolygonUI</a> 多边形按钮</li>
+</ul>
+</li>
+<li><a href="javascript:;">CButtonNodeUI</a> 自定义按钮<ul>
+<li><a href="javascript:;">COptionUI</a> 选项按钮</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="javascript:;">CMatrixUI</a> 矩阵可视化</li>
+<li><a href="javascript:;">CCarouselUI</a> 图片跑马灯</li>
+<li><a href="javascript:;">CPopControlUI</a></li>
+<li><a href="javascript:;">CProgressBarUI</a> 进度条<ul>
+<li><a href="javascript:;">CSliderUI</a> 滑块条</li>
+</ul>
+</li>
+<li><a href="javascript:;">CScrollBarUI</a> 滚动条</li>
+<li><a href="javascript:;">CScrollAreaUI</a> 滚动视图容器<ul>
+<li><a href="javascript:;">CContainerUI</a> 普通容器<ul>
+<li><a href="javascript:;">CNodeDataListUI</a></li>
+<li><a href="javascript:;">CContainLayoutUI</a> 带布局的容器<ul>
+<li><a href="javascript:;">CAutoMoveContainUI</a></li>
+<li><a href="javascript:;">CLayoutArrowContainUI</a><ul>
+<li><a href="javascript:;">CTipBoxUI</a> 消息提示</li>
+</ul>
+</li>
+<li><a href="javascript:;">CContainMenuUI</a> 菜单按钮容器</li>
+<li><a href="javascript:;">CContainOptionUI</a> 选项按钮容器</li>
+<li><a href="javascript:;">CContainScrollSyncUI</a> 同步滚动容器</li>
+<li><a href="javascript:;">CChartViewUI</a> 多功能统计图表</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="javascript:;">CContainTitleUI</a> 标题容器<ul>
+<li><a href="javascript:;">CTableViewUI</a> 表格</li>
+<li><a href="javascript:;">CTreeTableViewUI</a> 树状表格  </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div></div><div><div style="width: 50%; float: left;"></div></div><h1><a class="anchor" id="autotoc_md8"></a>
+7.框架设计重要算法备忘录</h1>
+<div><div style="width: 50%; float: left;"></div></div><div></div><h2><a class="anchor" id="autotoc_md9"></a>
+7.1. 海量控件场景下，如何设计高效的命中定位控件？</h2>
+<div> 控件可能会被遮盖，被隐藏，也会被恶意的创建N多个。依赖传统的遍历，不再能满足性能要求。<ul>
+<li><code>位置优先匹配</code>算法：根据鼠标的行为，总是在附近区域活动。当之前已经定位到某一控件A时，下一次还在A的概率，大于其它控件。优先匹配A和A附近的控件,提高命中率。</li>
+<li><code>增加分治节点</code>算法：控件定位的遍历方法是树的中序遍历。先匹配自己，然后匹配子节点。基于这样的规则。当子节点过多时，适当增加经过合理规划后的父节点，可以减少匹配次数。从而提高速度。打个比方，在学校里老师需要找张三同学，老师会先找年级，班级，第几排几号。为控件增加父节点实际就是在通过位置信息。对控件进行分组，分治。避免不必要的匹配开销。 </li>
+</ul>
+</div><h2><a class="anchor" id="autotoc_md10"></a>
+7.2. 内置布局算法，减少开发代码(后发优势)</h2>
+<div> 行业内有很多优秀的开源GUI。大部分都没有智能布局。用户需要指定控件的位置如起点，宽度。在窗口大小改变时，软件界面布局被打散。在CBlueUI中布局是这样做的。 布局分为简单布局和容器布局。计算布局对象在视窗下的宽度和高度的方法。有以下几种布局方式。</div><div><ul>
+<li><b>AdaptFill</b>:等长自适应填充.事先统计fill类型的个数Count。 <br  />
+</li>
+</ul>
+</div><div><h5>容器布局类型</h5>
+</div><div> <div class="fragment"><div class="line"><span class="keyword">enum</span> <a class="code hl_enumeration" href="_c_core_base_pro_8h.html#ae22e4a33b90e87953f48720ba2c2bd93">LayoutBoxType</a> </div>
+<div class="line">{</div>
+<div class="line">    <a class="code hl_enumvalue" href="_c_core_base_pro_8h.html#ae22e4a33b90e87953f48720ba2c2bd93a4dd51ad73508d6fc83a502966779e48e" title="水平分布(x轴方向)">HORIZONTAL</a>, <span class="comment">// 水平分布(x轴方向)</span></div>
+<div class="line">    <a class="code hl_enumvalue" href="_c_core_base_pro_8h.html#ae22e4a33b90e87953f48720ba2c2bd93a1a88641fcd39f2ed3e58a18526e97138" title="垂直分布(y轴方向)">VERTICAL</a>,   <span class="comment">// 垂直分布(y轴方向)</span></div>
+<div class="line">    <a class="code hl_enumvalue" href="_c_core_base_pro_8h.html#ae22e4a33b90e87953f48720ba2c2bd93a50a0ebcf1e3c1b0591a3abfecdea9bfd" title="层叠分布(z轴方向)">LAYERED</a>     <span class="comment">// 层叠分布(z轴方向)</span></div>
+<div class="line">};</div>
+</div><!-- fragment --> <h5>元素布局类型</h5>
+</div><div> <div class="fragment"><div class="line"><span class="keyword">enum</span> <a class="code hl_enumeration" href="_c_core_base_pro_8h.html#ab4b01f3da0a2276708526324bf66dbdb" title="SizeType尺寸类型，布局中的占位计算方法">SizeMode</a></div>
+<div class="line">{</div>
+<div class="line">    <a class="code hl_enumvalue" href="_c_core_base_pro_8h.html#ab4b01f3da0a2276708526324bf66dbdba2cc40f70cf6ca3e09813fa7ad7ebf2fc" title="元素自适应">AdaptSelf</a>,  <span class="comment">// 元素自适应</span></div>
+<div class="line">    <a class="code hl_enumvalue" href="_c_core_base_pro_8h.html#ab4b01f3da0a2276708526324bf66dbdbaa65d89bde2b9e436a28ff297940c372a" title="剩余填充自适应">AdaptFill</a>,  <span class="comment">// 剩余填充自适应</span></div>
+<div class="line">    <a class="code hl_enumvalue" href="_c_core_base_pro_8h.html#ab4b01f3da0a2276708526324bf66dbdbad85ccac305b67e5d11d99bc34f2f5028" title="固定值">FixedValue</a>, <span class="comment">// 固定值</span></div>
+<div class="line">    <a class="code hl_enumvalue" href="_c_core_base_pro_8h.html#ab4b01f3da0a2276708526324bf66dbdbae85ce37a522a78d62b65530105de49e1" title="百分比">Percentage</a>  <span class="comment">// 百分比</span></div>
+<div class="line">};</div>
+</div><!-- fragment --><ul>
+<li><b>FixedValue</b>:固定的像素宽度</li>
+<li><b>Percentage</b>:宽度等于在父容器中宽度（高度）的百分比。比如父容器的高度是 W，百分比为30。宽度计算公式等于 <img src="img/layout_per.jpg" alt="file" class="inline"/></li>
+<li><b>AdaptFill</b>:等长自适应填充.事先统计fill类型的个数Count。 <br  />
+ <img src="img/layout_fill.jpg" alt="file" class="inline"/> <br  />
+</li>
+<li><b>AdaptSelf</b> :由布局对象根据属性来确定大小。比如文本宽度，图标大小</li>
+</ul>
+</div><div></div><h2><a class="anchor" id="LayoutFileDemo"></a>
+7.3. 布局标签语法示例</h2>
+<div> <div class="fragment"><div class="line"><span class="keyword">水平布局对象</span></div>
+<div class="line">&lt;<span class="keywordtype">hLayout</span> <span class="keyword">Layout</span>=<span class="stringliteral">&quot;fill, 300&quot;</span> <span class="keyword">Align</span>=<span class="stringliteral">&quot;vcenter|top|bottom&quot;</span> <span class="keyword">layout-revers</span>=<span class="stringliteral">&quot;false&quot;</span> <span class="keyword">padding</span>=<span class="stringliteral">&quot;0,0,0,0&quot;</span>&gt;</div>
+<div class="line">&lt;/<span class="keywordtype">hLayout</span>&gt;</div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">垂直布局对象</span></div>
+<div class="line">&lt;<span class="keywordtype">vLayout</span> <span class="keyword">Layout</span>=<span class="stringliteral">&quot;fill, 300&quot;</span> <span class="keyword">Align</span>=<span class="stringliteral">&quot;center|left|right&quot;</span> <span class="keyword">layout-revers</span>=<span class="stringliteral">&quot;false&quot;</span> <span class="keyword">padding</span>=<span class="stringliteral">&quot;0,0,0,0&quot;</span>&gt;</div>
+<div class="line">&lt;/<span class="keywordtype">vLayout</span>&gt;</div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">层叠布局对象</span></div>
+<div class="line">&lt;<span class="keywordtype">LayeredLayout</span> <span class="keyword">Layout</span>=<span class="stringliteral">&quot;fill, 300&quot;</span> <span class="keyword">Align</span>=<span class="stringliteral">&quot;vcenter&quot;</span> <span class="keyword">layout-revers</span>=<span class="stringliteral">&quot;false&quot;</span> <span class="keyword">padding</span>=<span class="stringliteral">&quot;0,0,0,0&quot;</span>&gt;</div>
+<div class="line">&lt;/<span class="keywordtype">LayeredLayout</span>&gt;</div>
+</div><!-- fragment --><ul>
+<li><b>name</b>:布局标识符</li>
+<li><b>layout</b>:表示元素的布局类型, fill,300:表示水平平铺，垂直高度为300的布局。</li>
+<li><b>align</b>:在父容器下，的对齐方式。需注意，在水平布局容器里。水平对齐方式实际由容器接管，所以只有垂直对齐方式生效</li>
+<li><b>layout-revers</b>:容器反向布局</li>
+<li><b>padding</b>:容器内边距</li>
+<li><b>cursel</b>:层叠布局中优先展示的布局名称</li>
+</ul>
+</div><div><a class="anchor" id="layoutUML"></a> <h5>设计类图</h5>
+</div><div> <img src="img/layout_uml.jpg" alt="file" class="inline"/> </div></div></div><!-- contents -->
+</div><!-- PageDoc -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

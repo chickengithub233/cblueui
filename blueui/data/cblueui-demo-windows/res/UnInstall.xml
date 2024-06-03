@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<UI size="500,300">
+	<vLayout Layout="fill,fill">
+		<!--窗口标题部分 -->
+		<Spacer Layout="fill,4"/>
+		<Hlayout Layout="fill,30">
+			<Control Class="CImageCtrl" Name="cap_icon" icon="60" Layout="30,fill"/>
+			<Control Class="CLabelUI" position="{0,0,100,100}" Name="title" Layout="fill,fill" text="XXX公司" />
+			<Spacer Layout="30,fill"/>
+			<Control Class="CButtonSysUI" Name="minbtn" Layout="30,fill:25" sysType="min"/>
+			<Control Class="CButtonSysUI" Name="closebtn" Layout="30,fill:25" sysType="close"/>
+		</Hlayout>
+		<Spacer Layout="fill,fill"/>
+
+		<Hlayout Layout="fill,50" interval="50">
+			<Spacer Layout="fill,fill"/>
+			<Control Class="CButtonUI" Name="btnInstall" text="立即卸载" Margin="{0,0,15,0}" Layout="180,fill" back-show="always"/>
+			<Spacer Layout="fill,fill"/>
+		</Hlayout>
+		<Spacer Layout="fill,10"/>
+
+		<Control Class="CProgressBarUI" Name="installProgress" Layout="fill,20" Margin="{1,0,1,0}" value="0" visible="false" fillsize="10"/>
+		<Spacer Layout="fill,10"/>
+
+		<Hlayout Layout="fill,50">
+		</Hlayout>
+		<Spacer Layout="fill,10"/>
+	</vLayout>
+</UI>

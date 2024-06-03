@@ -1,0 +1,642 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>CBlueUI: BUI::CEditList类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBlueUI
+   &#160;<span id="projectnumber">vxxx</span>
+   </div>
+   <div id="projectbrief">C++ 跨平台跨框架的数据可视化工具</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_b_u_i_1_1_c_edit_list.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="class_b_u_i_1_1_c_edit_list-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">BUI::CEditList类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>编辑输入组合体容器  
+ <a href="class_b_u_i_1_1_c_edit_list.html#details">更多...</a></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> 类 BUI::CEditList 继承关系图:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="class_b_u_i_1_1_c_edit_list.png" usemap="#BUI::CEditList_map" alt=""/>
+  <map id="BUI::CEditList_map" name="BUI::CEditList_map">
+<area href="class_b_u_i_1_1_c_color_picker_u_i.html" title="颜色拾取器" alt="BUI::CColorPickerUI" shape="rect" coords="0,56,147,80"/>
+<area href="class_b_u_i_1_1_c_date_time_u_i.html" title="日期控件" alt="BUI::CDateTimeUI" shape="rect" coords="157,56,304,80"/>
+<area href="class_b_u_i_1_1_c_edit_combination_u_i.html" title="辑输入组合体" alt="BUI::CEditCombinationUI" shape="rect" coords="314,56,461,80"/>
+<area href="class_b_u_i_1_1_c_edit_i_p_address_u_i.html" title="IP地址输入框" alt="BUI::CEditIPAddressUI" shape="rect" coords="314,112,461,136"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a1b438966cbb24e85ba0bbfbe6fb61d42"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_edit_list.html#a1b438966cbb24e85ba0bbfbe6fb61d42">CEditList</a> ()</td></tr>
+<tr class="separator:a1b438966cbb24e85ba0bbfbe6fb61d42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae05476cf048902d26550456d0a4276f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_edit_list.html#ae05476cf048902d26550456d0a4276f2">~CEditList</a> ()</td></tr>
+<tr class="separator:ae05476cf048902d26550456d0a4276f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5761f14e59c8944ed89e52dcc5ff7492"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_c_node_data_lists.html">CNodeDataLists</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_edit_list.html#a5761f14e59c8944ed89e52dcc5ff7492">GetNodeDataList</a> ()</td></tr>
+<tr class="separator:a5761f14e59c8944ed89e52dcc5ff7492"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:a8ce6a87b920cbf59cb2188ddf42e8166"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_edit_list.html#a8ce6a87b920cbf59cb2188ddf42e8166">AddEditUI</a> (<a class="el" href="class_b_u_i_1_1_c_edit_text_u_i.html">CEditTextUI</a> *edit)</td></tr>
+<tr class="separator:a8ce6a87b920cbf59cb2188ddf42e8166"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a424ede58c77ec7569aed138c1ce17f64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_edit_list.html#a424ede58c77ec7569aed138c1ce17f64">Clear</a> ()</td></tr>
+<tr class="separator:a424ede58c77ec7569aed138c1ce17f64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78b3825efcb7f9f083239780563108be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_edit_list.html#a78b3825efcb7f9f083239780563108be">SetVerJmpStep</a> (int step)</td></tr>
+<tr class="separator:a78b3825efcb7f9f083239780563108be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15aaf59c200dd6237227d4856339917c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_edit_list.html#a15aaf59c200dd6237227d4856339917c">SetEditFont</a> (<a class="el" href="class_b_u_i_1_1_g_font.html">GFont</a> *font)</td></tr>
+<tr class="separator:a15aaf59c200dd6237227d4856339917c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a027aa494e8d50afd430db5b09a215d25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_edit_list.html#a027aa494e8d50afd430db5b09a215d25">OnMessageHandlerList</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> uMsg, <a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a> wp, <a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a> lp)</td></tr>
+<tr class="separator:a027aa494e8d50afd430db5b09a215d25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38fdf65b9972a353b970dff30341ba35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_edit_list.html#a38fdf65b9972a353b970dff30341ba35">DoKeyDown</a> (<a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a> wp, <a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a> lp)</td></tr>
+<tr class="separator:a38fdf65b9972a353b970dff30341ba35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a185ce8e28231df2cfd00ea208e7912f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_edit_list.html#a185ce8e28231df2cfd00ea208e7912f9">MoveNext</a> (int i, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> selectall)</td></tr>
+<tr class="separator:a185ce8e28231df2cfd00ea208e7912f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a650d06bc71aec940875ee0d74da7f24e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_edit_list.html#a650d06bc71aec940875ee0d74da7f24e">GetEditControlCount</a> () const</td></tr>
+<tr class="separator:a650d06bc71aec940875ee0d74da7f24e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56279d9a485a169f5bc51cad46814edf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_edit_list.html#a56279d9a485a169f5bc51cad46814edf">GetFocusEditIndex</a> () const</td></tr>
+<tr class="separator:a56279d9a485a169f5bc51cad46814edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e58f432da9ec35418189d247e9cde16"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_edit_list.html#a0e58f432da9ec35418189d247e9cde16">GetEditControlValue</a> (int pos) const</td></tr>
+<tr class="separator:a0e58f432da9ec35418189d247e9cde16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88d25552fa3509cd7f5099a0cf0fbd46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_string_a_8h.html#af8dd6b396b025639b3d0b06cbf8000c0">BeString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_edit_list.html#a88d25552fa3509cd7f5099a0cf0fbd46">GetEditControlText</a> (int pos) const</td></tr>
+<tr class="separator:a88d25552fa3509cd7f5099a0cf0fbd46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a69a8a08913199a8753ae70834ed78cfd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_c_node_data_lists.html">CNodeDataLists</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_edit_list.html#a69a8a08913199a8753ae70834ed78cfd">m_nodedatalist</a></td></tr>
+<tr class="separator:a69a8a08913199a8753ae70834ed78cfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bb01b999f3d2963de200691b0ab1b9c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_b_u_i_1_1_c_edit_text_u_i.html">CEditTextUI</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_edit_list.html#a6bb01b999f3d2963de200691b0ab1b9c">m_edit_list</a></td></tr>
+<tr class="separator:a6bb01b999f3d2963de200691b0ab1b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dae5e3750c941c2b7ed210b84f50675"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_edit_list.html#a3dae5e3750c941c2b7ed210b84f50675">m_ver_step</a></td></tr>
+<tr class="separator:a3dae5e3750c941c2b7ed210b84f50675"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>编辑输入组合体容器 </p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a1b438966cbb24e85ba0bbfbe6fb61d42" name="a1b438966cbb24e85ba0bbfbe6fb61d42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b438966cbb24e85ba0bbfbe6fb61d42">&#9670;&#160;</a></span>CEditList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::CEditList::CEditList </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae05476cf048902d26550456d0a4276f2" name="ae05476cf048902d26550456d0a4276f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae05476cf048902d26550456d0a4276f2">&#9670;&#160;</a></span>~CEditList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::CEditList::~CEditList </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="a8ce6a87b920cbf59cb2188ddf42e8166" name="a8ce6a87b920cbf59cb2188ddf42e8166"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ce6a87b920cbf59cb2188ddf42e8166">&#9670;&#160;</a></span>AddEditUI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CEditList::AddEditUI </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_c_edit_text_u_i.html">CEditTextUI</a> *&#160;</td>
+          <td class="paramname"><em>edit</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a424ede58c77ec7569aed138c1ce17f64" name="a424ede58c77ec7569aed138c1ce17f64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a424ede58c77ec7569aed138c1ce17f64">&#9670;&#160;</a></span>Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CEditList::Clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a38fdf65b9972a353b970dff30341ba35" name="a38fdf65b9972a353b970dff30341ba35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38fdf65b9972a353b970dff30341ba35">&#9670;&#160;</a></span>DoKeyDown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::CEditList::DoKeyDown </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a>&#160;</td>
+          <td class="paramname"><em>wp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a>&#160;</td>
+          <td class="paramname"><em>lp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a650d06bc71aec940875ee0d74da7f24e" name="a650d06bc71aec940875ee0d74da7f24e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a650d06bc71aec940875ee0d74da7f24e">&#9670;&#160;</a></span>GetEditControlCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::CEditList::GetEditControlCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a88d25552fa3509cd7f5099a0cf0fbd46" name="a88d25552fa3509cd7f5099a0cf0fbd46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88d25552fa3509cd7f5099a0cf0fbd46">&#9670;&#160;</a></span>GetEditControlText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_string_a_8h.html#af8dd6b396b025639b3d0b06cbf8000c0">BeString</a> BUI::CEditList::GetEditControlText </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0e58f432da9ec35418189d247e9cde16" name="a0e58f432da9ec35418189d247e9cde16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e58f432da9ec35418189d247e9cde16">&#9670;&#160;</a></span>GetEditControlValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::CEditList::GetEditControlValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56279d9a485a169f5bc51cad46814edf" name="a56279d9a485a169f5bc51cad46814edf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56279d9a485a169f5bc51cad46814edf">&#9670;&#160;</a></span>GetFocusEditIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::CEditList::GetFocusEditIndex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5761f14e59c8944ed89e52dcc5ff7492" name="a5761f14e59c8944ed89e52dcc5ff7492"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5761f14e59c8944ed89e52dcc5ff7492">&#9670;&#160;</a></span>GetNodeDataList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_c_node_data_lists.html">CNodeDataLists</a> &amp; BUI::CEditList::GetNodeDataList </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a185ce8e28231df2cfd00ea208e7912f9" name="a185ce8e28231df2cfd00ea208e7912f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a185ce8e28231df2cfd00ea208e7912f9">&#9670;&#160;</a></span>MoveNext()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::CEditList::MoveNext </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>selectall</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a027aa494e8d50afd430db5b09a215d25" name="a027aa494e8d50afd430db5b09a215d25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a027aa494e8d50afd430db5b09a215d25">&#9670;&#160;</a></span>OnMessageHandlerList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::CEditList::OnMessageHandlerList </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>uMsg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a>&#160;</td>
+          <td class="paramname"><em>wp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a>&#160;</td>
+          <td class="paramname"><em>lp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a15aaf59c200dd6237227d4856339917c" name="a15aaf59c200dd6237227d4856339917c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15aaf59c200dd6237227d4856339917c">&#9670;&#160;</a></span>SetEditFont()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CEditList::SetEditFont </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_font.html">GFont</a> *&#160;</td>
+          <td class="paramname"><em>font</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a78b3825efcb7f9f083239780563108be" name="a78b3825efcb7f9f083239780563108be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78b3825efcb7f9f083239780563108be">&#9670;&#160;</a></span>SetVerJmpStep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CEditList::SetVerJmpStep </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>step</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="a6bb01b999f3d2963de200691b0ab1b9c" name="a6bb01b999f3d2963de200691b0ab1b9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bb01b999f3d2963de200691b0ab1b9c">&#9670;&#160;</a></span>m_edit_list</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="class_b_u_i_1_1_c_edit_text_u_i.html">CEditTextUI</a>*&gt; BUI::CEditList::m_edit_list</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69a8a08913199a8753ae70834ed78cfd" name="a69a8a08913199a8753ae70834ed78cfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69a8a08913199a8753ae70834ed78cfd">&#9670;&#160;</a></span>m_nodedatalist</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_c_node_data_lists.html">CNodeDataLists</a> BUI::CEditList::m_nodedatalist</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3dae5e3750c941c2b7ed210b84f50675" name="a3dae5e3750c941c2b7ed210b84f50675"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dae5e3750c941c2b7ed210b84f50675">&#9670;&#160;</a></span>m_ver_step</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::CEditList::m_ver_step</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_b_u_i.html">BUI</a></li><li class="navelem"><a class="el" href="class_b_u_i_1_1_c_edit_list.html">CEditList</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

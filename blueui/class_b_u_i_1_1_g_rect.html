@@ -1,0 +1,1183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>CBlueUI: BUI::GRect类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBlueUI
+   &#160;<span id="projectnumber">vxxx</span>
+   </div>
+   <div id="projectbrief">C++ 跨平台跨框架的数据可视化工具</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_b_u_i_1_1_g_rect.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="class_b_u_i_1_1_g_rect-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">BUI::GRect类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>矩形(int)  
+ <a href="class_b_u_i_1_1_g_rect.html#details">更多...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a2d29135133c2d69f9b69cb5c7ba389ad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a2d29135133c2d69f9b69cb5c7ba389ad">GRect</a> ()</td></tr>
+<tr class="separator:a2d29135133c2d69f9b69cb5c7ba389ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9d969fc251611394642b358c0dda27a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#aa9d969fc251611394642b358c0dda27a">GRect</a> (int l, int t, int r, int b)</td></tr>
+<tr class="separator:aa9d969fc251611394642b358c0dda27a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ac19da5b9c51587d5d3c767c9a69e2d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a5ac19da5b9c51587d5d3c767c9a69e2d">GRect</a> (const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;rt)</td></tr>
+<tr class="separator:a5ac19da5b9c51587d5d3c767c9a69e2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c8fe69d5af38c45ef9a1c0dd6b3c676"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a0c8fe69d5af38c45ef9a1c0dd6b3c676">IsRectEmpty</a> () const</td></tr>
+<tr class="separator:a0c8fe69d5af38c45ef9a1c0dd6b3c676"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c6a851eb6af3d4f7f3c15c7c112e735"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a3c6a851eb6af3d4f7f3c15c7c112e735">IsInRect</a> (int x, int y) const</td></tr>
+<tr class="separator:a3c6a851eb6af3d4f7f3c15c7c112e735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d39e543ec5c702099f441e801e51ed6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a5d39e543ec5c702099f441e801e51ed6">Normalization</a> ()</td></tr>
+<tr class="separator:a5d39e543ec5c702099f441e801e51ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9521a4e9b80b3b79b0b33b71521f411"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#ad9521a4e9b80b3b79b0b33b71521f411">Width</a> () const</td></tr>
+<tr class="separator:ad9521a4e9b80b3b79b0b33b71521f411"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a850a163ac6be8a39ee896952510474e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a850a163ac6be8a39ee896952510474e2">SetWidth</a> (int w)</td></tr>
+<tr class="separator:a850a163ac6be8a39ee896952510474e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49af8f859f9ce5e39d31a145d3b62397"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a49af8f859f9ce5e39d31a145d3b62397">Height</a> () const</td></tr>
+<tr class="separator:a49af8f859f9ce5e39d31a145d3b62397"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72bfda7fd0c6e5c95d16da000937c9f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a72bfda7fd0c6e5c95d16da000937c9f8">SetHeight</a> (int h)</td></tr>
+<tr class="separator:a72bfda7fd0c6e5c95d16da000937c9f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b7134b5730375803d51b0e8bc0c60cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a9b7134b5730375803d51b0e8bc0c60cd">OffsetRect</a> (int x, int y)</td></tr>
+<tr class="separator:a9b7134b5730375803d51b0e8bc0c60cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67cf8c966c4d3d9046c3347b64079aac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a67cf8c966c4d3d9046c3347b64079aac">SetPoint</a> (int x, int y)</td></tr>
+<tr class="separator:a67cf8c966c4d3d9046c3347b64079aac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a7b90f42b79fd319b1efb30aad4c745"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a8a7b90f42b79fd319b1efb30aad4c745">SetSize</a> (int w, int h)</td></tr>
+<tr class="separator:a8a7b90f42b79fd319b1efb30aad4c745"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9944e549ec424aad55330ed99d65745"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#aa9944e549ec424aad55330ed99d65745">SetRect</a> (int l, int t, int r, int b)</td></tr>
+<tr class="separator:aa9944e549ec424aad55330ed99d65745"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14eea2c4d05bfd0786ae5c30f6037d53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a14eea2c4d05bfd0786ae5c30f6037d53">SetRect</a> (const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;rt)</td></tr>
+<tr class="separator:a14eea2c4d05bfd0786ae5c30f6037d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2495f7e64e8c13eff9953ab88d20a9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_g_point.html">GPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#ab2495f7e64e8c13eff9953ab88d20a9b">CenterPoint</a> () const</td></tr>
+<tr class="separator:ab2495f7e64e8c13eff9953ab88d20a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa301118b85f486f7a0abd1bed490c501"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#aa301118b85f486f7a0abd1bed490c501">Length</a> () const</td></tr>
+<tr class="separator:aa301118b85f486f7a0abd1bed490c501"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac438cdefff58e28b6f2a322cf463a8a2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#ac438cdefff58e28b6f2a322cf463a8a2">Area</a> () const</td></tr>
+<tr class="separator:ac438cdefff58e28b6f2a322cf463a8a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e5953df01f8cbac06857cb5a2b47b68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a3e5953df01f8cbac06857cb5a2b47b68">IntersectRect</a> (const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;rt)</td></tr>
+<tr class="separator:a3e5953df01f8cbac06857cb5a2b47b68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7b5a919f40b1d13422a569c2595766a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#ac7b5a919f40b1d13422a569c2595766a">IntersectRect</a> (const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;rt1, const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;rt2)</td></tr>
+<tr class="separator:ac7b5a919f40b1d13422a569c2595766a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59d82f64998f8d61926ec33c4ae7606e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a59d82f64998f8d61926ec33c4ae7606e">UnionRect</a> (const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;rt)</td></tr>
+<tr class="separator:a59d82f64998f8d61926ec33c4ae7606e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb85eeb2e2d2db15c8067a542f7f7e31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#aeb85eeb2e2d2db15c8067a542f7f7e31">UnionRect</a> (const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;rt1, const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;rt2)</td></tr>
+<tr class="separator:aeb85eeb2e2d2db15c8067a542f7f7e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad02f9fb69c4046036dba6ed1e19ef148"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#ad02f9fb69c4046036dba6ed1e19ef148">InflateRect</a> (int l, int t, int r, int b)</td></tr>
+<tr class="separator:ad02f9fb69c4046036dba6ed1e19ef148"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b467c3cbaff584431beebdef7be26db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a0b467c3cbaff584431beebdef7be26db">InflateRect</a> (int x, int y)</td></tr>
+<tr class="separator:a0b467c3cbaff584431beebdef7be26db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82cfd497716732ec83522a901c305eda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a82cfd497716732ec83522a901c305eda">InflateRect</a> (const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;rt)</td></tr>
+<tr class="separator:a82cfd497716732ec83522a901c305eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7f47d2b76e75e10212284aaebbcf2a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#ab7f47d2b76e75e10212284aaebbcf2a5">DeflateRect</a> (int l, int t, int r, int b)</td></tr>
+<tr class="separator:ab7f47d2b76e75e10212284aaebbcf2a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a231ba7383a13b079073222c80cb20384"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a231ba7383a13b079073222c80cb20384">DeflateRect</a> (int x, int y)</td></tr>
+<tr class="separator:a231ba7383a13b079073222c80cb20384"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addca978e240e756c382500c66f2ba77a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#addca978e240e756c382500c66f2ba77a">SwapLeftRight</a> ()</td></tr>
+<tr class="separator:addca978e240e756c382500c66f2ba77a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee4e8290b40966ff164888ddf62badde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#aee4e8290b40966ff164888ddf62badde">SwapTopBottom</a> ()</td></tr>
+<tr class="separator:aee4e8290b40966ff164888ddf62badde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9d4017544c37c897ab26d87ed0ac3fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#ad9d4017544c37c897ab26d87ed0ac3fe">Swap</a> ()</td></tr>
+<tr class="separator:ad9d4017544c37c897ab26d87ed0ac3fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94817b39956a7e661804d9ab23a70a4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a94817b39956a7e661804d9ab23a70a4a">SetRectEmpty</a> ()</td></tr>
+<tr class="separator:a94817b39956a7e661804d9ab23a70a4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8edd05b0fd25b3fe85631114ab608eb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a8edd05b0fd25b3fe85631114ab608eb5">Translate</a> (int dx_, int dy_)</td></tr>
+<tr class="separator:a8edd05b0fd25b3fe85631114ab608eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa40bdbb9a96b26be78561eb96603a14a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#aa40bdbb9a96b26be78561eb96603a14a">ToRECT</a> () const</td></tr>
+<tr class="separator:aa40bdbb9a96b26be78561eb96603a14a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aab9d389796e8960e608be7a05c0225"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a2aab9d389796e8960e608be7a05c0225">operator=</a> (const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;rt)</td></tr>
+<tr class="separator:a2aab9d389796e8960e608be7a05c0225"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65e1cf3d234da4eb48af31812022a1c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a65e1cf3d234da4eb48af31812022a1c4">operator==</a> (const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;rt) const</td></tr>
+<tr class="separator:a65e1cf3d234da4eb48af31812022a1c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44ea4c5fd1b8ddc22dcbaed68c2f2c5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a44ea4c5fd1b8ddc22dcbaed68c2f2c5d">operator!=</a> (const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;rt) const</td></tr>
+<tr class="separator:a44ea4c5fd1b8ddc22dcbaed68c2f2c5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b639a245a2b09e6365329ed85a78f2a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a9b639a245a2b09e6365329ed85a78f2a">operator&amp;=</a> (const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;rt)</td></tr>
+<tr class="separator:a9b639a245a2b09e6365329ed85a78f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad29cf8627ac96f4e11a9d97ef172a0cf"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#ad29cf8627ac96f4e11a9d97ef172a0cf">operator|=</a> (const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;rt)</td></tr>
+<tr class="separator:ad29cf8627ac96f4e11a9d97ef172a0cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef6f6b52d361a8d9eb868d744931f6e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#aef6f6b52d361a8d9eb868d744931f6e1">operator&amp;</a> (const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;rt) const</td></tr>
+<tr class="separator:aef6f6b52d361a8d9eb868d744931f6e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa26d36905de57943256119b8dfba5d19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#aa26d36905de57943256119b8dfba5d19">operator|</a> (const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;rt) const</td></tr>
+<tr class="separator:aa26d36905de57943256119b8dfba5d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a9d0218df07beb73ff78dd853a22ba270"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a9d0218df07beb73ff78dd853a22ba270">left</a></td></tr>
+<tr class="separator:a9d0218df07beb73ff78dd853a22ba270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6af54b71069278a14e3eacef624eb1ac"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a6af54b71069278a14e3eacef624eb1ac">right</a></td></tr>
+<tr class="separator:a6af54b71069278a14e3eacef624eb1ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68d5f0b3716a57c2e1ebe0318663199a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#a68d5f0b3716a57c2e1ebe0318663199a">top</a></td></tr>
+<tr class="separator:a68d5f0b3716a57c2e1ebe0318663199a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf2e14b6527ba7fd6150caacb80ea723"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_rect.html#adf2e14b6527ba7fd6150caacb80ea723">bottom</a></td></tr>
+<tr class="separator:adf2e14b6527ba7fd6150caacb80ea723"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>矩形(int) </p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a2d29135133c2d69f9b69cb5c7ba389ad" name="a2d29135133c2d69f9b69cb5c7ba389ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d29135133c2d69f9b69cb5c7ba389ad">&#9670;&#160;</a></span>GRect() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::GRect::GRect </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa9d969fc251611394642b358c0dda27a" name="aa9d969fc251611394642b358c0dda27a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9d969fc251611394642b358c0dda27a">&#9670;&#160;</a></span>GRect() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::GRect::GRect </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ac19da5b9c51587d5d3c767c9a69e2d" name="a5ac19da5b9c51587d5d3c767c9a69e2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ac19da5b9c51587d5d3c767c9a69e2d">&#9670;&#160;</a></span>GRect() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::GRect::GRect </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;&#160;</td>
+          <td class="paramname"><em>rt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="ac438cdefff58e28b6f2a322cf463a8a2" name="ac438cdefff58e28b6f2a322cf463a8a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac438cdefff58e28b6f2a322cf463a8a2">&#9670;&#160;</a></span>Area()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GRect::Area </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab2495f7e64e8c13eff9953ab88d20a9b" name="ab2495f7e64e8c13eff9953ab88d20a9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2495f7e64e8c13eff9953ab88d20a9b">&#9670;&#160;</a></span>CenterPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_g_point.html">GPoint</a> BUI::GRect::CenterPoint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab7f47d2b76e75e10212284aaebbcf2a5" name="ab7f47d2b76e75e10212284aaebbcf2a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7f47d2b76e75e10212284aaebbcf2a5">&#9670;&#160;</a></span>DeflateRect() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GRect::DeflateRect </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a231ba7383a13b079073222c80cb20384" name="a231ba7383a13b079073222c80cb20384"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a231ba7383a13b079073222c80cb20384">&#9670;&#160;</a></span>DeflateRect() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GRect::DeflateRect </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a49af8f859f9ce5e39d31a145d3b62397" name="a49af8f859f9ce5e39d31a145d3b62397"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49af8f859f9ce5e39d31a145d3b62397">&#9670;&#160;</a></span>Height()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GRect::Height </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a82cfd497716732ec83522a901c305eda" name="a82cfd497716732ec83522a901c305eda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82cfd497716732ec83522a901c305eda">&#9670;&#160;</a></span>InflateRect() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GRect::InflateRect </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;&#160;</td>
+          <td class="paramname"><em>rt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad02f9fb69c4046036dba6ed1e19ef148" name="ad02f9fb69c4046036dba6ed1e19ef148"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad02f9fb69c4046036dba6ed1e19ef148">&#9670;&#160;</a></span>InflateRect() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GRect::InflateRect </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0b467c3cbaff584431beebdef7be26db" name="a0b467c3cbaff584431beebdef7be26db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b467c3cbaff584431beebdef7be26db">&#9670;&#160;</a></span>InflateRect() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GRect::InflateRect </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e5953df01f8cbac06857cb5a2b47b68" name="a3e5953df01f8cbac06857cb5a2b47b68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e5953df01f8cbac06857cb5a2b47b68">&#9670;&#160;</a></span>IntersectRect() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::GRect::IntersectRect </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;&#160;</td>
+          <td class="paramname"><em>rt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7b5a919f40b1d13422a569c2595766a" name="ac7b5a919f40b1d13422a569c2595766a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7b5a919f40b1d13422a569c2595766a">&#9670;&#160;</a></span>IntersectRect() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::GRect::IntersectRect </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;&#160;</td>
+          <td class="paramname"><em>rt1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;&#160;</td>
+          <td class="paramname"><em>rt2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c6a851eb6af3d4f7f3c15c7c112e735" name="a3c6a851eb6af3d4f7f3c15c7c112e735"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c6a851eb6af3d4f7f3c15c7c112e735">&#9670;&#160;</a></span>IsInRect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::GRect::IsInRect </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0c8fe69d5af38c45ef9a1c0dd6b3c676" name="a0c8fe69d5af38c45ef9a1c0dd6b3c676"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c8fe69d5af38c45ef9a1c0dd6b3c676">&#9670;&#160;</a></span>IsRectEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::GRect::IsRectEmpty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa301118b85f486f7a0abd1bed490c501" name="aa301118b85f486f7a0abd1bed490c501"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa301118b85f486f7a0abd1bed490c501">&#9670;&#160;</a></span>Length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GRect::Length </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d39e543ec5c702099f441e801e51ed6" name="a5d39e543ec5c702099f441e801e51ed6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d39e543ec5c702099f441e801e51ed6">&#9670;&#160;</a></span>Normalization()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GRect::Normalization </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9b7134b5730375803d51b0e8bc0c60cd" name="a9b7134b5730375803d51b0e8bc0c60cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b7134b5730375803d51b0e8bc0c60cd">&#9670;&#160;</a></span>OffsetRect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GRect::OffsetRect </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44ea4c5fd1b8ddc22dcbaed68c2f2c5d" name="a44ea4c5fd1b8ddc22dcbaed68c2f2c5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44ea4c5fd1b8ddc22dcbaed68c2f2c5d">&#9670;&#160;</a></span>operator!=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::GRect::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;&#160;</td>
+          <td class="paramname"><em>rt</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef6f6b52d361a8d9eb868d744931f6e1" name="aef6f6b52d361a8d9eb868d744931f6e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef6f6b52d361a8d9eb868d744931f6e1">&#9670;&#160;</a></span>operator&amp;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> BUI::GRect::operator&amp; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;&#160;</td>
+          <td class="paramname"><em>rt</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9b639a245a2b09e6365329ed85a78f2a" name="a9b639a245a2b09e6365329ed85a78f2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b639a245a2b09e6365329ed85a78f2a">&#9670;&#160;</a></span>operator&amp;=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp; BUI::GRect::operator&amp;= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;&#160;</td>
+          <td class="paramname"><em>rt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2aab9d389796e8960e608be7a05c0225" name="a2aab9d389796e8960e608be7a05c0225"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2aab9d389796e8960e608be7a05c0225">&#9670;&#160;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp; BUI::GRect::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;&#160;</td>
+          <td class="paramname"><em>rt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a65e1cf3d234da4eb48af31812022a1c4" name="a65e1cf3d234da4eb48af31812022a1c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65e1cf3d234da4eb48af31812022a1c4">&#9670;&#160;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::GRect::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;&#160;</td>
+          <td class="paramname"><em>rt</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa26d36905de57943256119b8dfba5d19" name="aa26d36905de57943256119b8dfba5d19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa26d36905de57943256119b8dfba5d19">&#9670;&#160;</a></span>operator|()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> BUI::GRect::operator| </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;&#160;</td>
+          <td class="paramname"><em>rt</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad29cf8627ac96f4e11a9d97ef172a0cf" name="ad29cf8627ac96f4e11a9d97ef172a0cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad29cf8627ac96f4e11a9d97ef172a0cf">&#9670;&#160;</a></span>operator|=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp; BUI::GRect::operator|= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;&#160;</td>
+          <td class="paramname"><em>rt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a72bfda7fd0c6e5c95d16da000937c9f8" name="a72bfda7fd0c6e5c95d16da000937c9f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72bfda7fd0c6e5c95d16da000937c9f8">&#9670;&#160;</a></span>SetHeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GRect::SetHeight </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>h</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a67cf8c966c4d3d9046c3347b64079aac" name="a67cf8c966c4d3d9046c3347b64079aac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67cf8c966c4d3d9046c3347b64079aac">&#9670;&#160;</a></span>SetPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GRect::SetPoint </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14eea2c4d05bfd0786ae5c30f6037d53" name="a14eea2c4d05bfd0786ae5c30f6037d53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14eea2c4d05bfd0786ae5c30f6037d53">&#9670;&#160;</a></span>SetRect() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GRect::SetRect </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;&#160;</td>
+          <td class="paramname"><em>rt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa9944e549ec424aad55330ed99d65745" name="aa9944e549ec424aad55330ed99d65745"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9944e549ec424aad55330ed99d65745">&#9670;&#160;</a></span>SetRect() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GRect::SetRect </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a94817b39956a7e661804d9ab23a70a4a" name="a94817b39956a7e661804d9ab23a70a4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94817b39956a7e661804d9ab23a70a4a">&#9670;&#160;</a></span>SetRectEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GRect::SetRectEmpty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a7b90f42b79fd319b1efb30aad4c745" name="a8a7b90f42b79fd319b1efb30aad4c745"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a7b90f42b79fd319b1efb30aad4c745">&#9670;&#160;</a></span>SetSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GRect::SetSize </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>h</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a850a163ac6be8a39ee896952510474e2" name="a850a163ac6be8a39ee896952510474e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a850a163ac6be8a39ee896952510474e2">&#9670;&#160;</a></span>SetWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GRect::SetWidth </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>w</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad9d4017544c37c897ab26d87ed0ac3fe" name="ad9d4017544c37c897ab26d87ed0ac3fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9d4017544c37c897ab26d87ed0ac3fe">&#9670;&#160;</a></span>Swap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GRect::Swap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="addca978e240e756c382500c66f2ba77a" name="addca978e240e756c382500c66f2ba77a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addca978e240e756c382500c66f2ba77a">&#9670;&#160;</a></span>SwapLeftRight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GRect::SwapLeftRight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aee4e8290b40966ff164888ddf62badde" name="aee4e8290b40966ff164888ddf62badde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee4e8290b40966ff164888ddf62badde">&#9670;&#160;</a></span>SwapTopBottom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GRect::SwapTopBottom </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa40bdbb9a96b26be78561eb96603a14a" name="aa40bdbb9a96b26be78561eb96603a14a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa40bdbb9a96b26be78561eb96603a14a">&#9670;&#160;</a></span>ToRECT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> BUI::GRect::ToRECT </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8edd05b0fd25b3fe85631114ab608eb5" name="a8edd05b0fd25b3fe85631114ab608eb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8edd05b0fd25b3fe85631114ab608eb5">&#9670;&#160;</a></span>Translate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GRect::Translate </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dx_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dy_</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a59d82f64998f8d61926ec33c4ae7606e" name="a59d82f64998f8d61926ec33c4ae7606e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59d82f64998f8d61926ec33c4ae7606e">&#9670;&#160;</a></span>UnionRect() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GRect::UnionRect </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;&#160;</td>
+          <td class="paramname"><em>rt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb85eeb2e2d2db15c8067a542f7f7e31" name="aeb85eeb2e2d2db15c8067a542f7f7e31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb85eeb2e2d2db15c8067a542f7f7e31">&#9670;&#160;</a></span>UnionRect() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GRect::UnionRect </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;&#160;</td>
+          <td class="paramname"><em>rt1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a> &amp;&#160;</td>
+          <td class="paramname"><em>rt2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad9521a4e9b80b3b79b0b33b71521f411" name="ad9521a4e9b80b3b79b0b33b71521f411"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9521a4e9b80b3b79b0b33b71521f411">&#9670;&#160;</a></span>Width()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GRect::Width </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="adf2e14b6527ba7fd6150caacb80ea723" name="adf2e14b6527ba7fd6150caacb80ea723"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf2e14b6527ba7fd6150caacb80ea723">&#9670;&#160;</a></span>bottom</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GRect::bottom</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9d0218df07beb73ff78dd853a22ba270" name="a9d0218df07beb73ff78dd853a22ba270"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d0218df07beb73ff78dd853a22ba270">&#9670;&#160;</a></span>left</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GRect::left</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6af54b71069278a14e3eacef624eb1ac" name="a6af54b71069278a14e3eacef624eb1ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6af54b71069278a14e3eacef624eb1ac">&#9670;&#160;</a></span>right</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GRect::right</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a68d5f0b3716a57c2e1ebe0318663199a" name="a68d5f0b3716a57c2e1ebe0318663199a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68d5f0b3716a57c2e1ebe0318663199a">&#9670;&#160;</a></span>top</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GRect::top</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_b_u_i.html">BUI</a></li><li class="navelem"><a class="el" href="class_b_u_i_1_1_g_rect.html">GRect</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

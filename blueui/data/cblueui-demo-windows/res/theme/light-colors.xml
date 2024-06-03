@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<theme >
+	<colors comment="按钮" index="0" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="进度条" index="1" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="网格线" index="2" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="滚动条" index="3" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="复选框" index="4" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="层级线" index="5" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="行号文本" index="6" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="Label背景" index="7" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="ticklineMajor" index="8" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="ticklineMinor" index="9" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="slider背景" index="10" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="splitbar前景色" index="11" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="预留" index="12" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="预留" index="13" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="预留" index="14" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="预留" index="15" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="标签页背景" index="16" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="标签页文本" index="17" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="main背景" index="18" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="main文本" index="19" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="main前景" index="20" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="main边框" index="21" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="body背景" index="22" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="body文本" index="23" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="body前景" index="24" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="body边框" index="25" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="标题栏背景" index="26" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="标题栏文本" index="27" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="标题栏前景" index="28" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="标题栏边框" index="29" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="CBinaryBoxUI关闭时背景颜色" index="30" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="CBinaryBoxUI打开时背景颜色" index="31" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="CBinaryBoxUI关闭时滑块颜色" index="32" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="CBinaryBoxUI打开时滑块颜色" index="33" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="CBinaryBoxUI关闭时文字颜色" index="34" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<colors comment="CBinaryBoxUI打开时文字颜色" index="35" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	
+</theme>

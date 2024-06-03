@@ -1,0 +1,44 @@
+{
+	"StopColors":[
+		{
+			"id":"blue123",
+			"size":"512",
+			"stop":[
+				{"offset":"0%", "color":"hsv(0,100,96)", "opacity":"1"},
+				{"offset":"0%", "color":"hsv(0,100,96)", "opacity":"2"},
+				{"offset":"0%", "color":"hsv(0,100,96)", "opacity":"3"},
+				{"offset":"0%", "color":"hsv(0,100,96)", "opacity":"4"},
+				{"offset":"0%", "color":"hsv(0,100,96)", "opacity":"5"}
+			]
+		}
+	],
+	
+	"Font-Comment" : "字体资源定义区",
+	"Font" : [
+		{"id":"font-level1", "font-family":"宋体", "font-Weight":"11", "default":"true"},
+		{"id":"font-level2", "font-family":"宋体", "font-Weight":"16", "default":"true"},
+		{"id":"font-level3", "font-family":"宋体", "font-Weight":"22", "default":"true"},
+		{"id":"font-level4", "font-family":"宋体", "font-Weight":"27", "default":"true"},
+		{"id":"font-level5", "font-family":"宋体", "font-Weight":"30", "default":"true"},
+
+		{"id":"font-bold-level1", "font-family":"宋体", "font-Weight":"11", "default":"true", "font-style":"bold"},
+		{"id":"font-bold-level2", "font-family":"宋体", "font-Weight":"16", "default":"true", "font-style":"bold"},
+		{"id":"font-bold-level3", "font-family":"宋体", "font-Weight":"22", "default":"true", "font-style":"bold"},
+		{"id":"font-bold-level4", "font-family":"宋体", "font-Weight":"27", "default":"true", "font-style":"bold"},
+		{"id":"font-bold-level5", "font-family":"宋体", "font-Weight":"30", "default":"true", "font-style":"bold"}
+	],
+
+	"GImageIconSingle-Comment" : "多帧图标资源定义区",
+	"GImageIconSingle" : [
+		{"id":"font-level1", "url":"./res/Image/link-32.png"},
+		{"id":"font-level1", "url":"./res/Image/link-32.png", "frames":"9", "layout":"horizontal", "source-list":"3,4,4,5"}
+	],
+	
+	"GImageIconMulti-Comment" : "组合图标资源定义区",
+	"GImageIconMulti" : [
+		{"id":"font-level1", "normal":"./res/Image/link-32.png", "highlight":"./res/Image/link-32.png", "selected":"./res/Image/link-32.png", "disable":"./res/Image/link-32.png"},
+		{"id":"font-level1", "normal":"./res/Image/link-32.png", "highlight":"./res/Image/link-32.png", "selected":"./res/Image/link-32.png", "disable":"./res/Image/link-32.png"}
+	]
+
+}
+

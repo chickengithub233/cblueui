@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['wchartowxstring_0',['WcharToWxString',['../_utils_wx_widgets_8h.html#a407af15e85b58c05ecd407b34c5d6faa',1,'UtilsWxWidgets.h']]],
+  ['wcschr_5fchar16_1',['wcschr_char16',['../_c_core_char_function_8h.html#a04e63913de4774f713aae48bd56a2a74',1,'CCoreCharFunction.h']]],
+  ['wcsclen_5fchar16_2',['wcsclen_char16',['../_c_core_char_function_8h.html#ae6f7060e916138bd046ca152320aee7e',1,'CCoreCharFunction.h']]],
+  ['wcscmp_5fchar16_3',['wcscmp_char16',['../_c_core_char_function_8h.html#a6bcafc82f161c141b548c8223faeee39',1,'CCoreCharFunction.h']]],
+  ['wcsicmp_5fchar16_4',['wcsicmp_char16',['../_c_core_char_function_8h.html#adf5f334225891c55f471c00094511492',1,'CCoreCharFunction.h']]],
+  ['wcsistr_5',['wcsistr',['../_c_core_char_function_8h.html#a9174b3a6f93540426936dc5a17a1f5dd',1,'CCoreCharFunction.h']]],
+  ['wcslen_5fchar16_6',['wcslen_char16',['../_c_core_char_function_8h.html#a8a5c64d44de3c5bed655a0d82f512119',1,'CCoreCharFunction.h']]],
+  ['wcsncmp_5fchar16_7',['wcsncmp_char16',['../_c_core_char_function_8h.html#abf1823bfa1d9ba30ad0ee0d6b44853d1',1,'CCoreCharFunction.h']]],
+  ['wcsnicmp_5fchar16_8',['wcsnicmp_char16',['../_c_core_char_function_8h.html#aef79b01db3f2b1a381182398194fbf09',1,'CCoreCharFunction.h']]],
+  ['wcsrchr_5fchar16_9',['wcsrchr_char16',['../_c_core_char_function_8h.html#af0188bd2c39cab01266536252e4bc7d3',1,'CCoreCharFunction.h']]],
+  ['wcsstr_5fchar16_10',['wcsstr_char16',['../_c_core_char_function_8h.html#aa8ed459cd79d6ccbe76ee29851a2d91a',1,'CCoreCharFunction.h']]],
+  ['wcstod_5fchar16_11',['wcstod_char16',['../_c_core_char_function_8h.html#acb55ef92da5676ffdb00bd0716443ed8',1,'CCoreCharFunction.h']]],
+  ['wcstoll_5fchar16_12',['wcstoll_char16',['../_c_core_char_function_8h.html#aac17fe8ba0b94b1df6849256804aa1bf',1,'CCoreCharFunction.h']]],
+  ['weekfirstday_13',['WeekFirstDay',['../class_date_info.html#aa660688ae93ccb144648d141101d3850',1,'DateInfo']]],
+  ['weightvector_14',['WeightVector',['../class_b_u_i_1_1_linear_axis.html#a7829925e2093b9455af1bfa67d6c0647',1,'BUI::LinearAxis']]],
+  ['widechartoutf8_15',['WideCharToUtf8',['../namespace_utils_string.html#a94698231c2ba68af2073890b5bc1bdb3',1,'UtilsString']]],
+  ['width_16',['width',['../class_g_raster_glyph.html#af9b8304fb5f5fc05bbd09b001e913cfa',1,'GRasterGlyph']]],
+  ['width_17',['Width',['../class_b_u_i_1_1_g_rect.html#ad9521a4e9b80b3b79b0b33b71521f411',1,'BUI::GRect::Width()'],['../class_u_i_font_b_m.html#ae8b3d380d6c0f02a1e359e1d0ed1d2f2',1,'UIFontBM::Width()'],['../class_b_u_i_1_1_c_control_u_i.html#a1ae18ce4e83c02d58c07e4eeea8623d5',1,'BUI::CControlUI::Width()'],['../class_b_u_i_1_1_table_header_node_cell.html#a653c40531c76844f0b4610e266b360cd',1,'BUI::TableHeaderNodeCell::Width()'],['../class_mem_d_c.html#a28775550920d831870be806b5ba09114',1,'MemDC::Width()'],['../class_b_u_i_1_1_c_layout_box.html#ac318789310d62220aae3c2cd1c277056',1,'BUI::CLayoutBox::Width()'],['../class_b_u_i_1_1_c_layout_node_data.html#a37ab7a90c6f8f753105b07c177e253ea',1,'BUI::CLayoutNodeData::Width()'],['../class_b_u_i_1_1_c_layout_control.html#add00d8fe4d82dc090b4e24bdccdca3a0',1,'BUI::CLayoutControl::Width()'],['../class_b_u_i_1_1_c_layout_base.html#ab1646538652d147d6d769ede1ad61030',1,'BUI::CLayoutBase::Width()'],['../class_b_u_i_1_1_g_surface.html#a4e0de55832df7c34656d5b74c8a2c995',1,'BUI::GSurface::Width()']]],
+  ['widthtype_18',['WidthType',['../class_b_u_i_1_1_c_layout_base.html#aa1654177e058b8529b585f69e03514c8',1,'BUI::CLayoutBase']]],
+  ['windowdockingmanager_19',['WindowDockingManager',['../class_b_u_i_1_1_window_docking_manager.html#a9e616a6677af6a22fef37e45f3a2c963',1,'BUI::WindowDockingManager']]],
+  ['windowplatform_20',['WindowPlatform',['../class_b_u_i_1_1_window_platform.html#a9358b23fa0d92b9ba25e88b7dd245130',1,'BUI::WindowPlatform::WindowPlatform()'],['../class_b_u_i_1_1_window_platform.html#a9358b23fa0d92b9ba25e88b7dd245130',1,'BUI::WindowPlatform::WindowPlatform()'],['../class_b_u_i_1_1_window_platform.html#a9358b23fa0d92b9ba25e88b7dd245130',1,'BUI::WindowPlatform::WindowPlatform()'],['../class_b_u_i_1_1_window_platform.html#a9358b23fa0d92b9ba25e88b7dd245130',1,'BUI::WindowPlatform::WindowPlatform()'],['../class_b_u_i_1_1_window_platform.html#a9358b23fa0d92b9ba25e88b7dd245130',1,'BUI::WindowPlatform::WindowPlatform()'],['../class_b_u_i_1_1_window_platform.html#a9358b23fa0d92b9ba25e88b7dd245130',1,'BUI::WindowPlatform::WindowPlatform()']]],
+  ['withinview_21',['WithinView',['../class_b_u_i_1_1_c_coordinate_affine.html#a5c8b955a8700a29603e345baf536bcd1',1,'BUI::CCoordinateAffine']]]
+];

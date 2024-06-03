@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<theme >
+    <!-- 软件根据信息表达的重要性，每种样式以字体大小划分12个等级。过多的的字体等级，反而使信息层次表达不明 -->
+	<Font comment="FLS_LEVEL_0"     index="0" font-family="宋体" font-Weight="30"/>
+	<Font comment="FLS_LEVEL_0_LOW" index="1" font-family="宋体" font-Weight="16"/>
+	<Font comment="FLS_LEVEL_1"     index="2" font-family="宋体" font-Weight="16"/>
+	<Font comment="FLS_LEVEL_2"     index="3" font-family="宋体" font-Weight="16"/>
+	<Font comment="FLS_LEVEL_2_LOW" index="4" font-family="宋体" font-Weight="16"/>
+	<Font comment="FLS_LEVEL_3"     index="5" font-family="宋体" font-Weight="16"/>
+	<Font comment="FLS_LEVEL_4"     index="6" font-family="宋体" font-Weight="16"/>
+	<Font comment="FLS_LEVEL_4_LOW" index="7" font-family="宋体" font-Weight="16"/>
+	<Font comment="FLS_LEVEL_5"     index="8" font-family="宋体" font-Weight="16"/>
+	<Font comment="FLS_LEVEL_5_LOW" index="9" font-family="宋体" font-Weight="16"/>
+	<Font comment="FLS_LEVEL_6"     index="10" font-family="宋体" font-Weight="16"/>
+	<Font comment="FLS_LEVEL_7"     index="11" font-family="宋体" font-Weight="16"/>  
+	
+	<Font comment="FLS_LEVEL_0"     index="0" font-family="宋体" font-Weight="30" font-style="bold"/>
+	<Font comment="FLS_LEVEL_0_LOW" index="1" font-family="宋体" font-Weight="16" font-style="bold"/>
+	<Font comment="FLS_LEVEL_1"     index="2" font-family="宋体" font-Weight="16" font-style="bold"/>
+	<Font comment="FLS_LEVEL_2"     index="3" font-family="宋体" font-Weight="16" font-style="bold"/>
+	<Font comment="FLS_LEVEL_2_LOW" index="4" font-family="宋体" font-Weight="16" font-style="bold"/>
+	<Font comment="FLS_LEVEL_3"     index="5" font-family="宋体" font-Weight="16" font-style="bold"/>
+	<Font comment="FLS_LEVEL_4"     index="6" font-family="宋体" font-Weight="16" font-style="bold"/>
+	<Font comment="FLS_LEVEL_4_LOW" index="7" font-family="宋体" font-Weight="16" font-style="bold"/>
+	<Font comment="FLS_LEVEL_5"     index="8" font-family="宋体" font-Weight="16" font-style="bold"/>
+	<Font comment="FLS_LEVEL_5_LOW" index="9" font-family="宋体" font-Weight="16" font-style="bold"/>
+	<Font comment="FLS_LEVEL_6"     index="10" font-family="宋体" font-Weight="16" font-style="bold"/>
+	<Font comment="FLS_LEVEL_7"     index="11" font-family="宋体" font-Weight="16" font-style="bold"/>  
+	 
+	<Font comment="FLS_LEVEL_0"     index="0" font-family="宋体" font-Weight="30" font-style="Italic"/>
+	<Font comment="FLS_LEVEL_0_LOW" index="1" font-family="宋体" font-Weight="16" font-style="Italic"/>
+	<Font comment="FLS_LEVEL_1"     index="2" font-family="宋体" font-Weight="16" font-style="Italic"/>
+	<Font comment="FLS_LEVEL_2"     index="3" font-family="宋体" font-Weight="16" font-style="Italic"/>
+	<Font comment="FLS_LEVEL_2_LOW" index="4" font-family="宋体" font-Weight="16" font-style="Italic"/>
+	<Font comment="FLS_LEVEL_3"     index="5" font-family="宋体" font-Weight="16" font-style="Italic"/>
+	<Font comment="FLS_LEVEL_4"     index="6" font-family="宋体" font-Weight="16" font-style="Italic"/>
+	<Font comment="FLS_LEVEL_4_LOW" index="7" font-family="宋体" font-Weight="16" font-style="Italic"/>
+	<Font comment="FLS_LEVEL_5"     index="8" font-family="宋体" font-Weight="16" font-style="Italic"/>
+	<Font comment="FLS_LEVEL_5_LOW" index="9" font-family="宋体" font-Weight="16" font-style="Italic"/>
+	<Font comment="FLS_LEVEL_6"     index="10" font-family="宋体" font-Weight="16" font-style="Italic"/>
+	<Font comment="FLS_LEVEL_7"     index="11" font-family="宋体" font-Weight="16" font-style="Italic"/>  
+</theme>

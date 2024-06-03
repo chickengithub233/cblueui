@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<UI size="85%,85%" min-size="1200,300" >
+	<Control Class="CContainLayoutUI" name="keysdfsfd" Layout="fill,fill" padding="0,0,0,0" contain-flags="DragMoveWidget,MainContain" control-flags="forcelayout" back-show="always" >
+		<!--窗口标题部分 -->
+		<Spacer Layout="fill,3"/>
+		<Hlayout Layout="fill,30">
+			<Spacer platform="macos" Layout="60,fill" isZoomed="true"/>
+			<Spacer Layout="5,fill"/>
+			<!-- <Control Class='CImageViewUI' Name="cap_icon" icon="60" Layout="30,fill"/> -->
+			<Control Class="CLabelUI" Layout="adapt,fill" Font="3" text="tr:基于CBlueUI数据可视化" control-flags="use-par-color-text" />
+			<Control Class="CLabelUI" name="labversion" Layout="adapt,fill" Font="3" text="" control-flags="use-par-color-text" />
+			<Control Class="CLabelUI" platform="window" Layout="adapt,fill" text=" --On Window" Font="3" control-flags="use-par-color-text" />
+			<Control Class="CLabelUI" platform="macos" Layout="adapt,fill" text=" --On Macos" Font="3" control-flags="use-par-color-text" />
+			<Control Class="CLabelUI" platform="linux" Layout="adapt,fill" text=" --On Linux" Font="3" control-flags="use-par-color-text" />
+			<Control Class="CLabelUI" Name="build_time" Layout="adapt,fill" Font="0" control-flags="use-par-color-text" />
+			<Spacer Layout="fill,fill"/>
+			<Control Class="CButtonSysUI" Name="minbtn" Layout="30,fill:25" sysType="min" control-flags="use-par-color-text"/>
+			<Control Class="CButtonSysUI" Name="maxbtn" Layout="30,fill:25" sysType="fullscreen" control-flags="use-par-color-text"/>
+			<Control Class="CButtonSysUI" Name="closebtn" Layout="30,fill:25" sysType="close" control-flags="use-par-color-text"/>
+		</Hlayout>
+
+		<Hlayout Layout="fill,25">
+			<Spacer Layout="5,fill"/>
+			<Control Class="CLabelUI" text="tr:语言:" Layout="adapt:5,fill" control-flags="use-par-color-text" />
+			<Control Class="CComboListUI" Name="switch_lang" Layout="200,fill" border-show="always" cursel="0" HasTripe="false" input-type="ReadOnly" >
+				<element TEXT="tr:CN-中文简体" TextID =".././res/lang/zh.xmllang"/>
+				<element TEXT="tr:CNT-中文繁体" TextID =".././res/lang/cht.xmllang"/>
+				<element TEXT="tr:RU-俄语" TextID =".././res/lang/ru.xmllang"/>
+				<element TEXT="tr:EN-英语" TextID =".././res/lang/en.xmllang"/>
+				<element TEXT="tr:AR-阿拉伯" TextID =".././res/lang/ar.xmllang"/>
+				<element TEXT="tr:FR-法语" TextID =".././res/lang/fr.xmllang"/>
+				<element TEXT="tr:KO-朝鲜" TextID =".././res/lang/ko.xmllang"/>
+				<element TEXT="tr:JP-日语" TextID =".././res/lang/ja.xmllang"/>
+			</Control>
+
+			<Spacer Layout="10,5"/>
+			<Control Class="CLabelUI" text="tr:主题:" Layout="adapt:5,fill" control-flags="use-par-color-text" />
+			<Control Class="CComboListUI" Name="input_theme" border-show="always" empty-tips="input script file" cursel="0" HasTripe="false" input-type="ReadOnly" Layout="150,fill" >
+				<element  TEXT="lighting" TextID ="0"/>
+				<element  TEXT="dark" TextID ="1"/>
+				<element  TEXT="lighting-tropico" TextID ="2"/>
+			</Control>
+
+			<Spacer Layout="50,5"/>
+			<Control Class="CComboListUI" Name="input_script" border-show="always" empty-tips="input script file" cursel="0" HasTripe="false" input-type="ReadOnly" Layout="200,fill" >
+				<element  TEXT="test_demo.js" TextID =".././res/script/test_demo.js"/>
+				<element  TEXT="test_demo.lua" TextID =".././res/script/test_demo.lua"/>
+				<element  TEXT="test_demo.chai" TextID =".././res/script/test_demo.chai"/>
+			</Control>
+			<Spacer Layout="10,5"/>
+			<Control Class="CButtonUI" TEXT="tr:自动化应用" Name="btnRunScriptTest"   Layout="adapt:10,fill" text-align="center|vcenter" control-flags="use-par-color-text" />
+			<Spacer Layout="10,5"/>
+			<Control Class="CLabelUI" text="tr:高斯模糊:" Layout="adapt:5,fill" control-flags="use-par-color-text" />
+			<Control Class="CSliderUI" Name="silder_gaosi" Layout="200,fill" control-flags="use-par-color-text" Range="[0,100]" value="0" select-model="signal" tickstyle="ts_inside" precision="1" minor-counts="1" major-counts="1"/>
+			<Spacer Layout="10,5"/>
+			<Control Class="CButtonUI" TEXT="tr:布局翻转" Name="btnLayoutReverse"   Layout="adapt:10,fill" text-align="center|vcenter" control-flags="use-par-color-text"/>
+			<Spacer Layout="10,5"/>
+			<Control Class="CBinaryBoxUI" Name="chkDock" Layout="adapt,fill" TEXT="tr:dock 启用;dock 关闭" lang="tr:启用" lang2="tr:关闭"/>
+			<Spacer Layout="10,5"/>
+			<Control Class="CBinaryBoxUI" Name="chkGray" Layout="adapt,fill" TEXT="tr:Gray 开启;Gray 关闭" lang="tr:启用" lang2="tr:关闭"/>
+		</Hlayout>
+		<Spacer Layout="fill,5"/>
+		<Hlayout name="main_layout" Layout="fill,fill">
+			<Control Class="CListBoxUI" Name="macdeskui" Layout="250,fill" colCount="2" width_item="100" height_item="100" interval='5' scroll-autohide="true"/>
+			<Control Class="CContainTabUI" Name="maindisplay" Layout="fill:150,fill" back-show="always"/>
+		</Hlayout>
+
+
+
+	</Control>
+
+	<Control Class="CContainLayoutUI" Name="global-notify-msg" position="0,0,200,80" visible="false" contain-flags="HideAfterDelay" contain-layout="box-type:vertical" back-show="always" border-show="always">
+		<Control Class="CLabelUI" text="tr:主题:" Layout="fill,fill"  control-flags="use-par-color-text" text-align="center|vcenter" />
+	</Control>
+</UI>

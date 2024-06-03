@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<UI size="1100,700">
+	<Control Class="CLabelUI" DesignerClass="CLabelUI" position="{0,0,100,100}" Name="title" Layout="fill,40" back-show="always" text-align="hcenter|vcenter" text="tr:颜色选择器" />
+
+	<hLayout Layout="fill,400">
+		<Control Class="CColorPickerUI" Name="colorpicker" value="0x125687" Layout="400,400"/>
+		<!-- <Control Class="NetGraphUI" Name="NetGraphUI" Layout="fill:500,400"/>-->
+		<!-- <Control Class="CStepsBarUI" Name="CStepsBarUI" Layout="200,400" Type="VERTICAL"/>-->
+	</hLayout>
+
+
+
+</UI>

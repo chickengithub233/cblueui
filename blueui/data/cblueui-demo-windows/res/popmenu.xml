@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<UI size="300,182">
+	<vLayout Layout="fill,fill">
+		<Control Class="CButtonMenuUI" TEXT="撤销" Name="btnOpendir" Layout="fill,30" text-align="vcenter"/>
+		<Control Class="CButtonMenuUI" TEXT="剪切" Name="btnOpendir" Layout="fill,30" text-align="vcenter"/>
+		<Control Class="CButtonMenuUI" TEXT="复制" Name="btnOpendir" Layout="fill,30" text-align="vcenter"/>
+		<Control Class="CButtonMenuUI" TEXT="粘贴" Name="btnOpendir" Layout="fill,30" text-align="vcenter"/>
+		<Control Class="CButtonMenuUI" TEXT="更多操作>" Name="more" Layout="fill,30" text-align="vcenter"/>
+		<Control Class="CButtonMenuUI" TEXT="帮助" Name="btnOpendir" Layout="fill,30" text-align="vcenter"/>
+	</vLayout>
+</UI>

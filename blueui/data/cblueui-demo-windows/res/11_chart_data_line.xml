@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<data>
+    <CChartCoordinate class="LinearAxis" name="axis_x0" range-zoom="0,768" range="0,768"/>
+    <CChartCoordinate class="LinearAxis" name="axis_y0" range-zoom="0,40000" range="0,40000" Vertical="true" show-gridbk="true"/>
+    <CChartCoordinate class="CCoordinateAffine" name="axis_xy0" axisx="axis_x0" axisy="axis_y0"/>
+    <CChartSeries class="CChartSeriesCustom" name="rgbseries">
+    </CChartSeries>
+</data>

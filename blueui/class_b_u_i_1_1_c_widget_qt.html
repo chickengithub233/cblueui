@@ -1,0 +1,710 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>CBlueUI: BUI::CWidgetQt类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBlueUI
+   &#160;<span id="projectnumber">vxxx</span>
+   </div>
+   <div id="projectbrief">C++ 跨平台跨框架的数据可视化工具</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_b_u_i_1_1_c_widget_qt.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="class_b_u_i_1_1_c_widget_qt-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">BUI::CWidgetQt类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> 类 BUI::CWidgetQt 继承关系图:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="class_b_u_i_1_1_c_widget_qt.png" alt=""/>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a2c905b97fb0ec409dd1b29fbe7596d58"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html#a2c905b97fb0ec409dd1b29fbe7596d58">CWidgetQt</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="separator:a2c905b97fb0ec409dd1b29fbe7596d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acedc5248a69ae06b18cc7390ae570fe3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html#acedc5248a69ae06b18cc7390ae570fe3">~CWidgetQt</a> ()</td></tr>
+<tr class="separator:acedc5248a69ae06b18cc7390ae570fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a342d5be9d8ddcedc6d417e47ff7c0b74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html#a342d5be9d8ddcedc6d417e47ff7c0b74">SetStandardButtonHidden</a> (int type, bool show)</td></tr>
+<tr class="separator:a342d5be9d8ddcedc6d417e47ff7c0b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2522eb652be6c691684ac90575c9b54"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html#ac2522eb652be6c691684ac90575c9b54">DoModal</a> ()</td></tr>
+<tr class="separator:ac2522eb652be6c691684ac90575c9b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accf414b9244a18e1e80b058bf5dac114"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html#accf414b9244a18e1e80b058bf5dac114">EnableDragMove</a> (<a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> isDragMove)</td></tr>
+<tr class="separator:accf414b9244a18e1e80b058bf5dac114"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c7941fcf4fea05376339fc26fcd0724"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html#a9c7941fcf4fea05376339fc26fcd0724">CenterWindow</a> ()</td></tr>
+<tr class="separator:a9c7941fcf4fea05376339fc26fcd0724"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a967875573e8232278b9abe7c61a51797"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html#a967875573e8232278b9abe7c61a51797">ExitEventLoop</a> ()</td></tr>
+<tr class="separator:a967875573e8232278b9abe7c61a51797"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dd181965a19c1088c2116e45fc89976"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html#a8dd181965a19c1088c2116e45fc89976">OnChangeStyle</a> ()</td></tr>
+<tr class="separator:a8dd181965a19c1088c2116e45fc89976"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a7bc9b6653f60c060e071604bb82486af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html#a7bc9b6653f60c060e071604bb82486af">m_isHasFrame</a></td></tr>
+<tr class="separator:a7bc9b6653f60c060e071604bb82486af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:aeeea374ba3bef568638b1027192c6849"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html#aeeea374ba3bef568638b1027192c6849">paintEvent</a> (QPaintEvent *<a class="el" href="class_b_u_i_1_1_c_widget_qt.html#a3c6c959caaa811b6ba16a2ad7952bb69">event</a>) override</td></tr>
+<tr class="separator:aeeea374ba3bef568638b1027192c6849"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c6c959caaa811b6ba16a2ad7952bb69"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html#a3c6c959caaa811b6ba16a2ad7952bb69">event</a> (QEvent *e) override</td></tr>
+<tr class="separator:a3c6c959caaa811b6ba16a2ad7952bb69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedeba57112910b80ff89539f42e45190"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html#aedeba57112910b80ff89539f42e45190">closeEvent</a> (QCloseEvent *<a class="el" href="class_b_u_i_1_1_c_widget_qt.html#a3c6c959caaa811b6ba16a2ad7952bb69">event</a>) override</td></tr>
+<tr class="separator:aedeba57112910b80ff89539f42e45190"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13029fa723e2966409aaf746b1a82251"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html#a13029fa723e2966409aaf746b1a82251">showEvent</a> (QShowEvent *<a class="el" href="class_b_u_i_1_1_c_widget_qt.html#a3c6c959caaa811b6ba16a2ad7952bb69">event</a>) override</td></tr>
+<tr class="separator:a13029fa723e2966409aaf746b1a82251"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ab9cedfdd7b04187d86eaa8abb85a83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html#a5ab9cedfdd7b04187d86eaa8abb85a83">hideEvent</a> (QHideEvent *<a class="el" href="class_b_u_i_1_1_c_widget_qt.html#a3c6c959caaa811b6ba16a2ad7952bb69">event</a>) override</td></tr>
+<tr class="separator:a5ab9cedfdd7b04187d86eaa8abb85a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c266286cc4fda059cfdd788c0451b6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html#a7c266286cc4fda059cfdd788c0451b6d">mousePressEvent</a> (QMouseEvent *<a class="el" href="class_b_u_i_1_1_c_widget_qt.html#a3c6c959caaa811b6ba16a2ad7952bb69">event</a>) override</td></tr>
+<tr class="separator:a7c266286cc4fda059cfdd788c0451b6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7442ac4b98af63be9bf21cccdf32d75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html#ab7442ac4b98af63be9bf21cccdf32d75">mouseMoveEvent</a> (QMouseEvent *<a class="el" href="class_b_u_i_1_1_c_widget_qt.html#a3c6c959caaa811b6ba16a2ad7952bb69">event</a>) override</td></tr>
+<tr class="separator:ab7442ac4b98af63be9bf21cccdf32d75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a842229393a2101a9108cc424d7a34f27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html#a842229393a2101a9108cc424d7a34f27">mouseReleaseEvent</a> (QMouseEvent *<a class="el" href="class_b_u_i_1_1_c_widget_qt.html#a3c6c959caaa811b6ba16a2ad7952bb69">event</a>) override</td></tr>
+<tr class="separator:a842229393a2101a9108cc424d7a34f27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55359a6e11c677ca190a4ae5a0757561"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html#a55359a6e11c677ca190a4ae5a0757561">nativeEvent</a> (const QByteArray &amp;eventType, void *message, qintptr *result) override</td></tr>
+<tr class="separator:a55359a6e11c677ca190a4ae5a0757561"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a9ea7b17e3778b558750be20093616bc3"><td class="memItemLeft" align="right" valign="top">QEventLoop&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html#a9ea7b17e3778b558750be20093616bc3">m_eventLoop</a></td></tr>
+<tr class="separator:a9ea7b17e3778b558750be20093616bc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd78936367f1e137f84e24b82456a9a4"><td class="memItemLeft" align="right" valign="top">QPointF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html#afd78936367f1e137f84e24b82456a9a4">m_mouseStartPoint</a></td></tr>
+<tr class="separator:afd78936367f1e137f84e24b82456a9a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98f49d3b83df28827a8a7f8ebefead42"><td class="memItemLeft" align="right" valign="top">QPointF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html#a98f49d3b83df28827a8a7f8ebefead42">m_windowTopLeftPoint</a></td></tr>
+<tr class="separator:a98f49d3b83df28827a8a7f8ebefead42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20575ab128362213ceb0ffd1dfbde946"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html#a20575ab128362213ceb0ffd1dfbde946">m_isEnableDragMove</a></td></tr>
+<tr class="separator:a20575ab128362213ceb0ffd1dfbde946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a2c905b97fb0ec409dd1b29fbe7596d58" name="a2c905b97fb0ec409dd1b29fbe7596d58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c905b97fb0ec409dd1b29fbe7596d58">&#9670;&#160;</a></span>CWidgetQt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::CWidgetQt::CWidgetQt </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acedc5248a69ae06b18cc7390ae570fe3" name="acedc5248a69ae06b18cc7390ae570fe3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acedc5248a69ae06b18cc7390ae570fe3">&#9670;&#160;</a></span>~CWidgetQt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::CWidgetQt::~CWidgetQt </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="a9c7941fcf4fea05376339fc26fcd0724" name="a9c7941fcf4fea05376339fc26fcd0724"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c7941fcf4fea05376339fc26fcd0724">&#9670;&#160;</a></span>CenterWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CWidgetQt::CenterWindow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aedeba57112910b80ff89539f42e45190" name="aedeba57112910b80ff89539f42e45190"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedeba57112910b80ff89539f42e45190">&#9670;&#160;</a></span>closeEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CWidgetQt::closeEvent </td>
+          <td>(</td>
+          <td class="paramtype">QCloseEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac2522eb652be6c691684ac90575c9b54" name="ac2522eb652be6c691684ac90575c9b54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2522eb652be6c691684ac90575c9b54">&#9670;&#160;</a></span>DoModal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int BUI::CWidgetQt::DoModal </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="accf414b9244a18e1e80b058bf5dac114" name="accf414b9244a18e1e80b058bf5dac114"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accf414b9244a18e1e80b058bf5dac114">&#9670;&#160;</a></span>EnableDragMove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CWidgetQt::EnableDragMove </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>isDragMove</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c6c959caaa811b6ba16a2ad7952bb69" name="a3c6c959caaa811b6ba16a2ad7952bb69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c6c959caaa811b6ba16a2ad7952bb69">&#9670;&#160;</a></span>event()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BUI::CWidgetQt::event </td>
+          <td>(</td>
+          <td class="paramtype">QEvent *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a967875573e8232278b9abe7c61a51797" name="a967875573e8232278b9abe7c61a51797"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a967875573e8232278b9abe7c61a51797">&#9670;&#160;</a></span>ExitEventLoop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CWidgetQt::ExitEventLoop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ab9cedfdd7b04187d86eaa8abb85a83" name="a5ab9cedfdd7b04187d86eaa8abb85a83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ab9cedfdd7b04187d86eaa8abb85a83">&#9670;&#160;</a></span>hideEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CWidgetQt::hideEvent </td>
+          <td>(</td>
+          <td class="paramtype">QHideEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab7442ac4b98af63be9bf21cccdf32d75" name="ab7442ac4b98af63be9bf21cccdf32d75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7442ac4b98af63be9bf21cccdf32d75">&#9670;&#160;</a></span>mouseMoveEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CWidgetQt::mouseMoveEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c266286cc4fda059cfdd788c0451b6d" name="a7c266286cc4fda059cfdd788c0451b6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c266286cc4fda059cfdd788c0451b6d">&#9670;&#160;</a></span>mousePressEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CWidgetQt::mousePressEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a842229393a2101a9108cc424d7a34f27" name="a842229393a2101a9108cc424d7a34f27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a842229393a2101a9108cc424d7a34f27">&#9670;&#160;</a></span>mouseReleaseEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CWidgetQt::mouseReleaseEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a55359a6e11c677ca190a4ae5a0757561" name="a55359a6e11c677ca190a4ae5a0757561"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55359a6e11c677ca190a4ae5a0757561">&#9670;&#160;</a></span>nativeEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BUI::CWidgetQt::nativeEvent </td>
+          <td>(</td>
+          <td class="paramtype">const QByteArray &amp;&#160;</td>
+          <td class="paramname"><em>eventType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qintptr *&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8dd181965a19c1088c2116e45fc89976" name="a8dd181965a19c1088c2116e45fc89976"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dd181965a19c1088c2116e45fc89976">&#9670;&#160;</a></span>OnChangeStyle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CWidgetQt::OnChangeStyle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeeea374ba3bef568638b1027192c6849" name="aeeea374ba3bef568638b1027192c6849"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeeea374ba3bef568638b1027192c6849">&#9670;&#160;</a></span>paintEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CWidgetQt::paintEvent </td>
+          <td>(</td>
+          <td class="paramtype">QPaintEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a342d5be9d8ddcedc6d417e47ff7c0b74" name="a342d5be9d8ddcedc6d417e47ff7c0b74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a342d5be9d8ddcedc6d417e47ff7c0b74">&#9670;&#160;</a></span>SetStandardButtonHidden()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CWidgetQt::SetStandardButtonHidden </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>show</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a13029fa723e2966409aaf746b1a82251" name="a13029fa723e2966409aaf746b1a82251"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13029fa723e2966409aaf746b1a82251">&#9670;&#160;</a></span>showEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CWidgetQt::showEvent </td>
+          <td>(</td>
+          <td class="paramtype">QShowEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="a9ea7b17e3778b558750be20093616bc3" name="a9ea7b17e3778b558750be20093616bc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ea7b17e3778b558750be20093616bc3">&#9670;&#160;</a></span>m_eventLoop</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QEventLoop BUI::CWidgetQt::m_eventLoop</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20575ab128362213ceb0ffd1dfbde946" name="a20575ab128362213ceb0ffd1dfbde946"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20575ab128362213ceb0ffd1dfbde946">&#9670;&#160;</a></span>m_isEnableDragMove</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::CWidgetQt::m_isEnableDragMove</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7bc9b6653f60c060e071604bb82486af" name="a7bc9b6653f60c060e071604bb82486af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bc9b6653f60c060e071604bb82486af">&#9670;&#160;</a></span>m_isHasFrame</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::CWidgetQt::m_isHasFrame</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd78936367f1e137f84e24b82456a9a4" name="afd78936367f1e137f84e24b82456a9a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd78936367f1e137f84e24b82456a9a4">&#9670;&#160;</a></span>m_mouseStartPoint</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPointF BUI::CWidgetQt::m_mouseStartPoint</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a98f49d3b83df28827a8a7f8ebefead42" name="a98f49d3b83df28827a8a7f8ebefead42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98f49d3b83df28827a8a7f8ebefead42">&#9670;&#160;</a></span>m_windowTopLeftPoint</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPointF BUI::CWidgetQt::m_windowTopLeftPoint</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_b_u_i.html">BUI</a></li><li class="navelem"><a class="el" href="class_b_u_i_1_1_c_widget_qt.html">CWidgetQt</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

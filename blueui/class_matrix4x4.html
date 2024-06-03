@@ -1,0 +1,1259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>CBlueUI: Matrix4x4类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBlueUI
+   &#160;<span id="projectnumber">vxxx</span>
+   </div>
+   <div id="projectbrief">C++ 跨平台跨框架的数据可视化工具</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_matrix4x4.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="class_matrix4x4-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">Matrix4x4类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a714a467ba7f85f88ebe3897b5e3580be"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a714a467ba7f85f88ebe3897b5e3580be">Matrix4x4</a> ()</td></tr>
+<tr class="separator:a714a467ba7f85f88ebe3897b5e3580be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24f4fe8abd6b46bd45c04e215fc8c415"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a24f4fe8abd6b46bd45c04e215fc8c415">Matrix4x4</a> (double v11, double v12, double v13, double v14, double v21, double v22, double v23, double v24, double v31, double v32, double v33, double v34, double v41, double v42, double v43, double v44)</td></tr>
+<tr class="separator:a24f4fe8abd6b46bd45c04e215fc8c415"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af93697f7cdaea7477860400d4b260f23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#af93697f7cdaea7477860400d4b260f23">Normal</a> ()</td></tr>
+<tr class="separator:af93697f7cdaea7477860400d4b260f23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d0aadb807153804e03ec1f9929afa5a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_matrix4x4.html">Matrix4x4</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a7d0aadb807153804e03ec1f9929afa5a">operator=</a> (const <a class="el" href="class_matrix4x4.html">Matrix4x4</a> &amp;c)</td></tr>
+<tr class="separator:a7d0aadb807153804e03ec1f9929afa5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f60103a6245b9cadb1a40a876a0f5a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_matrix4x4.html">Matrix4x4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a6f60103a6245b9cadb1a40a876a0f5a3">operator*</a> (const <a class="el" href="class_matrix4x4.html">Matrix4x4</a> &amp;c)</td></tr>
+<tr class="separator:a6f60103a6245b9cadb1a40a876a0f5a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4ad86056bf0ce8247fdb661bf531876"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_matrix4x4.html">Matrix4x4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#aa4ad86056bf0ce8247fdb661bf531876">Mul</a> (double c) const</td></tr>
+<tr class="separator:aa4ad86056bf0ce8247fdb661bf531876"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcc19cd32a184347b5fed187afb21dab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_matrix4x4.html">Matrix4x4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#abcc19cd32a184347b5fed187afb21dab">MirrorXOZ</a> ()</td></tr>
+<tr class="separator:abcc19cd32a184347b5fed187afb21dab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99405d3911ffa720a240f81e90b316f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_matrix4x4.html">Matrix4x4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a99405d3911ffa720a240f81e90b316f2">Transposition</a> ()</td></tr>
+<tr class="separator:a99405d3911ffa720a240f81e90b316f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7aaeffe94bcf115cf8fa87cfceb8593"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#ab7aaeffe94bcf115cf8fa87cfceb8593">Determinant</a> () const</td></tr>
+<tr class="separator:ab7aaeffe94bcf115cf8fa87cfceb8593"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a832428555f20de0282927c663df60800"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_matrix4x4.html">Matrix4x4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a832428555f20de0282927c663df60800">Inverse</a> () const</td></tr>
+<tr class="separator:a832428555f20de0282927c663df60800"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f559d4222595ffcc52734608c719448"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a6f559d4222595ffcc52734608c719448">Transform3D</a> (double *x, double *y, double *z) const</td></tr>
+<tr class="memdesc:a6f559d4222595ffcc52734608c719448"><td class="mdescLeft">&#160;</td><td class="mdescRight">坐标转换，矩阵*向量坐标 = 结果向量坐标 A* p0 = p1 | m00 m01 m02 m03| |x0| |x| | m10 m11 m12 m13| |y0| |y| | m20 m21 m22 m23| * |z0| = |z| | m30 m31 m32 m33| | 1| |1|  <br /></td></tr>
+<tr class="separator:a6f559d4222595ffcc52734608c719448"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:a4eb11c68d1015858b5240430f16711f1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a4eb11c68d1015858b5240430f16711f1">Lookat</a> (const <a class="el" href="class_point3.html">Point3</a> &amp;eye, const <a class="el" href="class_point3.html">Point3</a> &amp;center, const <a class="el" href="class_point3.html">Point3</a> &amp;up)</td></tr>
+<tr class="separator:a4eb11c68d1015858b5240430f16711f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96acb6dc8db73626681be7c81edd1528"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a96acb6dc8db73626681be7c81edd1528">Ortho</a> (double left, double right, double bottom, double top, double zNear, double zFar)</td></tr>
+<tr class="separator:a96acb6dc8db73626681be7c81edd1528"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5d7fbd7b6db745081738dd7c070d913"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#af5d7fbd7b6db745081738dd7c070d913">Scale</a> (double sx, double sy, double sz)</td></tr>
+<tr class="separator:af5d7fbd7b6db745081738dd7c070d913"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a451516e1738eb053de093539cbc0ff60"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a451516e1738eb053de093539cbc0ff60">RotateX</a> (double angle)</td></tr>
+<tr class="separator:a451516e1738eb053de093539cbc0ff60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18be420bb524eca95aecf0ef50b179e2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a18be420bb524eca95aecf0ef50b179e2">RotateY</a> (double angle)</td></tr>
+<tr class="separator:a18be420bb524eca95aecf0ef50b179e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96b0ba403a8d3b57bafff0a0616ea88b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a96b0ba403a8d3b57bafff0a0616ea88b">RotateZ</a> (double angle)</td></tr>
+<tr class="separator:a96b0ba403a8d3b57bafff0a0616ea88b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6dacb41996370fdd716c7cb6ddb3dc6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#ac6dacb41996370fdd716c7cb6ddb3dc6">Rotate</a> (const <a class="el" href="class_matrix4x4.html">Matrix4x4</a> &amp;m, double angle, double x, double y, double z)</td></tr>
+<tr class="separator:ac6dacb41996370fdd716c7cb6ddb3dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10554f706fdeed5c1a5acf173583021f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a10554f706fdeed5c1a5acf173583021f">MirrorX</a> ()</td></tr>
+<tr class="separator:a10554f706fdeed5c1a5acf173583021f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fbc547e8e1788b531ae0f7141b3575c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a7fbc547e8e1788b531ae0f7141b3575c">MirrorY</a> ()</td></tr>
+<tr class="separator:a7fbc547e8e1788b531ae0f7141b3575c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a9c9d469e037afcd715b9514564e9d4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a0a9c9d469e037afcd715b9514564e9d4">MirrorXOY</a> ()</td></tr>
+<tr class="separator:a0a9c9d469e037afcd715b9514564e9d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada99a60acfcab73de1dac8824e8610f0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#ada99a60acfcab73de1dac8824e8610f0">MirrorYOZ</a> ()</td></tr>
+<tr class="separator:ada99a60acfcab73de1dac8824e8610f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a628244199062cb2c5d15ceb391c8d25b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a628244199062cb2c5d15ceb391c8d25b">Translate</a> (double dx, double dy, double dz)</td></tr>
+<tr class="separator:a628244199062cb2c5d15ceb391c8d25b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38b954b0ccc4cac3e8c0dda62763020c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a38b954b0ccc4cac3e8c0dda62763020c">ProjectionXoY</a> ()</td></tr>
+<tr class="separator:a38b954b0ccc4cac3e8c0dda62763020c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7ffb9eb88f9b7d570b09ad084eafaf6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#af7ffb9eb88f9b7d570b09ad084eafaf6">ProjectionXoZ</a> ()</td></tr>
+<tr class="separator:af7ffb9eb88f9b7d570b09ad084eafaf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a432fb441075ceac90374ff3f21bcad2f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a432fb441075ceac90374ff3f21bcad2f">ProjectionYoZ</a> ()</td></tr>
+<tr class="separator:a432fb441075ceac90374ff3f21bcad2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a344e313fa04dbb534cb9af0e6511036d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a344e313fa04dbb534cb9af0e6511036d">m00</a></td></tr>
+<tr class="separator:a344e313fa04dbb534cb9af0e6511036d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47ff141087e1612ef88fa96d8ae7c6a1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a47ff141087e1612ef88fa96d8ae7c6a1">m01</a></td></tr>
+<tr class="separator:a47ff141087e1612ef88fa96d8ae7c6a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d9c76945343f90f3bad0b8a632c55a3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a8d9c76945343f90f3bad0b8a632c55a3">m02</a></td></tr>
+<tr class="separator:a8d9c76945343f90f3bad0b8a632c55a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a801e335886725c92c7a4eaaaae03e2cd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a801e335886725c92c7a4eaaaae03e2cd">m03</a></td></tr>
+<tr class="separator:a801e335886725c92c7a4eaaaae03e2cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fe67c7d4c634ca426057224eb9c7087"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a3fe67c7d4c634ca426057224eb9c7087">m10</a></td></tr>
+<tr class="separator:a3fe67c7d4c634ca426057224eb9c7087"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec064f2c11fa308c62d7d646204fa13e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#aec064f2c11fa308c62d7d646204fa13e">m11</a></td></tr>
+<tr class="separator:aec064f2c11fa308c62d7d646204fa13e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a5c1d24195f901fccab3aa5e6cfc6ca"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a6a5c1d24195f901fccab3aa5e6cfc6ca">m12</a></td></tr>
+<tr class="separator:a6a5c1d24195f901fccab3aa5e6cfc6ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93b4a4f73cf802406cbe0b6fd08d9b69"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a93b4a4f73cf802406cbe0b6fd08d9b69">m13</a></td></tr>
+<tr class="separator:a93b4a4f73cf802406cbe0b6fd08d9b69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe4c297fa78576114e72a6e9ba054508"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#abe4c297fa78576114e72a6e9ba054508">m20</a></td></tr>
+<tr class="separator:abe4c297fa78576114e72a6e9ba054508"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17efc7ca1d51cc776baaf46a007685b7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a17efc7ca1d51cc776baaf46a007685b7">m21</a></td></tr>
+<tr class="separator:a17efc7ca1d51cc776baaf46a007685b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9b9a2a04c4cc4419884a925a1d6aff1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#aa9b9a2a04c4cc4419884a925a1d6aff1">m22</a></td></tr>
+<tr class="separator:aa9b9a2a04c4cc4419884a925a1d6aff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf994c6e72cbacd58e34c1111cf6a7ae"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#abf994c6e72cbacd58e34c1111cf6a7ae">m23</a></td></tr>
+<tr class="separator:abf994c6e72cbacd58e34c1111cf6a7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ce9698f578ca8bf00aa2f363dbb8d79"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a9ce9698f578ca8bf00aa2f363dbb8d79">m30</a></td></tr>
+<tr class="separator:a9ce9698f578ca8bf00aa2f363dbb8d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e12c6ff7f3a48584e93e319a10d95a5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a2e12c6ff7f3a48584e93e319a10d95a5">m31</a></td></tr>
+<tr class="separator:a2e12c6ff7f3a48584e93e319a10d95a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8e974c5251b2a68c45514f012e9d672"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#ae8e974c5251b2a68c45514f012e9d672">m32</a></td></tr>
+<tr class="separator:ae8e974c5251b2a68c45514f012e9d672"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e0405f19702aac531c2b95bfb9e664a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_matrix4x4.html#a4e0405f19702aac531c2b95bfb9e664a">m33</a></td></tr>
+<tr class="separator:a4e0405f19702aac531c2b95bfb9e664a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a714a467ba7f85f88ebe3897b5e3580be" name="a714a467ba7f85f88ebe3897b5e3580be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a714a467ba7f85f88ebe3897b5e3580be">&#9670;&#160;</a></span>Matrix4x4() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Matrix4x4::Matrix4x4 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a24f4fe8abd6b46bd45c04e215fc8c415" name="a24f4fe8abd6b46bd45c04e215fc8c415"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24f4fe8abd6b46bd45c04e215fc8c415">&#9670;&#160;</a></span>Matrix4x4() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Matrix4x4::Matrix4x4 </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v11</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v12</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v13</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v14</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v21</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v22</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v23</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v24</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v31</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v32</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v33</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v34</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v41</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v42</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v43</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v44</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="ab7aaeffe94bcf115cf8fa87cfceb8593" name="ab7aaeffe94bcf115cf8fa87cfceb8593"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7aaeffe94bcf115cf8fa87cfceb8593">&#9670;&#160;</a></span>Determinant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Matrix4x4::Determinant </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a832428555f20de0282927c663df60800" name="a832428555f20de0282927c663df60800"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a832428555f20de0282927c663df60800">&#9670;&#160;</a></span>Inverse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_matrix4x4.html">Matrix4x4</a> Matrix4x4::Inverse </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4eb11c68d1015858b5240430f16711f1" name="a4eb11c68d1015858b5240430f16711f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4eb11c68d1015858b5240430f16711f1">&#9670;&#160;</a></span>Lookat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a> Matrix4x4::Lookat </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_point3.html">Point3</a> &amp;&#160;</td>
+          <td class="paramname"><em>eye</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_point3.html">Point3</a> &amp;&#160;</td>
+          <td class="paramname"><em>center</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_point3.html">Point3</a> &amp;&#160;</td>
+          <td class="paramname"><em>up</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a10554f706fdeed5c1a5acf173583021f" name="a10554f706fdeed5c1a5acf173583021f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10554f706fdeed5c1a5acf173583021f">&#9670;&#160;</a></span>MirrorX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a> Matrix4x4::MirrorX </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a9c9d469e037afcd715b9514564e9d4" name="a0a9c9d469e037afcd715b9514564e9d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a9c9d469e037afcd715b9514564e9d4">&#9670;&#160;</a></span>MirrorXOY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a> Matrix4x4::MirrorXOY </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abcc19cd32a184347b5fed187afb21dab" name="abcc19cd32a184347b5fed187afb21dab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcc19cd32a184347b5fed187afb21dab">&#9670;&#160;</a></span>MirrorXOZ()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_matrix4x4.html">Matrix4x4</a> Matrix4x4::MirrorXOZ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7fbc547e8e1788b531ae0f7141b3575c" name="a7fbc547e8e1788b531ae0f7141b3575c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fbc547e8e1788b531ae0f7141b3575c">&#9670;&#160;</a></span>MirrorY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a> Matrix4x4::MirrorY </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada99a60acfcab73de1dac8824e8610f0" name="ada99a60acfcab73de1dac8824e8610f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada99a60acfcab73de1dac8824e8610f0">&#9670;&#160;</a></span>MirrorYOZ()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a> Matrix4x4::MirrorYOZ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa4ad86056bf0ce8247fdb661bf531876" name="aa4ad86056bf0ce8247fdb661bf531876"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4ad86056bf0ce8247fdb661bf531876">&#9670;&#160;</a></span>Mul()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_matrix4x4.html">Matrix4x4</a> Matrix4x4::Mul </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af93697f7cdaea7477860400d4b260f23" name="af93697f7cdaea7477860400d4b260f23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af93697f7cdaea7477860400d4b260f23">&#9670;&#160;</a></span>Normal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Matrix4x4::Normal </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6f60103a6245b9cadb1a40a876a0f5a3" name="a6f60103a6245b9cadb1a40a876a0f5a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f60103a6245b9cadb1a40a876a0f5a3">&#9670;&#160;</a></span>operator*()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_matrix4x4.html">Matrix4x4</a> Matrix4x4::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_matrix4x4.html">Matrix4x4</a> &amp;&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d0aadb807153804e03ec1f9929afa5a" name="a7d0aadb807153804e03ec1f9929afa5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d0aadb807153804e03ec1f9929afa5a">&#9670;&#160;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_matrix4x4.html">Matrix4x4</a> &amp; Matrix4x4::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_matrix4x4.html">Matrix4x4</a> &amp;&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a96acb6dc8db73626681be7c81edd1528" name="a96acb6dc8db73626681be7c81edd1528"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96acb6dc8db73626681be7c81edd1528">&#9670;&#160;</a></span>Ortho()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a> Matrix4x4::Ortho </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>right</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>bottom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>top</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>zNear</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>zFar</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a38b954b0ccc4cac3e8c0dda62763020c" name="a38b954b0ccc4cac3e8c0dda62763020c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38b954b0ccc4cac3e8c0dda62763020c">&#9670;&#160;</a></span>ProjectionXoY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a> Matrix4x4::ProjectionXoY </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af7ffb9eb88f9b7d570b09ad084eafaf6" name="af7ffb9eb88f9b7d570b09ad084eafaf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7ffb9eb88f9b7d570b09ad084eafaf6">&#9670;&#160;</a></span>ProjectionXoZ()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a> Matrix4x4::ProjectionXoZ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a432fb441075ceac90374ff3f21bcad2f" name="a432fb441075ceac90374ff3f21bcad2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a432fb441075ceac90374ff3f21bcad2f">&#9670;&#160;</a></span>ProjectionYoZ()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a> Matrix4x4::ProjectionYoZ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6dacb41996370fdd716c7cb6ddb3dc6" name="ac6dacb41996370fdd716c7cb6ddb3dc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6dacb41996370fdd716c7cb6ddb3dc6">&#9670;&#160;</a></span>Rotate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a> Matrix4x4::Rotate </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_matrix4x4.html">Matrix4x4</a> &amp;&#160;</td>
+          <td class="paramname"><em>m</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>angle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a451516e1738eb053de093539cbc0ff60" name="a451516e1738eb053de093539cbc0ff60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a451516e1738eb053de093539cbc0ff60">&#9670;&#160;</a></span>RotateX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a> Matrix4x4::RotateX </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>angle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a18be420bb524eca95aecf0ef50b179e2" name="a18be420bb524eca95aecf0ef50b179e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18be420bb524eca95aecf0ef50b179e2">&#9670;&#160;</a></span>RotateY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a> Matrix4x4::RotateY </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>angle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a96b0ba403a8d3b57bafff0a0616ea88b" name="a96b0ba403a8d3b57bafff0a0616ea88b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96b0ba403a8d3b57bafff0a0616ea88b">&#9670;&#160;</a></span>RotateZ()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a> Matrix4x4::RotateZ </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>angle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af5d7fbd7b6db745081738dd7c070d913" name="af5d7fbd7b6db745081738dd7c070d913"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5d7fbd7b6db745081738dd7c070d913">&#9670;&#160;</a></span>Scale()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a> Matrix4x4::Scale </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sz</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6f559d4222595ffcc52734608c719448" name="a6f559d4222595ffcc52734608c719448"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f559d4222595ffcc52734608c719448">&#9670;&#160;</a></span>Transform3D()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Matrix4x4::Transform3D </td>
+          <td>(</td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>坐标转换，矩阵*向量坐标 = 结果向量坐标 A* p0 = p1 | m00 m01 m02 m03| |x0| |x| | m10 m11 m12 m13| |y0| |y| | m20 m21 m22 m23| * |z0| = |z| | m30 m31 m32 m33| | 1| |1| </p>
+
+</div>
+</div>
+<a id="a628244199062cb2c5d15ceb391c8d25b" name="a628244199062cb2c5d15ceb391c8d25b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a628244199062cb2c5d15ceb391c8d25b">&#9670;&#160;</a></span>Translate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_matrix4x4.html">Matrix4x4</a> Matrix4x4::Translate </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dz</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a99405d3911ffa720a240f81e90b316f2" name="a99405d3911ffa720a240f81e90b316f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99405d3911ffa720a240f81e90b316f2">&#9670;&#160;</a></span>Transposition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_matrix4x4.html">Matrix4x4</a> Matrix4x4::Transposition </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="a344e313fa04dbb534cb9af0e6511036d" name="a344e313fa04dbb534cb9af0e6511036d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a344e313fa04dbb534cb9af0e6511036d">&#9670;&#160;</a></span>m00</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Matrix4x4::m00</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a47ff141087e1612ef88fa96d8ae7c6a1" name="a47ff141087e1612ef88fa96d8ae7c6a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47ff141087e1612ef88fa96d8ae7c6a1">&#9670;&#160;</a></span>m01</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Matrix4x4::m01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d9c76945343f90f3bad0b8a632c55a3" name="a8d9c76945343f90f3bad0b8a632c55a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d9c76945343f90f3bad0b8a632c55a3">&#9670;&#160;</a></span>m02</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Matrix4x4::m02</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a801e335886725c92c7a4eaaaae03e2cd" name="a801e335886725c92c7a4eaaaae03e2cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a801e335886725c92c7a4eaaaae03e2cd">&#9670;&#160;</a></span>m03</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Matrix4x4::m03</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3fe67c7d4c634ca426057224eb9c7087" name="a3fe67c7d4c634ca426057224eb9c7087"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fe67c7d4c634ca426057224eb9c7087">&#9670;&#160;</a></span>m10</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Matrix4x4::m10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec064f2c11fa308c62d7d646204fa13e" name="aec064f2c11fa308c62d7d646204fa13e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec064f2c11fa308c62d7d646204fa13e">&#9670;&#160;</a></span>m11</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Matrix4x4::m11</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6a5c1d24195f901fccab3aa5e6cfc6ca" name="a6a5c1d24195f901fccab3aa5e6cfc6ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a5c1d24195f901fccab3aa5e6cfc6ca">&#9670;&#160;</a></span>m12</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Matrix4x4::m12</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a93b4a4f73cf802406cbe0b6fd08d9b69" name="a93b4a4f73cf802406cbe0b6fd08d9b69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93b4a4f73cf802406cbe0b6fd08d9b69">&#9670;&#160;</a></span>m13</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Matrix4x4::m13</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe4c297fa78576114e72a6e9ba054508" name="abe4c297fa78576114e72a6e9ba054508"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe4c297fa78576114e72a6e9ba054508">&#9670;&#160;</a></span>m20</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Matrix4x4::m20</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17efc7ca1d51cc776baaf46a007685b7" name="a17efc7ca1d51cc776baaf46a007685b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17efc7ca1d51cc776baaf46a007685b7">&#9670;&#160;</a></span>m21</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Matrix4x4::m21</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa9b9a2a04c4cc4419884a925a1d6aff1" name="aa9b9a2a04c4cc4419884a925a1d6aff1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9b9a2a04c4cc4419884a925a1d6aff1">&#9670;&#160;</a></span>m22</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Matrix4x4::m22</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf994c6e72cbacd58e34c1111cf6a7ae" name="abf994c6e72cbacd58e34c1111cf6a7ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf994c6e72cbacd58e34c1111cf6a7ae">&#9670;&#160;</a></span>m23</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Matrix4x4::m23</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ce9698f578ca8bf00aa2f363dbb8d79" name="a9ce9698f578ca8bf00aa2f363dbb8d79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ce9698f578ca8bf00aa2f363dbb8d79">&#9670;&#160;</a></span>m30</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Matrix4x4::m30</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2e12c6ff7f3a48584e93e319a10d95a5" name="a2e12c6ff7f3a48584e93e319a10d95a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e12c6ff7f3a48584e93e319a10d95a5">&#9670;&#160;</a></span>m31</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Matrix4x4::m31</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae8e974c5251b2a68c45514f012e9d672" name="ae8e974c5251b2a68c45514f012e9d672"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8e974c5251b2a68c45514f012e9d672">&#9670;&#160;</a></span>m32</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Matrix4x4::m32</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e0405f19702aac531c2b95bfb9e664a" name="a4e0405f19702aac531c2b95bfb9e664a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e0405f19702aac531c2b95bfb9e664a">&#9670;&#160;</a></span>m33</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Matrix4x4::m33</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_matrix4x4.html">Matrix4x4</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

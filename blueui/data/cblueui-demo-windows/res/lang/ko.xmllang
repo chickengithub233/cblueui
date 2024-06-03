@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LangFile>
+	<lang name="基于BlueUI数据可视化" value="블루 ui 기반 데이터 시각화"/>
+	<lang name="语言:" value="언어:"/>
+	<lang name="CN-中文简体" value="중국어 간체"/>
+	<lang name="CNT-中文繁体" value="CNT- 중국어 번체"/>
+	<lang name="RU-俄语" value="러시아어"/>
+	<lang name="EN-英语" value="영어"/>
+	<lang name="AR-阿拉伯" value="아랍 일보"/>
+	<lang name="FR-法语" value="프랑스 프랑스어"/>
+	<lang name="KO-朝鲜" value="코-북한"/>
+	<lang name="JP-日语" value="JP- 일본어"/>
+	<lang name="高斯模糊:" value="가우스 블러:"/>
+	<lang name="基本控件" value="기본 제어"/>
+	<lang name="图标水平布局" value="아이콘 수평 레이아웃"/>
+	<lang name="标签UI" value="레이블 사용자 인터페이스"/>
+	<lang name="html标签第一行:白月光照前方是希望" value="Html 태그의 첫 번째 줄: 앞에 하얀 빛과 푸른 빛이 희망입니다"/>
+	<lang name="html标签第二行:对流星我许下愿望" value="Html 태그 행 2: 나는 유성을 위해 소원을 빌었다"/>
+	<lang name="html标签第三行:我们深情的对望" value="Html 태그 세 번째 줄: 우리는 다정하게 눈을 마주쳤다."/>
+	<lang name="选择UI" value="사용자 인터페이스 선택"/>
+	<lang name="单选组合:" value="단일 선택 조합:"/>
+	<lang name="短信" value="문자메시지"/>
+	<lang name="电话" value="전화"/>
+	<lang name="邮件" value="메일"/>
+	<lang name="输入框:" value="입력 상자:"/>
+	<lang name="步长输入框:" value="단계 입력 상자:"/>
+	<lang name="范围选择:" value="범위 선택:"/>
+	<lang name="IP V4地址:" value="IPv4 주소:"/>
+	<lang name="IP V6地址:" value="IP V6 주소:"/>
+	<lang name="下拉框:" value="드롭다운 상자:"/>
+	<lang name="浅蓝" value="담청색"/>
+	<lang name="雅黑" value="우아한 블랙"/>
+	<lang name="眩白" value="뜨거운 하얀 빛"/>
+	<lang name="日期:" value="날짜:"/>
+	<lang name="时间段:" value="기간:"/>
+	<lang name="颜色选取:" value="색상 선택:"/>
+	<lang name="快捷键:" value="바로 가기 키:"/>
+	<lang name="分段风格标签按钮:" value="세그먼트 스타일 레이블 버튼:"/>
+	<lang name="按钮UI" value="버튼 사용자 인터페이스"/>
+	<lang name="提示文本asdfasdfasdfff" value="프롬프트 텍스트 asdfasdfasdfff"/>
+	<lang name="自定义圆角风格" value="사용자 모깎기 스타일"/>
+	<lang name="未读信息" value="읽지 않은 정보"/>
+	<lang name="12" value="12"/>
+	<lang name="自定义圆角" value="커스터마이징 등심"/>
+	<lang name="图标垂直布局" value="아이콘 수직 레이아웃"/>
+	<lang name="滑块UI" value="슬라이더 사용자 인터페이스"/>
+	<lang name="进度条UI" value="진행 표시줄 UI"/>
+	<lang name="消费" value="소비"/>
+	<lang name="标签页UI" value="탭 사용자 인터페이스"/>
+	<lang name="百度地图" value="바이두 지도"/>
+	<lang name="高德地图" value="지도: 지도"/>
+	<lang name="腾讯地图" value="텐센트 지도"/>
+	<lang name="标签页" value="라벨"/>
+	<lang name="翻页控件UI" value="페이지 제어 UI"/>
+	<lang name="翻页控件" value="페이지 넘기기 컨트롤"/>
+	<lang name="表格" value="책상"/>
+	<lang name="列号" value="열번호"/>
+	<lang name="复选框" value="확인란"/>
+	<lang name="水平网格线" value="수평 그리드 선"/>
+	<lang name="垂直网格线" value="수직 그리드 선"/>
+	<lang name="单元格文本实时测试" value="실시간 단위 텍스트 테스트"/>
+	<lang name="测试数据无参考价值" value="테스트 데이터에 참조 값이 없습니다"/>
+	<lang name="歌曲" value="송 (성씨)"/>
+	<lang name="2015~2022" value="2015~2022 년"/>
+	<lang name="操作项" value="작업 항목"/>
+	<lang name="增，删，改，查" value="추가, 삭제, 변경 및 검사"/>
+	<lang name="树状控件" value="트리 컨트롤"/>
+	<lang name="空空如也" value="비어 있습니다"/>
+	<lang name="金榜歌曲" value="김방곡"/>
+	<lang name="华语" value="중국 사람"/>
+	<lang name="作品" value="작품"/>
+	<lang name="演唱" value="노래를 부르다"/>
+	<lang name="时长" value="지속 기간"/>
+	<lang name="热度" value="뜨거운"/>
+	<lang name="分类" value="분류"/>
+	<lang name="操作" value="조작"/>
+	<lang name="音轨参数" value="트랙 매개변수"/>
+	<lang name="房屋部（总监）" value="주택 부 (이사)"/>
+	<lang name="客房部（经理）" value="객실 (매니저)"/>
+	<lang name="忘情水" value="잊을 수 없는 물"/>
+	<lang name="刘德华" value="유덕화"/>
+	<lang name="楼层主管" value="층 주관자"/>
+	<lang name="楼层领班" value="작업장 반장"/>
+	<lang name="中国梦" value="중국꿈"/>
+	<lang name="群星" value="스타"/>
+	<lang name="房屋中心" value="주택센터"/>
+	<lang name="PA主管" value="PA 담당 이사"/>
+	<lang name="PA领班" value="개인 보좌관"/>
+	<lang name="专业PA" value="전문 개인 비서"/>
+	<lang name="保洁员" value="청소부"/>
+	<lang name="洗衣房（主管）" value="세탁실 (감독자)"/>
+	<lang name="设备操作工" value="운전기사"/>
+	<lang name="整烫工" value="다림질 노동자"/>
+	<lang name="布草收发工" value="옷감 제품 송신기"/>
+	<lang name="前厅部（经理）" value="로비 (매니저)"/>
+	<lang name="金钥匙服务" value="골드 키 서비스"/>
+	<lang name="大堂副经理" value="로비 대리"/>
+	<lang name="前台领班" value="프런트의 반장"/>
+	<lang name="礼宾领班" value="예빈 반장"/>
+	<lang name="服务员" value="종업원"/>
+	<lang name="早餐" value="아침 식사"/>
+	<lang name="全功能文本编辑器" value="전체 기능 텍스트 편집기"/>
+	<lang name="分割窗口视图" value="창 뷰 분할"/>
+	<lang name="统计图表" value="통계도"/>
+	<lang name="折线柱状图" value="라인 히스토그램"/>
+	<lang name="K线图" value="K 라인 차트"/>
+	<lang name="平行线图" value="평행선 그래픽"/>
+	<lang name="散点图" value="산포 그래프"/>
+	<lang name="饼图" value="원형 격자 통계 차트"/>
+	<lang name="极坐标图表" value="극구도"/>
+	<lang name="树分布图" value="트리 분포도"/>
+	<lang name="关系图表" value="관계 다이어그램"/>
+	<lang name="三元图表" value="삼항 차트"/>
+	<lang name="表盘图表" value="다이얼 차트"/>
+	<lang name="仪表盘" value="게이지"/>
+	<lang name="颜色选择器" value="색상 선택기"/>
+	<lang name="弹出抽象窗体" value="추상 양식 팝업"/>
+	<lang name="CContainerUI 控件容器" value="CContainerUI 제어 컨테이너"/>
+	<lang name="图片预览" value="이미지 미리 보기"/>
+	<lang name="图像参数控制" value="이미지 매개변수 컨트롤"/>
+	<lang name="旋转角度[0-360]:" value="회전 각도 [0-360]:"/>
+	<lang name="缩放比例[0-1]:" value="배율 조정 [0-1]:"/>
+	<lang name="GIF图像演示" value="GIF 이미지 프레젠테이션"/>
+	<lang name="日历控件" value="달력 컨트롤"/>
+	<lang name="地理控件" value="지리통제"/>
+	<lang name="1图标水平布局" value="1 아이콘 수평 레이아웃"/>
+	<lang name="2图标水平布局" value="2 아이콘 수평 레이아웃"/>
+	<lang name="同步滚动" value="동시 스크롤"/>
+	<lang name="网页控件" value="웹 컨트롤"/>
+	<lang name="添加UI文件" value="UI 파일 추가"/>
+	<lang name="通用控件" value="일반 제어"/>
+	<lang name="树状表格" value="트리 테이블"/>
+	<lang name="线性列表" value="선형 목록"/>
+	<lang name="文本编辑" value="텍스트 편집"/>
+	<lang name="计算器" value="계산기"/>
+	<lang name="颜色拾取" value="색상 선택"/>
+	<lang name="弹出菜单" value="팝업 메뉴"/>
+	<lang name="图像预览" value="이미지 미리 보기"/>
+	<lang name="日历" value="달력"/>
+	<lang name="地理图形" value="지리그래픽"/>
+	<lang name="取消" value="취소"/>
+	<lang name="确认" value="확인"/>
+	<lang name="今日" value="오늘"/>
+	<lang name="自动化应用" value="응용 프로그램 자동화"/>
+	<lang name="线条:" value="선:"/>
+	<lang name="Barcode-Format:" value="바코드 형식:"/>
+	<lang name="Text:" value="텍스트:"/>
+	<lang name="生成" value="생성"/>
+	<lang name="框架设计图" value="틀 설계도"/>
+	<lang name="插件扩展定制层" value="플러그인 확장 사용자 정의 레이어"/>
+	<lang name="Control/Node" value="제어/노드"/>
+	<lang name="UI构建和接口层" value="UI 빌드 및 인터페이스 레이어"/>
+	<lang name="平台和框架适配层" value="플랫폼 및 프레임 어댑터 계층"/>
+	<lang name="核心和基础功能层" value="핵심 및 기본 기능 계층"/>
+	<lang name="注解：底层为上层提供服务接口，供上层调用" value="참고: 하위 계층은 상위 레벨 호출을 위한 서비스 인터페이스를 제공합니다"/>
+	<lang name="图像直方分布图" value="이미지 제곱 분포"/>
+	<lang name="图可视化" value="그래픽 시각화"/>
+	<lang name="Node - 001" value="노드-001"/>
+	<lang name="控制选项1" value="제어 옵션 1"/>
+	<lang name="控制选项2" value="제어 옵션 2"/>
+	<lang name="控制选项3" value="제어 옵션 3"/>
+	<lang name="功能" value="기능"/>
+	<lang name="Node - 002" value="노드-002"/>
+	<lang name="Node - 003" value="노드-003"/>
+	<lang name="2 Bit" value="2 비트"/>
+	<lang name="8 Bit" value="8 비트"/>
+	<lang name="16 Bit" value="16 비트"/>
+	<lang name="Node - 004" value="노드-004"/>
+	<lang name="文本和条码" value="텍스트 및 바코드"/>
+	<lang name="架构图" value="구조 다이어그램"/>
+	<lang name="抽象窗口" value="추상 창"/>
+	<lang name="基于CBlueUI数据可视化" value="CBlueUI 기반 데이터 시각화"/>
+	<lang name="主题:" value="주제:"/>
+	<lang name="液晶数字" value="액정 디지털"/>
+	<lang name="10进制:" value="십진수 시스템:"/>
+	<lang name="8进制:" value="16 진수:"/>
+	<lang name="16进制:" value="16:"/>
+	<lang name="2进制:" value="바이너리:"/>
+	<lang name="补码:" value="보충 자료:"/>
+	<lang name="矩阵可视化" value="매트릭스 시각화"/>
+	<lang name="地图" value="지도"/>
+	<lang name="展示标记/天气/交通情况" value="표시/날씨/교통 상황"/>
+	<lang name="布局翻转" value="배치가 반전됩니다"/>
+	<lang name="热力图层" value="열층"/>
+	<lang name="模式" value="방법"/>
+	<lang name="交流电" value="교류"/>
+	<lang name="直流电" value="직류"/>
+	<lang name="电压" value="전압"/>
+	<lang name="电感" value="감응 계수"/>
+	<lang name="电流" value="현재"/>
+	<lang name="启动设备" value="시동 장치"/>
+	<lang name="设备IP" value="디바이스 IP"/>
+	<lang name="波特率" value="보드율"/>
+	<lang name="采样率" value="샘플링 속도"/>
+	<lang name="串口" value="직렬 포트"/>
+	<lang name="RS-232-C" value="RS-232-C"/>
+	<lang name="RS-422" value="RS-422"/>
+	<lang name="RS-485" value="RS-485"/>
+	<lang name="USB" value="범용 직렬 버스"/>
+	<lang name="连接设备" value="설비를 연결하다"/>
+	<lang name="相位" value="단계"/>
+	<lang name="通道数" value="채널 수"/>
+	<lang name="频率间隔" value="빈도 간격"/>
+	<lang name="数据" value="데이터"/>
+	<lang name="信号调制" value="신호 변조"/>
+	<lang name="数据量" value="데이터 파일"/>
+	<lang name="数据校验" value="데이터 검증"/>
+	<lang name="Node - 005" value="노드-005"/>
+	<lang name="Node - 006" value="노드-006"/>
+	<lang name="启用;关闭" value="활성화; 닫기"/>
+	<lang name="启用" value="활성화"/>
+	<lang name="关闭" value="닫기"/>
+	<lang name="启用;停止" value="활성화; 정지"/>
+	<lang name="ON;OFF" value="ON OFF"/>
+	<lang name="打开;关闭" value="열기; 닫기"/>
+	<lang name="多功能输入框:" value="다기능 입력 상자:"/>
+	<lang name="刘德华1" value="유덕화1"/>
+	<lang name="刘德华2" value="유덕화2"/>
+	<lang name="五边形按钮" value="5각형 버튼"/>
+	<lang name="六边形按钮" value="6각형 버튼"/>
+	<lang name="四边形按钮" value="쿼드 버튼"/>
+	<lang name="显示背景间隔色" value="배경 간격 색상 표시"/>
+	<lang name="行列转置" value="행렬 전치"/>
+	<lang name="选择" value="선택"/>
+	<lang name="高并发测试;停止" value="높은 동시 테스트, 정지"/>
+	<lang name="自动换行" value="줄바꿈"/>
+	<lang name="滚动条自动定位末尾" value="스크롤 막대가 자동으로 끝을 찾습니다."/>
+	<lang name="3D Plot" value="3D 플롯"/>
+	<lang name=" 纯软件实现3D Math，可移植到CPU，ARM，MCU任意设备" value="소프트웨어 전용 3D Math, CPU, ARM, MCU 모든 장치로 포팅 가능"/>
+	<lang name="Position" value="Position"/>
+	<lang name="System" value="시스템"/>
+	<lang name="Acquisition" value="Acquisition"/>
+	<lang name="视频监控" value="비디오 감시"/>
+	<lang name="三维展示" value="3D 표시"/>
+	<lang name="摄像头" value="카메라"/>
+	<lang name="3D展示" value="3D 프레젠테이션"/>
+</LangFile>

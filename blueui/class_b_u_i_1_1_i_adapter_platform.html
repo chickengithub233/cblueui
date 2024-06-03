@@ -1,0 +1,900 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>CBlueUI: BUI::IAdapterPlatform类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBlueUI
+   &#160;<span id="projectnumber">vxxx</span>
+   </div>
+   <div id="projectbrief">C++ 跨平台跨框架的数据可视化工具</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_b_u_i_1_1_i_adapter_platform.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="class_b_u_i_1_1_i_adapter_platform-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">BUI::IAdapterPlatform类 参考<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> 类 BUI::IAdapterPlatform 继承关系图:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="class_b_u_i_1_1_i_adapter_platform.png" usemap="#BUI::IAdapterPlatform_map" alt=""/>
+  <map id="BUI::IAdapterPlatform_map" name="BUI::IAdapterPlatform_map">
+<area href="class_b_u_i_1_1_adapter_platform_g_t_k.html" alt="BUI::AdapterPlatformGTK" shape="rect" coords="0,56,189,80"/>
+<area href="class_b_u_i_1_1_adapter_platform_g_t_kmm.html" alt="BUI::AdapterPlatformGTKmm" shape="rect" coords="199,56,388,80"/>
+<area href="class_b_u_i_1_1_adapter_platform_qt.html" alt="BUI::AdapterPlatformQt" shape="rect" coords="398,56,587,80"/>
+<area href="class_b_u_i_1_1_adapter_platform_s_d_l2.html" alt="BUI::AdapterPlatformSDL2" shape="rect" coords="597,56,786,80"/>
+<area href="class_b_u_i_1_1_adapter_platform_win.html" alt="BUI::AdapterPlatformWin" shape="rect" coords="796,56,985,80"/>
+<area href="class_b_u_i_1_1_adapter_platform_wx_widgets.html" alt="BUI::AdapterPlatformWxWidgets" shape="rect" coords="995,56,1184,80"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:af31ab5f68de2494f8e2efe8be891f62a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#af31ab5f68de2494f8e2efe8be891f62a">IAdapterPlatform</a> ()</td></tr>
+<tr class="separator:af31ab5f68de2494f8e2efe8be891f62a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60c242fa9ba10e2212a1ee7a69fca8bf"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#a60c242fa9ba10e2212a1ee7a69fca8bf">~IAdapterPlatform</a> ()</td></tr>
+<tr class="separator:a60c242fa9ba10e2212a1ee7a69fca8bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad91ed7c0428d7382b24db4a34d3709f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#ad91ed7c0428d7382b24db4a34d3709f4">SetManageHandler</a> (<a class="el" href="class_b_u_i_1_1_i_manage_handler.html">IManageHandler</a> *handler)</td></tr>
+<tr class="separator:ad91ed7c0428d7382b24db4a34d3709f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adaeb9291065108285bd17a30fe5b9508"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html">IManageHandler</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#adaeb9291065108285bd17a30fe5b9508">ManageHandler</a> () const</td></tr>
+<tr class="separator:adaeb9291065108285bd17a30fe5b9508"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45cc23882b103f5cb52664175a2d41dc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#a45cc23882b103f5cb52664175a2d41dc">OnPlatformHandler</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> message, <a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a> wp, <a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a> lp)</td></tr>
+<tr class="separator:a45cc23882b103f5cb52664175a2d41dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13bf873b29544e09ad8e5719a9e80074"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#a13bf873b29544e09ad8e5719a9e80074">MessageLoop</a> ()=0</td></tr>
+<tr class="separator:a13bf873b29544e09ad8e5719a9e80074"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96e88c3e73be5e70af9a851203984223"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#a96e88c3e73be5e70af9a851203984223">IsZoomed</a> ()=0</td></tr>
+<tr class="separator:a96e88c3e73be5e70af9a851203984223"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae75f943e5f464358360d35bd86e56c5a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#ae75f943e5f464358360d35bd86e56c5a">IsWindowVisible</a> ()=0</td></tr>
+<tr class="separator:ae75f943e5f464358360d35bd86e56c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2ddf31567e63a05e4b307a9d32c2a20"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#af2ddf31567e63a05e4b307a9d32c2a20">SendMessage</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> uMsg, <a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a> wParam=0L, <a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a> lParam=0L)=0</td></tr>
+<tr class="separator:af2ddf31567e63a05e4b307a9d32c2a20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9700122a4fea158a23960e8b66b32ba8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#a9700122a4fea158a23960e8b66b32ba8">PostMessage</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> uMsg, <a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a> wParam=0L, <a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a> lParam=0L)=0</td></tr>
+<tr class="separator:a9700122a4fea158a23960e8b66b32ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b734f0c1c810f307cdbc3f0682055f8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#a0b734f0c1c810f307cdbc3f0682055f8">GetClientRect</a> (<a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> *rc)=0</td></tr>
+<tr class="separator:a0b734f0c1c810f307cdbc3f0682055f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2077f419da130cbdf92056f84eac409"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#af2077f419da130cbdf92056f84eac409">GetWindowRect</a> (<a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> *rc)=0</td></tr>
+<tr class="separator:af2077f419da130cbdf92056f84eac409"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adca1202f4158bab74e660ae4b22f2ff5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#adca1202f4158bab74e660ae4b22f2ff5">SetActiveWindow</a> ()=0</td></tr>
+<tr class="separator:adca1202f4158bab74e660ae4b22f2ff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ba2ab30ec869d44d53bbb8fbe96aa2e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#a4ba2ab30ec869d44d53bbb8fbe96aa2e">EnableWindow</a> (<a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> enable)=0</td></tr>
+<tr class="separator:a4ba2ab30ec869d44d53bbb8fbe96aa2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4970d16c9c203580dd37a0c16e0e2106"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#a4970d16c9c203580dd37a0c16e0e2106">ShowWindow</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> model)=0</td></tr>
+<tr class="separator:a4970d16c9c203580dd37a0c16e0e2106"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89ef3cc0234b944e0100896da3590617"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#a89ef3cc0234b944e0100896da3590617">MoveWindow</a> (int X, int Y, int nWidth, int nHeight, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> bRepaint)=0</td></tr>
+<tr class="separator:a89ef3cc0234b944e0100896da3590617"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5feab5fce28192a391872fc6d3232f05"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#a5feab5fce28192a391872fc6d3232f05">InvalidateRect</a> (<a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> *rc, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> bSyncUpdate=<a class="el" href="_c_core_base_pro_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>)=0</td></tr>
+<tr class="separator:a5feab5fce28192a391872fc6d3232f05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae42cffcd5c4b1eae4351465d3207a03d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#ae42cffcd5c4b1eae4351465d3207a03d">ClientPointToScreen</a> (<a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> *pt)=0</td></tr>
+<tr class="separator:ae42cffcd5c4b1eae4351465d3207a03d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2095ac6887eb5b51361a5e228c1f296f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#a2095ac6887eb5b51361a5e228c1f296f">ScreenPointToClient</a> (<a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> *pt)=0</td></tr>
+<tr class="separator:a2095ac6887eb5b51361a5e228c1f296f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca490ef73c562d471138e25f84aece18"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#aca490ef73c562d471138e25f84aece18">GetCursorGloablPos</a> (<a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> *pt)=0</td></tr>
+<tr class="separator:aca490ef73c562d471138e25f84aece18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac31f83b7d5997d38ad04dc08249f43d7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#ac31f83b7d5997d38ad04dc08249f43d7">AnimateWindow</a> (<a class="el" href="_c_core_base_pro_8h.html#ad342ac907eb044443153a22f964bf0af">DWORD</a> dwTime, <a class="el" href="_c_core_base_pro_8h.html#ad342ac907eb044443153a22f964bf0af">DWORD</a> dwFlags)=0</td></tr>
+<tr class="separator:ac31f83b7d5997d38ad04dc08249f43d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:adc4d5e1c475b9d8d55edda1e3206054a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html">IManageHandler</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#adc4d5e1c475b9d8d55edda1e3206054a">m_manager</a></td></tr>
+<tr class="separator:adc4d5e1c475b9d8d55edda1e3206054a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a501577ed927bf6831db48a62071d467f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html#a501577ed927bf6831db48a62071d467f">m_showState</a></td></tr>
+<tr class="separator:a501577ed927bf6831db48a62071d467f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">构造及析构函数说明</h2>
+<a id="af31ab5f68de2494f8e2efe8be891f62a" name="af31ab5f68de2494f8e2efe8be891f62a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af31ab5f68de2494f8e2efe8be891f62a">&#9670;&#160;</a></span>IAdapterPlatform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::IAdapterPlatform::IAdapterPlatform </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a60c242fa9ba10e2212a1ee7a69fca8bf" name="a60c242fa9ba10e2212a1ee7a69fca8bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60c242fa9ba10e2212a1ee7a69fca8bf">&#9670;&#160;</a></span>~IAdapterPlatform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual BUI::IAdapterPlatform::~IAdapterPlatform </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="ac31f83b7d5997d38ad04dc08249f43d7" name="ac31f83b7d5997d38ad04dc08249f43d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac31f83b7d5997d38ad04dc08249f43d7">&#9670;&#160;</a></span>AnimateWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::IAdapterPlatform::AnimateWindow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ad342ac907eb044443153a22f964bf0af">DWORD</a>&#160;</td>
+          <td class="paramname"><em>dwTime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ad342ac907eb044443153a22f964bf0af">DWORD</a>&#160;</td>
+          <td class="paramname"><em>dwFlags</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_k.html#ade1b19b53d511a9c21a4f6a1018fde42">BUI::AdapterPlatformGTK</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_kmm.html#adf7127cdba86482b5550623b94dd22e5">BUI::AdapterPlatformGTKmm</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_qt.html#ab73a4a35c11b564c77b5f61d864bb771">BUI::AdapterPlatformQt</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_s_d_l2.html#a877fa03fe583ed0b479e02b0f276c792">BUI::AdapterPlatformSDL2</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_win.html#a5f819c64b28972c63ecf1f1f65fd2bc2">BUI::AdapterPlatformWin</a> , 以及 <a class="el" href="class_b_u_i_1_1_adapter_platform_wx_widgets.html#ae38cc3cb278463998b92f9e6e492d035">BUI::AdapterPlatformWxWidgets</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="ae42cffcd5c4b1eae4351465d3207a03d" name="ae42cffcd5c4b1eae4351465d3207a03d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae42cffcd5c4b1eae4351465d3207a03d">&#9670;&#160;</a></span>ClientPointToScreen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::IAdapterPlatform::ClientPointToScreen </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> *&#160;</td>
+          <td class="paramname"><em>pt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_k.html#af6b05c7e2dae740bac27c190ac5646f6">BUI::AdapterPlatformGTK</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_kmm.html#a33362051b4318a579b1c519978e87ce7">BUI::AdapterPlatformGTKmm</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_qt.html#acba1004bd398d98cb0e507c6d62c3be3">BUI::AdapterPlatformQt</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_s_d_l2.html#a5981f05f6e582530edfcb0002a047473">BUI::AdapterPlatformSDL2</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_win.html#ad51c017d23661e5a9508367395a91da5">BUI::AdapterPlatformWin</a> , 以及 <a class="el" href="class_b_u_i_1_1_adapter_platform_wx_widgets.html#a607e691c283b146b4a814bf23e6ada0d">BUI::AdapterPlatformWxWidgets</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a4ba2ab30ec869d44d53bbb8fbe96aa2e" name="a4ba2ab30ec869d44d53bbb8fbe96aa2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ba2ab30ec869d44d53bbb8fbe96aa2e">&#9670;&#160;</a></span>EnableWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::IAdapterPlatform::EnableWindow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_k.html#aa5dabd5b6fe2f95afb6682f79229cc0c">BUI::AdapterPlatformGTK</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_kmm.html#ac526f2bc4a1513d93837f68871c5b847">BUI::AdapterPlatformGTKmm</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_qt.html#af061e23e2ffb30bcda84949d1d0a1994">BUI::AdapterPlatformQt</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_s_d_l2.html#abc61beb6e71aba490f4786497701601d">BUI::AdapterPlatformSDL2</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_win.html#a2b2a860c97c86aae88d102d0479e40f6">BUI::AdapterPlatformWin</a> , 以及 <a class="el" href="class_b_u_i_1_1_adapter_platform_wx_widgets.html#a9f8380eba922a37e7d34f39b0f9acec8">BUI::AdapterPlatformWxWidgets</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a0b734f0c1c810f307cdbc3f0682055f8" name="a0b734f0c1c810f307cdbc3f0682055f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b734f0c1c810f307cdbc3f0682055f8">&#9670;&#160;</a></span>GetClientRect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::IAdapterPlatform::GetClientRect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> *&#160;</td>
+          <td class="paramname"><em>rc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_k.html#a9989ef13daed59c1e089dc658d222408">BUI::AdapterPlatformGTK</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_kmm.html#a486f3064e8e19b78b0a9353ac3ed0edd">BUI::AdapterPlatformGTKmm</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_qt.html#ae96f1aa535d5c31fbeeebcfe18616648">BUI::AdapterPlatformQt</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_s_d_l2.html#acea5e69292b51727daf5c8376ae6e145">BUI::AdapterPlatformSDL2</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_win.html#afcb1ad9fa12efb1af0197d6635ef9c8f">BUI::AdapterPlatformWin</a> , 以及 <a class="el" href="class_b_u_i_1_1_adapter_platform_wx_widgets.html#aa0b72abe68615b8f31adf4394c1d95e1">BUI::AdapterPlatformWxWidgets</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="aca490ef73c562d471138e25f84aece18" name="aca490ef73c562d471138e25f84aece18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca490ef73c562d471138e25f84aece18">&#9670;&#160;</a></span>GetCursorGloablPos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::IAdapterPlatform::GetCursorGloablPos </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> *&#160;</td>
+          <td class="paramname"><em>pt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_k.html#a8572d0c71485d055e0f62d38b108d46f">BUI::AdapterPlatformGTK</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_kmm.html#a1572fd05a3fdecfe65febdc210caaa2d">BUI::AdapterPlatformGTKmm</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_qt.html#aa8c8bfd4af5e481d287969b9b98ee453">BUI::AdapterPlatformQt</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_s_d_l2.html#a40202f40f23fa795d414d8a85f715956">BUI::AdapterPlatformSDL2</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_win.html#a0b5b2846a81a2aa4ab90108a35819aec">BUI::AdapterPlatformWin</a> , 以及 <a class="el" href="class_b_u_i_1_1_adapter_platform_wx_widgets.html#a667bd17a097acdb28c2220436db72f52">BUI::AdapterPlatformWxWidgets</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="af2077f419da130cbdf92056f84eac409" name="af2077f419da130cbdf92056f84eac409"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2077f419da130cbdf92056f84eac409">&#9670;&#160;</a></span>GetWindowRect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::IAdapterPlatform::GetWindowRect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> *&#160;</td>
+          <td class="paramname"><em>rc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_k.html#ac829b2871385a3f2191332cbabfa3289">BUI::AdapterPlatformGTK</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_kmm.html#ae69eaf349937eb9137d701cb62aa8220">BUI::AdapterPlatformGTKmm</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_qt.html#aaf87eb2090ba7510d287a715f964b956">BUI::AdapterPlatformQt</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_s_d_l2.html#a8e1c14df0b1c5ff9727e5e1fdfdca53a">BUI::AdapterPlatformSDL2</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_win.html#aed7ae747e2360183551634a61274cc38">BUI::AdapterPlatformWin</a> , 以及 <a class="el" href="class_b_u_i_1_1_adapter_platform_wx_widgets.html#aec86ca4ce6b5548588cbd496179f6be6">BUI::AdapterPlatformWxWidgets</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a5feab5fce28192a391872fc6d3232f05" name="a5feab5fce28192a391872fc6d3232f05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5feab5fce28192a391872fc6d3232f05">&#9670;&#160;</a></span>InvalidateRect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::IAdapterPlatform::InvalidateRect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> *&#160;</td>
+          <td class="paramname"><em>rc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>bSyncUpdate</em> = <code><a class="el" href="_c_core_base_pro_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_k.html#a6afd1a8f071841c38744a0ad51fda162">BUI::AdapterPlatformGTK</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_kmm.html#abac973c6020fd9b7ff30c69c7ec76412">BUI::AdapterPlatformGTKmm</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_qt.html#ade57cd6edab7536f3928c14bf0430ea5">BUI::AdapterPlatformQt</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_s_d_l2.html#abb856e66818aac6c67f0cca577db9e0c">BUI::AdapterPlatformSDL2</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_win.html#ab10f79b2eb0ea823aa9b61fa29e3075a">BUI::AdapterPlatformWin</a> , 以及 <a class="el" href="class_b_u_i_1_1_adapter_platform_wx_widgets.html#a3ed4cf8dd1a047bf0b937c5c4d964b56">BUI::AdapterPlatformWxWidgets</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="ae75f943e5f464358360d35bd86e56c5a" name="ae75f943e5f464358360d35bd86e56c5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae75f943e5f464358360d35bd86e56c5a">&#9670;&#160;</a></span>IsWindowVisible()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::IAdapterPlatform::IsWindowVisible </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_k.html#a459e4cc61eb39290265b566ff134ffc6">BUI::AdapterPlatformGTK</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_kmm.html#a1a47d785f76003e9c49c6fddd4de89b1">BUI::AdapterPlatformGTKmm</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_qt.html#aeb6f6a42fe91749b1a57ed94ad11e338">BUI::AdapterPlatformQt</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_s_d_l2.html#ac37b469b145fbbd97d5295203b4e64a3">BUI::AdapterPlatformSDL2</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_win.html#a9df37da79f68e080b013c2ef32c843ff">BUI::AdapterPlatformWin</a> , 以及 <a class="el" href="class_b_u_i_1_1_adapter_platform_wx_widgets.html#ae076d21c9aae10a405e512408571ad29">BUI::AdapterPlatformWxWidgets</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a96e88c3e73be5e70af9a851203984223" name="a96e88c3e73be5e70af9a851203984223"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96e88c3e73be5e70af9a851203984223">&#9670;&#160;</a></span>IsZoomed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::IAdapterPlatform::IsZoomed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_k.html#ad2eb8c726bef31047f4780aaddad18ee">BUI::AdapterPlatformGTK</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_kmm.html#a4e22eee4a37fdf2a18d94c59e9e2fc98">BUI::AdapterPlatformGTKmm</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_qt.html#a1187cec2192e27b0c12fd152130dc4c0">BUI::AdapterPlatformQt</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_s_d_l2.html#a49c175dd50cc1ea399c26cd40b999cc1">BUI::AdapterPlatformSDL2</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_win.html#a384f13cb8f1a63412f400bcda84752a0">BUI::AdapterPlatformWin</a> , 以及 <a class="el" href="class_b_u_i_1_1_adapter_platform_wx_widgets.html#a30e91121a16e56ad062b8a210d52b50b">BUI::AdapterPlatformWxWidgets</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="adaeb9291065108285bd17a30fe5b9508" name="adaeb9291065108285bd17a30fe5b9508"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaeb9291065108285bd17a30fe5b9508">&#9670;&#160;</a></span>ManageHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html">IManageHandler</a> * BUI::IAdapterPlatform::ManageHandler </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a13bf873b29544e09ad8e5719a9e80074" name="a13bf873b29544e09ad8e5719a9e80074"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13bf873b29544e09ad8e5719a9e80074">&#9670;&#160;</a></span>MessageLoop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> BUI::IAdapterPlatform::MessageLoop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_k.html#ab8f6deb9e8ff66996dbec7e6eb626a11">BUI::AdapterPlatformGTK</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_kmm.html#a953e66303f7f2083cd8265fe4438aae0">BUI::AdapterPlatformGTKmm</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_qt.html#ace4fd5bee17e4f52c0f6395b93a393eb">BUI::AdapterPlatformQt</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_s_d_l2.html#af344b6fe6903b44954eb52d2015fab44">BUI::AdapterPlatformSDL2</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_win.html#ab191a2948f47fe696bc8aca5e0a42664">BUI::AdapterPlatformWin</a> , 以及 <a class="el" href="class_b_u_i_1_1_adapter_platform_wx_widgets.html#a0b0e1a6b98d78bc98a8d5649c81ac03c">BUI::AdapterPlatformWxWidgets</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a89ef3cc0234b944e0100896da3590617" name="a89ef3cc0234b944e0100896da3590617"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89ef3cc0234b944e0100896da3590617">&#9670;&#160;</a></span>MoveWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::IAdapterPlatform::MoveWindow </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nWidth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nHeight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>bRepaint</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_k.html#af8e13cf670133cf26c23290c342ee539">BUI::AdapterPlatformGTK</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_kmm.html#a2b8b01296a543a84a7671c2117bc819c">BUI::AdapterPlatformGTKmm</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_qt.html#af3aca82903766e31a6ac701ea3a8319f">BUI::AdapterPlatformQt</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_s_d_l2.html#ad6c242be92814d7e35ee3a34be34478f">BUI::AdapterPlatformSDL2</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_win.html#abb469658a7d170c529f3a490c340c2f6">BUI::AdapterPlatformWin</a> , 以及 <a class="el" href="class_b_u_i_1_1_adapter_platform_wx_widgets.html#ad10155cec4482792431fc59b1a94404d">BUI::AdapterPlatformWxWidgets</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a45cc23882b103f5cb52664175a2d41dc" name="a45cc23882b103f5cb52664175a2d41dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45cc23882b103f5cb52664175a2d41dc">&#9670;&#160;</a></span>OnPlatformHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::IAdapterPlatform::OnPlatformHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a>&#160;</td>
+          <td class="paramname"><em>wp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a>&#160;</td>
+          <td class="paramname"><em>lp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="class_b_u_i_1_1_adapter_platform_qt.html#ade0ecffd409e56366095771174981772">BUI::AdapterPlatformQt</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_k.html#ae3abed2401e94c67ce112cc977095c53">BUI::AdapterPlatformGTK</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_kmm.html#a2d82bcee0692ba9a079ebf27ef61d473">BUI::AdapterPlatformGTKmm</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_s_d_l2.html#a9d82aae17c0c7dc34b2fe13b09c0ab5a">BUI::AdapterPlatformSDL2</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_win.html#a8e97bd9a37867df313fef9740f954e12">BUI::AdapterPlatformWin</a> , 以及 <a class="el" href="class_b_u_i_1_1_adapter_platform_wx_widgets.html#ac86582a370ce6d8c46572703f600dd37">BUI::AdapterPlatformWxWidgets</a> 重载.</p>
+
+</div>
+</div>
+<a id="a9700122a4fea158a23960e8b66b32ba8" name="a9700122a4fea158a23960e8b66b32ba8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9700122a4fea158a23960e8b66b32ba8">&#9670;&#160;</a></span>PostMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::IAdapterPlatform::PostMessage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>uMsg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a>&#160;</td>
+          <td class="paramname"><em>wParam</em> = <code>0L</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a>&#160;</td>
+          <td class="paramname"><em>lParam</em> = <code>0L</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_k.html#a63391d8db92c4bd30831fc1215e63b5a">BUI::AdapterPlatformGTK</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_kmm.html#aa2a30ca6f2f798965d4b77e0bf4eb2e5">BUI::AdapterPlatformGTKmm</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_qt.html#ab0d0dabc4edd0c39f27ea1d60d107bc7">BUI::AdapterPlatformQt</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_s_d_l2.html#a15611156160d57356bbfddd29a228e83">BUI::AdapterPlatformSDL2</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_win.html#a66866fdb8ffeebe75552aedd92849ffa">BUI::AdapterPlatformWin</a> , 以及 <a class="el" href="class_b_u_i_1_1_adapter_platform_wx_widgets.html#aebf16fc67a3d7ae4e5be88d2696b4e39">BUI::AdapterPlatformWxWidgets</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a2095ac6887eb5b51361a5e228c1f296f" name="a2095ac6887eb5b51361a5e228c1f296f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2095ac6887eb5b51361a5e228c1f296f">&#9670;&#160;</a></span>ScreenPointToClient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::IAdapterPlatform::ScreenPointToClient </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> *&#160;</td>
+          <td class="paramname"><em>pt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_k.html#a588499b59d21d7c25936ba613b17b74d">BUI::AdapterPlatformGTK</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_kmm.html#aa3d9250ccc1c0284dd43842e100f2305">BUI::AdapterPlatformGTKmm</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_qt.html#a447d1ec791f829d8c1785b9813393b1a">BUI::AdapterPlatformQt</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_s_d_l2.html#add2dfc4b83b737ff3c94d398dc108e3d">BUI::AdapterPlatformSDL2</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_win.html#a4846b7e9932c7edd7bd0c406fe4e63bb">BUI::AdapterPlatformWin</a> , 以及 <a class="el" href="class_b_u_i_1_1_adapter_platform_wx_widgets.html#a34ab612694439b1cef79d8abac4aa8c8">BUI::AdapterPlatformWxWidgets</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="af2ddf31567e63a05e4b307a9d32c2a20" name="af2ddf31567e63a05e4b307a9d32c2a20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2ddf31567e63a05e4b307a9d32c2a20">&#9670;&#160;</a></span>SendMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::IAdapterPlatform::SendMessage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>uMsg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a>&#160;</td>
+          <td class="paramname"><em>wParam</em> = <code>0L</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a>&#160;</td>
+          <td class="paramname"><em>lParam</em> = <code>0L</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_k.html#a8689a8fb30c54be59be36e4b417a7eb7">BUI::AdapterPlatformGTK</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_kmm.html#a975a42847a44f83ebebf1750df8024e9">BUI::AdapterPlatformGTKmm</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_qt.html#a319e876fdd62b0d2aa903cab17b22bf6">BUI::AdapterPlatformQt</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_s_d_l2.html#a963325a66c62efe6eead6e4f4bab2fd3">BUI::AdapterPlatformSDL2</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_win.html#a1116bd49c4dbd15e71ba0a0b5ca8c1db">BUI::AdapterPlatformWin</a> , 以及 <a class="el" href="class_b_u_i_1_1_adapter_platform_wx_widgets.html#a3e2fb9bb1f93bbf4efb194509c0dac92">BUI::AdapterPlatformWxWidgets</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="adca1202f4158bab74e660ae4b22f2ff5" name="adca1202f4158bab74e660ae4b22f2ff5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adca1202f4158bab74e660ae4b22f2ff5">&#9670;&#160;</a></span>SetActiveWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::IAdapterPlatform::SetActiveWindow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_k.html#ab544dc13c92b6f1204c29a7756503956">BUI::AdapterPlatformGTK</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_kmm.html#a89e2ff58d9425f3ac5952b2af1807a95">BUI::AdapterPlatformGTKmm</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_qt.html#a307a328a5472255f64be13a670816be9">BUI::AdapterPlatformQt</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_s_d_l2.html#adf02228ebe07cc7cd6774d4c8f666270">BUI::AdapterPlatformSDL2</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_win.html#a83343ae5805e8b0cd69ab55d7253c480">BUI::AdapterPlatformWin</a> , 以及 <a class="el" href="class_b_u_i_1_1_adapter_platform_wx_widgets.html#aa3a4b1f03d1a70986ae19ca16d76d727">BUI::AdapterPlatformWxWidgets</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="ad91ed7c0428d7382b24db4a34d3709f4" name="ad91ed7c0428d7382b24db4a34d3709f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad91ed7c0428d7382b24db4a34d3709f4">&#9670;&#160;</a></span>SetManageHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::IAdapterPlatform::SetManageHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html">IManageHandler</a> *&#160;</td>
+          <td class="paramname"><em>handler</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4970d16c9c203580dd37a0c16e0e2106" name="a4970d16c9c203580dd37a0c16e0e2106"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4970d16c9c203580dd37a0c16e0e2106">&#9670;&#160;</a></span>ShowWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::IAdapterPlatform::ShowWindow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>model</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_k.html#a271a809df7db45cea2fa29657d8ae0ac">BUI::AdapterPlatformGTK</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_g_t_kmm.html#ab6de82c1ea6108e7e58d4320922df961">BUI::AdapterPlatformGTKmm</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_qt.html#a578b5c77e396ab7c44e892a4871196e9">BUI::AdapterPlatformQt</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_s_d_l2.html#a8df972d6e5fe4846692b4c4d7418809e">BUI::AdapterPlatformSDL2</a>, <a class="el" href="class_b_u_i_1_1_adapter_platform_win.html#a8cc76539fb09b7f26a5edbb0a2db080e">BUI::AdapterPlatformWin</a> , 以及 <a class="el" href="class_b_u_i_1_1_adapter_platform_wx_widgets.html#a8dd5307b45defbd8dc754dd2ee0007ee">BUI::AdapterPlatformWxWidgets</a> 内被实现.</p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="adc4d5e1c475b9d8d55edda1e3206054a" name="adc4d5e1c475b9d8d55edda1e3206054a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc4d5e1c475b9d8d55edda1e3206054a">&#9670;&#160;</a></span>m_manager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html">IManageHandler</a>* BUI::IAdapterPlatform::m_manager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a501577ed927bf6831db48a62071d467f" name="a501577ed927bf6831db48a62071d467f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a501577ed927bf6831db48a62071d467f">&#9670;&#160;</a></span>m_showState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> BUI::IAdapterPlatform::m_showState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_b_u_i.html">BUI</a></li><li class="navelem"><a class="el" href="class_b_u_i_1_1_i_adapter_platform.html">IAdapterPlatform</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

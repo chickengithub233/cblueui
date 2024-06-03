@@ -1,0 +1,425 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>CBlueUI: BUI::MouseDragHelper类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBlueUI
+   &#160;<span id="projectnumber">vxxx</span>
+   </div>
+   <div id="projectbrief">C++ 跨平台跨框架的数据可视化工具</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_b_u_i_1_1_mouse_drag_helper.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="class_b_u_i_1_1_mouse_drag_helper-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">BUI::MouseDragHelper类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>鼠标拖拽  
+ <a href="class_b_u_i_1_1_mouse_drag_helper.html#details">更多...</a></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> 类 BUI::MouseDragHelper 继承关系图:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="class_b_u_i_1_1_mouse_drag_helper.png" usemap="#BUI::MouseDragHelper_map" alt=""/>
+  <map id="BUI::MouseDragHelper_map" name="BUI::MouseDragHelper_map">
+<area href="class_b_u_i_1_1_c_tree_view_model.html" title="树状控件模型" alt="BUI::CTreeViewModel" shape="rect" coords="76,56,218,80"/>
+<area href="class_b_u_i_1_1_c_tree_list_u_i.html" title="树状列表" alt="BUI::CTreeListUI" shape="rect" coords="0,112,142,136"/>
+<area href="class_b_u_i_1_1_c_tree_table_view_u_i.html" title="树状表格" alt="BUI::CTreeTableViewUI" shape="rect" coords="152,112,294,136"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a7592970434c073545000a350e457eaeb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_mouse_drag_helper.html#a7592970434c073545000a350e457eaeb">MouseDragHelper</a> ()</td></tr>
+<tr class="separator:a7592970434c073545000a350e457eaeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e836349fca5e4e330ccd348a8a7b980"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_mouse_drag_helper.html#a2e836349fca5e4e330ccd348a8a7b980">~MouseDragHelper</a> ()</td></tr>
+<tr class="separator:a2e836349fca5e4e330ccd348a8a7b980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a3d40160f1678fe52a1963165158b39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_mouse_drag_helper.html#a8a3d40160f1678fe52a1963165158b39">SetBeginDragPoint</a> (<a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> pt)</td></tr>
+<tr class="separator:a8a3d40160f1678fe52a1963165158b39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74a6b11716bbe2447bd1772210b97b1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_mouse_drag_helper.html#a74a6b11716bbe2447bd1772210b97b1c">UpdateCurrentDragPoint</a> (<a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> pt)</td></tr>
+<tr class="separator:a74a6b11716bbe2447bd1772210b97b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ff2a081cd24399ca4c349516b3fa385"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_mouse_drag_helper.html#a5ff2a081cd24399ca4c349516b3fa385">MoveOffset</a> () const</td></tr>
+<tr class="separator:a5ff2a081cd24399ca4c349516b3fa385"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6eb5baeabb2403186c10523fae075501"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_mouse_drag_helper.html#a6eb5baeabb2403186c10523fae075501">TargetPoint</a> () const</td></tr>
+<tr class="separator:a6eb5baeabb2403186c10523fae075501"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed921fbb7ec8e5f4dc94d3eb37eca05b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_mouse_drag_helper.html#aed921fbb7ec8e5f4dc94d3eb37eca05b">SetDragState</a> (<a class="el" href="namespace_b_u_i.html#a2a06728d2842c434d0ed83b2e2af80fa">DragStateFlag</a> state)</td></tr>
+<tr class="separator:aed921fbb7ec8e5f4dc94d3eb37eca05b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22c5b48edde8a177410bb14c395f7339"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_b_u_i.html#a2a06728d2842c434d0ed83b2e2af80fa">DragStateFlag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_mouse_drag_helper.html#a22c5b48edde8a177410bb14c395f7339">DragState</a> () const</td></tr>
+<tr class="separator:a22c5b48edde8a177410bb14c395f7339"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1b319c33bc2199c8bb1dc3c7fd2abac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_mouse_drag_helper.html#ac1b319c33bc2199c8bb1dc3c7fd2abac">SetDragMoveEnable</a> (<a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> bEnableDrag)</td></tr>
+<tr class="separator:ac1b319c33bc2199c8bb1dc3c7fd2abac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f465ae555e3d4ee3b733973ea60aa67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_mouse_drag_helper.html#a1f465ae555e3d4ee3b733973ea60aa67">IsDragMoveEnable</a> () const</td></tr>
+<tr class="separator:a1f465ae555e3d4ee3b733973ea60aa67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a249e55286aaf1c3f6da3c22952a43bfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_mouse_drag_helper.html#a249e55286aaf1c3f6da3c22952a43bfa">m_bEnableDragMove</a></td></tr>
+<tr class="separator:a249e55286aaf1c3f6da3c22952a43bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba9b4920073e63a46e5d08fff1c7abe8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_mouse_drag_helper.html#aba9b4920073e63a46e5d08fff1c7abe8">m_ptBegin</a></td></tr>
+<tr class="separator:aba9b4920073e63a46e5d08fff1c7abe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78a08be57834ac548505e9d0689cfbd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_mouse_drag_helper.html#a78a08be57834ac548505e9d0689cfbd1">m_moveOffset</a></td></tr>
+<tr class="separator:a78a08be57834ac548505e9d0689cfbd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e7e743adcfbcf854b1c83b4a43fbcda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_b_u_i.html#a2a06728d2842c434d0ed83b2e2af80fa">DragStateFlag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_mouse_drag_helper.html#a6e7e743adcfbcf854b1c83b4a43fbcda">m_dgState</a></td></tr>
+<tr class="separator:a6e7e743adcfbcf854b1c83b4a43fbcda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>鼠标拖拽 </p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a7592970434c073545000a350e457eaeb" name="a7592970434c073545000a350e457eaeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7592970434c073545000a350e457eaeb">&#9670;&#160;</a></span>MouseDragHelper()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::MouseDragHelper::MouseDragHelper </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2e836349fca5e4e330ccd348a8a7b980" name="a2e836349fca5e4e330ccd348a8a7b980"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e836349fca5e4e330ccd348a8a7b980">&#9670;&#160;</a></span>~MouseDragHelper()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::MouseDragHelper::~MouseDragHelper </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="a22c5b48edde8a177410bb14c395f7339" name="a22c5b48edde8a177410bb14c395f7339"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22c5b48edde8a177410bb14c395f7339">&#9670;&#160;</a></span>DragState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_b_u_i.html#a2a06728d2842c434d0ed83b2e2af80fa">DragStateFlag</a> BUI::MouseDragHelper::DragState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f465ae555e3d4ee3b733973ea60aa67" name="a1f465ae555e3d4ee3b733973ea60aa67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f465ae555e3d4ee3b733973ea60aa67">&#9670;&#160;</a></span>IsDragMoveEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::MouseDragHelper::IsDragMoveEnable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ff2a081cd24399ca4c349516b3fa385" name="a5ff2a081cd24399ca4c349516b3fa385"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ff2a081cd24399ca4c349516b3fa385">&#9670;&#160;</a></span>MoveOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::MouseDragHelper::MoveOffset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a3d40160f1678fe52a1963165158b39" name="a8a3d40160f1678fe52a1963165158b39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a3d40160f1678fe52a1963165158b39">&#9670;&#160;</a></span>SetBeginDragPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::MouseDragHelper::SetBeginDragPoint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a>&#160;</td>
+          <td class="paramname"><em>pt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1b319c33bc2199c8bb1dc3c7fd2abac" name="ac1b319c33bc2199c8bb1dc3c7fd2abac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1b319c33bc2199c8bb1dc3c7fd2abac">&#9670;&#160;</a></span>SetDragMoveEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::MouseDragHelper::SetDragMoveEnable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>bEnableDrag</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed921fbb7ec8e5f4dc94d3eb37eca05b" name="aed921fbb7ec8e5f4dc94d3eb37eca05b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed921fbb7ec8e5f4dc94d3eb37eca05b">&#9670;&#160;</a></span>SetDragState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::MouseDragHelper::SetDragState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#a2a06728d2842c434d0ed83b2e2af80fa">DragStateFlag</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6eb5baeabb2403186c10523fae075501" name="a6eb5baeabb2403186c10523fae075501"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6eb5baeabb2403186c10523fae075501">&#9670;&#160;</a></span>TargetPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> BUI::MouseDragHelper::TargetPoint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a74a6b11716bbe2447bd1772210b97b1c" name="a74a6b11716bbe2447bd1772210b97b1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74a6b11716bbe2447bd1772210b97b1c">&#9670;&#160;</a></span>UpdateCurrentDragPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::MouseDragHelper::UpdateCurrentDragPoint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a>&#160;</td>
+          <td class="paramname"><em>pt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="a249e55286aaf1c3f6da3c22952a43bfa" name="a249e55286aaf1c3f6da3c22952a43bfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a249e55286aaf1c3f6da3c22952a43bfa">&#9670;&#160;</a></span>m_bEnableDragMove</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::MouseDragHelper::m_bEnableDragMove</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e7e743adcfbcf854b1c83b4a43fbcda" name="a6e7e743adcfbcf854b1c83b4a43fbcda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e7e743adcfbcf854b1c83b4a43fbcda">&#9670;&#160;</a></span>m_dgState</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_b_u_i.html#a2a06728d2842c434d0ed83b2e2af80fa">DragStateFlag</a> BUI::MouseDragHelper::m_dgState</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a78a08be57834ac548505e9d0689cfbd1" name="a78a08be57834ac548505e9d0689cfbd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78a08be57834ac548505e9d0689cfbd1">&#9670;&#160;</a></span>m_moveOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::MouseDragHelper::m_moveOffset</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba9b4920073e63a46e5d08fff1c7abe8" name="aba9b4920073e63a46e5d08fff1c7abe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba9b4920073e63a46e5d08fff1c7abe8">&#9670;&#160;</a></span>m_ptBegin</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> BUI::MouseDragHelper::m_ptBegin</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_b_u_i.html">BUI</a></li><li class="navelem"><a class="el" href="class_b_u_i_1_1_mouse_drag_helper.html">MouseDragHelper</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

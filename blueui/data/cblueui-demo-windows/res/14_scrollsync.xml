@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<UI size="1100,700">
+	<Control Class="CLabelUI" position="{0,0,100,100}" Name="title" Layout="fill,40" back-show="always" text-align="hcenter|vcenter" text="tr:同步滚动" />
+
+	<Control Class="CContainScrollSyncUI" Name="scrollsync" contain-layout="box-type:horizontal" Layout="fill:80,fill:40" font='1'>	
+		<Control Class="CTreeListUI" name="sync_scroll" datafile=".././res/03_treedata.xml" tipImage="2" tipsText="tr:空空如也" Layout="fill,fill"/>
+		<Control Class="CTreeListUI" datafile=".././res/03_treedata.xml" tipImage="2" tipsText="tr:空空如也" Layout="fill,fill" isTriStyle="true" show-level-line="false"/>
+		<Control Class="CTreeListUI" datafile=".././res/03_treedata.xml" tipImage="2" tipsText="tr:空空如也" Layout="fill,fill"/>
+		<vLayout Layout="100,90">
+			<Control Class="CEditTextUI" Layout="fill,fill" input-type="Decimal" input-range="0,100000" border-show="true" />
+			<Control Class="CEditTextUI" Layout="fill,fill" input-type="Decimal" input-range="0,100000" border-show="true" />
+			<Control Class="CEditTextUI" Layout="fill,fill" input-type="Decimal" input-range="0,100000" border-show="true" />
+		</vLayout>
+	
+	</Control>
+</UI>

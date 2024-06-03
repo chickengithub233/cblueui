@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<UI size="1200,700">
+	<vLayout Layout="fill,fill">
+		<!--窗口标题部分 -->
+		<Spacer Layout="fill,4"/>
+		<Hlayout Layout="fill,30">
+			<Control Class="CImageCtrl" Name="cap_icon" icon="60" Layout="30,fill"/>
+			<Control Class="CLabelUI" position="{0,0,100,100}" Name="title" Layout="fill,fill" Font="3" text="UMLView 类图" textstyle="normal:#fcfcfc" labeltype="label"/>
+			<Spacer Layout="30,fill"/>
+			<Control Class="CButtonSysUI" Name="minbtn" Layout="30,fill:25" sysType="min"/>
+			<Control Class="CButtonSysUI" Name="maxbtn" Layout="30,fill:25" sysType="Max"/>
+			<Control Class="CButtonSysUI" Name="closebtn" Layout="30,fill:25" sysType="close"/>
+		</Hlayout>
+
+		<Spacer Layout="fill,25"/>
+		<Hlayout Layout="fill,fill">
+			<Control Class="CListBoxUI" Name="macdeskui" Layout="250,fill:40" colCount="2" width_item="100" height_item="100" interval='5' scroll-autohide="true"/>
+			<Control Class="CContainerUI" Name="uml_container" Layout="fill,fill" style="notitle" drag="none" back-show="always"/>
+		</Hlayout>
+	</vLayout>
+</UI>

@@ -1,0 +1,1410 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>CBlueUI: BUI::CChartCoordinate类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBlueUI
+   &#160;<span id="projectnumber">vxxx</span>
+   </div>
+   <div id="projectbrief">C++ 跨平台跨框架的数据可视化工具</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_b_u_i_1_1_c_chart_coordinate.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="class_b_u_i_1_1_c_chart_coordinate-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">BUI::CChartCoordinate类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>空坐标系。也就是标准的窗口坐标模式  
+ <a href="class_b_u_i_1_1_c_chart_coordinate.html#details">更多...</a></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> 类 BUI::CChartCoordinate 继承关系图:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="class_b_u_i_1_1_c_chart_coordinate.png" usemap="#BUI::CChartCoordinate_map" alt=""/>
+  <map id="BUI::CChartCoordinate_map" name="BUI::CChartCoordinate_map">
+<area href="class_b_u_i_1_1_path_transform.html" title="路径中点的变换运算类" alt="BUI::PathTransform" shape="rect" coords="954,0,1156,24"/>
+<area href="class_b_u_i_1_1_c_chart_axis.html" title="坐标轴基础信息基类(单坐标轴也是一种坐标系，线性坐标系)" alt="BUI::CChartAxis" shape="rect" coords="424,112,626,136"/>
+<area href="class_b_u_i_1_1_c_coordinate_affine.html" title="笛卡尔坐标系" alt="BUI::CCoordinateAffine" shape="rect" coords="636,112,838,136"/>
+<area href="class_b_u_i_1_1_c_coordinate_affine3d.html" title="笛卡尔3D坐标系" alt="BUI::CCoordinateAffine3d" shape="rect" coords="848,112,1050,136"/>
+<area href="class_b_u_i_1_1_c_coordinate_affine_trans.html" title="更加灵活的仿射坐标系" alt="BUI::CCoordinateAffineTrans" shape="rect" coords="1060,112,1262,136"/>
+<area href="class_b_u_i_1_1_c_coordinate_axis_sketch_trans.html" title="坐标轴缩略图转换器" alt="BUI::CCoordinateAxisSketchTrans" shape="rect" coords="1272,112,1474,136"/>
+<area href="class_b_u_i_1_1_c_coordinate_geo.html" title="GEO坐标系" alt="BUI::CCoordinateGeo" shape="rect" coords="1484,112,1686,136"/>
+<area href="class_b_u_i_1_1_circle_axis.html" title="圆坐标系" alt="BUI::CircleAxis" shape="rect" coords="0,168,202,192"/>
+<area href="class_b_u_i_1_1_linear_axis.html" title="线性坐标轴" alt="BUI::LinearAxis" shape="rect" coords="212,168,414,192"/>
+<area href="class_b_u_i_1_1_parallel_axis.html" title="平行坐标系" alt="BUI::ParallelAxis" shape="rect" coords="424,168,626,192"/>
+<area href="class_b_u_i_1_1_radar_axis.html" title="极坐标系，也称雷达坐标系" alt="BUI::RadarAxis" shape="rect" coords="636,168,838,192"/>
+<area href="class_b_u_i_1_1_ternary_axis.html" title="三元组坐标系" alt="BUI::TernaryAxis" shape="rect" coords="848,168,1050,192"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a75d072f0c05c8de4b5390d6d4652f3e3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a75d072f0c05c8de4b5390d6d4652f3e3">CChartCoordinate</a> ()</td></tr>
+<tr class="separator:a75d072f0c05c8de4b5390d6d4652f3e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47ea603780cd607c3a70e4071350fb1c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a47ea603780cd607c3a70e4071350fb1c">~CChartCoordinate</a> ()</td></tr>
+<tr class="separator:a47ea603780cd607c3a70e4071350fb1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab80812c85c124805cbcc6a80624b4d84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#ab80812c85c124805cbcc6a80624b4d84">SetAxisNameText</a> (const <a class="el" href="_string_a_8h.html#af8dd6b396b025639b3d0b06cbf8000c0">BeString</a> &amp;str)</td></tr>
+<tr class="separator:ab80812c85c124805cbcc6a80624b4d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a473e2ab5bd1477dac1d8584f0d2fc82f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="_string_a_8h.html#af8dd6b396b025639b3d0b06cbf8000c0">BeString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a473e2ab5bd1477dac1d8584f0d2fc82f">GetAxisName</a> ()</td></tr>
+<tr class="separator:a473e2ab5bd1477dac1d8584f0d2fc82f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af87223da922d9428bcd0b6f5bd68bb95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#af87223da922d9428bcd0b6f5bd68bb95">RectDiagram</a> () const</td></tr>
+<tr class="separator:af87223da922d9428bcd0b6f5bd68bb95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa00182dc0dc7a4af4791805915140b24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#aa00182dc0dc7a4af4791805915140b24">CoordinateCenterPoint</a> () const</td></tr>
+<tr class="separator:aa00182dc0dc7a4af4791805915140b24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c5d1902ddd098c9ac59caebd810276f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a6c5d1902ddd098c9ac59caebd810276f">SetCoordinateCenterPoint</a> (<a class="el" href="_c_core_base_pro_8h.html#a9154c0d0c21af4686624543215b4e5f2">LONG</a> x, <a class="el" href="_c_core_base_pro_8h.html#a9154c0d0c21af4686624543215b4e5f2">LONG</a> y)</td></tr>
+<tr class="separator:a6c5d1902ddd098c9ac59caebd810276f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3abb337a44b9b9f11666468be907106d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a3abb337a44b9b9f11666468be907106d">GetPointFromPercent</a> (double xp, double yp) const</td></tr>
+<tr class="memdesc:a3abb337a44b9b9f11666468be907106d"><td class="mdescLeft">&#160;</td><td class="mdescRight">返回百分比坐标  <br /></td></tr>
+<tr class="separator:a3abb337a44b9b9f11666468be907106d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac84740bf8d9eb720690deb1c3fcb782f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#ac84740bf8d9eb720690deb1c3fcb782f">ModifyCoordinateFlags</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> style, <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> op=<a class="el" href="_c_core_base_pro_8h.html#a5eb336439020f4e440dedee717c5aeb0">ADD_FLAGS</a>)</td></tr>
+<tr class="separator:ac84740bf8d9eb720690deb1c3fcb782f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a873f3693a5bb93a3168ce7635c3b03fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a873f3693a5bb93a3168ce7635c3b03fe">IsHasCoordinateFlags</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> flags) const</td></tr>
+<tr class="separator:a873f3693a5bb93a3168ce7635c3b03fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a833c825e9608de14ef08b84c107ed3fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a833c825e9608de14ef08b84c107ed3fd">SetAxisColorMapGradient</a> (<a class="el" href="class_b_u_i_1_1_g_brush_gradient.html">GBrushGradient</a> *color_map)</td></tr>
+<tr class="separator:a833c825e9608de14ef08b84c107ed3fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45f6a4a72e827040632650598b4e598b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_g_brush_gradient.html">GBrushGradient</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a45f6a4a72e827040632650598b4e598b">GetAxisColorMapGradient</a> () const</td></tr>
+<tr class="memdesc:a45f6a4a72e827040632650598b4e598b"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; 设置取色器  <br /></td></tr>
+<tr class="separator:a45f6a4a72e827040632650598b4e598b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab474b45a57787ed5d7915b7e6090650a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#ab474b45a57787ed5d7915b7e6090650a">SetCoordHitState</a> (<a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> hit)</td></tr>
+<tr class="separator:ab474b45a57787ed5d7915b7e6090650a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d9ed49d97ce0c850078eb2c3d246b4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a5d9ed49d97ce0c850078eb2c3d246b4e">GetCoordHitState</a> () const</td></tr>
+<tr class="memdesc:a5d9ed49d97ce0c850078eb2c3d246b4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; 设置坐标系下，是否存在命中的元素  <br /></td></tr>
+<tr class="separator:a5d9ed49d97ce0c850078eb2c3d246b4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a856181d59517fbbe289e45536d978eb7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a856181d59517fbbe289e45536d978eb7">IsVaild</a> ()</td></tr>
+<tr class="memdesc:a856181d59517fbbe289e45536d978eb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">坐标系统是否是有效的  <br /></td></tr>
+<tr class="separator:a856181d59517fbbe289e45536d978eb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3be34cd6397b72bfcae59372c4f34fe6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a3be34cd6397b72bfcae59372c4f34fe6">GetCurHitPos</a> ()</td></tr>
+<tr class="memdesc:a3be34cd6397b72bfcae59372c4f34fe6"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得当前鼠标位置，转换为图标坐标系后的点  <br /></td></tr>
+<tr class="separator:a3be34cd6397b72bfcae59372c4f34fe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a005b11d1a4143f3a6d53a6e733def240"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a005b11d1a4143f3a6d53a6e733def240">GetCoordinateValue</a> (int mouse_x, int mouse_y, double *outValus, int out_len)</td></tr>
+<tr class="separator:a005b11d1a4143f3a6d53a6e733def240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa45d981ce837726dcc01262e656eedd8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#aa45d981ce837726dcc01262e656eedd8">OnCalcAxisPosition</a> (<a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> rcDiagram)</td></tr>
+<tr class="memdesc:aa45d981ce837726dcc01262e656eedd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">坐标轴位置时响应事件  <br /></td></tr>
+<tr class="separator:aa45d981ce837726dcc01262e656eedd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73ad25b6e5920a642362549e03ba891d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a73ad25b6e5920a642362549e03ba891d">OnPaintChartBackground</a> (<a class="el" href="class_b_u_i_1_1_i_surface.html">ISurface</a> *pSurface, <a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> *rcClip)</td></tr>
+<tr class="separator:a73ad25b6e5920a642362549e03ba891d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfe47759d1a78b2aedaf71e839776d76"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#adfe47759d1a78b2aedaf71e839776d76">OnPaintChart</a> (<a class="el" href="class_b_u_i_1_1_i_surface.html">ISurface</a> *pSurface, <a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> *rcClip)</td></tr>
+<tr class="separator:adfe47759d1a78b2aedaf71e839776d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90eadc660b12988c937add39e6bd8fce"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a90eadc660b12988c937add39e6bd8fce">OnPaintChartCrossLine</a> (<a class="el" href="class_b_u_i_1_1_i_surface.html">ISurface</a> *pSurface, <a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> *rcClip, double v1, double v2, <a class="el" href="struct_b_u_i_1_1_line_style.html">LineStyle</a> *style, const <a class="el" href="class_g_color.html">GColor</a> &amp;crosslinecolor)</td></tr>
+<tr class="separator:a90eadc660b12988c937add39e6bd8fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20a23c3e26b74a468e033339a28f2432"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a20a23c3e26b74a468e033339a28f2432">OnNotifyMessage</a> (<a class="el" href="class_b_u_i_1_1_i_event_handler.html">IEventHandler</a> *notify, <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> message, <a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a> wp, <a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a> lp)</td></tr>
+<tr class="memdesc:a20a23c3e26b74a468e033339a28f2432"><td class="mdescLeft">&#160;</td><td class="mdescRight">消息处理函数  <br /></td></tr>
+<tr class="separator:a20a23c3e26b74a468e033339a28f2432"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b8f4f8e5f60c79b2e8bf4e5de6f2f3a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a6b8f4f8e5f60c79b2e8bf4e5de6f2f3a">ViewIntSizeByValueTrans</a> (double cx, double cy, <a class="el" href="namespace_b_u_i.html#ac0967aa9148dce07feb55e880fd27574">AxisValueTransModel</a> mx, <a class="el" href="namespace_b_u_i.html#ac0967aa9148dce07feb55e880fd27574">AxisValueTransModel</a> my)</td></tr>
+<tr class="separator:a6b8f4f8e5f60c79b2e8bf4e5de6f2f3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0feeab79652130c98e04c0abe7d6654a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a0feeab79652130c98e04c0abe7d6654a">ViewIntPointByValueTrans</a> (double x, double y, <a class="el" href="namespace_b_u_i.html#ac0967aa9148dce07feb55e880fd27574">AxisValueTransModel</a> mx, <a class="el" href="namespace_b_u_i.html#ac0967aa9148dce07feb55e880fd27574">AxisValueTransModel</a> my)</td></tr>
+<tr class="separator:a0feeab79652130c98e04c0abe7d6654a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12290d18392f6d8e8984c6d0a77fbe33"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a12290d18392f6d8e8984c6d0a77fbe33">IsViewportAreaByValueTrans</a> (double x, double y, <a class="el" href="namespace_b_u_i.html#ac0967aa9148dce07feb55e880fd27574">AxisValueTransModel</a> mx, <a class="el" href="namespace_b_u_i.html#ac0967aa9148dce07feb55e880fd27574">AxisValueTransModel</a> my)</td></tr>
+<tr class="separator:a12290d18392f6d8e8984c6d0a77fbe33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a28d6cd14570869fa0e6d566bf8048a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a4a28d6cd14570869fa0e6d566bf8048a">ShellCoordinateAttribute</a> (const <a class="el" href="_string_a_8h.html#af8dd6b396b025639b3d0b06cbf8000c0">BeString</a> &amp;szName, const <a class="el" href="_string_a_8h.html#af8dd6b396b025639b3d0b06cbf8000c0">BeString</a> &amp;szText, <a class="el" href="class_b_u_i_1_1_i_coord_list.html">ICoordList</a> *crdlist)</td></tr>
+<tr class="memdesc:a4a28d6cd14570869fa0e6d566bf8048a"><td class="mdescLeft">&#160;</td><td class="mdescRight">命令控制和属性设置接口  <br /></td></tr>
+<tr class="separator:a4a28d6cd14570869fa0e6d566bf8048a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31ecadab97e7694c461c4798291ac72e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a31ecadab97e7694c461c4798291ac72e">GetCoordinateWeight</a> (double value) override</td></tr>
+<tr class="separator:a31ecadab97e7694c461c4798291ac72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_b_u_i_1_1_path_transform"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_b_u_i_1_1_path_transform')"><img src="closed.png" alt="-"/>&#160;Public 成员函数 继承自 <a class="el" href="class_b_u_i_1_1_path_transform.html">BUI::PathTransform</a></td></tr>
+<tr class="memitem:aea2a6e5ccdde65179135fad7cfd97c10 inherit pub_methods_class_b_u_i_1_1_path_transform"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_path_transform.html#aea2a6e5ccdde65179135fad7cfd97c10">PathTransform</a> ()</td></tr>
+<tr class="separator:aea2a6e5ccdde65179135fad7cfd97c10 inherit pub_methods_class_b_u_i_1_1_path_transform"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5152ecb93b995dddf72b35700849afb2 inherit pub_methods_class_b_u_i_1_1_path_transform"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_path_transform.html#a5152ecb93b995dddf72b35700849afb2">~PathTransform</a> ()</td></tr>
+<tr class="separator:a5152ecb93b995dddf72b35700849afb2 inherit pub_methods_class_b_u_i_1_1_path_transform"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a393e9b89d82afa6b1545226fce14ad45 inherit pub_methods_class_b_u_i_1_1_path_transform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_path_transform.html#a393e9b89d82afa6b1545226fce14ad45">Transform</a> (double *x, double *y)</td></tr>
+<tr class="separator:a393e9b89d82afa6b1545226fce14ad45 inherit pub_methods_class_b_u_i_1_1_path_transform"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14ce8be85136b6828849e845ac226352 inherit pub_methods_class_b_u_i_1_1_path_transform"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_path_transform.html#a14ce8be85136b6828849e845ac226352">Transform2x2</a> (double *x, double *y)</td></tr>
+<tr class="separator:a14ce8be85136b6828849e845ac226352 inherit pub_methods_class_b_u_i_1_1_path_transform"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a016c671fba0250ed54c600d23d43dfae inherit pub_methods_class_b_u_i_1_1_path_transform"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_path_transform.html#a016c671fba0250ed54c600d23d43dfae">IsInPath</a> (double x, double y)</td></tr>
+<tr class="separator:a016c671fba0250ed54c600d23d43dfae inherit pub_methods_class_b_u_i_1_1_path_transform"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a803608d0fdc96347759defb7779689f3 inherit pub_methods_class_b_u_i_1_1_path_transform"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_path_transform.html#a803608d0fdc96347759defb7779689f3">GetCoordinateWeight</a> (double value)</td></tr>
+<tr class="separator:a803608d0fdc96347759defb7779689f3 inherit pub_methods_class_b_u_i_1_1_path_transform"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10d71b668031d7e131188a12a1b2ca5d inherit pub_methods_class_b_u_i_1_1_path_transform"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_path_transform.html#a10d71b668031d7e131188a12a1b2ca5d">IsCartesianSystem</a> ()</td></tr>
+<tr class="separator:a10d71b668031d7e131188a12a1b2ca5d inherit pub_methods_class_b_u_i_1_1_path_transform"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:a85a9293a6c3a19a6b11f134707612619"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a85a9293a6c3a19a6b11f134707612619">DrawBarStyle</a> (<a class="el" href="class_b_u_i_1_1_i_surface.html">ISurface</a> *pSurface, <a class="el" href="struct_b_u_i_1_1_draw_bar_info.html">DrawBarInfo</a> *barinfo)</td></tr>
+<tr class="separator:a85a9293a6c3a19a6b11f134707612619"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb49f205731bede7366ee1b316b85b12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#afb49f205731bede7366ee1b316b85b12">HittestBar</a> (<a class="el" href="struct_b_u_i_1_1_draw_bar_info.html">DrawBarInfo</a> *barinfo)</td></tr>
+<tr class="separator:afb49f205731bede7366ee1b316b85b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e86ae40079577163c763ef5d5b3e8f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a7e86ae40079577163c763ef5d5b3e8f5">IsVisibleView</a> (<a class="el" href="struct_b_u_i_1_1_draw_bar_info.html">DrawBarInfo</a> *barinfo)</td></tr>
+<tr class="separator:a7e86ae40079577163c763ef5d5b3e8f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a6cee1f555ff657950151a8a1f3d151bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_string_a_8h.html#af8dd6b396b025639b3d0b06cbf8000c0">BeString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a6cee1f555ff657950151a8a1f3d151bf">m_nameid</a></td></tr>
+<tr class="separator:a6cee1f555ff657950151a8a1f3d151bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80552858ab2df10e6b955c5520b9327d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a80552858ab2df10e6b955c5520b9327d">m_rcDiagram</a></td></tr>
+<tr class="separator:a80552858ab2df10e6b955c5520b9327d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bf155782bfcfae22578730ce0c0dd50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a4bf155782bfcfae22578730ce0c0dd50">m_ptCenterView</a></td></tr>
+<tr class="separator:a4bf155782bfcfae22578730ce0c0dd50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4b597a15efd0b7cf3372eb6c0a521da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#ab4b597a15efd0b7cf3372eb6c0a521da">m_ptCurHit</a></td></tr>
+<tr class="separator:ab4b597a15efd0b7cf3372eb6c0a521da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a645c4eb6648173cb1fefb1c477da8d94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_b_u_i.html#a1252d82d31c4c8b6a935017bd083de8f">WeightValueTransModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a645c4eb6648173cb1fefb1c477da8d94">m_weight_mode</a></td></tr>
+<tr class="separator:a645c4eb6648173cb1fefb1c477da8d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb6e791ee0efae36427afb629ff142bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#adb6e791ee0efae36427afb629ff142bc">m_coord_flags</a></td></tr>
+<tr class="separator:adb6e791ee0efae36427afb629ff142bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a422aaeaff45d6859d48fde79a5b3cdc9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#a422aaeaff45d6859d48fde79a5b3cdc9">m_isHasHitEle</a></td></tr>
+<tr class="separator:a422aaeaff45d6859d48fde79a5b3cdc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af21511d9e62a14c9377d9d02a432485f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_g_brush_gradient.html">GBrushGradient</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html#af21511d9e62a14c9377d9d02a432485f">m_color_map</a></td></tr>
+<tr class="separator:af21511d9e62a14c9377d9d02a432485f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>空坐标系。也就是标准的窗口坐标模式 </p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a75d072f0c05c8de4b5390d6d4652f3e3" name="a75d072f0c05c8de4b5390d6d4652f3e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75d072f0c05c8de4b5390d6d4652f3e3">&#9670;&#160;</a></span>CChartCoordinate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::CChartCoordinate::CChartCoordinate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a47ea603780cd607c3a70e4071350fb1c" name="a47ea603780cd607c3a70e4071350fb1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47ea603780cd607c3a70e4071350fb1c">&#9670;&#160;</a></span>~CChartCoordinate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual BUI::CChartCoordinate::~CChartCoordinate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="aa00182dc0dc7a4af4791805915140b24" name="aa00182dc0dc7a4af4791805915140b24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa00182dc0dc7a4af4791805915140b24">&#9670;&#160;</a></span>CoordinateCenterPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> BUI::CChartCoordinate::CoordinateCenterPoint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a85a9293a6c3a19a6b11f134707612619" name="a85a9293a6c3a19a6b11f134707612619"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85a9293a6c3a19a6b11f134707612619">&#9670;&#160;</a></span>DrawBarStyle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CChartCoordinate::DrawBarStyle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_surface.html">ISurface</a> *&#160;</td>
+          <td class="paramname"><em>pSurface</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_b_u_i_1_1_draw_bar_info.html">DrawBarInfo</a> *&#160;</td>
+          <td class="paramname"><em>barinfo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a45f6a4a72e827040632650598b4e598b" name="a45f6a4a72e827040632650598b4e598b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45f6a4a72e827040632650598b4e598b">&#9670;&#160;</a></span>GetAxisColorMapGradient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_g_brush_gradient.html">GBrushGradient</a> * BUI::CChartCoordinate::GetAxisColorMapGradient </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>&lt; 设置取色器 </p>
+
+</div>
+</div>
+<a id="a473e2ab5bd1477dac1d8584f0d2fc82f" name="a473e2ab5bd1477dac1d8584f0d2fc82f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a473e2ab5bd1477dac1d8584f0d2fc82f">&#9670;&#160;</a></span>GetAxisName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="_string_a_8h.html#af8dd6b396b025639b3d0b06cbf8000c0">BeString</a> &amp; BUI::CChartCoordinate::GetAxisName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d9ed49d97ce0c850078eb2c3d246b4e" name="a5d9ed49d97ce0c850078eb2c3d246b4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d9ed49d97ce0c850078eb2c3d246b4e">&#9670;&#160;</a></span>GetCoordHitState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::CChartCoordinate::GetCoordHitState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>&lt; 设置坐标系下，是否存在命中的元素 </p>
+
+</div>
+</div>
+<a id="a005b11d1a4143f3a6d53a6e733def240" name="a005b11d1a4143f3a6d53a6e733def240"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a005b11d1a4143f3a6d53a6e733def240">&#9670;&#160;</a></span>GetCoordinateValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::CChartCoordinate::GetCoordinateValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mouse_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mouse_y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>outValus</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>out_len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="class_b_u_i_1_1_linear_axis.html#a2075732ec4ae0dfe3927addec063ad9a">BUI::LinearAxis</a>, <a class="el" href="class_b_u_i_1_1_c_coordinate_affine.html#a75bd3d8487bd24f1e4de2334b984f21a">BUI::CCoordinateAffine</a>, <a class="el" href="class_b_u_i_1_1_c_coordinate_axis_sketch_trans.html#a9e1a6871e96d6060fcd1e64b9d096080">BUI::CCoordinateAxisSketchTrans</a> , 以及 <a class="el" href="class_b_u_i_1_1_c_coordinate_affine_trans.html#a8873a2f5e3a01279e1684c3bfbb0192d">BUI::CCoordinateAffineTrans</a> 重载.</p>
+
+</div>
+</div>
+<a id="a31ecadab97e7694c461c4798291ac72e" name="a31ecadab97e7694c461c4798291ac72e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31ecadab97e7694c461c4798291ac72e">&#9670;&#160;</a></span>GetCoordinateWeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double BUI::CChartCoordinate::GetCoordinateWeight </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>重载 <a class="el" href="class_b_u_i_1_1_path_transform.html#a803608d0fdc96347759defb7779689f3">BUI::PathTransform</a> .</p>
+
+<p>被 <a class="el" href="class_b_u_i_1_1_linear_axis.html#a9c5e1c2c8687209646f5dbb9d13b708b">BUI::LinearAxis</a>, <a class="el" href="class_b_u_i_1_1_circle_axis.html#a1a1d61c863101cda2bd545ba1a3c4a8c">BUI::CircleAxis</a>, <a class="el" href="class_b_u_i_1_1_radar_axis.html#a29c5ac4a0fa0dac0fa3c4787f6f5261a">BUI::RadarAxis</a>, <a class="el" href="class_b_u_i_1_1_ternary_axis.html#a594fa63deaf7ed76f9f99451fa721536">BUI::TernaryAxis</a>, <a class="el" href="class_b_u_i_1_1_c_coordinate_affine.html#a71ca62acbd4e7ae8aababa70b8521d07">BUI::CCoordinateAffine</a>, <a class="el" href="class_b_u_i_1_1_c_coordinate_axis_sketch_trans.html#a5c3dc2479a339ccf0b91910fcc72d8c6">BUI::CCoordinateAxisSketchTrans</a> , 以及 <a class="el" href="class_b_u_i_1_1_c_coordinate_affine_trans.html#a0b4a4a8c9f9f3442d05afb4b17ed154c">BUI::CCoordinateAffineTrans</a> 重载.</p>
+
+</div>
+</div>
+<a id="a3be34cd6397b72bfcae59372c4f34fe6" name="a3be34cd6397b72bfcae59372c4f34fe6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3be34cd6397b72bfcae59372c4f34fe6">&#9670;&#160;</a></span>GetCurHitPos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a> BUI::CChartCoordinate::GetCurHitPos </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获得当前鼠标位置，转换为图标坐标系后的点 </p>
+
+</div>
+</div>
+<a id="a3abb337a44b9b9f11666468be907106d" name="a3abb337a44b9b9f11666468be907106d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3abb337a44b9b9f11666468be907106d">&#9670;&#160;</a></span>GetPointFromPercent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a> BUI::CChartCoordinate::GetPointFromPercent </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>xp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>yp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>返回百分比坐标 </p>
+
+</div>
+</div>
+<a id="afb49f205731bede7366ee1b316b85b12" name="afb49f205731bede7366ee1b316b85b12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb49f205731bede7366ee1b316b85b12">&#9670;&#160;</a></span>HittestBar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::CChartCoordinate::HittestBar </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_b_u_i_1_1_draw_bar_info.html">DrawBarInfo</a> *&#160;</td>
+          <td class="paramname"><em>barinfo</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a873f3693a5bb93a3168ce7635c3b03fe" name="a873f3693a5bb93a3168ce7635c3b03fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a873f3693a5bb93a3168ce7635c3b03fe">&#9670;&#160;</a></span>IsHasCoordinateFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> BUI::CChartCoordinate::IsHasCoordinateFlags </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>flags</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a856181d59517fbbe289e45536d978eb7" name="a856181d59517fbbe289e45536d978eb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a856181d59517fbbe289e45536d978eb7">&#9670;&#160;</a></span>IsVaild()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::CChartCoordinate::IsVaild </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>坐标系统是否是有效的 </p>
+
+<p>被 <a class="el" href="class_b_u_i_1_1_c_coordinate_affine.html#a854ddea47e38357128010b8415822014">BUI::CCoordinateAffine</a>, <a class="el" href="class_b_u_i_1_1_c_coordinate_axis_sketch_trans.html#a842807867845ae794e782fec0451318e">BUI::CCoordinateAxisSketchTrans</a> , 以及 <a class="el" href="class_b_u_i_1_1_c_coordinate_affine_trans.html#a985c4689ced6de69e404f248fb0e036b">BUI::CCoordinateAffineTrans</a> 重载.</p>
+
+</div>
+</div>
+<a id="a12290d18392f6d8e8984c6d0a77fbe33" name="a12290d18392f6d8e8984c6d0a77fbe33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12290d18392f6d8e8984c6d0a77fbe33">&#9670;&#160;</a></span>IsViewportAreaByValueTrans()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::CChartCoordinate::IsViewportAreaByValueTrans </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#ac0967aa9148dce07feb55e880fd27574">AxisValueTransModel</a>&#160;</td>
+          <td class="paramname"><em>mx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#ac0967aa9148dce07feb55e880fd27574">AxisValueTransModel</a>&#160;</td>
+          <td class="paramname"><em>my</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="class_b_u_i_1_1_c_coordinate_affine.html#aa77a488cee2493e8a4e3ba8e55e7af9c">BUI::CCoordinateAffine</a> 重载.</p>
+
+</div>
+</div>
+<a id="a7e86ae40079577163c763ef5d5b3e8f5" name="a7e86ae40079577163c763ef5d5b3e8f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e86ae40079577163c763ef5d5b3e8f5">&#9670;&#160;</a></span>IsVisibleView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::CChartCoordinate::IsVisibleView </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_b_u_i_1_1_draw_bar_info.html">DrawBarInfo</a> *&#160;</td>
+          <td class="paramname"><em>barinfo</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac84740bf8d9eb720690deb1c3fcb782f" name="ac84740bf8d9eb720690deb1c3fcb782f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac84740bf8d9eb720690deb1c3fcb782f">&#9670;&#160;</a></span>ModifyCoordinateFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CChartCoordinate::ModifyCoordinateFlags </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>style</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>op</em> = <code><a class="el" href="_c_core_base_pro_8h.html#a5eb336439020f4e440dedee717c5aeb0">ADD_FLAGS</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa45d981ce837726dcc01262e656eedd8" name="aa45d981ce837726dcc01262e656eedd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa45d981ce837726dcc01262e656eedd8">&#9670;&#160;</a></span>OnCalcAxisPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::CChartCoordinate::OnCalcAxisPosition </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a>&#160;</td>
+          <td class="paramname"><em>rcDiagram</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>坐标轴位置时响应事件 </p>
+
+<p>被 <a class="el" href="class_b_u_i_1_1_linear_axis.html#a5d549009350c35a099330d087a8d97d6">BUI::LinearAxis</a>, <a class="el" href="class_b_u_i_1_1_circle_axis.html#ae8f506f3c1be361b709112458c3b8ad1">BUI::CircleAxis</a>, <a class="el" href="class_b_u_i_1_1_radar_axis.html#a09a24203b55b909bcfd4347d59a2c183">BUI::RadarAxis</a>, <a class="el" href="class_b_u_i_1_1_ternary_axis.html#a644f389a63c2569973b0eb360ab6c7f1">BUI::TernaryAxis</a>, <a class="el" href="class_b_u_i_1_1_parallel_axis.html#aa900d7f97c7204cee86a5856bce05015">BUI::ParallelAxis</a>, <a class="el" href="class_b_u_i_1_1_c_coordinate_affine.html#a193909da43e65b7fa6705639b0a496f8">BUI::CCoordinateAffine</a>, <a class="el" href="class_b_u_i_1_1_c_coordinate_affine3d.html#ab2ee5547e78254874520fbc7a5fd4fcb">BUI::CCoordinateAffine3d</a> , 以及 <a class="el" href="class_b_u_i_1_1_c_coordinate_geo.html#a23ef9b4e123472efe8d19ad68e3103b6">BUI::CCoordinateGeo</a> 重载.</p>
+
+</div>
+</div>
+<a id="a20a23c3e26b74a468e033339a28f2432" name="a20a23c3e26b74a468e033339a28f2432"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20a23c3e26b74a468e033339a28f2432">&#9670;&#160;</a></span>OnNotifyMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::CChartCoordinate::OnNotifyMessage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_event_handler.html">IEventHandler</a> *&#160;</td>
+          <td class="paramname"><em>notify</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a>&#160;</td>
+          <td class="paramname"><em>wp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a>&#160;</td>
+          <td class="paramname"><em>lp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>消息处理函数 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">notify</td><td>指向图标UI控件，用于外部事件回调 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>被 <a class="el" href="class_b_u_i_1_1_c_chart_axis.html#a419d5206b24ae4ef8990c34e48591135">BUI::CChartAxis</a>, <a class="el" href="class_b_u_i_1_1_linear_axis.html#a541a788facec41050ae1efea53927875">BUI::LinearAxis</a>, <a class="el" href="class_b_u_i_1_1_circle_axis.html#a3344b94a5e8b9258313b5d88e6e77435">BUI::CircleAxis</a>, <a class="el" href="class_b_u_i_1_1_radar_axis.html#aa5ef708a4a2023872e26b0ceb51b8f41">BUI::RadarAxis</a>, <a class="el" href="class_b_u_i_1_1_ternary_axis.html#a22cf9937323f223ea637447215069b87">BUI::TernaryAxis</a>, <a class="el" href="class_b_u_i_1_1_parallel_axis.html#a306cd1e7de5658b4e04996f93b5d5e78">BUI::ParallelAxis</a>, <a class="el" href="class_b_u_i_1_1_c_coordinate_affine.html#a8c192646985fbf30aeffbbe8c6d39760">BUI::CCoordinateAffine</a>, <a class="el" href="class_b_u_i_1_1_c_coordinate_axis_sketch_trans.html#a98326749f0513ad9b888876587561807">BUI::CCoordinateAxisSketchTrans</a>, <a class="el" href="class_b_u_i_1_1_c_coordinate_affine_trans.html#a2dafdd71637bb2cd1483a92c601d6792">BUI::CCoordinateAffineTrans</a> , 以及 <a class="el" href="class_b_u_i_1_1_c_coordinate_geo.html#aa4fb6d7c0afe0bdec893e2042d120dd1">BUI::CCoordinateGeo</a> 重载.</p>
+
+</div>
+</div>
+<a id="adfe47759d1a78b2aedaf71e839776d76" name="adfe47759d1a78b2aedaf71e839776d76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfe47759d1a78b2aedaf71e839776d76">&#9670;&#160;</a></span>OnPaintChart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::CChartCoordinate::OnPaintChart </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_surface.html">ISurface</a> *&#160;</td>
+          <td class="paramname"><em>pSurface</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> *&#160;</td>
+          <td class="paramname"><em>rcClip</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="class_b_u_i_1_1_linear_axis.html#ab9bb2892a2db2d98e2306da3379f4c89">BUI::LinearAxis</a>, <a class="el" href="class_b_u_i_1_1_circle_axis.html#a4a4545ee622b334ce2dd286dbfdb6bae">BUI::CircleAxis</a>, <a class="el" href="class_b_u_i_1_1_radar_axis.html#a2c04857dc34fe68049c7c56270fc3434">BUI::RadarAxis</a>, <a class="el" href="class_b_u_i_1_1_ternary_axis.html#a466be115319fcec199db56e0fd7e1bb0">BUI::TernaryAxis</a>, <a class="el" href="class_b_u_i_1_1_parallel_axis.html#abddbf0456f3596ffc65c69cf73485d76">BUI::ParallelAxis</a>, <a class="el" href="class_b_u_i_1_1_c_coordinate_affine.html#a062a8bcab125fb15d41c316d4349c0ae">BUI::CCoordinateAffine</a>, <a class="el" href="class_b_u_i_1_1_c_coordinate_affine3d.html#ab23d07306fc65bf851698dc32260b395">BUI::CCoordinateAffine3d</a> , 以及 <a class="el" href="class_b_u_i_1_1_c_coordinate_geo.html#af1711e663712b6675d286f66b17d580f">BUI::CCoordinateGeo</a> 重载.</p>
+
+</div>
+</div>
+<a id="a73ad25b6e5920a642362549e03ba891d" name="a73ad25b6e5920a642362549e03ba891d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73ad25b6e5920a642362549e03ba891d">&#9670;&#160;</a></span>OnPaintChartBackground()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::CChartCoordinate::OnPaintChartBackground </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_surface.html">ISurface</a> *&#160;</td>
+          <td class="paramname"><em>pSurface</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> *&#160;</td>
+          <td class="paramname"><em>rcClip</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="class_b_u_i_1_1_circle_axis.html#abae74937f48fbdee4fa69a659ba44be7">BUI::CircleAxis</a>, <a class="el" href="class_b_u_i_1_1_radar_axis.html#a93bf16ac520a2a56e677962d1c6ba4d7">BUI::RadarAxis</a>, <a class="el" href="class_b_u_i_1_1_ternary_axis.html#a06cd718151995c0d28293be056efc818">BUI::TernaryAxis</a>, <a class="el" href="class_b_u_i_1_1_parallel_axis.html#a87723acc94bb7cb6be6be6b57258a6c3">BUI::ParallelAxis</a>, <a class="el" href="class_b_u_i_1_1_c_coordinate_affine.html#a540eadbf360618ae1707b06cfba2f053">BUI::CCoordinateAffine</a>, <a class="el" href="class_b_u_i_1_1_c_coordinate_affine3d.html#afd70cf098bbcc4043b0489c3c5bae745">BUI::CCoordinateAffine3d</a> , 以及 <a class="el" href="class_b_u_i_1_1_c_coordinate_geo.html#a1441361bea89120e2c450660f0cecfa3">BUI::CCoordinateGeo</a> 重载.</p>
+
+</div>
+</div>
+<a id="a90eadc660b12988c937add39e6bd8fce" name="a90eadc660b12988c937add39e6bd8fce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90eadc660b12988c937add39e6bd8fce">&#9670;&#160;</a></span>OnPaintChartCrossLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::CChartCoordinate::OnPaintChartCrossLine </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_surface.html">ISurface</a> *&#160;</td>
+          <td class="paramname"><em>pSurface</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> *&#160;</td>
+          <td class="paramname"><em>rcClip</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_b_u_i_1_1_line_style.html">LineStyle</a> *&#160;</td>
+          <td class="paramname"><em>style</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_g_color.html">GColor</a> &amp;&#160;</td>
+          <td class="paramname"><em>crosslinecolor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="class_b_u_i_1_1_radar_axis.html#adf5c7705e6caa674b807f006e10b81ad">BUI::RadarAxis</a>, <a class="el" href="class_b_u_i_1_1_ternary_axis.html#a19b480f07fce4da20289b2a6aad29413">BUI::TernaryAxis</a>, <a class="el" href="class_b_u_i_1_1_parallel_axis.html#aebf796c198729caf33f29393fa92081a">BUI::ParallelAxis</a> , 以及 <a class="el" href="class_b_u_i_1_1_c_coordinate_affine.html#a86dec96673a06cb3e68721dd77d926de">BUI::CCoordinateAffine</a> 重载.</p>
+
+</div>
+</div>
+<a id="af87223da922d9428bcd0b6f5bd68bb95" name="af87223da922d9428bcd0b6f5bd68bb95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af87223da922d9428bcd0b6f5bd68bb95">&#9670;&#160;</a></span>RectDiagram()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> BUI::CChartCoordinate::RectDiagram </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a833c825e9608de14ef08b84c107ed3fd" name="a833c825e9608de14ef08b84c107ed3fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a833c825e9608de14ef08b84c107ed3fd">&#9670;&#160;</a></span>SetAxisColorMapGradient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CChartCoordinate::SetAxisColorMapGradient </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_brush_gradient.html">GBrushGradient</a> *&#160;</td>
+          <td class="paramname"><em>color_map</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab80812c85c124805cbcc6a80624b4d84" name="ab80812c85c124805cbcc6a80624b4d84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab80812c85c124805cbcc6a80624b4d84">&#9670;&#160;</a></span>SetAxisNameText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CChartCoordinate::SetAxisNameText </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_string_a_8h.html#af8dd6b396b025639b3d0b06cbf8000c0">BeString</a> &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab474b45a57787ed5d7915b7e6090650a" name="ab474b45a57787ed5d7915b7e6090650a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab474b45a57787ed5d7915b7e6090650a">&#9670;&#160;</a></span>SetCoordHitState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CChartCoordinate::SetCoordHitState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>hit</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6c5d1902ddd098c9ac59caebd810276f" name="a6c5d1902ddd098c9ac59caebd810276f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c5d1902ddd098c9ac59caebd810276f">&#9670;&#160;</a></span>SetCoordinateCenterPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CChartCoordinate::SetCoordinateCenterPoint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a9154c0d0c21af4686624543215b4e5f2">LONG</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a9154c0d0c21af4686624543215b4e5f2">LONG</a>&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a28d6cd14570869fa0e6d566bf8048a" name="a4a28d6cd14570869fa0e6d566bf8048a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a28d6cd14570869fa0e6d566bf8048a">&#9670;&#160;</a></span>ShellCoordinateAttribute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::CChartCoordinate::ShellCoordinateAttribute </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_string_a_8h.html#af8dd6b396b025639b3d0b06cbf8000c0">BeString</a> &amp;&#160;</td>
+          <td class="paramname"><em>szName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_string_a_8h.html#af8dd6b396b025639b3d0b06cbf8000c0">BeString</a> &amp;&#160;</td>
+          <td class="paramname"><em>szText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_coord_list.html">ICoordList</a> *&#160;</td>
+          <td class="paramname"><em>crdlist</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>命令控制和属性设置接口 </p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">szName属性   </th><th class="markdownTableHeadNone">szText语法格式    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">name <br  />
+名称唯一标识符   </td><td class="markdownTableBodyNone">name="coord-test"    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">weight-mode <br  />
+权重计算方式   </td><td class="markdownTableBodyNone">weight-mode="fixed"    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">fixed：固定值    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">width-percent： 宽度百分比计算    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">height-percent：高度百分比计算    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">axis1：由自变量轴计算    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"></td><td class="markdownTableBodyNone">axis2：由因变量轴计算   </td></tr>
+</table>
+
+<p>被 <a class="el" href="class_b_u_i_1_1_c_chart_axis.html#a6471f40f2d9c494384bddbc400530cb5">BUI::CChartAxis</a>, <a class="el" href="class_b_u_i_1_1_linear_axis.html#a7791afb32515be375c2f4e7d3ad606b2">BUI::LinearAxis</a>, <a class="el" href="class_b_u_i_1_1_circle_axis.html#a64c92c57c6fc8ed9398c07a060b60879">BUI::CircleAxis</a>, <a class="el" href="class_b_u_i_1_1_radar_axis.html#a795dce16bb1978a00e87890880583ba1">BUI::RadarAxis</a>, <a class="el" href="class_b_u_i_1_1_ternary_axis.html#a8d4bf8c0713e5d2a37d751e4a128f11b">BUI::TernaryAxis</a>, <a class="el" href="class_b_u_i_1_1_parallel_axis.html#afc90758ce85b518a0dc6a8a73fa90b8b">BUI::ParallelAxis</a>, <a class="el" href="class_b_u_i_1_1_c_coordinate_affine.html#a528ac47dd0647bf6a33e7be41395d0d4">BUI::CCoordinateAffine</a>, <a class="el" href="class_b_u_i_1_1_c_coordinate_axis_sketch_trans.html#a262d5009ae3b61f7f0f004cf6d9b35a6">BUI::CCoordinateAxisSketchTrans</a>, <a class="el" href="class_b_u_i_1_1_c_coordinate_affine_trans.html#a8990d15c6132aa7a7d5e877e7337ce8d">BUI::CCoordinateAffineTrans</a> , 以及 <a class="el" href="class_b_u_i_1_1_c_coordinate_geo.html#a55fdcc64aa90ac9858807ace45086fed">BUI::CCoordinateGeo</a> 重载.</p>
+
+</div>
+</div>
+<a id="a0feeab79652130c98e04c0abe7d6654a" name="a0feeab79652130c98e04c0abe7d6654a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0feeab79652130c98e04c0abe7d6654a">&#9670;&#160;</a></span>ViewIntPointByValueTrans()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a> BUI::CChartCoordinate::ViewIntPointByValueTrans </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#ac0967aa9148dce07feb55e880fd27574">AxisValueTransModel</a>&#160;</td>
+          <td class="paramname"><em>mx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#ac0967aa9148dce07feb55e880fd27574">AxisValueTransModel</a>&#160;</td>
+          <td class="paramname"><em>my</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="class_b_u_i_1_1_c_coordinate_affine.html#a21066e40960e30c2b4fd54b0657724f9">BUI::CCoordinateAffine</a> 重载.</p>
+
+</div>
+</div>
+<a id="a6b8f4f8e5f60c79b2e8bf4e5de6f2f3a" name="a6b8f4f8e5f60c79b2e8bf4e5de6f2f3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b8f4f8e5f60c79b2e8bf4e5de6f2f3a">&#9670;&#160;</a></span>ViewIntSizeByValueTrans()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_b_u_i_1_1_g_vector_f.html">GVectorF</a> BUI::CChartCoordinate::ViewIntSizeByValueTrans </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>cx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>cy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#ac0967aa9148dce07feb55e880fd27574">AxisValueTransModel</a>&#160;</td>
+          <td class="paramname"><em>mx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#ac0967aa9148dce07feb55e880fd27574">AxisValueTransModel</a>&#160;</td>
+          <td class="paramname"><em>my</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="class_b_u_i_1_1_c_coordinate_affine.html#a08fb526981e1f4e0933c490400997822">BUI::CCoordinateAffine</a> 重载.</p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="af21511d9e62a14c9377d9d02a432485f" name="af21511d9e62a14c9377d9d02a432485f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af21511d9e62a14c9377d9d02a432485f">&#9670;&#160;</a></span>m_color_map</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_g_brush_gradient.html">GBrushGradient</a>* BUI::CChartCoordinate::m_color_map</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb6e791ee0efae36427afb629ff142bc" name="adb6e791ee0efae36427afb629ff142bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb6e791ee0efae36427afb629ff142bc">&#9670;&#160;</a></span>m_coord_flags</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> BUI::CChartCoordinate::m_coord_flags</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a422aaeaff45d6859d48fde79a5b3cdc9" name="a422aaeaff45d6859d48fde79a5b3cdc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a422aaeaff45d6859d48fde79a5b3cdc9">&#9670;&#160;</a></span>m_isHasHitEle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::CChartCoordinate::m_isHasHitEle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6cee1f555ff657950151a8a1f3d151bf" name="a6cee1f555ff657950151a8a1f3d151bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cee1f555ff657950151a8a1f3d151bf">&#9670;&#160;</a></span>m_nameid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_string_a_8h.html#af8dd6b396b025639b3d0b06cbf8000c0">BeString</a> BUI::CChartCoordinate::m_nameid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4bf155782bfcfae22578730ce0c0dd50" name="a4bf155782bfcfae22578730ce0c0dd50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bf155782bfcfae22578730ce0c0dd50">&#9670;&#160;</a></span>m_ptCenterView</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> BUI::CChartCoordinate::m_ptCenterView</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4b597a15efd0b7cf3372eb6c0a521da" name="ab4b597a15efd0b7cf3372eb6c0a521da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4b597a15efd0b7cf3372eb6c0a521da">&#9670;&#160;</a></span>m_ptCurHit</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a> BUI::CChartCoordinate::m_ptCurHit</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80552858ab2df10e6b955c5520b9327d" name="a80552858ab2df10e6b955c5520b9327d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80552858ab2df10e6b955c5520b9327d">&#9670;&#160;</a></span>m_rcDiagram</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> BUI::CChartCoordinate::m_rcDiagram</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a645c4eb6648173cb1fefb1c477da8d94" name="a645c4eb6648173cb1fefb1c477da8d94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a645c4eb6648173cb1fefb1c477da8d94">&#9670;&#160;</a></span>m_weight_mode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_b_u_i.html#a1252d82d31c4c8b6a935017bd083de8f">WeightValueTransModel</a> BUI::CChartCoordinate::m_weight_mode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_b_u_i.html">BUI</a></li><li class="navelem"><a class="el" href="class_b_u_i_1_1_c_chart_coordinate.html">CChartCoordinate</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

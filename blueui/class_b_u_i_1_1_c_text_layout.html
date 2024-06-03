@@ -1,0 +1,471 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>CBlueUI: BUI::CTextLayout类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBlueUI
+   &#160;<span id="projectnumber">vxxx</span>
+   </div>
+   <div id="projectbrief">C++ 跨平台跨框架的数据可视化工具</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_b_u_i_1_1_c_text_layout.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="class_b_u_i_1_1_c_text_layout-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">BUI::CTextLayout类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>图标和文本布局工具类  
+ <a href="class_b_u_i_1_1_c_text_layout.html#details">更多...</a></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> 类 BUI::CTextLayout 继承关系图:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="class_b_u_i_1_1_c_text_layout.png" usemap="#BUI::CTextLayout_map" alt=""/>
+  <map id="BUI::CTextLayout_map" name="BUI::CTextLayout_map">
+<area href="class_b_u_i_1_1_c_label_u_i.html" title="普通标签控件" alt="BUI::CLabelUI" shape="rect" coords="375,56,515,80"/>
+<area href="class_b_u_i_1_1_c_button_u_i.html" title="按钮" alt="BUI::CButtonUI" shape="rect" coords="375,112,515,136"/>
+<area href="class_b_u_i_1_1_c_button_gradient_u_i.html" title="渐变按钮" alt="BUI::CButtonGradientUI" shape="rect" coords="75,168,215,192"/>
+<area href="class_b_u_i_1_1_c_button_node_u_i.html" title="组合复杂的按钮" alt="BUI::CButtonNodeUI" shape="rect" coords="300,168,440,192"/>
+<area href="class_b_u_i_1_1_c_button_s_v_g_u_i.html" title="SVG图标按钮" alt="BUI::CButtonSVGUI" shape="rect" coords="450,168,590,192"/>
+<area href="class_b_u_i_1_1_c_button_sys_u_i.html" title="系统按钮" alt="BUI::CButtonSysUI" shape="rect" coords="600,168,740,192"/>
+<area href="class_b_u_i_1_1_c_button_polygon_u_i.html" title="正多边形按钮，支持渐变" alt="BUI::CButtonPolygonUI" shape="rect" coords="0,224,140,248"/>
+<area href="class_b_u_i_1_1_c_button_texture_u_i.html" title="纹理按钮，支持渐变，和纹理图案" alt="BUI::CButtonTextureUI" shape="rect" coords="150,224,290,248"/>
+<area href="class_b_u_i_1_1_c_option_u_i.html" alt="BUI::COptionUI" shape="rect" coords="300,224,440,248"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:af1c6c14dd8b1e47ccc2c24608a44e88a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_text_layout.html#af1c6c14dd8b1e47ccc2c24608a44e88a">CTextLayout</a> ()</td></tr>
+<tr class="separator:af1c6c14dd8b1e47ccc2c24608a44e88a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c34680e7f811a0ea69ae416ed892fa7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_text_layout.html#a3c34680e7f811a0ea69ae416ed892fa7">~CTextLayout</a> ()</td></tr>
+<tr class="separator:a3c34680e7f811a0ea69ae416ed892fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35b8ec279e61181c904e19392284680d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_text_layout.html#a35b8ec279e61181c904e19392284680d">SetControlIcon</a> (<a class="el" href="class_b_u_i_1_1_g_image_icon_info.html">GImageIconInfo</a> *icon)</td></tr>
+<tr class="memdesc:a35b8ec279e61181c904e19392284680d"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置图标  <br /></td></tr>
+<tr class="separator:a35b8ec279e61181c904e19392284680d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7854f5101612d5247c6a065229506f04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_text_layout.html#a7854f5101612d5247c6a065229506f04">SetTextAlign</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> formate)</td></tr>
+<tr class="memdesc:a7854f5101612d5247c6a065229506f04"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置图片和文本组合整体的对齐方式  <br /></td></tr>
+<tr class="separator:a7854f5101612d5247c6a065229506f04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ee9cd2a21eec74d740d1762a69fa3d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_text_layout.html#a4ee9cd2a21eec74d740d1762a69fa3d1">GetTextAlign</a> () const</td></tr>
+<tr class="separator:a4ee9cd2a21eec74d740d1762a69fa3d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca6a038e3b698a52903bbf0923c1ec12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_text_layout.html#aca6a038e3b698a52903bbf0923c1ec12">IsHasTextAlign</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> bits) const</td></tr>
+<tr class="separator:aca6a038e3b698a52903bbf0923c1ec12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5321ac5696dfd9f3aab329ef0c090897"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_text_layout.html#a5321ac5696dfd9f3aab329ef0c090897">DrawLabel</a> (<a class="el" href="class_b_u_i_1_1_i_surface.html">ISurface</a> *pSurface, <a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> rcView, int paintStates, <a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> text, <a class="el" href="_c_core_base_pro_8h.html#a4d60ab1eb263cc8f6138875227c21cd8">COLORREF</a> color, <a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> *lpUpdate)</td></tr>
+<tr class="separator:a5321ac5696dfd9f3aab329ef0c090897"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb5306f5b0142185ef2a5ff026e0fb58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_text_layout.html#acb5306f5b0142185ef2a5ff026e0fb58">GetLayoutStringSize</a> (const <a class="el" href="class_b_u_i_1_1_g_font.html">GFont</a> *font, <a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> str)</td></tr>
+<tr class="separator:acb5306f5b0142185ef2a5ff026e0fb58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04b2d34abaa395d9d5c9bd8629999d81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_g_image_icon_info.html">GImageIconInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_text_layout.html#a04b2d34abaa395d9d5c9bd8629999d81">GetGImageIconInfo</a> () const</td></tr>
+<tr class="separator:a04b2d34abaa395d9d5c9bd8629999d81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a762bece2ac6a1e45b830855ad1bfa355"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_text_layout.html#a762bece2ac6a1e45b830855ad1bfa355">m_nTextAlign</a></td></tr>
+<tr class="separator:a762bece2ac6a1e45b830855ad1bfa355"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b0d557219ee524e811ae55d1323077d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_g_image_icon_info.html">GImageIconInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_text_layout.html#a8b0d557219ee524e811ae55d1323077d">m_iconInfo</a></td></tr>
+<tr class="separator:a8b0d557219ee524e811ae55d1323077d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9f27d400a67b9d31791d293304d56ac"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_c_text_layout.html#aa9f27d400a67b9d31791d293304d56ac">m_icon_interval</a></td></tr>
+<tr class="separator:aa9f27d400a67b9d31791d293304d56ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>图标和文本布局工具类 </p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="af1c6c14dd8b1e47ccc2c24608a44e88a" name="af1c6c14dd8b1e47ccc2c24608a44e88a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1c6c14dd8b1e47ccc2c24608a44e88a">&#9670;&#160;</a></span>CTextLayout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::CTextLayout::CTextLayout </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c34680e7f811a0ea69ae416ed892fa7" name="a3c34680e7f811a0ea69ae416ed892fa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c34680e7f811a0ea69ae416ed892fa7">&#9670;&#160;</a></span>~CTextLayout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::CTextLayout::~CTextLayout </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="a5321ac5696dfd9f3aab329ef0c090897" name="a5321ac5696dfd9f3aab329ef0c090897"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5321ac5696dfd9f3aab329ef0c090897">&#9670;&#160;</a></span>DrawLabel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CTextLayout::DrawLabel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_surface.html">ISurface</a> *&#160;</td>
+          <td class="paramname"><em>pSurface</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a>&#160;</td>
+          <td class="paramname"><em>rcView</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>paintStates</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a4d60ab1eb263cc8f6138875227c21cd8">COLORREF</a>&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> *&#160;</td>
+          <td class="paramname"><em>lpUpdate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a04b2d34abaa395d9d5c9bd8629999d81" name="a04b2d34abaa395d9d5c9bd8629999d81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04b2d34abaa395d9d5c9bd8629999d81">&#9670;&#160;</a></span>GetGImageIconInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_g_image_icon_info.html">GImageIconInfo</a> * BUI::CTextLayout::GetGImageIconInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb5306f5b0142185ef2a5ff026e0fb58" name="acb5306f5b0142185ef2a5ff026e0fb58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb5306f5b0142185ef2a5ff026e0fb58">&#9670;&#160;</a></span>GetLayoutStringSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a94ba5a5fc9c4e5e3e112bcdf06379105">SIZE</a> BUI::CTextLayout::GetLayoutStringSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_font.html">GFont</a> *&#160;</td>
+          <td class="paramname"><em>font</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ee9cd2a21eec74d740d1762a69fa3d1" name="a4ee9cd2a21eec74d740d1762a69fa3d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ee9cd2a21eec74d740d1762a69fa3d1">&#9670;&#160;</a></span>GetTextAlign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> BUI::CTextLayout::GetTextAlign </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aca6a038e3b698a52903bbf0923c1ec12" name="aca6a038e3b698a52903bbf0923c1ec12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca6a038e3b698a52903bbf0923c1ec12">&#9670;&#160;</a></span>IsHasTextAlign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::CTextLayout::IsHasTextAlign </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>bits</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a35b8ec279e61181c904e19392284680d" name="a35b8ec279e61181c904e19392284680d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35b8ec279e61181c904e19392284680d">&#9670;&#160;</a></span>SetControlIcon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CTextLayout::SetControlIcon </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_image_icon_info.html">GImageIconInfo</a> *&#160;</td>
+          <td class="paramname"><em>icon</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>设置图标 </p>
+
+</div>
+</div>
+<a id="a7854f5101612d5247c6a065229506f04" name="a7854f5101612d5247c6a065229506f04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7854f5101612d5247c6a065229506f04">&#9670;&#160;</a></span>SetTextAlign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::CTextLayout::SetTextAlign </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>formate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>设置图片和文本组合整体的对齐方式 </p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="aa9f27d400a67b9d31791d293304d56ac" name="aa9f27d400a67b9d31791d293304d56ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9f27d400a67b9d31791d293304d56ac">&#9670;&#160;</a></span>m_icon_interval</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::CTextLayout::m_icon_interval</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8b0d557219ee524e811ae55d1323077d" name="a8b0d557219ee524e811ae55d1323077d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b0d557219ee524e811ae55d1323077d">&#9670;&#160;</a></span>m_iconInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_g_image_icon_info.html">GImageIconInfo</a>* BUI::CTextLayout::m_iconInfo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a762bece2ac6a1e45b830855ad1bfa355" name="a762bece2ac6a1e45b830855ad1bfa355"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a762bece2ac6a1e45b830855ad1bfa355">&#9670;&#160;</a></span>m_nTextAlign</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> BUI::CTextLayout::m_nTextAlign</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_b_u_i.html">BUI</a></li><li class="navelem"><a class="el" href="class_b_u_i_1_1_c_text_layout.html">CTextLayout</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

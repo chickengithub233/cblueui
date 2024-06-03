@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<UI size="1100,700">
+	<Control Class="CLabelUI" position="0,0,100,100" Name="title" text-align="hcenter|vcenter" Layout="fill,40" back-show="always" text="tr:表格" labeltype="label"/>
+
+	<hLayout Layout="fill,30" interval="10">
+		<Control Class="CCheckBoxUI" Name="colnumber" selected="true" Layout="adapt,30" TEXT="tr:列号"/>
+		<Control Class="CCheckBoxUI" Name="showchackinterval_tab" selected="false" Layout="adapt,30" TEXT="tr:显示背景间隔色"/>
+		<Control Class="CCheckBoxUI" Name="tabcheckbox" selected="false" Layout="adapt,30" TEXT="tr:复选框"/>
+		<Control Class="CCheckBoxUI" Name="horgrid" selected="true" Layout="adapt,30" TEXT="tr:水平网格线"/>
+		<Control Class="CCheckBoxUI" Name="vergrid" selected="true" Layout="adapt,30" TEXT="tr:垂直网格线"/>
+		<Control Class="CCheckBoxUI" Name="transposition" selected="false" Layout="adapt,30" TEXT="tr:行列转置"/>
+		<Control Class="CCheckBoxUI" Name="textTableChange" selected="false" Layout="adapt,30" TEXT="tr:单元格文本实时测试"/>
+		<spacer Layout="fill,10"/>
+		<Control Class="CLabelUI" text="tr:测试数据无参考价值" Layout="adapt,fill"/>
+	</hLayout>
+
+	<Control Class="CTableViewUI" Name="tabMusiclist" limit-rwows="1000" swap="tru2e" datafile=".././res/02_tabledata.xml"  rowHeight="25" tipImage="1" tipsText="空空如也" fixcol="1" Layout="fill:400,fill:14" >
+
+			<attribute class="title" text="C场-200mA"/>
+			<attribute class="action_combo" >
+				<element TEXT="0xE0 关闭输出" TextID ="E0"/>
+				<element TEXT="0xE1 打开输出" TextID ="E1"/>
+			</attribute>		
+	</Control>
+
+</UI>

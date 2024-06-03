@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<UI>
+	<style id="line123" text-colors="normal:0x000000"/>
+
+	<Color id="color0" normal="0xffffff" highlight="0xFF8613" selected="0xFF8613" disable="0xffffff"/>
+	<vLayout Layout="fill,fill" interval='3'>
+		<Control Class="CLabelUI" Name="title" text="tr:基本控件" icon="mute" FixedOnView="true" select-state="true" Layout="fill,30" text-align="hcenter|vcenter" back-show="always"/>
+		<hLayout Layout="fill,100">
+			<Control Class="CLabelUI" text="tr:标签UI" Layout="30,fill" text-align="hcenter|vcenter|vertical" back-show="always" />
+			<vLayout Layout="adapt:30,fill" interval='3'>
+				<Control Class="CLabelMultiStyleUI" Name="title" Layout="fill,fill" text-align="left|vcenter" back-show="never">
+					<html>
+						<p>
+							<i>
+								<font size="20" color="0x0000ff">tr:html标签第一行:白月光照前方是希望</font>
+							</i>
+						</p>
+						<br/>
+						<p>tr:html标签第二行:对流星我许下愿望</p>
+						<br/>
+						<p>
+							<font size="16" color="0x124578">tr:html标签第三行:我们深情的对望</font>
+						</p>
+					</html>
+				</Control>
+			</vLayout>
+
+			<Spacer Layout="20,20"/>
+			<Control Class="CButtonUI" TEXT="tr:悬浮" control-flags="DisableTheme" back-colors="normal:0xEEEEEF;high:0xEEEEEF" Layout="100,50" layout-align="vcenter" text-align="center|vcenter" shadow="-10,-10,15,15,2,2,rgb(255,255,255,255);10,10,15,15,3,3,rgb(0,0,0,40)"/>
+
+			<Spacer Layout="20,20"/>
+			<Control Class="CButtonUI" TEXT="tr:凹陷" control-flags="DisableTheme" back-colors="normal:0xEEEEEF;high:0xEEEEEF" Layout="100,50" layout-align="vcenter"  text-align="center|vcenter" shadow="3,3,3,3,0,0,rgb(0,0,0,40),inset;-3,-3,3,3,0,0,rgb(255,255,255,255),inset"/>
+
+			<Spacer Layout="20,20"/>
+			<Control Class="CButtonUI" TEXT="tr:悬浮" name="btnshadow" control-flags="DisableTheme" back-colors="normal:0xEEEEEF;high:0xEEEEEF" Layout="100,50" layout-align="vcenter"  text-align="center|vcenter" shadow="-10,-10,15,15,2,2,rgb(255,255,255,255);10,10,15,15,3,3,rgb(0,0,0,40)"/>
+	
+		</hLayout>
+
+
+		<hLayout Layout="fill,100" keep-view="true">
+			<Control Class="CLabelUI" text="tr:液晶数字" Name="title1" Layout="30,fill" text-align="hcenter|vcenter|vertical" back-show="always" />
+			<Control Class="CDigitLcdUI" text="1357924680" Layout="adapt:5,fill"/>
+			<Spacer Layout="10,fill"/>
+			<Control Class="CButtonTextureUI" font="6" text="DSP" icon="22" Layout="adapt:10,fill" back-gradient-normal="bru_orange_red_hot"/>
+			<Spacer Layout="10,fill"/>
+			<Control Class="CButtonTextureUI" font="6" text="100G" icon="22" Layout="adapt:10,fill" />
+		</hLayout>
+
+		<hLayout Layout="fill,510">
+			<Control Class="CLabelUI" text="tr:选择UI" Name="title2" Layout="30,fill" text-align="hcenter|vcenter|vertical" back-show="always" style="gline123"/>
+			<vLayout Layout="fill,fill" interval='3'>
+				<hLayout Layout="fill,30" interval='5'>
+					<Control Class="CLabelUI" text="tr:单选组合:" Layout="110,30"/>
+					<Control Class="CContainOptionUI" Name="stepbar" Layout="fill,30" contain-layout='box-type:HORIZONTAL'>
+						<Control Class="CCheckBoxUI" Name="chkBox" Layout="adapt,30" TEXT="tr:短信" draw-style="dot"/>
+						<Control Class="CCheckBoxUI" Name="chkBox" Layout="adapt,30" TEXT="tr:电话" draw-style="dot"/>
+						<Control Class="CCheckBoxUI" Name="chkBox" Layout="adapt,30" TEXT="tr:邮件" draw-style="dot"/>
+					</Control>
+					<Control Class="CContainOptionUI" Name="stepbar" Layout="fill,30" contain-layout='box-type:HORIZONTAL;interval:5'>
+						<Control Class="CBinaryBoxUI" Name="chkBox2" Layout="adapt,24" layout-align="vcenter" TEXT="tr:启用;停止" enable="false" />
+						<Control Class="CBinaryBoxUI" Name="chkBox2" Layout="adapt,24" layout-align="vcenter" TEXT="tr:ON;OFF"/>
+						<Control Class="CBinaryBoxUI" Name="chkBox2" Layout="adapt,24" layout-align="vcenter" TEXT="tr:打开;关闭"/>
+					</Control>
+
+				</hLayout>
+				<hLayout Layout="fill,30" interval='5'>
+					<Control Class="CLabelUI" text="tr:线条:" Layout="110,fill"/>
+					<Control Class="CLineUI" Layout="300,fill" pos="50" line-size="2" />
+				</hLayout>
+
+				<hLayout Layout="fill,50" interval='5'>
+					<Control Class="CLabelUI" text="tr:输入框:" Layout="110,fill"/>
+					<Control Class="CEditTextUI" name="edit123" Layout="300,fill" text="this is input text " border-show="focus">
+						<NodeData Class="CNodeDataControl" Layout="30,fill">
+							<Control Class="CButtonImageUI" Name="imagebtn22" Layout="30,30" icon="button:close"/>
+						</NodeData>
+					</Control>
+
+					<Control Class="CButtonGradientUI" TEXT="tr:弹出加载提示" Name="btnPoploading" back-gradient-normal="bru_green_nor" control-flags="DisableTheme" text-colors="normal:0xFFFFFF;high:0xFFFFFF" Layout="100,50" text-align="center|vcenter"/>
+					<Control Class="CButtonGradientUI" TEXT="tr:弹出错误提示" Name="btnPopError" back-gradient-normal="bru_green_nor" control-flags="DisableTheme" text-colors="normal:0xFFFFFF;high:0xFFFFFF" Layout="100,50" text-align="center|vcenter"/>
+					<Control Class="CButtonGradientUI" TEXT="tr:弹出完成提示" Name="btnPopDone" back-gradient-normal="bru_green_nor" control-flags="DisableTheme" text-colors="normal:0xFFFFFF;high:0xFFFFFF" Layout="100,50" text-align="center|vcenter"/>
+					<Control Class="CButtonGradientUI" TEXT="tr:弹出警告提示" Name="btnPopWarn" back-gradient-normal="bru_green_nor" control-flags="DisableTheme" text-colors="normal:0xFFFFFF;high:0xFFFFFF" Layout="100,50" text-align="center|vcenter"/>
+				</hLayout>
+				<hLayout Layout="fill,50" interval='5'>
+					<Control Class="CLabelUI" text="tr:多功能输入框:" Layout="110,fill"/>
+					<Control Class="CComboListUI" name="editss123" Layout="300,fill" text="this is input text " border-show="always">
+						<NodeData Class="CNodeDataControl" Layout="30,fill">
+							<Control Class="CButtonImageUI" Name="imagebtn22" Layout="30,30" icon="button:close"/>
+						</NodeData>
+					</Control>
+				</hLayout>
+
+				<hLayout Layout="fill,30" interval='5'>
+					<Control Class="CLabelUI" text="tr:步长输入框:" Layout="110,fill"/>
+					<Control Class="CEditSpinBoxUI" Name="stepnum2" Layout="300,20" editbtnside="LeftSide" input-range="0,65535" border-show="always" Precision="0" text="10" enable="false"/>
+					<Control Class="CLabelUI" text="tr:步长输入框:" Layout="110,fill" text-align="right,vcenter" />
+					<Control Class="CEditSpinBoxUI" Name="stepnum3" Layout="300,fill" editbtnside="BothSide" input-range="0,100" border-show="always" Precision="3" defaultValue="0"/>
+				</hLayout>
+
+				<hLayout Layout="fill,30" interval='5'>
+					<Control Class="CLabelUI" text="tr:步长输入框:" Layout="110,fill"/>
+					<Control Class="CEditSpinBoxUI" Name="stepnum" Layout="300,25" input-range="0,100" border-show="always" Precision="3" defaultValue="0"/>
+					<Control Class="CLabelUI" text="tr:10进制:" Layout="110,fill" text-align="right,vcenter"/>
+					<Control Class="CEditTextUI" Name="editbase10" Layout="300,fill" border-show="always" empty-tips="[0-9] e.g 1921 1949" input-type="Scientific" />
+				</hLayout>
+				<hLayout Layout="fill,30" interval='5'>
+					<Control Class="CLabelUI" text="tr:范围选择:" Layout="110,fill"/>
+					<Control Class="CEditCombinationUI" Name="editrange" Layout="300,fill" edit-count="2" text-separate="-" empty-tips="0;100" border-show="always" input-type="Decimal" />
+					<Control Class="CLabelUI" text="tr:8进制:" Layout="110,fill" text-align="right,vcenter"/>
+					<Control Class="CEditTextUI" Name="editbase2" Layout="300,fill" border-show="always" empty-tips="[0-7] e.g 7702" input-type="Octal" />
+				</hLayout>
+				<hLayout Layout="fill,30" interval='5'>
+					<Control Class="CLabelUI" text="tr:IP V4地址:" Layout="110,fill"/>
+					<Control Class="CEditIPAddressUI" Name="ipeditv4" ipv6="false" Layout="300,fill" border-show="always" text="192.168.0.1" />
+					<Control Class="CLabelUI" text="tr:16进制:" Layout="110,fill" text-align="right,vcenter"/>
+					<Control Class="CEditTextUI" Name="editbase2" Layout="300,fill" border-show="always" empty-tips="[0-9a-zA-F] e.g FFAA00" input-type="Hexadecimal" />
+				</hLayout>
+				<hLayout Layout="fill,30" interval='5'>
+					<Control Class="CLabelUI" text="tr:IP V6地址:" Layout="110,fill"/>
+					<Control Class="CEditIPAddressUI" Name="ipeditv6" Layout="300,fill" border-show="always" text="127.0.0.0.0.1" />
+					<Control Class="CLabelUI" text="tr:2进制:" Layout="110,fill" text-align="right,vcenter" />
+					<Control Class="CEditTextUI" Name="editbase2" Layout="300,fill" border-show="always" empty-tips="[0-1] e.g 11110000" input-type="Binary" />
+				</hLayout>
+
+
+				<hLayout Layout="fill,30" interval='5'>
+					<Control Class="CLabelUI" text="tr:下拉框:" Layout="110,fill"/>
+					<Control Class="CComboListUI" Name="comboctrl" border-show="always" input-type="ReadOnly" control-flags="StorageUserSetting" cursel="0" HasTripe="false" suffix-text="%%" Layout="300,fill">
+						<element TEXT="tr:浅蓝" TextID ="1"/>
+						<element TEXT="tr:雅黑" TextID ="2"/>
+						<element TEXT="tr:眩白" TextID ="3"/>
+					</Control>
+					<Control Class="CLabelUI" text="tr:补码:" Layout="110,fill" text-align="right,vcenter"/>
+					<Control Class="CEditTextUI" Name="editbase2bu" Layout="300,fill" border-show="always" empty-tips="[0-1] e.g 11110000" input-type="Binary" />
+				</hLayout>
+				<hLayout Layout="fill,30" interval='5'>
+					<Control Class="CLabelUI" text="tr:日期:" Layout="110,fill"/>
+					<Control Class="CComboDateUI" Name="datecombo" value="now" border-show="always" HasTripe="false" input-type="ReadOnly" Layout="300,fill"/>
+				</hLayout>
+				<hLayout Layout="fill,30" interval='5'>
+					<Control Class="CLabelUI" text="tr:时间段:" Layout="110,fill"/>
+					<Control Class="CComboDateRangeUI" Name="datecombo" begin="20230201" end="now" tipstext="date tips" dropWidth="400" border-show="always" Layout="300,fill"/>
+				</hLayout>
+				<hLayout Layout="fill,30" interval='5'>
+					<Control Class="CLabelUI" text="tr:颜色选取:" Layout="110,fill"/>
+					<Control Class="CComboColorPickerUI" Name="colorcombo" value="0x3AB6F8" border-show="always" Layout="300,fill" tipstext="default tips"/>
+				</hLayout>
+				<hLayout Layout="fill,30" interval='5'>
+					<Control Class="CLabelUI" text="tr:快捷键:" Layout="110,fill"/>
+					<Control Class="CEditKeyBoardUI" Name="keyboard" text="Ctrl+B" border-show="always" back-show="always" Layout="300,fill"/>
+				</hLayout>
+				<!-- <hLayout Layout="fill,30">
+					<Control Class="CLabelUI" text="tr:分段风格标签按钮:" Layout="150,fill"/>
+					<Control Class="CButtonSegmentUI" Name="segBtn" border-show="always" Layout="300,fill">
+						<element TEXT="setup" color="0x4F4F4F" TextID="1" round-radius="left-top:8,8;right-top:0,0;right-bottom:0,0;left-bottom:8,8;"/>
+						<element TEXT="automated" color="0x11B93F" TextID ="2"/>
+						<element TEXT="19 online" color="0xB37201" TextID="3" round-radius="left-top:0,0;right-top:8,8;right-bottom:8,8;left-bottom:0,0;"/>
+					</Control>
+				</hLayout>-->
+			</vLayout>
+		</hLayout>
+
+		<hLayout Layout="fill,adapt:11" interval='5'>
+			<Control Class="CLabelUI" text="tr:按钮UI" Layout="30,fill" Name="title3" text-align="hcenter|vcenter|vertical" back-show="always" />
+			<Control Class="CButtonSwitchImageUI" Name="imageswitch" Layout="30,30" icon-check="switch:check" icon-uncheck="switch:uncheck"/>
+			<Control Class="CButtonImageUI" Name="imagebtn" Layout="30,30" icon="button:close"/>
+			<Control Class="CButtonImageUI" Name="imagebtn2" Layout="95,28" icon="button:up_new"/>
+			<vLayout Layout="150,adapt:12" interval='5'>
+				<Control Class="CButtonGradientUI" TEXT="tr:图标水平布局" Name="btnStop123" tooltip="is tool text test" back-gradient-normal="bru_green_nor" poptipstext="tr:提示文本asdfasdfasdfff" Layout="fill,50" Icon="button:add" shortcut="ctrl+k" text-align="left|vcenter"/>
+				<Control Class="CButtonGradientUI" TEXT="tr:图标水平布局" Name="btnStopNotify" back-gradient-normal="bru_btnred_nor" control-flags="DisableTheme" text-colors="normal:0xFFFFFF" Layout="fill,50" Icon="button:add" text-align="center|vcenter">
+					<PopControl pos="0,1" align="top,left">
+						<Control Class="CContainLayoutUI" Name="connect_page" Layout="300,400" back-show="always" border-show="always" border-colors="normal:#5582F9;light:#5582F9">
+							<!-- <include file="../res/Install.xml"/> -->
+						</Control>
+					</PopControl>
+				</Control>
+
+				<Control Class="CButtonGradientUI" TEXT="tr:图标水平布局" Name="btnStopNotify" back-gradient-normal="bru_btnblue_nor12" control-flags="DisableTheme,RoundRadiusParl" text-colors="normal:0xFFFFFF" round-radius="left-top:15,0;right-top:0,0;right-bottom:-15,0;left-bottom:0,0;" Layout="fill,50" Icon="button:add" text-align="center|vcenter"/>
+
+				<Control Class="CButtonGradientUI" TEXT="tr:图标水平布局" Name="btnStop" back-gradient-normal="bru_green_nor" Layout="fill,50" Icon="button:add" text-align="right|vcenter"/>
+				<Control Class="CButtonNodeUI" TEXT="tr:图标水平布局" Name="nodeBtn" Layout="fill,50" Icon="button:add" text-align="right|vcenter">
+					<element Class="CNodeDataText" text="tr:刘德华1" />
+					<element Class="CNodeDataText" text="tr:刘德华2" />
+				</Control>
+				<Control Class="CButtonGradientUI" TEXT="tr:自定义圆角风格" Name="btnOpendir" back-gradient-normal="bru_btnblue_nor" Icon="button:add" Layout="150,50" border-show="tr1ue" round-radius="left-top:0,0;right-top:18,18;right-bottom:0,0;left-bottom:18,18;" text-align="vcenter"/>
+				<Spacer Layout="10,10"/>
+				<Control Class="CButtonUI" TEXT="tr:未读信息" Name="btnOpendir" Layout="120,40" icon="button:pause" back-show="never" border-show="always" text-align="vcenter">
+					<AdsorbLayout Layout="30,30" base-layout="100%,0%">
+						<Control Class="CButtonUI" TEXT="tr:12" Name="btnStopAdsorbLayout" Layout="fill,50" text-align="center|vcenter" control-flags="DisableTheme" back-colors="normal:0x0404FF;highlight:0x0404FF;selected:0x0404FF;"/>
+					</AdsorbLayout>
+				</Control>
+				<Control Class="CButtonUI" TEXT="ExpandButton" Name="btnOpendir" Layout="150,40" back-show="never" text-align="vcenter" />
+				<Control Class="CButtonMenuUI" TEXT="MenuButton" Name="btnOpendir" Layout="150,40" text-align="vcenter">
+					<PopControl pos="0,1" point-offset="0,10" align="left,top">
+						<Control Class="CContainMenuUI" Layout="300,adapt" padding="1,0,1,0" border-show="always" control-flags="PopupProperties">
+							<Control Class="CButtonMenuUI" TEXT="频率修正" Name="btnOpendir0" Layout="fill,30" text-align="vcenter" />
+							<Control Class="CButtonMenuUI" TEXT="去噪" Name="btnOpendir1" Layout="fill,30" text-align="vcenter" />
+							<Control Class="CButtonMenuUI" TEXT="混合" Name="btnOpendir2" Layout="fill,30" text-align="vcenter" />
+							<Control Class="CButtonMenuUI" TEXT="修音" Name="btnOpendir3" Layout="fill,30" text-align="vcenter" />
+							<Control Class="CButtonMenuUI" TEXT="音效增强" Name="more4" Layout="fill,30" text-align="vcenter" />
+							<Control Class="CButtonMenuUI" TEXT="差分修正" Name="btnOpendir5" Layout="fill,30" text-align="vcenter" />
+						</Control>
+					</PopControl>
+				</Control>
+				<Control Class="CButtonSVGUI" TEXT="SVGButton" Name="btnOpendir" icon="0" back-show="never" Layout="120,40" text-align="vcenter"/>
+				<Control Class="CButtonGradientUI" TEXT="Gradient" Name="btnOpendir" back-gradient-normal="bru_orange_red_hot" icon="button:add" Layout="120,40" text-align="vcenter"/>
+			</vLayout>
+			<Control Class="CButtonUI" TEXT="tr:自定义圆角" Name="btnStop" visible="true" Layout="60,200" round-radius="left-top:0,0;right-top:18,18;right-bottom:0,0;left-bottom:18,18;" Icon="button:add" text-align="top|center|vertical|icon-layout-vertical"/>
+			<Control Class="CButtonUI" TEXT="tr:图标垂直布局" Name="btnStop" Layout="60,200" Icon="button:add" enable="false" text-align="vcenter|center|vertical-china|icon-layout-vertical" back-show="never" />
+			<Control Class="CButtonUI" TEXT="tr:图标垂直布局" Name="btnStop" Layout="60,200" Icon="button:add" control-flags="RoundRadiusDrawLine" round-radius="left-top:0,0;right-top:18,18;right-bottom:0,0;left-bottom:18,18;" text-align="bottom|center|vertical|icon-layout-vertical"/>
+			<Spacer Layout="10,5"/>
+			<Control Class="CSliderUI" Name="silderctlvss" Layout="100,fill"/>
+
+			<vLayout Layout="150,fill" interval='5'>
+				<Control Class="CProgressBarUI" Layout="150,150" Name="uiload" draw-style="load" TEXT="Loading" />
+				<Control Class="CImageViewUI" Layout="48,48" icon = "webcam" anim-angel="5" delay-time="100"/>
+			</vLayout>
+
+			<vLayout Layout="150,fill" interval='5'>
+				<Control Class="CButtonPolygonUI" Layout="150,150" edge-count="5" TEXT="tr:五边形按钮" cmd1="showcontrol(btnStop,false);" back-gradient-normal="bru_btnblue_nor"/>
+				<Control Class="CButtonPolygonUI" Layout="150,150" edge-count="6" TEXT="tr:六边形按钮" back-gradient-normal="bru_btnblue_nor" />
+				<Control Class="CButtonPolygonUI" Layout="150,150" edge-count="4" TEXT="tr:四边形按钮" />
+			</vLayout>
+		</hLayout>
+		<hLayout Layout="fill,100">
+			<Control Class="CLabelUI" text="tr:滑块UI" Layout="30,fill" name="title4" text-align="hcenter|vcenter|vertical" back-show="always" />
+			<Control Class="CSliderUI" Name="silderctl" Layout="fill:300,fill"/>
+		</hLayout>
+		<hLayout Layout="fill,150" interval='3'>
+			<Control Class="CLabelUI" text="tr:进度条UI" Layout="30,fill" name="title5" text-align="hcenter|vcenter|vertical" back-show="always" />
+			<Control Class="CProgressBarUI" Layout="150,150" Name="gdppercent1" TEXT="GDP" draw-style="ring" fillsize="25"/>
+			<Control Class="CProgressBarUI" Name="gdppercent2" TEXT="tr:消费" fillsize="25" Layout="150,150"/>
+			<Control Class="CProgressBarUI" Name="gdppercent3" Layout="fill:300,fill" draw-style="slic"/>
+		</hLayout>
+		<hLayout Layout="fill,80">
+			<Control Class="CLabelUI" text="tr:标签页UI" Layout="30,fill" name="title6" text-align="hcenter|vcenter|vertical" back-show="always" />
+			<Control Class="CContainOptionUI" position="0,0,100,100" Name="tab" Layout="fill,40" interval='3' contain-layout="box-type:horizontal" back-show="always" text="标签页" contain-flags="DragMoveWidget">
+				<Control Class="COptionUI" TEXT="tr:百度地图" Name="baidu" Layout="adapt,fill" orientation="0" link-enable="edit123"/>
+				<Control Class="CStaticLine" style="line123"/>
+				<Control Class="COptionUI" TEXT="tr:高德地图" Name="gaode" selected="true" Layout="adapt,fill"/>
+				<Control Class="CStaticLine" style="line123"/>
+				<Control Class="COptionUI" TEXT="tr:腾讯地图" Name="tengxun" Layout="adapt,fill"/>
+			</Control>
+		</hLayout>
+		<hLayout Layout="fill,100">
+			<Control Class="CLabelUI" text="tr:标签页UI" Layout="30,fill" name="title7" text-align="hcenter|vcenter|vertical" back-show="always" />
+			<Control Class="CContainOptionUI" position="0,0,100,100" Name="tab" Layout="fill,fill" contain-layout="box-type:horizontal" back-show="always" text="tr:标签页">
+				<Control Class="COptionUI" TEXT="tr:百度地图" Name="baidu" typeset="TextVerticalColumn" Layout="40,fill" orientation="3"/>
+				<Control Class="CStaticLine" style="line123"/>
+				<Control Class="COptionUI" TEXT="tr:高德地图" Name="gaode" typeset="TextVerticalColumn" Layout="40,fill" orientation="2"/>
+				<Control Class="CStaticLine" style="line123"/>
+				<Control Class="COptionUI" TEXT="tr:腾讯地图" Name="tengxun" selected="true" typeset="TextVerticalColumn" Layout="40,fill" orientation="3"/>
+			</Control>
+		</hLayout>
+		<hLayout Layout="fill,80">
+			<Control Class="CLabelUI" text="tr:翻页控件UI" Layout="30,fill" name="title8" text-align="hcenter|vcenter|vertical" back-show="always" />
+			<Control Class="CPaginationUI" TEXT="tr:翻页控件" Name="pageui" Layout="fill,40"/>
+		</hLayout>
+	</vLayout>
+</UI>

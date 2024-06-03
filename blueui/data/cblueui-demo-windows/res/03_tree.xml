@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<UI size="1100,700">
+	<popwindow id="drop:table" url=".././res/poptable.xml" />
+
+	<Control Class="CLabelUI" position="0,0,100,100" Name="title" Layout="fill,40" back-show="always" text-align="hcenter|vcenter" text="tr:树状控件" labeltype="label"/>
+	<hLayout width="0" height="30" wfillType="fill" hfilltype="fill" interval='3'>
+		<Control Class="CTreeTableViewUI" Name="treetable" datafile=".././res/03_treedata2.xml" tipImage="1" tipsText="空空如也" Layout="fill:80,fill:40">
+			<EmptyNodeList>
+				<element TEXT ="drop datas"/>
+			</EmptyNodeList>
+		</Control>
+	</hLayout>
+</UI>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<UI size="1100,700">
+	<Control Class="CLabelUI" position="{0,0,100,100}" Name="title" Layout="fill,40" back-show="always" text-align="hcenter|vcenter" text="tr:视频监控" />
+	<hLayout Layout="fill,fill">
+		<vLayout Layout="650,fill">
+			<Control Class="CCameraVideoQtUI" name="camera_input" Layout="fill,fill" border-show="true"  video-index="0" text-colors="normal:0x1DB0FC" >
+				<EmptyNodeList layout-method="vertical" >
+					<element Class="CNodeDataImage" icon="webcam" layout="adapt:10, adapt:10" />
+					<element Class="CNodeDataText" text="未检测到设备" layout="adapt:10, adapt:10" />
+					<Control Class="CButtonUI" Name="btnReconnect" layout="adapt:10, adapt:10" Icon="link" back-show="never" border-show="never" text-align="vcenter" text-colors="normal:0x5AAC44" />
+				</EmptyNodeList>
+			</Control>
+
+			<Control Class="CCameraVideoUI" Layout="fill,fill" border-show="true"  video-index="-1" text-colors="normal:0x1DB0FC" >
+				<EmptyNodeList  layout-method="vertical" >
+					<element Class="CNodeDataImage" icon="webcam" layout="adapt:10, adapt:10" />
+					<element Class="CNodeDataText" text="未检测到设备" layout="adapt:10, adapt:10" />
+					<Control Class="CButtonUI" Name="btnReconnect" layout="adapt:10, adapt:10" Icon="link" back-show="never" border-show="never" text-align="vcenter" text-colors="normal:0x5AAC44" />
+				</EmptyNodeList>
+			</Control>
+
+		</vLayout>
+
+		<VLayout Layout="fill,fill" interval='5' padding="5,5,5,5">
+           	<hLayout Layout="fill,80" interval='5'>
+				<VLayout Layout="fill,fill" interval='2'>
+					<hLayout Layout="fill,fill" interval='5'>
+						<Control Class="CLabelUI" text="tr:Text:" Layout="150,fill"/>
+						<Control Class="CEditTextUI" name="scancode_text" Layout="fill,fill" text="" border-show="always" />
+					</hLayout>
+
+					<hLayout Layout="fill,fill" interval='5'>
+						<Control Class="CLabelUI" text="tr:Barcode-Format:" Layout="150,fill"/>
+						<Control Class="CEditTextUI" name="scancode_fmt" Layout="fill,fill" text="" border-show="always" />
+					</hLayout>
+				</VLayout>
+
+			</hLayout>
+			<Control Class="CZBarCodeUI" name="outscancode" Layout="fill, fill" layout-align="hcenter" border-show="true" BarcodeMargin="30" />
+		</VLayout>
+
+
+	</hLayout>
+</UI>

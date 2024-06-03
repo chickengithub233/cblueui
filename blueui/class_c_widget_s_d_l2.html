@@ -1,0 +1,1141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>CBlueUI: CWidgetSDL2类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBlueUI
+   &#160;<span id="projectnumber">vxxx</span>
+   </div>
+   <div id="projectbrief">C++ 跨平台跨框架的数据可视化工具</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_c_widget_s_d_l2.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="class_c_widget_s_d_l2-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">CWidgetSDL2类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> 类 CWidgetSDL2 继承关系图:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="class_c_widget_s_d_l2.png" usemap="#CWidgetSDL2_map" alt=""/>
+  <map id="CWidgetSDL2_map" name="CWidgetSDL2_map">
+<area href="class_c_widget_overlay_wnd.html" title="层叠窗口" alt="CWidgetOverlayWnd" shape="rect" coords="0,56,155,80"/>
+<area href="class_c_widget_overlay_side_wnd.html" alt="CWidgetOverlaySideWnd" shape="rect" coords="0,112,155,136"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+类</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>WinLinkNodeSDL2</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:ad6a63cab1fcad88523cc8e451aa13943"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#ad6a63cab1fcad88523cc8e451aa13943">CWidgetSDL2</a> ()</td></tr>
+<tr class="separator:ad6a63cab1fcad88523cc8e451aa13943"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f1426254e45ce43dc16ba36d2baba9f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a2f1426254e45ce43dc16ba36d2baba9f">~CWidgetSDL2</a> ()</td></tr>
+<tr class="separator:a2f1426254e45ce43dc16ba36d2baba9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a410b5197fe19a607240e9a412a282be9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a410b5197fe19a607240e9a412a282be9">MessageLoop</a> ()</td></tr>
+<tr class="separator:a410b5197fe19a607240e9a412a282be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac18677fc88421a65e65b1d01a23b9a1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#ac18677fc88421a65e65b1d01a23b9a1b">CreateAttach</a> (<a class="el" href="class_c_widget_s_d_l2.html">CWidgetSDL2</a> *parent, SDL_Window *win, <a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> *rc)</td></tr>
+<tr class="separator:ac18677fc88421a65e65b1d01a23b9a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1ec18aa12d9ef7a93799ac7532b5430"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#ab1ec18aa12d9ef7a93799ac7532b5430">Create</a> (<a class="el" href="class_c_widget_s_d_l2.html">CWidgetSDL2</a> *parent, <a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a> name, <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> style, <a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> *rc)</td></tr>
+<tr class="separator:ab1ec18aa12d9ef7a93799ac7532b5430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeacd64f67c74eb1868f6516a336ee4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#afeacd64f67c74eb1868f6516a336ee4f">SetEventFilter</a> (SDL_EventFilter func, void *data)</td></tr>
+<tr class="separator:afeacd64f67c74eb1868f6516a336ee4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f3a2bdf4b6e372b5f7d8cf31551ed0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a2f3a2bdf4b6e372b5f7d8cf31551ed0e">SetWindowPos</a> (int x, int y, int w, int h)</td></tr>
+<tr class="separator:a2f3a2bdf4b6e372b5f7d8cf31551ed0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab47d8ef33870d82fa8870631e155adc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#ab47d8ef33870d82fa8870631e155adc4">CenterWindow</a> ()</td></tr>
+<tr class="separator:ab47d8ef33870d82fa8870631e155adc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa19fc12c13477fae23d6ea8659eb4979"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#aa19fc12c13477fae23d6ea8659eb4979">ShowWindow</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> flag)</td></tr>
+<tr class="separator:aa19fc12c13477fae23d6ea8659eb4979"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02872c1da03daade293596c4b00b278f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a02872c1da03daade293596c4b00b278f">DisableWindow</a> (<a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> disable)</td></tr>
+<tr class="separator:a02872c1da03daade293596c4b00b278f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ca72a32c5f9466fd89161fe217c11bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a9ca72a32c5f9466fd89161fe217c11bb">IsVisibleWindow</a> () const</td></tr>
+<tr class="separator:a9ca72a32c5f9466fd89161fe217c11bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ee4c22f4fa1f3f485ca2439d25923e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a8ee4c22f4fa1f3f485ca2439d25923e9">DestoryWindow</a> ()</td></tr>
+<tr class="separator:a8ee4c22f4fa1f3f485ca2439d25923e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19d103828a21d66b7dd308ba005a07e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a19d103828a21d66b7dd308ba005a07e5">DoMadal</a> ()</td></tr>
+<tr class="separator:a19d103828a21d66b7dd308ba005a07e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61e43d75424cb50b3ab375880e4f626c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a61e43d75424cb50b3ab375880e4f626c">OnEventProc</a> (SDL_Event *ev)</td></tr>
+<tr class="separator:a61e43d75424cb50b3ab375880e4f626c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0222e44cee85b232ecfadba92a446215"><td class="memItemLeft" align="right" valign="top">SDL_HitTestResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a0222e44cee85b232ecfadba92a446215">OnHitTestPoint</a> (<a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> pt)</td></tr>
+<tr class="separator:a0222e44cee85b232ecfadba92a446215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaa60c412e24cc6eeff2aaf73656cf3b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#acaa60c412e24cc6eeff2aaf73656cf3b">SendToAdapterFilter</a> (SDL_Event *ev)</td></tr>
+<tr class="separator:acaa60c412e24cc6eeff2aaf73656cf3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3148f64821dc0f3352b22f3a404a18f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#ab3148f64821dc0f3352b22f3a404a18f">GetDeviceDpi</a> () const</td></tr>
+<tr class="separator:ab3148f64821dc0f3352b22f3a404a18f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef884911e9e4858fbd27f8ace96795e9"><td class="memItemLeft" align="right" valign="top">Uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#aef884911e9e4858fbd27f8ace96795e9">GetPixformat</a> () const</td></tr>
+<tr class="separator:aef884911e9e4858fbd27f8ace96795e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59d335bb8d4790b1086e818467d6d8e0"><td class="memItemLeft" align="right" valign="top">SDL_Window *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a59d335bb8d4790b1086e818467d6d8e0">Get_SDL_Window</a> () const</td></tr>
+<tr class="separator:a59d335bb8d4790b1086e818467d6d8e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5bda7d9336e02c749b13f9abbedd230"><td class="memItemLeft" align="right" valign="top">SDL_Surface *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#ab5bda7d9336e02c749b13f9abbedd230">Get_SDL_Surface</a> () const</td></tr>
+<tr class="separator:ab5bda7d9336e02c749b13f9abbedd230"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d544df3c0ed1f92526dd58c2bfa1461"><td class="memItemLeft" align="right" valign="top">SDL_Renderer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a1d544df3c0ed1f92526dd58c2bfa1461">Get_SDL_Renderer</a> () const</td></tr>
+<tr class="separator:a1d544df3c0ed1f92526dd58c2bfa1461"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83898bf193b7e4bf130585ee7ca39b0f"><td class="memItemLeft" align="right" valign="top">SDL_Renderer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a83898bf193b7e4bf130585ee7ca39b0f">Get_SDL_Renderer_OnSurface</a> () const</td></tr>
+<tr class="separator:a83898bf193b7e4bf130585ee7ca39b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44be8d084907fe4f986a81312d457027"><td class="memItemLeft" align="right" valign="top">SDL_Texture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a44be8d084907fe4f986a81312d457027">Get_SDL_Texture</a> () const</td></tr>
+<tr class="separator:a44be8d084907fe4f986a81312d457027"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4386055675627e041cc19ee980fbca1c"><td class="memItemLeft" align="right" valign="top">SDL_SysWMinfo *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a4386055675627e041cc19ee980fbca1c">Get_SDL_SysWMinfo</a> ()</td></tr>
+<tr class="separator:a4386055675627e041cc19ee980fbca1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a1300d25203c4fd9b22663644323d10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a1a1300d25203c4fd9b22663644323d10">SetSDL_HitTestResult</a> (SDL_HitTestResult rc)</td></tr>
+<tr class="separator:a1a1300d25203c4fd9b22663644323d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3e84718ea4e094948e6db355d40684c"><td class="memItemLeft" align="right" valign="top">SDL_GLContext&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#af3e84718ea4e094948e6db355d40684c">Get_SDL_GLContext</a> () const</td></tr>
+<tr class="separator:af3e84718ea4e094948e6db355d40684c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50781f483bbd831de5a6cd612e43098b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a50781f483bbd831de5a6cd612e43098b">OnExposedPaint</a> ()</td></tr>
+<tr class="separator:a50781f483bbd831de5a6cd612e43098b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:aeb6a75cd215ceca5c3489c04c7624dd2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#aeb6a75cd215ceca5c3489c04c7624dd2">OnSizeChange</a> ()</td></tr>
+<tr class="separator:aeb6a75cd215ceca5c3489c04c7624dd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1805ec6d2a4119873469ea200cf57e8c"><td class="memItemLeft" align="right" valign="top">Uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a1805ec6d2a4119873469ea200cf57e8c">ToSurfacePixelFormat</a> (Uint32 format) const</td></tr>
+<tr class="separator:a1805ec6d2a4119873469ea200cf57e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a643ee220389e125551ec600d369f0299"><td class="memItemLeft" align="right" valign="top">SDL_Window *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a643ee220389e125551ec600d369f0299">m_window</a></td></tr>
+<tr class="separator:a643ee220389e125551ec600d369f0299"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a430269d079678f9b69b5582cc92d220e"><td class="memItemLeft" align="right" valign="top">SDL_Renderer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a430269d079678f9b69b5582cc92d220e">m_renderer</a></td></tr>
+<tr class="separator:a430269d079678f9b69b5582cc92d220e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdbcc9eca1fbe109873458d57c4e1865"><td class="memItemLeft" align="right" valign="top">SDL_Renderer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#afdbcc9eca1fbe109873458d57c4e1865">m_renderer_surface</a></td></tr>
+<tr class="separator:afdbcc9eca1fbe109873458d57c4e1865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb8b9e84cdd3bd17b6c17455b548cf65"><td class="memItemLeft" align="right" valign="top">SDL_Surface *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#aeb8b9e84cdd3bd17b6c17455b548cf65">m_surface</a></td></tr>
+<tr class="separator:aeb8b9e84cdd3bd17b6c17455b548cf65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07a496c6fc05a803a79316dd1b27092f"><td class="memItemLeft" align="right" valign="top">SDL_Texture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a07a496c6fc05a803a79316dd1b27092f">m_texture</a></td></tr>
+<tr class="separator:a07a496c6fc05a803a79316dd1b27092f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4d0530ef54b77960aed057742ea8703"><td class="memItemLeft" align="right" valign="top">SDL_HitTestResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#ae4d0530ef54b77960aed057742ea8703">m_hitrs</a></td></tr>
+<tr class="separator:ae4d0530ef54b77960aed057742ea8703"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a948e9b9cde9c1a0bce94f42f447d02af"><td class="memItemLeft" align="right" valign="top">SDL_SysWMinfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a948e9b9cde9c1a0bce94f42f447d02af">m_sys</a></td></tr>
+<tr class="separator:a948e9b9cde9c1a0bce94f42f447d02af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4628da863c40c7bdb330fb784b4e1cd1"><td class="memItemLeft" align="right" valign="top">SDL_GLContext&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a4628da863c40c7bdb330fb784b4e1cd1">m_glctx</a></td></tr>
+<tr class="separator:a4628da863c40c7bdb330fb784b4e1cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dcd3608480063176e5206f2ba7e0fa7"><td class="memItemLeft" align="right" valign="top">WinLinkNodeSDL2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a1dcd3608480063176e5206f2ba7e0fa7">m_link</a></td></tr>
+<tr class="separator:a1dcd3608480063176e5206f2ba7e0fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c8c7313e2b52797e95c9c07ae9b17e8"><td class="memItemLeft" align="right" valign="top">Uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a8c8c7313e2b52797e95c9c07ae9b17e8">m_pixelformat</a></td></tr>
+<tr class="separator:a8c8c7313e2b52797e95c9c07ae9b17e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a387a2310890947fe4d9ef5b25a52c1b2"><td class="memItemLeft" align="right" valign="top">Uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a387a2310890947fe4d9ef5b25a52c1b2">m_pixelformat_sdl</a></td></tr>
+<tr class="separator:a387a2310890947fe4d9ef5b25a52c1b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add64c51490780f2f36ad5d3b36532fd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#add64c51490780f2f36ad5d3b36532fd9">m_rcRestore</a></td></tr>
+<tr class="separator:add64c51490780f2f36ad5d3b36532fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1814c263b9ff8a5d5b19f1ed204eacd7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_widget_s_d_l2.html#a1814c263b9ff8a5d5b19f1ed204eacd7">m_highdpi</a></td></tr>
+<tr class="separator:a1814c263b9ff8a5d5b19f1ed204eacd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">构造及析构函数说明</h2>
+<a id="ad6a63cab1fcad88523cc8e451aa13943" name="ad6a63cab1fcad88523cc8e451aa13943"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6a63cab1fcad88523cc8e451aa13943">&#9670;&#160;</a></span>CWidgetSDL2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CWidgetSDL2::CWidgetSDL2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2f1426254e45ce43dc16ba36d2baba9f" name="a2f1426254e45ce43dc16ba36d2baba9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f1426254e45ce43dc16ba36d2baba9f">&#9670;&#160;</a></span>~CWidgetSDL2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CWidgetSDL2::~CWidgetSDL2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="ab47d8ef33870d82fa8870631e155adc4" name="ab47d8ef33870d82fa8870631e155adc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab47d8ef33870d82fa8870631e155adc4">&#9670;&#160;</a></span>CenterWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CWidgetSDL2::CenterWindow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab1ec18aa12d9ef7a93799ac7532b5430" name="ab1ec18aa12d9ef7a93799ac7532b5430"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1ec18aa12d9ef7a93799ac7532b5430">&#9670;&#160;</a></span>Create()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> CWidgetSDL2::Create </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_widget_s_d_l2.html">CWidgetSDL2</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#ae36c9e335aceeb7c0f39fd219f474155">LPCTSTR</a>&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>style</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> *&#160;</td>
+          <td class="paramname"><em>rc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac18677fc88421a65e65b1d01a23b9a1b" name="ac18677fc88421a65e65b1d01a23b9a1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac18677fc88421a65e65b1d01a23b9a1b">&#9670;&#160;</a></span>CreateAttach()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> CWidgetSDL2::CreateAttach </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_widget_s_d_l2.html">CWidgetSDL2</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SDL_Window *&#160;</td>
+          <td class="paramname"><em>win</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> *&#160;</td>
+          <td class="paramname"><em>rc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8ee4c22f4fa1f3f485ca2439d25923e9" name="a8ee4c22f4fa1f3f485ca2439d25923e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ee4c22f4fa1f3f485ca2439d25923e9">&#9670;&#160;</a></span>DestoryWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CWidgetSDL2::DestoryWindow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a02872c1da03daade293596c4b00b278f" name="a02872c1da03daade293596c4b00b278f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02872c1da03daade293596c4b00b278f">&#9670;&#160;</a></span>DisableWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CWidgetSDL2::DisableWindow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>disable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a19d103828a21d66b7dd308ba005a07e5" name="a19d103828a21d66b7dd308ba005a07e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19d103828a21d66b7dd308ba005a07e5">&#9670;&#160;</a></span>DoMadal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> CWidgetSDL2::DoMadal </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af3e84718ea4e094948e6db355d40684c" name="af3e84718ea4e094948e6db355d40684c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3e84718ea4e094948e6db355d40684c">&#9670;&#160;</a></span>Get_SDL_GLContext()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_GLContext CWidgetSDL2::Get_SDL_GLContext </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1d544df3c0ed1f92526dd58c2bfa1461" name="a1d544df3c0ed1f92526dd58c2bfa1461"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d544df3c0ed1f92526dd58c2bfa1461">&#9670;&#160;</a></span>Get_SDL_Renderer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_Renderer * CWidgetSDL2::Get_SDL_Renderer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a83898bf193b7e4bf130585ee7ca39b0f" name="a83898bf193b7e4bf130585ee7ca39b0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83898bf193b7e4bf130585ee7ca39b0f">&#9670;&#160;</a></span>Get_SDL_Renderer_OnSurface()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_Renderer * CWidgetSDL2::Get_SDL_Renderer_OnSurface </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab5bda7d9336e02c749b13f9abbedd230" name="ab5bda7d9336e02c749b13f9abbedd230"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5bda7d9336e02c749b13f9abbedd230">&#9670;&#160;</a></span>Get_SDL_Surface()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_Surface * CWidgetSDL2::Get_SDL_Surface </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4386055675627e041cc19ee980fbca1c" name="a4386055675627e041cc19ee980fbca1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4386055675627e041cc19ee980fbca1c">&#9670;&#160;</a></span>Get_SDL_SysWMinfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_SysWMinfo * CWidgetSDL2::Get_SDL_SysWMinfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44be8d084907fe4f986a81312d457027" name="a44be8d084907fe4f986a81312d457027"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44be8d084907fe4f986a81312d457027">&#9670;&#160;</a></span>Get_SDL_Texture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_Texture * CWidgetSDL2::Get_SDL_Texture </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a59d335bb8d4790b1086e818467d6d8e0" name="a59d335bb8d4790b1086e818467d6d8e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59d335bb8d4790b1086e818467d6d8e0">&#9670;&#160;</a></span>Get_SDL_Window()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_Window * CWidgetSDL2::Get_SDL_Window </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab3148f64821dc0f3352b22f3a404a18f" name="ab3148f64821dc0f3352b22f3a404a18f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3148f64821dc0f3352b22f3a404a18f">&#9670;&#160;</a></span>GetDeviceDpi()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CWidgetSDL2::GetDeviceDpi </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef884911e9e4858fbd27f8ace96795e9" name="aef884911e9e4858fbd27f8ace96795e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef884911e9e4858fbd27f8ace96795e9">&#9670;&#160;</a></span>GetPixformat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Uint32 CWidgetSDL2::GetPixformat </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ca72a32c5f9466fd89161fe217c11bb" name="a9ca72a32c5f9466fd89161fe217c11bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ca72a32c5f9466fd89161fe217c11bb">&#9670;&#160;</a></span>IsVisibleWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> CWidgetSDL2::IsVisibleWindow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a410b5197fe19a607240e9a412a282be9" name="a410b5197fe19a607240e9a412a282be9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a410b5197fe19a607240e9a412a282be9">&#9670;&#160;</a></span>MessageLoop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> CWidgetSDL2::MessageLoop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a61e43d75424cb50b3ab375880e4f626c" name="a61e43d75424cb50b3ab375880e4f626c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61e43d75424cb50b3ab375880e4f626c">&#9670;&#160;</a></span>OnEventProc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CWidgetSDL2::OnEventProc </td>
+          <td>(</td>
+          <td class="paramtype">SDL_Event *&#160;</td>
+          <td class="paramname"><em>ev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a50781f483bbd831de5a6cd612e43098b" name="a50781f483bbd831de5a6cd612e43098b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50781f483bbd831de5a6cd612e43098b">&#9670;&#160;</a></span>OnExposedPaint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void CWidgetSDL2::OnExposedPaint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="class_c_widget_overlay_wnd.html#a5a3e15797f66ee20935208056aae975f">CWidgetOverlayWnd</a> 重载.</p>
+
+</div>
+</div>
+<a id="a0222e44cee85b232ecfadba92a446215" name="a0222e44cee85b232ecfadba92a446215"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0222e44cee85b232ecfadba92a446215">&#9670;&#160;</a></span>OnHitTestPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_HitTestResult CWidgetSDL2::OnHitTestPoint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a>&#160;</td>
+          <td class="paramname"><em>pt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb6a75cd215ceca5c3489c04c7624dd2" name="aeb6a75cd215ceca5c3489c04c7624dd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb6a75cd215ceca5c3489c04c7624dd2">&#9670;&#160;</a></span>OnSizeChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CWidgetSDL2::OnSizeChange </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acaa60c412e24cc6eeff2aaf73656cf3b" name="acaa60c412e24cc6eeff2aaf73656cf3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaa60c412e24cc6eeff2aaf73656cf3b">&#9670;&#160;</a></span>SendToAdapterFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CWidgetSDL2::SendToAdapterFilter </td>
+          <td>(</td>
+          <td class="paramtype">SDL_Event *&#160;</td>
+          <td class="paramname"><em>ev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afeacd64f67c74eb1868f6516a336ee4f" name="afeacd64f67c74eb1868f6516a336ee4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afeacd64f67c74eb1868f6516a336ee4f">&#9670;&#160;</a></span>SetEventFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CWidgetSDL2::SetEventFilter </td>
+          <td>(</td>
+          <td class="paramtype">SDL_EventFilter&#160;</td>
+          <td class="paramname"><em>func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a1300d25203c4fd9b22663644323d10" name="a1a1300d25203c4fd9b22663644323d10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a1300d25203c4fd9b22663644323d10">&#9670;&#160;</a></span>SetSDL_HitTestResult()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CWidgetSDL2::SetSDL_HitTestResult </td>
+          <td>(</td>
+          <td class="paramtype">SDL_HitTestResult&#160;</td>
+          <td class="paramname"><em>rc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2f3a2bdf4b6e372b5f7d8cf31551ed0e" name="a2f3a2bdf4b6e372b5f7d8cf31551ed0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f3a2bdf4b6e372b5f7d8cf31551ed0e">&#9670;&#160;</a></span>SetWindowPos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CWidgetSDL2::SetWindowPos </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>h</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa19fc12c13477fae23d6ea8659eb4979" name="aa19fc12c13477fae23d6ea8659eb4979"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa19fc12c13477fae23d6ea8659eb4979">&#9670;&#160;</a></span>ShowWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CWidgetSDL2::ShowWindow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>flag</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1805ec6d2a4119873469ea200cf57e8c" name="a1805ec6d2a4119873469ea200cf57e8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1805ec6d2a4119873469ea200cf57e8c">&#9670;&#160;</a></span>ToSurfacePixelFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Uint32 CWidgetSDL2::ToSurfacePixelFormat </td>
+          <td>(</td>
+          <td class="paramtype">Uint32&#160;</td>
+          <td class="paramname"><em>format</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="a4628da863c40c7bdb330fb784b4e1cd1" name="a4628da863c40c7bdb330fb784b4e1cd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4628da863c40c7bdb330fb784b4e1cd1">&#9670;&#160;</a></span>m_glctx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_GLContext CWidgetSDL2::m_glctx</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1814c263b9ff8a5d5b19f1ed204eacd7" name="a1814c263b9ff8a5d5b19f1ed204eacd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1814c263b9ff8a5d5b19f1ed204eacd7">&#9670;&#160;</a></span>m_highdpi</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float CWidgetSDL2::m_highdpi</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae4d0530ef54b77960aed057742ea8703" name="ae4d0530ef54b77960aed057742ea8703"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4d0530ef54b77960aed057742ea8703">&#9670;&#160;</a></span>m_hitrs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_HitTestResult CWidgetSDL2::m_hitrs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1dcd3608480063176e5206f2ba7e0fa7" name="a1dcd3608480063176e5206f2ba7e0fa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dcd3608480063176e5206f2ba7e0fa7">&#9670;&#160;</a></span>m_link</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">WinLinkNodeSDL2 CWidgetSDL2::m_link</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c8c7313e2b52797e95c9c07ae9b17e8" name="a8c8c7313e2b52797e95c9c07ae9b17e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c8c7313e2b52797e95c9c07ae9b17e8">&#9670;&#160;</a></span>m_pixelformat</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Uint32 CWidgetSDL2::m_pixelformat</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a387a2310890947fe4d9ef5b25a52c1b2" name="a387a2310890947fe4d9ef5b25a52c1b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a387a2310890947fe4d9ef5b25a52c1b2">&#9670;&#160;</a></span>m_pixelformat_sdl</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Uint32 CWidgetSDL2::m_pixelformat_sdl</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="add64c51490780f2f36ad5d3b36532fd9" name="add64c51490780f2f36ad5d3b36532fd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add64c51490780f2f36ad5d3b36532fd9">&#9670;&#160;</a></span>m_rcRestore</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> CWidgetSDL2::m_rcRestore</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a430269d079678f9b69b5582cc92d220e" name="a430269d079678f9b69b5582cc92d220e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a430269d079678f9b69b5582cc92d220e">&#9670;&#160;</a></span>m_renderer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_Renderer* CWidgetSDL2::m_renderer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afdbcc9eca1fbe109873458d57c4e1865" name="afdbcc9eca1fbe109873458d57c4e1865"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdbcc9eca1fbe109873458d57c4e1865">&#9670;&#160;</a></span>m_renderer_surface</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_Renderer* CWidgetSDL2::m_renderer_surface</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb8b9e84cdd3bd17b6c17455b548cf65" name="aeb8b9e84cdd3bd17b6c17455b548cf65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb8b9e84cdd3bd17b6c17455b548cf65">&#9670;&#160;</a></span>m_surface</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_Surface* CWidgetSDL2::m_surface</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a948e9b9cde9c1a0bce94f42f447d02af" name="a948e9b9cde9c1a0bce94f42f447d02af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a948e9b9cde9c1a0bce94f42f447d02af">&#9670;&#160;</a></span>m_sys</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_SysWMinfo CWidgetSDL2::m_sys</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a07a496c6fc05a803a79316dd1b27092f" name="a07a496c6fc05a803a79316dd1b27092f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07a496c6fc05a803a79316dd1b27092f">&#9670;&#160;</a></span>m_texture</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_Texture* CWidgetSDL2::m_texture</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a643ee220389e125551ec600d369f0299" name="a643ee220389e125551ec600d369f0299"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a643ee220389e125551ec600d369f0299">&#9670;&#160;</a></span>m_window</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_Window* CWidgetSDL2::m_window</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_c_widget_s_d_l2.html">CWidgetSDL2</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

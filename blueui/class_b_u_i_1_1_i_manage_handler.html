@@ -1,0 +1,760 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>CBlueUI: BUI::IManageHandler类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBlueUI
+   &#160;<span id="projectnumber">vxxx</span>
+   </div>
+   <div id="projectbrief">C++ 跨平台跨框架的数据可视化工具</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_b_u_i_1_1_i_manage_handler.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="class_b_u_i_1_1_i_manage_handler-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">BUI::IManageHandler类 参考<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>窗口事件管理控制者  
+ <a href="class_b_u_i_1_1_i_manage_handler.html#details">更多...</a></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> 类 BUI::IManageHandler 继承关系图:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="class_b_u_i_1_1_i_manage_handler.png" usemap="#BUI::IManageHandler_map" alt=""/>
+  <map id="BUI::IManageHandler_map" name="BUI::IManageHandler_map">
+<area href="class_b_u_i_1_1_i_event_handler.html" alt="BUI::IEventHandler" shape="rect" coords="94,0,273,24"/>
+<area href="class_b_u_i_1_1_u_i_manager.html" title="控件UI管理器，负责消息转发和定位" alt="BUI::UIManager" shape="rect" coords="94,112,273,136"/>
+<area href="class_b_u_i_1_1_u_i_manager_pop_dropdown.html" title="下拉弹出框管理对象" alt="BUI::UIManagerPopDropdown" shape="rect" coords="0,168,179,192"/>
+<area href="class_b_u_i_1_1_u_i_popup_menu_manager.html" alt="BUI::UIPopupMenuManager" shape="rect" coords="189,168,368,192"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:ad36f7a94d6d08b50e9da6d0e14b762c6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html#ad36f7a94d6d08b50e9da6d0e14b762c6">IManageHandler</a> ()</td></tr>
+<tr class="separator:ad36f7a94d6d08b50e9da6d0e14b762c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a514037770f17d1dcbffdbc5ee1226ff3"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html#a514037770f17d1dcbffdbc5ee1226ff3">~IManageHandler</a> ()</td></tr>
+<tr class="separator:a514037770f17d1dcbffdbc5ee1226ff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb28a02f8e583d5f9f4c481379004cd8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html#abb28a02f8e583d5f9f4c481379004cd8">LayoutBox</a> ()=0</td></tr>
+<tr class="separator:abb28a02f8e583d5f9f4c481379004cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad81b729a79ba2c18a4a2ff7d3828785e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html#ad81b729a79ba2c18a4a2ff7d3828785e">SetDockHandler</a> (<a class="el" href="class_b_u_i_1_1_i_dock_handler.html">IDockHandler</a> *dockMgr)=0</td></tr>
+<tr class="separator:ad81b729a79ba2c18a4a2ff7d3828785e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a20b443cf1887a7d455f69683406ae6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html#a6a20b443cf1887a7d455f69683406ae6">SetPaintOptions</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> options)=0</td></tr>
+<tr class="separator:a6a20b443cf1887a7d455f69683406ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fea2cc647a1adfbb91ac29a4d49f6c3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html#a9fea2cc647a1adfbb91ac29a4d49f6c3">GetPaintOptions</a> ()=0</td></tr>
+<tr class="separator:a9fea2cc647a1adfbb91ac29a4d49f6c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35f8904e1849adc3c87ca5bb62a20135"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html#a35f8904e1849adc3c87ca5bb62a20135">ClientPointToScreen</a> (<a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> *pt)=0</td></tr>
+<tr class="separator:a35f8904e1849adc3c87ca5bb62a20135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a24be5ddfc82d376575454e13f462b4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html#a4a24be5ddfc82d376575454e13f462b4">ScreenPointToClient</a> (<a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> *pt)=0</td></tr>
+<tr class="separator:a4a24be5ddfc82d376575454e13f462b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16098f0ebcfe4ae003da44305448d653"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html#a16098f0ebcfe4ae003da44305448d653">NeedUpdate</a> (<a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> *rc, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> bSynch)=0</td></tr>
+<tr class="separator:a16098f0ebcfe4ae003da44305448d653"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58a916807e604a6c2587874b5ec5c25d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html#a58a916807e604a6c2587874b5ec5c25d">IsWindowFullMax</a> ()=0</td></tr>
+<tr class="separator:a58a916807e604a6c2587874b5ec5c25d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39c9a1e90bbfec7a73629d5995ac852b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html#a39c9a1e90bbfec7a73629d5995ac852b">SendMsg</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> message, <a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a> wParam, <a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a> lParam)=0</td></tr>
+<tr class="separator:a39c9a1e90bbfec7a73629d5995ac852b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a065142e2a3f5e1c162f684b5a51713b5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html#a065142e2a3f5e1c162f684b5a51713b5">PostMsg</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> message, <a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a> wParam, <a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a> lParam)=0</td></tr>
+<tr class="separator:a065142e2a3f5e1c162f684b5a51713b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d60cfbac7282ccb3d9aa0801c82af43"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html#a0d60cfbac7282ccb3d9aa0801c82af43">ToFocusHandler</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> message, <a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a> wParam, <a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a> lParam)=0</td></tr>
+<tr class="separator:a0d60cfbac7282ccb3d9aa0801c82af43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43b5a2004cf900582c0de017a7eb615b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html#a43b5a2004cf900582c0de017a7eb615b">ToHotHandler</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> message, <a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a> wParam, <a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a> lParam)=0</td></tr>
+<tr class="separator:a43b5a2004cf900582c0de017a7eb615b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a665413890562f7800276dfbbe9d555a0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html#a665413890562f7800276dfbbe9d555a0">ModifyManagerFlags</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> style, <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> op=<a class="el" href="_c_core_base_pro_8h.html#a5eb336439020f4e440dedee717c5aeb0">ADD_FLAGS</a>)=0</td></tr>
+<tr class="memdesc:a665413890562f7800276dfbbe9d555a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置控件扩展风格  <br /></td></tr>
+<tr class="separator:a665413890562f7800276dfbbe9d555a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a9975bc75df16c4cfd9e2c961203bbb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html#a2a9975bc75df16c4cfd9e2c961203bbb">IsHasManagerFlags</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> flags)=0</td></tr>
+<tr class="separator:a2a9975bc75df16c4cfd9e2c961203bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab75622313ee1cec5e9f2edd443d280b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html#aab75622313ee1cec5e9f2edd443d280b">GetManagerFlags</a> ()=0</td></tr>
+<tr class="separator:aab75622313ee1cec5e9f2edd443d280b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_b_u_i_1_1_i_event_handler"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_b_u_i_1_1_i_event_handler')"><img src="closed.png" alt="-"/>&#160;Public 成员函数 继承自 <a class="el" href="class_b_u_i_1_1_i_event_handler.html">BUI::IEventHandler</a></td></tr>
+<tr class="memitem:a9601f8fbec6b7c5a95683fe963e398d9 inherit pub_methods_class_b_u_i_1_1_i_event_handler"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_event_handler.html#a9601f8fbec6b7c5a95683fe963e398d9">OnMessageHandler</a> (<a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> message, <a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a> wp, <a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a> lp)</td></tr>
+<tr class="separator:a9601f8fbec6b7c5a95683fe963e398d9 inherit pub_methods_class_b_u_i_1_1_i_event_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+额外继承的成员函数</h2></td></tr>
+<tr class="inherit_header pro_methods_class_b_u_i_1_1_i_event_handler"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_b_u_i_1_1_i_event_handler')"><img src="closed.png" alt="-"/>&#160;Protected 成员函数 继承自 <a class="el" href="class_b_u_i_1_1_i_event_handler.html">BUI::IEventHandler</a></td></tr>
+<tr class="memitem:ace828b6f1c4d0ad356ab7f616383cf1c inherit pro_methods_class_b_u_i_1_1_i_event_handler"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_event_handler.html#ace828b6f1c4d0ad356ab7f616383cf1c">IEventHandler</a> ()</td></tr>
+<tr class="separator:ace828b6f1c4d0ad356ab7f616383cf1c inherit pro_methods_class_b_u_i_1_1_i_event_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae47404db56a1614539eec4e45a3e68a4 inherit pro_methods_class_b_u_i_1_1_i_event_handler"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_i_event_handler.html#ae47404db56a1614539eec4e45a3e68a4">~IEventHandler</a> ()</td></tr>
+<tr class="separator:ae47404db56a1614539eec4e45a3e68a4 inherit pro_methods_class_b_u_i_1_1_i_event_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>窗口事件管理控制者 </p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="ad36f7a94d6d08b50e9da6d0e14b762c6" name="ad36f7a94d6d08b50e9da6d0e14b762c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad36f7a94d6d08b50e9da6d0e14b762c6">&#9670;&#160;</a></span>IManageHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::IManageHandler::IManageHandler </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a514037770f17d1dcbffdbc5ee1226ff3" name="a514037770f17d1dcbffdbc5ee1226ff3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a514037770f17d1dcbffdbc5ee1226ff3">&#9670;&#160;</a></span>~IManageHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual BUI::IManageHandler::~IManageHandler </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="a35f8904e1849adc3c87ca5bb62a20135" name="a35f8904e1849adc3c87ca5bb62a20135"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35f8904e1849adc3c87ca5bb62a20135">&#9670;&#160;</a></span>ClientPointToScreen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::IManageHandler::ClientPointToScreen </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> *&#160;</td>
+          <td class="paramname"><em>pt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_u_i_manager.html#a98f5a8cc9d758f62e436101348edded4">BUI::UIManager</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="aab75622313ee1cec5e9f2edd443d280b" name="aab75622313ee1cec5e9f2edd443d280b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab75622313ee1cec5e9f2edd443d280b">&#9670;&#160;</a></span>GetManagerFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> BUI::IManageHandler::GetManagerFlags </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_u_i_manager.html#a659dd9303a962855ed173eb9bbbef377">BUI::UIManager</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a9fea2cc647a1adfbb91ac29a4d49f6c3" name="a9fea2cc647a1adfbb91ac29a4d49f6c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fea2cc647a1adfbb91ac29a4d49f6c3">&#9670;&#160;</a></span>GetPaintOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> BUI::IManageHandler::GetPaintOptions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_u_i_manager.html#aa63e38353d8b071f96adb3876e69b79e">BUI::UIManager</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a2a9975bc75df16c4cfd9e2c961203bbb" name="a2a9975bc75df16c4cfd9e2c961203bbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a9975bc75df16c4cfd9e2c961203bbb">&#9670;&#160;</a></span>IsHasManagerFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> BUI::IManageHandler::IsHasManagerFlags </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>flags</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_u_i_manager.html#a758cc64226f1b72dc5d645367b24bf04">BUI::UIManager</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a58a916807e604a6c2587874b5ec5c25d" name="a58a916807e604a6c2587874b5ec5c25d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58a916807e604a6c2587874b5ec5c25d">&#9670;&#160;</a></span>IsWindowFullMax()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::IManageHandler::IsWindowFullMax </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_u_i_manager.html#aa47662f695ee60c6a29974227ede33d9">BUI::UIManager</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="abb28a02f8e583d5f9f4c481379004cd8" name="abb28a02f8e583d5f9f4c481379004cd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb28a02f8e583d5f9f4c481379004cd8">&#9670;&#160;</a></span>LayoutBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> * BUI::IManageHandler::LayoutBox </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_u_i_manager.html#a0b08a904af433cf630e06193e771d8f9">BUI::UIManager</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a665413890562f7800276dfbbe9d555a0" name="a665413890562f7800276dfbbe9d555a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a665413890562f7800276dfbbe9d555a0">&#9670;&#160;</a></span>ModifyManagerFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::IManageHandler::ModifyManagerFlags </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>style</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>op</em> = <code><a class="el" href="_c_core_base_pro_8h.html#a5eb336439020f4e440dedee717c5aeb0">ADD_FLAGS</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置控件扩展风格 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">style</td><td>取<a class="el" href="namespace_b_u_i.html#a3a77dfaf840661812f044d5b68e8142e">ControlFlag</a>组合值 </td></tr>
+    <tr><td class="paramname">op</td><td>ADD_FLAGS(添加属性) REMOVE_FLAGS(删除属性) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在 <a class="el" href="class_b_u_i_1_1_u_i_manager.html#ad63cc4b06b993ea14d3210b67a79a443">BUI::UIManager</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a16098f0ebcfe4ae003da44305448d653" name="a16098f0ebcfe4ae003da44305448d653"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16098f0ebcfe4ae003da44305448d653">&#9670;&#160;</a></span>NeedUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::IManageHandler::NeedUpdate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> *&#160;</td>
+          <td class="paramname"><em>rc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>bSynch</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_u_i_manager.html#a909ca39d2aaeee9b4a8f7b5dc9ef7f93">BUI::UIManager</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a065142e2a3f5e1c162f684b5a51713b5" name="a065142e2a3f5e1c162f684b5a51713b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a065142e2a3f5e1c162f684b5a51713b5">&#9670;&#160;</a></span>PostMsg()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::IManageHandler::PostMsg </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a>&#160;</td>
+          <td class="paramname"><em>wParam</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a>&#160;</td>
+          <td class="paramname"><em>lParam</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_u_i_manager.html#a131ba0c7ce20055763c70848789eb363">BUI::UIManager</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a4a24be5ddfc82d376575454e13f462b4" name="a4a24be5ddfc82d376575454e13f462b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a24be5ddfc82d376575454e13f462b4">&#9670;&#160;</a></span>ScreenPointToClient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::IManageHandler::ScreenPointToClient </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> *&#160;</td>
+          <td class="paramname"><em>pt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_u_i_manager.html#aa7f2326bfd37a765405f61518046c22d">BUI::UIManager</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a39c9a1e90bbfec7a73629d5995ac852b" name="a39c9a1e90bbfec7a73629d5995ac852b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39c9a1e90bbfec7a73629d5995ac852b">&#9670;&#160;</a></span>SendMsg()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::IManageHandler::SendMsg </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a>&#160;</td>
+          <td class="paramname"><em>wParam</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a>&#160;</td>
+          <td class="paramname"><em>lParam</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_u_i_manager.html#a0746f5ee6ba9ce3bcc25042806a60703">BUI::UIManager</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="ad81b729a79ba2c18a4a2ff7d3828785e" name="ad81b729a79ba2c18a4a2ff7d3828785e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad81b729a79ba2c18a4a2ff7d3828785e">&#9670;&#160;</a></span>SetDockHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::IManageHandler::SetDockHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_dock_handler.html">IDockHandler</a> *&#160;</td>
+          <td class="paramname"><em>dockMgr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_u_i_manager.html#ac2ebce3b355c135fb820918f0b18c32e">BUI::UIManager</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a6a20b443cf1887a7d455f69683406ae6" name="a6a20b443cf1887a7d455f69683406ae6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a20b443cf1887a7d455f69683406ae6">&#9670;&#160;</a></span>SetPaintOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::IManageHandler::SetPaintOptions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>options</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_u_i_manager.html#afd17bd3b0079ff4e903a2da158afe486">BUI::UIManager</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a0d60cfbac7282ccb3d9aa0801c82af43" name="a0d60cfbac7282ccb3d9aa0801c82af43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d60cfbac7282ccb3d9aa0801c82af43">&#9670;&#160;</a></span>ToFocusHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::IManageHandler::ToFocusHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a>&#160;</td>
+          <td class="paramname"><em>wParam</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a>&#160;</td>
+          <td class="paramname"><em>lParam</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_u_i_manager.html#a8c1c7d164aeb027917543860be70b5cd">BUI::UIManager</a> 内被实现.</p>
+
+</div>
+</div>
+<a id="a43b5a2004cf900582c0de017a7eb615b" name="a43b5a2004cf900582c0de017a7eb615b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43b5a2004cf900582c0de017a7eb615b">&#9670;&#160;</a></span>ToHotHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::IManageHandler::ToHotHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#aa7b5b5e3b0eee8d73aeda24f370dff62">WPARAM</a>&#160;</td>
+          <td class="paramname"><em>wParam</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a3c9731bc53f1ea0b34fbeb87e47f02a6">LPARAM</a>&#160;</td>
+          <td class="paramname"><em>lParam</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在 <a class="el" href="class_b_u_i_1_1_u_i_manager.html#a94832a2736cec82eee57bb6d62bd9320">BUI::UIManager</a> 内被实现.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_b_u_i.html">BUI</a></li><li class="navelem"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html">IManageHandler</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

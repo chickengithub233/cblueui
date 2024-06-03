@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<data>
+	<CChartCoordinate Class="CCoordinateAffine3d" name="plot-3d" transmode-x="fixed" transmode-y="fixed" weight-mode="fixed" />
+
+
+</data>

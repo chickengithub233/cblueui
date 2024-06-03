@@ -1,0 +1,1447 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>CBlueUI: BUI::XmlBuilder类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBlueUI
+   &#160;<span id="projectnumber">vxxx</span>
+   </div>
+   <div id="projectbrief">C++ 跨平台跨框架的数据可视化工具</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_b_u_i_1_1_xml_builder.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="class_b_u_i_1_1_xml_builder-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">BUI::XmlBuilder类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>UI构建工具类  
+ <a href="class_b_u_i_1_1_xml_builder.html#details">更多...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a7e68f944ca80ba30036388c2bed6c1a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#a7e68f944ca80ba30036388c2bed6c1a4">XmlBuilder</a> ()</td></tr>
+<tr class="separator:a7e68f944ca80ba30036388c2bed6c1a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c1cf15920d64a4158ad5764e40679d7"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#a8c1cf15920d64a4158ad5764e40679d7">~XmlBuilder</a> ()</td></tr>
+<tr class="separator:a8c1cf15920d64a4158ad5764e40679d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af213234faf20d9fbd372f9385b53f1c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#af213234faf20d9fbd372f9385b53f1c9">SetDesignParse</a> (<a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> bDesignParse)</td></tr>
+<tr class="separator:af213234faf20d9fbd372f9385b53f1c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0efa9ecde17958707eb6334f38cdcc87"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#a0efa9ecde17958707eb6334f38cdcc87">LoadUIFileA</a> (<a class="el" href="_c_core_base_pro_8h.html#adbea528b1294c9a1dfda3dfa33ff1472">LPCSTR</a> filepath, <a class="el" href="class_b_u_i_1_1_i_manage_handler.html">IManageHandler</a> *pManger, <a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *pParent=NULL, <a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> *pLayBox=NULL, <a class="el" href="class_b_u_i_1_1_i_event_handler.html">IEventHandler</a> *handler=NULL)</td></tr>
+<tr class="separator:a0efa9ecde17958707eb6334f38cdcc87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56282f921b484de912952c5e5623eea7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#a56282f921b484de912952c5e5623eea7">LoadUIFileW</a> (<a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a> filepath, <a class="el" href="class_b_u_i_1_1_i_manage_handler.html">IManageHandler</a> *pManger, <a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *pParent=NULL, <a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> *pLayBox=NULL, <a class="el" href="class_b_u_i_1_1_i_event_handler.html">IEventHandler</a> *handler=NULL)</td></tr>
+<tr class="separator:a56282f921b484de912952c5e5623eea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23b5e3de391288be3035b7fb52b7c058"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#a23b5e3de391288be3035b7fb52b7c058">LoadBuffer</a> (const char *xmlText, <a class="el" href="class_b_u_i_1_1_i_manage_handler.html">IManageHandler</a> *pManger, <a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *pParent=NULL, <a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> *pLayBox=NULL, <a class="el" href="class_b_u_i_1_1_i_event_handler.html">IEventHandler</a> *handler=NULL, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> no_write=<a class="el" href="_c_core_base_pro_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>)</td></tr>
+<tr class="separator:a23b5e3de391288be3035b7fb52b7c058"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaff6075ad616e987f32ff2679f99650"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#aeaff6075ad616e987f32ff2679f99650">LoadUITempCache</a> (<a class="el" href="namespace_b_u_i.html#a998411d050d81c90d27ba684a593edd4">XmlStorage</a> *templat, <a class="el" href="class_b_u_i_1_1_i_manage_handler.html">IManageHandler</a> *pManger, <a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *pParent=NULL, <a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> *pLayBox=NULL, <a class="el" href="class_b_u_i_1_1_i_event_handler.html">IEventHandler</a> *handler=NULL)</td></tr>
+<tr class="separator:aeaff6075ad616e987f32ff2679f99650"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf974f7876d5918fd4761a18847abfc0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#adf974f7876d5918fd4761a18847abfc0">ParseUiFileUNICODE</a> (const <a class="el" href="_c_core_base_pro_8h.html#ad8b3dc33da1499586fca818005ef1281">WCHAR</a> *wfilename, <a class="el" href="class_b_u_i_1_1_i_manage_handler.html">IManageHandler</a> *pManger, <a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *pParent, <a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> *pParBox, <a class="el" href="class_b_u_i_1_1_i_event_handler.html">IEventHandler</a> *handler)</td></tr>
+<tr class="separator:adf974f7876d5918fd4761a18847abfc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae97b4a799875bd60298d35975bd1ba19"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#ae97b4a799875bd60298d35975bd1ba19">ParseUiFile</a> (const char *filename, <a class="el" href="class_b_u_i_1_1_i_manage_handler.html">IManageHandler</a> *pManger, <a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *pParent, <a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> *pParBox, <a class="el" href="class_b_u_i_1_1_i_event_handler.html">IEventHandler</a> *handler)</td></tr>
+<tr class="separator:ae97b4a799875bd60298d35975bd1ba19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf574ec3d7ca607e079ef0091f15fc51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#adf574ec3d7ca607e079ef0091f15fc51">ParseNode</a> (<a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *pNode, <a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *param)</td></tr>
+<tr class="separator:adf574ec3d7ca607e079ef0091f15fc51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6df72dd90bf7cda2569f532fb52e658d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#a6df72dd90bf7cda2569f532fb52e658d">ParsePopManager</a> (<a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *pXmlNode, <a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *param)</td></tr>
+<tr class="separator:a6df72dd90bf7cda2569f532fb52e658d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a561cda14c037955c73b60a0a0154fd5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#a561cda14c037955c73b60a0a0154fd5e">ParsePopControl</a> (<a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *pXmlNode, <a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *param)</td></tr>
+<tr class="separator:a561cda14c037955c73b60a0a0154fd5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae458c7bb239e6c4f31ab76dfe6a48a1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#ae458c7bb239e6c4f31ab76dfe6a48a1e">ParseDesignWindow</a> (<a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *pNode, <a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *param)</td></tr>
+<tr class="separator:ae458c7bb239e6c4f31ab76dfe6a48a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab84de3cc0a9a94a430aa7fa772c0df0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#ab84de3cc0a9a94a430aa7fa772c0df0c">ParseControl</a> (<a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *pNode, <a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *param, <a class="el" href="namespace_b_u_i.html#acc8d49d2dc7f82698d45ecbb99c44470">CreateControl_cb</a> lpCreateControl=NULL)</td></tr>
+<tr class="separator:ab84de3cc0a9a94a430aa7fa772c0df0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a336d12827ae62e4853cbf5bb9bbbd9e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#a336d12827ae62e4853cbf5bb9bbbd9e5">ParseAdsorbLayout</a> (<a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *pNode, <a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *param)</td></tr>
+<tr class="separator:a336d12827ae62e4853cbf5bb9bbbd9e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa726261e70bbf63548cc224af08c5011"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#aa726261e70bbf63548cc224af08c5011">ParseNodedata</a> (<a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *pNode, <a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *param, <a class="el" href="namespace_b_u_i.html#acc8d49d2dc7f82698d45ecbb99c44470">CreateControl_cb</a> lpCreateControl=NULL)</td></tr>
+<tr class="separator:aa726261e70bbf63548cc224af08c5011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad66dcb7b457e8d1c0ae5f235197f0458"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#ad66dcb7b457e8d1c0ae5f235197f0458">ParseControlFont</a> (<a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *pNode, <a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *param)</td></tr>
+<tr class="separator:ad66dcb7b457e8d1c0ae5f235197f0458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad314b11fff7e27d2b6578d4f501d9aab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#ad314b11fff7e27d2b6578d4f501d9aab">ParseControlAttribute</a> (<a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *pNode, <a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *parent)</td></tr>
+<tr class="separator:ad314b11fff7e27d2b6578d4f501d9aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1088b0b9feb8be041fd1f7c62c10109b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#a1088b0b9feb8be041fd1f7c62c10109b">ParseImage</a> (<a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *pNode, <a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *param)</td></tr>
+<tr class="separator:a1088b0b9feb8be041fd1f7c62c10109b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4817e927835355a495dc2c61dbfc433"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#ab4817e927835355a495dc2c61dbfc433">ParseDesignLayout</a> (<a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *pNode, <a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *param)</td></tr>
+<tr class="separator:ab4817e927835355a495dc2c61dbfc433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b929f7cdfe70c5448cd129c15195183"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#a1b929f7cdfe70c5448cd129c15195183">ParseLayout</a> (<a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *pNode, <a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *param)</td></tr>
+<tr class="separator:a1b929f7cdfe70c5448cd129c15195183"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad22ed431e8dcb2a520776721de9797f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#ad22ed431e8dcb2a520776721de9797f9">ParseZipResurce</a> (<a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *pNode, <a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *param)</td></tr>
+<tr class="separator:ad22ed431e8dcb2a520776721de9797f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a7a89d50fa66b4d67fa8fbf3199f3fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#a2a7a89d50fa66b4d67fa8fbf3199f3fc">ParseSharedNode</a> (<a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *pNode)</td></tr>
+<tr class="separator:a2a7a89d50fa66b4d67fa8fbf3199f3fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c824427d115f9ddf23918aef50f8a4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#a9c824427d115f9ddf23918aef50f8a4e">PreLoadClassStyle</a> (<a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *root)</td></tr>
+<tr class="separator:a9c824427d115f9ddf23918aef50f8a4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83b029c2d5b7cb8cfe0b493d8a4b7fb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#a83b029c2d5b7cb8cfe0b493d8a4b7fb4">GetStyleNode</a> (const <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> *name)</td></tr>
+<tr class="separator:a83b029c2d5b7cb8cfe0b493d8a4b7fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e903d822766aa88f8ba996cd5b099e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#a1e903d822766aa88f8ba996cd5b099e6">SetInitFlags</a> (<a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> send_init_msg)</td></tr>
+<tr class="separator:a1e903d822766aa88f8ba996cd5b099e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bb6520b332ee7400f2911429e5f6a8a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#a5bb6520b332ee7400f2911429e5f6a8a">OnParseWindow</a> (const <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> *desClassName, const <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> *className)</td></tr>
+<tr class="separator:a5bb6520b332ee7400f2911429e5f6a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6414a9517c4ec2fae0452c0ab50aacfd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#a6414a9517c4ec2fae0452c0ab50aacfd">OnParseControl</a> (<a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *pObjCtl, const <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> *desClassName, const <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> *className, const <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> *objName)</td></tr>
+<tr class="separator:a6414a9517c4ec2fae0452c0ab50aacfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3553461423eb359df8dcbfc73e44f11f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#a3553461423eb359df8dcbfc73e44f11f">OnParseDesLayout</a> (<a class="el" href="class_b_u_i_1_1_i_manage_handler.html">IManageHandler</a> *pM, <a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *parent, const <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> *layoutname, <a class="el" href="struct_b_u_i_1_1_layout_size.html">LayoutSize</a> *infodata, <a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> **outBoxLayout)</td></tr>
+<tr class="separator:a3553461423eb359df8dcbfc73e44f11f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:a91721f5a64b41b48ee72e7a4f9bffde7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#a91721f5a64b41b48ee72e7a4f9bffde7">ApplyResourceWithFile</a> (const char *filepath, <a class="el" href="_c_core_base_pro_8h.html#a4fe8df66f530e4551374fff5bc307eda">DataTextFormat</a> fmt=DataTextFormat::Format_Auto)</td></tr>
+<tr class="separator:a91721f5a64b41b48ee72e7a4f9bffde7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8084c0167d00e53b9710c6463528dcad"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#a8084c0167d00e53b9710c6463528dcad">ApplyResourceWithFile</a> (const <a class="el" href="_c_core_base_pro_8h.html#ad8b3dc33da1499586fca818005ef1281">WCHAR</a> *uixml, <a class="el" href="_c_core_base_pro_8h.html#a4fe8df66f530e4551374fff5bc307eda">DataTextFormat</a> fmt=DataTextFormat::Format_Auto)</td></tr>
+<tr class="separator:a8084c0167d00e53b9710c6463528dcad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c84ad69f91950e3b27726292eba888c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#a2c84ad69f91950e3b27726292eba888c">ApplyResourceWithData</a> (const char *data, <a class="el" href="_c_core_base_pro_8h.html#a4fe8df66f530e4551374fff5bc307eda">DataTextFormat</a> fmt=DataTextFormat::Format_Auto)</td></tr>
+<tr class="separator:a2c84ad69f91950e3b27726292eba888c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47e172a524dc88a0a0fe5dbe9b6b9945"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#a47e172a524dc88a0a0fe5dbe9b6b9945">ApplyThemeColors</a> (<a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *pNode)</td></tr>
+<tr class="separator:a47e172a524dc88a0a0fe5dbe9b6b9945"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7954988cec52da02bc5fb86c7fef99a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#aa7954988cec52da02bc5fb86c7fef99a">ApplyDefaultFonts</a> (<a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *pNode)</td></tr>
+<tr class="separator:aa7954988cec52da02bc5fb86c7fef99a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa00bcf861c03492e74f219badb320320"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#aa00bcf861c03492e74f219badb320320">LoadControlUIFile</a> (const char *file, <a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *pCtrl, <a class="el" href="class_b_u_i_1_1_i_event_handler.html">IEventHandler</a> *handler=NULL)</td></tr>
+<tr class="separator:aa00bcf861c03492e74f219badb320320"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada40c7aa713fa3f2cf0f8162b0713f33"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#ada40c7aa713fa3f2cf0f8162b0713f33">LoadControlUIFile</a> (const <a class="el" href="_c_core_base_pro_8h.html#ad8b3dc33da1499586fca818005ef1281">WCHAR</a> *file, <a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *pCtrl, <a class="el" href="class_b_u_i_1_1_i_event_handler.html">IEventHandler</a> *handler=NULL)</td></tr>
+<tr class="separator:ada40c7aa713fa3f2cf0f8162b0713f33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7c34783dfe5f5235b635c3885c10452"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_xml_builder.html#af7c34783dfe5f5235b635c3885c10452">LoadControlUIString</a> (const char *xmlcontent, <a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *pCtrl, <a class="el" href="class_b_u_i_1_1_i_event_handler.html">IEventHandler</a> *handler=NULL, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> no_write=<a class="el" href="_c_core_base_pro_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>)</td></tr>
+<tr class="separator:af7c34783dfe5f5235b635c3885c10452"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>UI构建工具类 </p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a7e68f944ca80ba30036388c2bed6c1a4" name="a7e68f944ca80ba30036388c2bed6c1a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e68f944ca80ba30036388c2bed6c1a4">&#9670;&#160;</a></span>XmlBuilder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::XmlBuilder::XmlBuilder </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c1cf15920d64a4158ad5764e40679d7" name="a8c1cf15920d64a4158ad5764e40679d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c1cf15920d64a4158ad5764e40679d7">&#9670;&#160;</a></span>~XmlBuilder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual BUI::XmlBuilder::~XmlBuilder </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="aa7954988cec52da02bc5fb86c7fef99a" name="aa7954988cec52da02bc5fb86c7fef99a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7954988cec52da02bc5fb86c7fef99a">&#9670;&#160;</a></span>ApplyDefaultFonts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::XmlBuilder::ApplyDefaultFonts </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *&#160;</td>
+          <td class="paramname"><em>pNode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2c84ad69f91950e3b27726292eba888c" name="a2c84ad69f91950e3b27726292eba888c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c84ad69f91950e3b27726292eba888c">&#9670;&#160;</a></span>ApplyResourceWithData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::XmlBuilder::ApplyResourceWithData </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a4fe8df66f530e4551374fff5bc307eda">DataTextFormat</a>&#160;</td>
+          <td class="paramname"><em>fmt</em> = <code>DataTextFormat::Format_Auto</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a91721f5a64b41b48ee72e7a4f9bffde7" name="a91721f5a64b41b48ee72e7a4f9bffde7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91721f5a64b41b48ee72e7a4f9bffde7">&#9670;&#160;</a></span>ApplyResourceWithFile() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::XmlBuilder::ApplyResourceWithFile </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>filepath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a4fe8df66f530e4551374fff5bc307eda">DataTextFormat</a>&#160;</td>
+          <td class="paramname"><em>fmt</em> = <code>DataTextFormat::Format_Auto</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8084c0167d00e53b9710c6463528dcad" name="a8084c0167d00e53b9710c6463528dcad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8084c0167d00e53b9710c6463528dcad">&#9670;&#160;</a></span>ApplyResourceWithFile() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::XmlBuilder::ApplyResourceWithFile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_c_core_base_pro_8h.html#ad8b3dc33da1499586fca818005ef1281">WCHAR</a> *&#160;</td>
+          <td class="paramname"><em>uixml</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a4fe8df66f530e4551374fff5bc307eda">DataTextFormat</a>&#160;</td>
+          <td class="paramname"><em>fmt</em> = <code>DataTextFormat::Format_Auto</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a47e172a524dc88a0a0fe5dbe9b6b9945" name="a47e172a524dc88a0a0fe5dbe9b6b9945"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47e172a524dc88a0a0fe5dbe9b6b9945">&#9670;&#160;</a></span>ApplyThemeColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::XmlBuilder::ApplyThemeColors </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *&#160;</td>
+          <td class="paramname"><em>pNode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a83b029c2d5b7cb8cfe0b493d8a4b7fb4" name="a83b029c2d5b7cb8cfe0b493d8a4b7fb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83b029c2d5b7cb8cfe0b493d8a4b7fb4">&#9670;&#160;</a></span>GetStyleNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> * BUI::XmlBuilder::GetStyleNode </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> *&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a23b5e3de391288be3035b7fb52b7c058" name="a23b5e3de391288be3035b7fb52b7c058"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23b5e3de391288be3035b7fb52b7c058">&#9670;&#160;</a></span>LoadBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::XmlBuilder::LoadBuffer </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>xmlText</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html">IManageHandler</a> *&#160;</td>
+          <td class="paramname"><em>pManger</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *&#160;</td>
+          <td class="paramname"><em>pParent</em> = <code>NULL</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> *&#160;</td>
+          <td class="paramname"><em>pLayBox</em> = <code>NULL</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_event_handler.html">IEventHandler</a> *&#160;</td>
+          <td class="paramname"><em>handler</em> = <code>NULL</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>no_write</em> = <code><a class="el" href="_c_core_base_pro_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa00bcf861c03492e74f219badb320320" name="aa00bcf861c03492e74f219badb320320"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa00bcf861c03492e74f219badb320320">&#9670;&#160;</a></span>LoadControlUIFile() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int BUI::XmlBuilder::LoadControlUIFile </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *&#160;</td>
+          <td class="paramname"><em>pCtrl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_event_handler.html">IEventHandler</a> *&#160;</td>
+          <td class="paramname"><em>handler</em> = <code>NULL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada40c7aa713fa3f2cf0f8162b0713f33" name="ada40c7aa713fa3f2cf0f8162b0713f33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada40c7aa713fa3f2cf0f8162b0713f33">&#9670;&#160;</a></span>LoadControlUIFile() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int BUI::XmlBuilder::LoadControlUIFile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_c_core_base_pro_8h.html#ad8b3dc33da1499586fca818005ef1281">WCHAR</a> *&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *&#160;</td>
+          <td class="paramname"><em>pCtrl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_event_handler.html">IEventHandler</a> *&#160;</td>
+          <td class="paramname"><em>handler</em> = <code>NULL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af7c34783dfe5f5235b635c3885c10452" name="af7c34783dfe5f5235b635c3885c10452"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7c34783dfe5f5235b635c3885c10452">&#9670;&#160;</a></span>LoadControlUIString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int BUI::XmlBuilder::LoadControlUIString </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>xmlcontent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *&#160;</td>
+          <td class="paramname"><em>pCtrl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_event_handler.html">IEventHandler</a> *&#160;</td>
+          <td class="paramname"><em>handler</em> = <code>NULL</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>no_write</em> = <code><a class="el" href="_c_core_base_pro_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0efa9ecde17958707eb6334f38cdcc87" name="a0efa9ecde17958707eb6334f38cdcc87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0efa9ecde17958707eb6334f38cdcc87">&#9670;&#160;</a></span>LoadUIFileA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::XmlBuilder::LoadUIFileA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#adbea528b1294c9a1dfda3dfa33ff1472">LPCSTR</a>&#160;</td>
+          <td class="paramname"><em>filepath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html">IManageHandler</a> *&#160;</td>
+          <td class="paramname"><em>pManger</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *&#160;</td>
+          <td class="paramname"><em>pParent</em> = <code>NULL</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> *&#160;</td>
+          <td class="paramname"><em>pLayBox</em> = <code>NULL</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_event_handler.html">IEventHandler</a> *&#160;</td>
+          <td class="paramname"><em>handler</em> = <code>NULL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56282f921b484de912952c5e5623eea7" name="a56282f921b484de912952c5e5623eea7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56282f921b484de912952c5e5623eea7">&#9670;&#160;</a></span>LoadUIFileW()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::XmlBuilder::LoadUIFileW </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a953ac8f1ccdf4601c2f44fc9a10fc232">LPCWSTR</a>&#160;</td>
+          <td class="paramname"><em>filepath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html">IManageHandler</a> *&#160;</td>
+          <td class="paramname"><em>pManger</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *&#160;</td>
+          <td class="paramname"><em>pParent</em> = <code>NULL</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> *&#160;</td>
+          <td class="paramname"><em>pLayBox</em> = <code>NULL</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_event_handler.html">IEventHandler</a> *&#160;</td>
+          <td class="paramname"><em>handler</em> = <code>NULL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeaff6075ad616e987f32ff2679f99650" name="aeaff6075ad616e987f32ff2679f99650"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaff6075ad616e987f32ff2679f99650">&#9670;&#160;</a></span>LoadUITempCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::XmlBuilder::LoadUITempCache </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#a998411d050d81c90d27ba684a593edd4">XmlStorage</a> *&#160;</td>
+          <td class="paramname"><em>templat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html">IManageHandler</a> *&#160;</td>
+          <td class="paramname"><em>pManger</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *&#160;</td>
+          <td class="paramname"><em>pParent</em> = <code>NULL</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> *&#160;</td>
+          <td class="paramname"><em>pLayBox</em> = <code>NULL</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_event_handler.html">IEventHandler</a> *&#160;</td>
+          <td class="paramname"><em>handler</em> = <code>NULL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6414a9517c4ec2fae0452c0ab50aacfd" name="a6414a9517c4ec2fae0452c0ab50aacfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6414a9517c4ec2fae0452c0ab50aacfd">&#9670;&#160;</a></span>OnParseControl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::XmlBuilder::OnParseControl </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *&#160;</td>
+          <td class="paramname"><em>pObjCtl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> *&#160;</td>
+          <td class="paramname"><em>desClassName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> *&#160;</td>
+          <td class="paramname"><em>className</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> *&#160;</td>
+          <td class="paramname"><em>objName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3553461423eb359df8dcbfc73e44f11f" name="a3553461423eb359df8dcbfc73e44f11f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3553461423eb359df8dcbfc73e44f11f">&#9670;&#160;</a></span>OnParseDesLayout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> * BUI::XmlBuilder::OnParseDesLayout </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html">IManageHandler</a> *&#160;</td>
+          <td class="paramname"><em>pM</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> *&#160;</td>
+          <td class="paramname"><em>layoutname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_b_u_i_1_1_layout_size.html">LayoutSize</a> *&#160;</td>
+          <td class="paramname"><em>infodata</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> **&#160;</td>
+          <td class="paramname"><em>outBoxLayout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5bb6520b332ee7400f2911429e5f6a8a" name="a5bb6520b332ee7400f2911429e5f6a8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bb6520b332ee7400f2911429e5f6a8a">&#9670;&#160;</a></span>OnParseWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::XmlBuilder::OnParseWindow </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> *&#160;</td>
+          <td class="paramname"><em>desClassName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_c_core_base_pro_8h.html#a03bdb8ce5895c7e261aadc2529637546">TCHAR</a> *&#160;</td>
+          <td class="paramname"><em>className</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a336d12827ae62e4853cbf5bb9bbbd9e5" name="a336d12827ae62e4853cbf5bb9bbbd9e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a336d12827ae62e4853cbf5bb9bbbd9e5">&#9670;&#160;</a></span>ParseAdsorbLayout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> * BUI::XmlBuilder::ParseAdsorbLayout </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *&#160;</td>
+          <td class="paramname"><em>pNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *&#160;</td>
+          <td class="paramname"><em>param</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab84de3cc0a9a94a430aa7fa772c0df0c" name="ab84de3cc0a9a94a430aa7fa772c0df0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab84de3cc0a9a94a430aa7fa772c0df0c">&#9670;&#160;</a></span>ParseControl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> * BUI::XmlBuilder::ParseControl </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *&#160;</td>
+          <td class="paramname"><em>pNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *&#160;</td>
+          <td class="paramname"><em>param</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#acc8d49d2dc7f82698d45ecbb99c44470">CreateControl_cb</a>&#160;</td>
+          <td class="paramname"><em>lpCreateControl</em> = <code>NULL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad314b11fff7e27d2b6578d4f501d9aab" name="ad314b11fff7e27d2b6578d4f501d9aab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad314b11fff7e27d2b6578d4f501d9aab">&#9670;&#160;</a></span>ParseControlAttribute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::XmlBuilder::ParseControlAttribute </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *&#160;</td>
+          <td class="paramname"><em>pNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad66dcb7b457e8d1c0ae5f235197f0458" name="ad66dcb7b457e8d1c0ae5f235197f0458"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad66dcb7b457e8d1c0ae5f235197f0458">&#9670;&#160;</a></span>ParseControlFont()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::XmlBuilder::ParseControlFont </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *&#160;</td>
+          <td class="paramname"><em>pNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *&#160;</td>
+          <td class="paramname"><em>param</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4817e927835355a495dc2c61dbfc433" name="ab4817e927835355a495dc2c61dbfc433"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4817e927835355a495dc2c61dbfc433">&#9670;&#160;</a></span>ParseDesignLayout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::XmlBuilder::ParseDesignLayout </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *&#160;</td>
+          <td class="paramname"><em>pNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *&#160;</td>
+          <td class="paramname"><em>param</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae458c7bb239e6c4f31ab76dfe6a48a1e" name="ae458c7bb239e6c4f31ab76dfe6a48a1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae458c7bb239e6c4f31ab76dfe6a48a1e">&#9670;&#160;</a></span>ParseDesignWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::XmlBuilder::ParseDesignWindow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *&#160;</td>
+          <td class="paramname"><em>pNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *&#160;</td>
+          <td class="paramname"><em>param</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1088b0b9feb8be041fd1f7c62c10109b" name="a1088b0b9feb8be041fd1f7c62c10109b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1088b0b9feb8be041fd1f7c62c10109b">&#9670;&#160;</a></span>ParseImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::XmlBuilder::ParseImage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *&#160;</td>
+          <td class="paramname"><em>pNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *&#160;</td>
+          <td class="paramname"><em>param</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b929f7cdfe70c5448cd129c15195183" name="a1b929f7cdfe70c5448cd129c15195183"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b929f7cdfe70c5448cd129c15195183">&#9670;&#160;</a></span>ParseLayout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::XmlBuilder::ParseLayout </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *&#160;</td>
+          <td class="paramname"><em>pNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *&#160;</td>
+          <td class="paramname"><em>param</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adf574ec3d7ca607e079ef0091f15fc51" name="adf574ec3d7ca607e079ef0091f15fc51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf574ec3d7ca607e079ef0091f15fc51">&#9670;&#160;</a></span>ParseNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::XmlBuilder::ParseNode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *&#160;</td>
+          <td class="paramname"><em>pNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *&#160;</td>
+          <td class="paramname"><em>param</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa726261e70bbf63548cc224af08c5011" name="aa726261e70bbf63548cc224af08c5011"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa726261e70bbf63548cc224af08c5011">&#9670;&#160;</a></span>ParseNodedata()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::XmlBuilder::ParseNodedata </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *&#160;</td>
+          <td class="paramname"><em>pNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *&#160;</td>
+          <td class="paramname"><em>param</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#acc8d49d2dc7f82698d45ecbb99c44470">CreateControl_cb</a>&#160;</td>
+          <td class="paramname"><em>lpCreateControl</em> = <code>NULL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a561cda14c037955c73b60a0a0154fd5e" name="a561cda14c037955c73b60a0a0154fd5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a561cda14c037955c73b60a0a0154fd5e">&#9670;&#160;</a></span>ParsePopControl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::XmlBuilder::ParsePopControl </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *&#160;</td>
+          <td class="paramname"><em>pXmlNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *&#160;</td>
+          <td class="paramname"><em>param</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6df72dd90bf7cda2569f532fb52e658d" name="a6df72dd90bf7cda2569f532fb52e658d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6df72dd90bf7cda2569f532fb52e658d">&#9670;&#160;</a></span>ParsePopManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::XmlBuilder::ParsePopManager </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *&#160;</td>
+          <td class="paramname"><em>pXmlNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *&#160;</td>
+          <td class="paramname"><em>param</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2a7a89d50fa66b4d67fa8fbf3199f3fc" name="a2a7a89d50fa66b4d67fa8fbf3199f3fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a7a89d50fa66b4d67fa8fbf3199f3fc">&#9670;&#160;</a></span>ParseSharedNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::XmlBuilder::ParseSharedNode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *&#160;</td>
+          <td class="paramname"><em>pNode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae97b4a799875bd60298d35975bd1ba19" name="ae97b4a799875bd60298d35975bd1ba19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae97b4a799875bd60298d35975bd1ba19">&#9670;&#160;</a></span>ParseUiFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::XmlBuilder::ParseUiFile </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html">IManageHandler</a> *&#160;</td>
+          <td class="paramname"><em>pManger</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *&#160;</td>
+          <td class="paramname"><em>pParent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> *&#160;</td>
+          <td class="paramname"><em>pParBox</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_event_handler.html">IEventHandler</a> *&#160;</td>
+          <td class="paramname"><em>handler</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adf974f7876d5918fd4761a18847abfc0" name="adf974f7876d5918fd4761a18847abfc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf974f7876d5918fd4761a18847abfc0">&#9670;&#160;</a></span>ParseUiFileUNICODE()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::XmlBuilder::ParseUiFileUNICODE </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_c_core_base_pro_8h.html#ad8b3dc33da1499586fca818005ef1281">WCHAR</a> *&#160;</td>
+          <td class="paramname"><em>wfilename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_manage_handler.html">IManageHandler</a> *&#160;</td>
+          <td class="paramname"><em>pManger</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_c_control_u_i.html">CControlUI</a> *&#160;</td>
+          <td class="paramname"><em>pParent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_layout.html">ILayout</a> *&#160;</td>
+          <td class="paramname"><em>pParBox</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_i_event_handler.html">IEventHandler</a> *&#160;</td>
+          <td class="paramname"><em>handler</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad22ed431e8dcb2a520776721de9797f9" name="ad22ed431e8dcb2a520776721de9797f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad22ed431e8dcb2a520776721de9797f9">&#9670;&#160;</a></span>ParseZipResurce()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::XmlBuilder::ParseZipResurce </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *&#160;</td>
+          <td class="paramname"><em>pNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_b_u_i_1_1_parse_setting.html">ParseSetting</a> *&#160;</td>
+          <td class="paramname"><em>param</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9c824427d115f9ddf23918aef50f8a4e" name="a9c824427d115f9ddf23918aef50f8a4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c824427d115f9ddf23918aef50f8a4e">&#9670;&#160;</a></span>PreLoadClassStyle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::XmlBuilder::PreLoadClassStyle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#a52dc758b80c6fe3b81175217d72f1ce7">XMLItem</a> *&#160;</td>
+          <td class="paramname"><em>root</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af213234faf20d9fbd372f9385b53f1c9" name="af213234faf20d9fbd372f9385b53f1c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af213234faf20d9fbd372f9385b53f1c9">&#9670;&#160;</a></span>SetDesignParse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::XmlBuilder::SetDesignParse </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>bDesignParse</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1e903d822766aa88f8ba996cd5b099e6" name="a1e903d822766aa88f8ba996cd5b099e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e903d822766aa88f8ba996cd5b099e6">&#9670;&#160;</a></span>SetInitFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::XmlBuilder::SetInitFlags </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>send_init_msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_b_u_i.html">BUI</a></li><li class="navelem"><a class="el" href="class_b_u_i_1_1_xml_builder.html">XmlBuilder</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

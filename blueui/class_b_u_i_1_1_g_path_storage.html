@@ -1,0 +1,2304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>CBlueUI: BUI::GPathStorage类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CBlueUI
+   &#160;<span id="projectnumber">vxxx</span>
+   </div>
+   <div id="projectbrief">C++ 跨平台跨框架的数据可视化工具</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_b_u_i_1_1_g_path_storage.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public 类型</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="class_b_u_i_1_1_g_path_storage-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">BUI::GPathStorage类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>路径顶点源(在GPathStorage的世界里，椭圆,弧线,样条曲线都是由足够细腻的直线拟合的)  
+ <a href="class_b_u_i_1_1_g_path_storage.html#details">更多...</a></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> 类 BUI::GPathStorage 继承关系图:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="class_b_u_i_1_1_g_path_storage.png" usemap="#BUI::GPathStorage_map" alt=""/>
+  <map id="BUI::GPathStorage_map" name="BUI::GPathStorage_map">
+<area href="class_b_u_i_1_1_g_path_buffer_storage.html" alt="BUI::GPathBufferStorage" shape="rect" coords="0,56,152,80"/>
+<area href="class_b_u_i_1_1_g_path_ellipse_storage.html" alt="BUI::GPathEllipseStorage" shape="rect" coords="162,56,314,80"/>
+<area href="class_b_u_i_1_1_g_path_rect_storage.html" alt="BUI::GPathRectStorage" shape="rect" coords="324,56,476,80"/>
+<area href="class_b_u_i_1_1_g_path_storage_s_v_g.html" title="SVG路径读取类" alt="BUI::GPathStorageSVG" shape="rect" coords="486,56,638,80"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public 类型</h2></td></tr>
+<tr class="memitem:a60b4560999d11fc5bf33689ed7c43fad"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a60b4560999d11fc5bf33689ed7c43fad">CombinationPathFlag</a> { <br />
+&#160;&#160;<a class="el" href="class_b_u_i_1_1_g_path_storage.html#a60b4560999d11fc5bf33689ed7c43fada15731c96ec8c4e8874ec45230f6cf4fe">combination_or</a>
+, <a class="el" href="class_b_u_i_1_1_g_path_storage.html#a60b4560999d11fc5bf33689ed7c43fada310c544206f20ed4898fbea7a1a1bc28">combination_and</a>
+, <a class="el" href="class_b_u_i_1_1_g_path_storage.html#a60b4560999d11fc5bf33689ed7c43fadab51cd1b4e8bcd4e795cca12d1d627e0d">combination_xor</a>
+, <a class="el" href="class_b_u_i_1_1_g_path_storage.html#a60b4560999d11fc5bf33689ed7c43fada062c7fc9948ba509e2be84eac382ad95">combination_a_minus_b</a>
+, <br />
+&#160;&#160;<a class="el" href="class_b_u_i_1_1_g_path_storage.html#a60b4560999d11fc5bf33689ed7c43fada189b8e1185963a85a0fb1b3a127869b3">combination_b_minus_a</a>
+<br />
+ }</td></tr>
+<tr class="separator:a60b4560999d11fc5bf33689ed7c43fad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa9b9c0d1ae2158cbe219f13a07b522a"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="namespace_b_u_i.html#a6f645ab0ae4cfe1189e7bf4af953fd30">vertex_base_f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#aaa9b9c0d1ae2158cbe219f13a07b522a">value_type</a></td></tr>
+<tr class="separator:aaa9b9c0d1ae2158cbe219f13a07b522a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a99da1c46b7759a9c1d60e1066891b697"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a99da1c46b7759a9c1d60e1066891b697">GPathStorage</a> ()</td></tr>
+<tr class="separator:a99da1c46b7759a9c1d60e1066891b697"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af58321dfcf6f0c025b3e474e7a2a2a34"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#af58321dfcf6f0c025b3e474e7a2a2a34">~GPathStorage</a> ()</td></tr>
+<tr class="separator:af58321dfcf6f0c025b3e474e7a2a2a34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ebf4b384932516f4c6b0b7cddfcbae0"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a0ebf4b384932516f4c6b0b7cddfcbae0">vertex</a> (double *x, double *y)</td></tr>
+<tr class="separator:a0ebf4b384932516f4c6b0b7cddfcbae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a5116464ede7fa4d875e553592fbcd1"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a8a5116464ede7fa4d875e553592fbcd1">last_command</a> ()</td></tr>
+<tr class="separator:a8a5116464ede7fa4d875e553592fbcd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99567796cbc0de134138daf3bb5e6ddd"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a99567796cbc0de134138daf3bb5e6ddd">last_vertex</a> (double *x, double *y)</td></tr>
+<tr class="separator:a99567796cbc0de134138daf3bb5e6ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1977dc5c036bd7cb42e51dba8ca1e320"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a1977dc5c036bd7cb42e51dba8ca1e320">prev_vertex</a> (double *x, double *y)</td></tr>
+<tr class="separator:a1977dc5c036bd7cb42e51dba8ca1e320"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc28d02f64ffd21e53f1b883579556ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#acc28d02f64ffd21e53f1b883579556ad">rewind</a> (unsigned path_id)</td></tr>
+<tr class="separator:acc28d02f64ffd21e53f1b883579556ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5439b3a97cdaa5d40e161cdf280c99f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a5439b3a97cdaa5d40e161cdf280c99f5">add_vertex</a> (double x, double y, unsigned cmd)</td></tr>
+<tr class="separator:a5439b3a97cdaa5d40e161cdf280c99f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad53fc1200e6a0a00c0964cda494ba57f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#ad53fc1200e6a0a00c0964cda494ba57f">size</a> () const</td></tr>
+<tr class="separator:ad53fc1200e6a0a00c0964cda494ba57f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03132640e54d9350d4286aedbd1717fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a03132640e54d9350d4286aedbd1717fd">clear</a> ()</td></tr>
+<tr class="separator:a03132640e54d9350d4286aedbd1717fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2f74ddf5b88973b9c93169ae7297cf1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#aaa9b9c0d1ae2158cbe219f13a07b522a">value_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#aa2f74ddf5b88973b9c93169ae7297cf1">operator[]</a> (unsigned int pos)</td></tr>
+<tr class="separator:aa2f74ddf5b88973b9c93169ae7297cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a380187fcbae9b682e4cbe402b0404304"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a380187fcbae9b682e4cbe402b0404304">ConcatPath</a> (<a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> &amp;vs, unsigned path_id=0)</td></tr>
+<tr class="separator:a380187fcbae9b682e4cbe402b0404304"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ac31996b9f1e4c5601907fbb54c0844"><td class="memItemLeft" align="right" valign="top">BoundRect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a9ac31996b9f1e4c5601907fbb54c0844">PathBox</a> (unsigned path_id=0, bool useTrans=false)</td></tr>
+<tr class="memdesc:a9ac31996b9f1e4c5601907fbb54c0844"><td class="mdescLeft">&#160;</td><td class="mdescRight">获得路径的矩形区域  <br /></td></tr>
+<tr class="separator:a9ac31996b9f1e4c5601907fbb54c0844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a913f7a34ac455444067b12af391f61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a7a913f7a34ac455444067b12af391f61">PathBoxToRect</a> (unsigned path_id=0)</td></tr>
+<tr class="separator:a7a913f7a34ac455444067b12af391f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad22766f770958ca6b6c0c7d6be005d9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#ad22766f770958ca6b6c0c7d6be005d9b">IsClosed</a> ()</td></tr>
+<tr class="separator:ad22766f770958ca6b6c0c7d6be005d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abab11902039faf0df65998e3bf690891"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#abab11902039faf0df65998e3bf690891">StartNewPath</a> ()</td></tr>
+<tr class="separator:abab11902039faf0df65998e3bf690891"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f81fdaef6ee1fb1e955af7651bd000c"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a2f81fdaef6ee1fb1e955af7651bd000c">PathIDCounts</a> ()</td></tr>
+<tr class="memdesc:a2f81fdaef6ee1fb1e955af7651bd000c"><td class="mdescLeft">&#160;</td><td class="mdescRight">组合路径数量  <br /></td></tr>
+<tr class="separator:a2f81fdaef6ee1fb1e955af7651bd000c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86d85eec591912d72e9375acf5dbb37f"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a86d85eec591912d72e9375acf5dbb37f">PathId</a> ()</td></tr>
+<tr class="memdesc:a86d85eec591912d72e9375acf5dbb37f"><td class="mdescLeft">&#160;</td><td class="mdescRight">当前的索引ID  <br /></td></tr>
+<tr class="separator:a86d85eec591912d72e9375acf5dbb37f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb078645955a52bd3bd2f04832c4b485"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#aeb078645955a52bd3bd2f04832c4b485">ClosePath</a> ()</td></tr>
+<tr class="separator:aeb078645955a52bd3bd2f04832c4b485"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0647becb176b5944eff106f5aa688b93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a0647becb176b5944eff106f5aa688b93">RelToAbs</a> (double *x, double *y)</td></tr>
+<tr class="separator:a0647becb176b5944eff106f5aa688b93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e13f5bef093f03595354c06dd75df99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a3e13f5bef093f03595354c06dd75df99">PathMoveTo</a> (double x, double y)</td></tr>
+<tr class="separator:a3e13f5bef093f03595354c06dd75df99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b958bcdaf8e46e8963acda92e8b8b64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a0b958bcdaf8e46e8963acda92e8b8b64">PathLineTo</a> (double x, double y)</td></tr>
+<tr class="separator:a0b958bcdaf8e46e8963acda92e8b8b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d8b1aa9c0a433090332c55a4d5aac5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a5d8b1aa9c0a433090332c55a4d5aac5e">PathHLineTo</a> (double x)</td></tr>
+<tr class="separator:a5d8b1aa9c0a433090332c55a4d5aac5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36708c0e69a1d39aebe6f2106bef1a3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a36708c0e69a1d39aebe6f2106bef1a3e">PathVLineTo</a> (double y)</td></tr>
+<tr class="separator:a36708c0e69a1d39aebe6f2106bef1a3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11b11c95d8a23e50e7b5a08c8ed51dd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a11b11c95d8a23e50e7b5a08c8ed51dd1">Curve3</a> (double x_to, double y_to)</td></tr>
+<tr class="separator:a11b11c95d8a23e50e7b5a08c8ed51dd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad362e9f6c4094d68fd0f1dcfd0a1f41a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#ad362e9f6c4094d68fd0f1dcfd0a1f41a">Curve4</a> (double x_ctrl2, double y_ctrl2, double x_to, double y_to)</td></tr>
+<tr class="separator:ad362e9f6c4094d68fd0f1dcfd0a1f41a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf165a872e0743984b68f71a557ff75e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#acf165a872e0743984b68f71a557ff75e">PathCurve4</a> (<a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> pt[4])</td></tr>
+<tr class="separator:acf165a872e0743984b68f71a557ff75e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a562418e3c7aa83d048d867dd417548a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a562418e3c7aa83d048d867dd417548a1">PathCurve3</a> (<a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> pt[3])</td></tr>
+<tr class="separator:a562418e3c7aa83d048d867dd417548a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af295d6aab08505edc82d787470b01023"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#af295d6aab08505edc82d787470b01023">PathCurve4WithDouble</a> (<a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a> pt[4])</td></tr>
+<tr class="separator:af295d6aab08505edc82d787470b01023"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81806fcd81ae489396137dca81b1f1a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a81806fcd81ae489396137dca81b1f1a8">PathCurve3WithDouble</a> (<a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a> pt[3])</td></tr>
+<tr class="separator:a81806fcd81ae489396137dca81b1f1a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8569a2b5cb7c535855120be0ea597a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#af8569a2b5cb7c535855120be0ea597a0">PathBSpline</a> (<a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> *pt, int len)</td></tr>
+<tr class="separator:af8569a2b5cb7c535855120be0ea597a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfa008983fe718ac5d5c4dd0ead67af1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#abfa008983fe718ac5d5c4dd0ead67af1">ParseCmdData</a> (const char *data)</td></tr>
+<tr class="separator:abfa008983fe718ac5d5c4dd0ead67af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a809d68629350e344c9a6ffa3879376fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a809d68629350e344c9a6ffa3879376fb">PathArcTo</a> (double x, double y, double rx, double ry, double a1, double a2, bool ccw=true)</td></tr>
+<tr class="memdesc:a809d68629350e344c9a6ffa3879376fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">PathArcTo  <br /></td></tr>
+<tr class="separator:a809d68629350e344c9a6ffa3879376fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a510259f6e7a48ef3f693567844a1e1fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a510259f6e7a48ef3f693567844a1e1fd">PathJoinArcTo</a> (double x, double y, double rx, double ry, double a1, double a2, bool ccw)</td></tr>
+<tr class="separator:a510259f6e7a48ef3f693567844a1e1fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a746727f1d2af9d76d2e4747f9245651f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a746727f1d2af9d76d2e4747f9245651f">PathPie</a> (double x0, double y0, double rx, double ry, double a1, double a2)</td></tr>
+<tr class="separator:a746727f1d2af9d76d2e4747f9245651f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23ca62aeb373b53173e82117efefc029"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a23ca62aeb373b53173e82117efefc029">PathRing</a> (double x0, double y0, double rx, double ry, double a1, double a2, double dis)</td></tr>
+<tr class="separator:a23ca62aeb373b53173e82117efefc029"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a2e35fdfc5ef8e1a9c24070a65fbb6a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a6a2e35fdfc5ef8e1a9c24070a65fbb6a">PathRingRound</a> (double x0, double y0, double rx, double ry, double a1, double a2, double dis, double round=<a class="el" href="_c_core_base_pro_8h.html#a598a3330b3c21701223ee0ca14316eca">PI</a>/45)</td></tr>
+<tr class="separator:a6a2e35fdfc5ef8e1a9c24070a65fbb6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf622ac4061d67ecaddb314b7d4c9ca4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#acf622ac4061d67ecaddb314b7d4c9ca4">PathEllipse</a> (int cx, int cy, int rx, int ry)</td></tr>
+<tr class="separator:acf622ac4061d67ecaddb314b7d4c9ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a138343b2681461b6e74d69625d1dbd0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a138343b2681461b6e74d69625d1dbd0f">PathRect</a> (double x1, double y1, double w, double h, double rx1=0, double ry1=0, double rx2=0, double ry2=0, double rx3=0, double ry3=0, double rx4=0, double ry4=0)</td></tr>
+<tr class="separator:a138343b2681461b6e74d69625d1dbd0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ec9b87606fa0d401e118ee12725cf28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a4ec9b87606fa0d401e118ee12725cf28">SetTransform</a> (<a class="el" href="class_b_u_i_1_1_path_transform.html">PathTransform</a> *trans)</td></tr>
+<tr class="separator:a4ec9b87606fa0d401e118ee12725cf28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8b32275d47412ad0719d2581f651f11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#ab8b32275d47412ad0719d2581f651f11">UpdateYValue</a> (double low, double hight)</td></tr>
+<tr class="memdesc:ab8b32275d47412ad0719d2581f651f11"><td class="mdescLeft">&#160;</td><td class="mdescRight">随机生成Y更新测试数据  <br /></td></tr>
+<tr class="separator:ab8b32275d47412ad0719d2581f651f11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab801113a1b344ae2e0b4f708a9903190"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#ab801113a1b344ae2e0b4f708a9903190">HitTestPoint</a> (double x, double y)</td></tr>
+<tr class="memdesc:ab801113a1b344ae2e0b4f708a9903190"><td class="mdescLeft">&#160;</td><td class="mdescRight">测试命中点  <br /></td></tr>
+<tr class="separator:ab801113a1b344ae2e0b4f708a9903190"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11e24db589c57b8435506ccd7458ed6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a11e24db589c57b8435506ccd7458ed6c">ConvertToPolarCoordinate</a> (double cx, double cy)</td></tr>
+<tr class="memdesc:a11e24db589c57b8435506ccd7458ed6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">将笛卡尔坐标系数据点，转换为极坐标系  <br /></td></tr>
+<tr class="separator:a11e24db589c57b8435506ccd7458ed6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96c456a743a16f50e10d4cda177a5ab1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a96c456a743a16f50e10d4cda177a5ab1">CreateWebTabPath</a> (<a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> rcBox, double angle, int dir, float r=4, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> isBorder=<a class="el" href="_c_core_base_pro_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>)</td></tr>
+<tr class="memdesc:a96c456a743a16f50e10d4cda177a5ab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Web Tab Path object  <br /></td></tr>
+<tr class="separator:a96c456a743a16f50e10d4cda177a5ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abce1ac968a49013e79b6b460779c3452"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#abce1ac968a49013e79b6b460779c3452">generate_soft_icon</a> (int R)</td></tr>
+<tr class="memdesc:abce1ac968a49013e79b6b460779c3452"><td class="mdescLeft">&#160;</td><td class="mdescRight">软件图标  <br /></td></tr>
+<tr class="separator:abce1ac968a49013e79b6b460779c3452"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0421516c95ee70e7abf1ba10861ead36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a0421516c95ee70e7abf1ba10861ead36">CreateG3RoundRectPath</a> (<a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> rcBox, int n)</td></tr>
+<tr class="memdesc:a0421516c95ee70e7abf1ba10861ead36"><td class="mdescLeft">&#160;</td><td class="mdescRight">生成G3曲率的圆角矩形  <br /></td></tr>
+<tr class="separator:a0421516c95ee70e7abf1ba10861ead36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f69366c25206bd1ea88564617364d5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a2f69366c25206bd1ea88564617364d5b">generate_star_round</a> (int R)</td></tr>
+<tr class="memdesc:a2f69366c25206bd1ea88564617364d5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">圆角五角星  <br /></td></tr>
+<tr class="separator:a2f69366c25206bd1ea88564617364d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25aadc2168bef9e1d9c3e32ff538af89"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a25aadc2168bef9e1d9c3e32ff538af89">generate_petal5</a> (int R)</td></tr>
+<tr class="memdesc:a25aadc2168bef9e1d9c3e32ff538af89"><td class="mdescLeft">&#160;</td><td class="mdescRight">五花瓣  <br /></td></tr>
+<tr class="separator:a25aadc2168bef9e1d9c3e32ff538af89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b54eb00d1cc51aba4c50fa9f7413b57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a4b54eb00d1cc51aba4c50fa9f7413b57">generate_gear_wheel</a> (int R1, double a1, int R2, double a2)</td></tr>
+<tr class="memdesc:a4b54eb00d1cc51aba4c50fa9f7413b57"><td class="mdescLeft">&#160;</td><td class="mdescRight">齿轮  <br /></td></tr>
+<tr class="separator:a4b54eb00d1cc51aba4c50fa9f7413b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b84d2d7b53b835a09ecc21e484baf39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a5b84d2d7b53b835a09ecc21e484baf39">generate_along_with_single_path</a> (<a class="el" href="struct_b_u_i_1_1_trans_along_single_path.html">TransAlongSinglePath</a> &amp;tap)</td></tr>
+<tr class="memdesc:a5b84d2d7b53b835a09ecc21e484baf39"><td class="mdescLeft">&#160;</td><td class="mdescRight">将图形沿单一路径变换  <br /></td></tr>
+<tr class="separator:a5b84d2d7b53b835a09ecc21e484baf39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad67552ce51dd21eb9a2f6b8bba8472dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#ad67552ce51dd21eb9a2f6b8bba8472dd">generate_along_with_double_path</a> (<a class="el" href="struct_b_u_i_1_1_trans_along_double_path.html">TransAlongDoublePath</a> &amp;tap)</td></tr>
+<tr class="memdesc:ad67552ce51dd21eb9a2f6b8bba8472dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">将图形沿双路径变换  <br /></td></tr>
+<tr class="separator:ad67552ce51dd21eb9a2f6b8bba8472dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab18e497d24f74f26cf567db109e9b578"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#ab18e497d24f74f26cf567db109e9b578">clip_polygon</a> (<a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> *result_path, int x1, int y1, int x2, int y2)</td></tr>
+<tr class="memdesc:ab18e497d24f74f26cf567db109e9b578"><td class="mdescLeft">&#160;</td><td class="mdescRight">矩形区域裁剪路径  <br /></td></tr>
+<tr class="separator:ab18e497d24f74f26cf567db109e9b578"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:a30e2d27fa4461f20afde8f10eea737c7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a30e2d27fa4461f20afde8f10eea737c7">generate_arrowhead</a> (<a class="el" href="namespace_b_u_i.html#a613e963402c511aebdfcaf10eab30dc8">ArrowHead</a> &amp;head, int <a class="el" href="class_b_u_i_1_1_g_path_storage.html#ad53fc1200e6a0a00c0964cda494ba57f">size</a>)</td></tr>
+<tr class="separator:a30e2d27fa4461f20afde8f10eea737c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a061a267edb8bc13108b38dba31bfd5c4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a061a267edb8bc13108b38dba31bfd5c4">build_radius_border_path</a> (<a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> *path, <a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> &amp;rcRound, <a class="el" href="struct_round_rect_radius.html">RoundRectRadius</a> &amp;radius, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> isRoundRadiusDrawLine, <a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> isRoundRadiusParl)</td></tr>
+<tr class="memdesc:a061a267edb8bc13108b38dba31bfd5c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">构建边缘路径  <br /></td></tr>
+<tr class="separator:a061a267edb8bc13108b38dba31bfd5c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a417c3dd0abc00bf31165e9d354708d22"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a417c3dd0abc00bf31165e9d354708d22">build_radius_border_parl_path</a> (<a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> *path, <a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> &amp;rcRound, <a class="el" href="struct_round_rect_radius.html">RoundRectRadius</a> &amp;radius)</td></tr>
+<tr class="separator:a417c3dd0abc00bf31165e9d354708d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a172b7dc954d702633deee39f73f9126d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a172b7dc954d702633deee39f73f9126d">combination_path</a> (<a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> *result_path, <a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> *path1, <a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> *path2, <a class="el" href="class_b_u_i_1_1_g_path_storage.html#a60b4560999d11fc5bf33689ed7c43fad">CombinationPathFlag</a> cmp_op)</td></tr>
+<tr class="memdesc:a172b7dc954d702633deee39f73f9126d"><td class="mdescLeft">&#160;</td><td class="mdescRight">路径组合操作  <br /></td></tr>
+<tr class="separator:a172b7dc954d702633deee39f73f9126d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:a0c3229bd6d8b8329ebba358b49b00bf7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_b_u_i_1_1_g_path_storage.html#aaa9b9c0d1ae2158cbe219f13a07b522a">value_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a0c3229bd6d8b8329ebba358b49b00bf7">GetAt</a> (unsigned int pos)</td></tr>
+<tr class="separator:a0c3229bd6d8b8329ebba358b49b00bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d6635fbc4a73671c418b3de5dbbb44a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a6d6635fbc4a73671c418b3de5dbbb44a">push_back</a> (const <a class="el" href="class_b_u_i_1_1_g_path_storage.html#aaa9b9c0d1ae2158cbe219f13a07b522a">value_type</a> &amp;vx)</td></tr>
+<tr class="separator:a6d6635fbc4a73671c418b3de5dbbb44a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3c9cd6642af876297b279580000aa9d"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#ae3c9cd6642af876297b279580000aa9d">get_transform_vertex</a> (unsigned int pos, double *x, double *y)</td></tr>
+<tr class="separator:ae3c9cd6642af876297b279580000aa9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a27159dd918372de72cb80cf5f358a094"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a27159dd918372de72cb80cf5f358a094">m_index</a></td></tr>
+<tr class="separator:a27159dd918372de72cb80cf5f358a094"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc1d009205933b790097a09b03715e36"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#afc1d009205933b790097a09b03715e36">m_num_vertices</a></td></tr>
+<tr class="separator:afc1d009205933b790097a09b03715e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a198355fd0f73c2246f8a921194d6e96d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_b_u_i_1_1_g_path_storage.html#aaa9b9c0d1ae2158cbe219f13a07b522a">value_type</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a198355fd0f73c2246f8a921194d6e96d">m_vertexs</a></td></tr>
+<tr class="separator:a198355fd0f73c2246f8a921194d6e96d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4d11d94c9d08661fdbfb4998a50c026"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_u_i_1_1_path_transform.html">PathTransform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#ae4d11d94c9d08661fdbfb4998a50c026">m_transform</a></td></tr>
+<tr class="separator:ae4d11d94c9d08661fdbfb4998a50c026"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>路径顶点源(在GPathStorage的世界里，椭圆,弧线,样条曲线都是由足够细腻的直线拟合的) </p>
+</div><h2 class="groupheader">成员类型定义说明</h2>
+<a id="aaa9b9c0d1ae2158cbe219f13a07b522a" name="aaa9b9c0d1ae2158cbe219f13a07b522a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa9b9c0d1ae2158cbe219f13a07b522a">&#9670;&#160;</a></span>value_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="namespace_b_u_i.html#a6f645ab0ae4cfe1189e7bf4af953fd30">vertex_base_f</a> <a class="el" href="class_b_u_i_1_1_g_path_storage.html#aaa9b9c0d1ae2158cbe219f13a07b522a">BUI::GPathStorage::value_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员枚举类型说明</h2>
+<a id="a60b4560999d11fc5bf33689ed7c43fad" name="a60b4560999d11fc5bf33689ed7c43fad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60b4560999d11fc5bf33689ed7c43fad">&#9670;&#160;</a></span>CombinationPathFlag</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_b_u_i_1_1_g_path_storage.html#a60b4560999d11fc5bf33689ed7c43fad">BUI::GPathStorage::CombinationPathFlag</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="a60b4560999d11fc5bf33689ed7c43fada15731c96ec8c4e8874ec45230f6cf4fe" name="a60b4560999d11fc5bf33689ed7c43fada15731c96ec8c4e8874ec45230f6cf4fe"></a>combination_or&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a60b4560999d11fc5bf33689ed7c43fada310c544206f20ed4898fbea7a1a1bc28" name="a60b4560999d11fc5bf33689ed7c43fada310c544206f20ed4898fbea7a1a1bc28"></a>combination_and&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a60b4560999d11fc5bf33689ed7c43fadab51cd1b4e8bcd4e795cca12d1d627e0d" name="a60b4560999d11fc5bf33689ed7c43fadab51cd1b4e8bcd4e795cca12d1d627e0d"></a>combination_xor&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a60b4560999d11fc5bf33689ed7c43fada062c7fc9948ba509e2be84eac382ad95" name="a60b4560999d11fc5bf33689ed7c43fada062c7fc9948ba509e2be84eac382ad95"></a>combination_a_minus_b&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a60b4560999d11fc5bf33689ed7c43fada189b8e1185963a85a0fb1b3a127869b3" name="a60b4560999d11fc5bf33689ed7c43fada189b8e1185963a85a0fb1b3a127869b3"></a>combination_b_minus_a&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a99da1c46b7759a9c1d60e1066891b697" name="a99da1c46b7759a9c1d60e1066891b697"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99da1c46b7759a9c1d60e1066891b697">&#9670;&#160;</a></span>GPathStorage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BUI::GPathStorage::GPathStorage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af58321dfcf6f0c025b3e474e7a2a2a34" name="af58321dfcf6f0c025b3e474e7a2a2a34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af58321dfcf6f0c025b3e474e7a2a2a34">&#9670;&#160;</a></span>~GPathStorage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual BUI::GPathStorage::~GPathStorage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="a5439b3a97cdaa5d40e161cdf280c99f5" name="a5439b3a97cdaa5d40e161cdf280c99f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5439b3a97cdaa5d40e161cdf280c99f5">&#9670;&#160;</a></span>add_vertex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::add_vertex </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>cmd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a417c3dd0abc00bf31165e9d354708d22" name="a417c3dd0abc00bf31165e9d354708d22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a417c3dd0abc00bf31165e9d354708d22">&#9670;&#160;</a></span>build_radius_border_parl_path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void BUI::GPathStorage::build_radius_border_parl_path </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> *&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> &amp;&#160;</td>
+          <td class="paramname"><em>rcRound</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_round_rect_radius.html">RoundRectRadius</a> &amp;&#160;</td>
+          <td class="paramname"><em>radius</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a061a267edb8bc13108b38dba31bfd5c4" name="a061a267edb8bc13108b38dba31bfd5c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a061a267edb8bc13108b38dba31bfd5c4">&#9670;&#160;</a></span>build_radius_border_path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void BUI::GPathStorage::build_radius_border_path </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> *&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> &amp;&#160;</td>
+          <td class="paramname"><em>rcRound</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_round_rect_radius.html">RoundRectRadius</a> &amp;&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>isRoundRadiusDrawLine</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>isRoundRadiusParl</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>构建边缘路径 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">isRoundRadiusDrawLine</td><td>TRUE：直线型， FALSE:圆角型 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a03132640e54d9350d4286aedbd1717fd" name="a03132640e54d9350d4286aedbd1717fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03132640e54d9350d4286aedbd1717fd">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab18e497d24f74f26cf567db109e9b578" name="ab18e497d24f74f26cf567db109e9b578"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab18e497d24f74f26cf567db109e9b578">&#9670;&#160;</a></span>clip_polygon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::clip_polygon </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> *&#160;</td>
+          <td class="paramname"><em>result_path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>矩形区域裁剪路径 </p>
+
+</div>
+</div>
+<a id="aeb078645955a52bd3bd2f04832c4b485" name="aeb078645955a52bd3bd2f04832c4b485"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb078645955a52bd3bd2f04832c4b485">&#9670;&#160;</a></span>ClosePath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::ClosePath </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a172b7dc954d702633deee39f73f9126d" name="a172b7dc954d702633deee39f73f9126d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a172b7dc954d702633deee39f73f9126d">&#9670;&#160;</a></span>combination_path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void BUI::GPathStorage::combination_path </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> *&#160;</td>
+          <td class="paramname"><em>result_path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> *&#160;</td>
+          <td class="paramname"><em>path1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> *&#160;</td>
+          <td class="paramname"><em>path2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#a60b4560999d11fc5bf33689ed7c43fad">CombinationPathFlag</a>&#160;</td>
+          <td class="paramname"><em>cmp_op</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>路径组合操作 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">result_path</td><td>输出结果路径 </td></tr>
+    <tr><td class="paramname">path1</td><td></td></tr>
+    <tr><td class="paramname">path2</td><td></td></tr>
+    <tr><td class="paramname">cmp_op</td><td>合并操作 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a380187fcbae9b682e4cbe402b0404304" name="a380187fcbae9b682e4cbe402b0404304"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a380187fcbae9b682e4cbe402b0404304">&#9670;&#160;</a></span>ConcatPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::ConcatPath </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a> &amp;&#160;</td>
+          <td class="paramname"><em>vs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>path_id</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a11e24db589c57b8435506ccd7458ed6c" name="a11e24db589c57b8435506ccd7458ed6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11e24db589c57b8435506ccd7458ed6c">&#9670;&#160;</a></span>ConvertToPolarCoordinate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::ConvertToPolarCoordinate </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>cx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>cy</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>将笛卡尔坐标系数据点，转换为极坐标系 </p>
+
+</div>
+</div>
+<a id="a0421516c95ee70e7abf1ba10861ead36" name="a0421516c95ee70e7abf1ba10861ead36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0421516c95ee70e7abf1ba10861ead36">&#9670;&#160;</a></span>CreateG3RoundRectPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::CreateG3RoundRectPath </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a>&#160;</td>
+          <td class="paramname"><em>rcBox</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>生成G3曲率的圆角矩形 </p>
+
+</div>
+</div>
+<a id="a96c456a743a16f50e10d4cda177a5ab1" name="a96c456a743a16f50e10d4cda177a5ab1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96c456a743a16f50e10d4cda177a5ab1">&#9670;&#160;</a></span>CreateWebTabPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::CreateWebTabPath </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a>&#160;</td>
+          <td class="paramname"><em>rcBox</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>angle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>r</em> = <code>4</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
+          <td class="paramname"><em>isBorder</em> = <code><a class="el" href="_c_core_base_pro_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a Web Tab Path object </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">angle</td><td>偏角大小 </td></tr>
+    <tr><td class="paramname">dir</td><td>方向 </td></tr>
+    <tr><td class="paramname">r</td><td>圆角尺寸 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a11b11c95d8a23e50e7b5a08c8ed51dd1" name="a11b11c95d8a23e50e7b5a08c8ed51dd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11b11c95d8a23e50e7b5a08c8ed51dd1">&#9670;&#160;</a></span>Curve3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::Curve3 </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x_to</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y_to</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad362e9f6c4094d68fd0f1dcfd0a1f41a" name="ad362e9f6c4094d68fd0f1dcfd0a1f41a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad362e9f6c4094d68fd0f1dcfd0a1f41a">&#9670;&#160;</a></span>Curve4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::Curve4 </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x_ctrl2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y_ctrl2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x_to</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y_to</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad67552ce51dd21eb9a2f6b8bba8472dd" name="ad67552ce51dd21eb9a2f6b8bba8472dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad67552ce51dd21eb9a2f6b8bba8472dd">&#9670;&#160;</a></span>generate_along_with_double_path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::generate_along_with_double_path </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_b_u_i_1_1_trans_along_double_path.html">TransAlongDoublePath</a> &amp;&#160;</td>
+          <td class="paramname"><em>tap</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>将图形沿双路径变换 </p>
+
+</div>
+</div>
+<a id="a5b84d2d7b53b835a09ecc21e484baf39" name="a5b84d2d7b53b835a09ecc21e484baf39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b84d2d7b53b835a09ecc21e484baf39">&#9670;&#160;</a></span>generate_along_with_single_path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::generate_along_with_single_path </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_b_u_i_1_1_trans_along_single_path.html">TransAlongSinglePath</a> &amp;&#160;</td>
+          <td class="paramname"><em>tap</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>将图形沿单一路径变换 </p>
+
+</div>
+</div>
+<a id="a30e2d27fa4461f20afde8f10eea737c7" name="a30e2d27fa4461f20afde8f10eea737c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30e2d27fa4461f20afde8f10eea737c7">&#9670;&#160;</a></span>generate_arrowhead()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void BUI::GPathStorage::generate_arrowhead </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_u_i.html#a613e963402c511aebdfcaf10eab30dc8">ArrowHead</a> &amp;&#160;</td>
+          <td class="paramname"><em>head</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4b54eb00d1cc51aba4c50fa9f7413b57" name="a4b54eb00d1cc51aba4c50fa9f7413b57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b54eb00d1cc51aba4c50fa9f7413b57">&#9670;&#160;</a></span>generate_gear_wheel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::generate_gear_wheel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>R1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>R2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>齿轮 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">R1</td><td>齿外边缘半径 </td></tr>
+    <tr><td class="paramname">a1</td><td>齿外边缘弧度大小 </td></tr>
+    <tr><td class="paramname">R2</td><td>齿内边缘半径 </td></tr>
+    <tr><td class="paramname">a2</td><td>齿内边缘弧度大小 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a25aadc2168bef9e1d9c3e32ff538af89" name="a25aadc2168bef9e1d9c3e32ff538af89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25aadc2168bef9e1d9c3e32ff538af89">&#9670;&#160;</a></span>generate_petal5()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::generate_petal5 </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>R</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>五花瓣 </p>
+
+</div>
+</div>
+<a id="abce1ac968a49013e79b6b460779c3452" name="abce1ac968a49013e79b6b460779c3452"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abce1ac968a49013e79b6b460779c3452">&#9670;&#160;</a></span>generate_soft_icon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::generate_soft_icon </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>R</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>软件图标 </p>
+
+</div>
+</div>
+<a id="a2f69366c25206bd1ea88564617364d5b" name="a2f69366c25206bd1ea88564617364d5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f69366c25206bd1ea88564617364d5b">&#9670;&#160;</a></span>generate_star_round()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::generate_star_round </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>R</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>圆角五角星 </p>
+
+</div>
+</div>
+<a id="ae3c9cd6642af876297b279580000aa9d" name="ae3c9cd6642af876297b279580000aa9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3c9cd6642af876297b279580000aa9d">&#9670;&#160;</a></span>get_transform_vertex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned BUI::GPathStorage::get_transform_vertex </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0c3229bd6d8b8329ebba358b49b00bf7" name="a0c3229bd6d8b8329ebba358b49b00bf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c3229bd6d8b8329ebba358b49b00bf7">&#9670;&#160;</a></span>GetAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_b_u_i_1_1_g_path_storage.html#aaa9b9c0d1ae2158cbe219f13a07b522a">value_type</a> &amp; BUI::GPathStorage::GetAt </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="class_b_u_i_1_1_g_path_buffer_storage.html#a28e415b720264793d3de4b9ceae92b2d">BUI::GPathBufferStorage</a> 重载.</p>
+
+</div>
+</div>
+<a id="ab801113a1b344ae2e0b4f708a9903190" name="ab801113a1b344ae2e0b4f708a9903190"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab801113a1b344ae2e0b4f708a9903190">&#9670;&#160;</a></span>HitTestPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::GPathStorage::HitTestPoint </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>测试命中点 </p>
+
+</div>
+</div>
+<a id="ad22766f770958ca6b6c0c7d6be005d9b" name="ad22766f770958ca6b6c0c7d6be005d9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad22766f770958ca6b6c0c7d6be005d9b">&#9670;&#160;</a></span>IsClosed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> BUI::GPathStorage::IsClosed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a5116464ede7fa4d875e553592fbcd1" name="a8a5116464ede7fa4d875e553592fbcd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a5116464ede7fa4d875e553592fbcd1">&#9670;&#160;</a></span>last_command()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned BUI::GPathStorage::last_command </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a99567796cbc0de134138daf3bb5e6ddd" name="a99567796cbc0de134138daf3bb5e6ddd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99567796cbc0de134138daf3bb5e6ddd">&#9670;&#160;</a></span>last_vertex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned BUI::GPathStorage::last_vertex </td>
+          <td>(</td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa2f74ddf5b88973b9c93169ae7297cf1" name="aa2f74ddf5b88973b9c93169ae7297cf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2f74ddf5b88973b9c93169ae7297cf1">&#9670;&#160;</a></span>operator[]()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_g_path_storage.html#aaa9b9c0d1ae2158cbe219f13a07b522a">value_type</a> &amp; BUI::GPathStorage::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abfa008983fe718ac5d5c4dd0ead67af1" name="abfa008983fe718ac5d5c4dd0ead67af1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfa008983fe718ac5d5c4dd0ead67af1">&#9670;&#160;</a></span>ParseCmdData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::ParseCmdData </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a809d68629350e344c9a6ffa3879376fb" name="a809d68629350e344c9a6ffa3879376fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a809d68629350e344c9a6ffa3879376fb">&#9670;&#160;</a></span>PathArcTo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::PathArcTo </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>rx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ry</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>ccw</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>PathArcTo </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a1</td><td>a2 基于三点方向顺时针的角度 </td></tr>
+    <tr><td class="paramname">ccw</td><td>优弧顺时针方向为true，劣弧逆时针方向为false </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9ac31996b9f1e4c5601907fbb54c0844" name="a9ac31996b9f1e4c5601907fbb54c0844"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ac31996b9f1e4c5601907fbb54c0844">&#9670;&#160;</a></span>PathBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BoundRect BUI::GPathStorage::PathBox </td>
+          <td>(</td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>path_id</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>useTrans</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>获得路径的矩形区域 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path_id</td><td>路径起始位置 </td></tr>
+    <tr><td class="paramname">useTrans</td><td>false:原始坐标点，true:变换后的坐标点 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>BoundRect 矩形区域 </dd></dl>
+
+</div>
+</div>
+<a id="a7a913f7a34ac455444067b12af391f61" name="a7a913f7a34ac455444067b12af391f61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a913f7a34ac455444067b12af391f61">&#9670;&#160;</a></span>PathBoxToRect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a5be1ce153f42e5e6c3f762ef750c0b97">RECT</a> BUI::GPathStorage::PathBoxToRect </td>
+          <td>(</td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>path_id</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af8569a2b5cb7c535855120be0ea597a0" name="af8569a2b5cb7c535855120be0ea597a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8569a2b5cb7c535855120be0ea597a0">&#9670;&#160;</a></span>PathBSpline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::PathBSpline </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a> *&#160;</td>
+          <td class="paramname"><em>pt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a562418e3c7aa83d048d867dd417548a1" name="a562418e3c7aa83d048d867dd417548a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a562418e3c7aa83d048d867dd417548a1">&#9670;&#160;</a></span>PathCurve3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::PathCurve3 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a>&#160;</td>
+          <td class="paramname"><em>pt</em>[3]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a81806fcd81ae489396137dca81b1f1a8" name="a81806fcd81ae489396137dca81b1f1a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81806fcd81ae489396137dca81b1f1a8">&#9670;&#160;</a></span>PathCurve3WithDouble()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::PathCurve3WithDouble </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a>&#160;</td>
+          <td class="paramname"><em>pt</em>[3]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acf165a872e0743984b68f71a557ff75e" name="acf165a872e0743984b68f71a557ff75e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf165a872e0743984b68f71a557ff75e">&#9670;&#160;</a></span>PathCurve4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::PathCurve4 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_core_base_pro_8h.html#a247005bf6a017664afa41309af5277a8">POINT</a>&#160;</td>
+          <td class="paramname"><em>pt</em>[4]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af295d6aab08505edc82d787470b01023" name="af295d6aab08505edc82d787470b01023"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af295d6aab08505edc82d787470b01023">&#9670;&#160;</a></span>PathCurve4WithDouble()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::PathCurve4WithDouble </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_g_point_f.html">GPointF</a>&#160;</td>
+          <td class="paramname"><em>pt</em>[4]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acf622ac4061d67ecaddb314b7d4c9ca4" name="acf622ac4061d67ecaddb314b7d4c9ca4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf622ac4061d67ecaddb314b7d4c9ca4">&#9670;&#160;</a></span>PathEllipse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::PathEllipse </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>rx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ry</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d8b1aa9c0a433090332c55a4d5aac5e" name="a5d8b1aa9c0a433090332c55a4d5aac5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d8b1aa9c0a433090332c55a4d5aac5e">&#9670;&#160;</a></span>PathHLineTo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::PathHLineTo </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a86d85eec591912d72e9375acf5dbb37f" name="a86d85eec591912d72e9375acf5dbb37f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86d85eec591912d72e9375acf5dbb37f">&#9670;&#160;</a></span>PathId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned BUI::GPathStorage::PathId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>当前的索引ID </p>
+
+</div>
+</div>
+<a id="a2f81fdaef6ee1fb1e955af7651bd000c" name="a2f81fdaef6ee1fb1e955af7651bd000c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f81fdaef6ee1fb1e955af7651bd000c">&#9670;&#160;</a></span>PathIDCounts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned BUI::GPathStorage::PathIDCounts </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>组合路径数量 </p>
+
+</div>
+</div>
+<a id="a510259f6e7a48ef3f693567844a1e1fd" name="a510259f6e7a48ef3f693567844a1e1fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a510259f6e7a48ef3f693567844a1e1fd">&#9670;&#160;</a></span>PathJoinArcTo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::PathJoinArcTo </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>rx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ry</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>ccw</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0b958bcdaf8e46e8963acda92e8b8b64" name="a0b958bcdaf8e46e8963acda92e8b8b64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b958bcdaf8e46e8963acda92e8b8b64">&#9670;&#160;</a></span>PathLineTo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::PathLineTo </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e13f5bef093f03595354c06dd75df99" name="a3e13f5bef093f03595354c06dd75df99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e13f5bef093f03595354c06dd75df99">&#9670;&#160;</a></span>PathMoveTo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::PathMoveTo </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a746727f1d2af9d76d2e4747f9245651f" name="a746727f1d2af9d76d2e4747f9245651f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a746727f1d2af9d76d2e4747f9245651f">&#9670;&#160;</a></span>PathPie()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::PathPie </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>rx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ry</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a138343b2681461b6e74d69625d1dbd0f" name="a138343b2681461b6e74d69625d1dbd0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a138343b2681461b6e74d69625d1dbd0f">&#9670;&#160;</a></span>PathRect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::PathRect </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>h</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>rx1</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ry1</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>rx2</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ry2</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>rx3</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ry3</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>rx4</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ry4</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a23ca62aeb373b53173e82117efefc029" name="a23ca62aeb373b53173e82117efefc029"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23ca62aeb373b53173e82117efefc029">&#9670;&#160;</a></span>PathRing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::PathRing </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>rx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ry</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dis</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6a2e35fdfc5ef8e1a9c24070a65fbb6a" name="a6a2e35fdfc5ef8e1a9c24070a65fbb6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a2e35fdfc5ef8e1a9c24070a65fbb6a">&#9670;&#160;</a></span>PathRingRound()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::PathRingRound </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>rx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ry</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>round</em> = <code><a class="el" href="_c_core_base_pro_8h.html#a598a3330b3c21701223ee0ca14316eca">PI</a>/45</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a36708c0e69a1d39aebe6f2106bef1a3e" name="a36708c0e69a1d39aebe6f2106bef1a3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36708c0e69a1d39aebe6f2106bef1a3e">&#9670;&#160;</a></span>PathVLineTo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::PathVLineTo </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1977dc5c036bd7cb42e51dba8ca1e320" name="a1977dc5c036bd7cb42e51dba8ca1e320"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1977dc5c036bd7cb42e51dba8ca1e320">&#9670;&#160;</a></span>prev_vertex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned BUI::GPathStorage::prev_vertex </td>
+          <td>(</td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6d6635fbc4a73671c418b3de5dbbb44a" name="a6d6635fbc4a73671c418b3de5dbbb44a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d6635fbc4a73671c418b3de5dbbb44a">&#9670;&#160;</a></span>push_back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void BUI::GPathStorage::push_back </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_b_u_i_1_1_g_path_storage.html#aaa9b9c0d1ae2158cbe219f13a07b522a">value_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>vx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="class_b_u_i_1_1_g_path_buffer_storage.html#ab9d2a70d551aa381e607c570144de44a">BUI::GPathBufferStorage</a> 重载.</p>
+
+</div>
+</div>
+<a id="a0647becb176b5944eff106f5aa688b93" name="a0647becb176b5944eff106f5aa688b93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0647becb176b5944eff106f5aa688b93">&#9670;&#160;</a></span>RelToAbs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::RelToAbs </td>
+          <td>(</td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acc28d02f64ffd21e53f1b883579556ad" name="acc28d02f64ffd21e53f1b883579556ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc28d02f64ffd21e53f1b883579556ad">&#9670;&#160;</a></span>rewind()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::rewind </td>
+          <td>(</td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>path_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ec9b87606fa0d401e118ee12725cf28" name="a4ec9b87606fa0d401e118ee12725cf28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ec9b87606fa0d401e118ee12725cf28">&#9670;&#160;</a></span>SetTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::SetTransform </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_u_i_1_1_path_transform.html">PathTransform</a> *&#160;</td>
+          <td class="paramname"><em>trans</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad53fc1200e6a0a00c0964cda494ba57f" name="ad53fc1200e6a0a00c0964cda494ba57f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad53fc1200e6a0a00c0964cda494ba57f">&#9670;&#160;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_core_base_pro_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec">UINT</a> BUI::GPathStorage::size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abab11902039faf0df65998e3bf690891" name="abab11902039faf0df65998e3bf690891"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abab11902039faf0df65998e3bf690891">&#9670;&#160;</a></span>StartNewPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BUI::GPathStorage::StartNewPath </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8b32275d47412ad0719d2581f651f11" name="ab8b32275d47412ad0719d2581f651f11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8b32275d47412ad0719d2581f651f11">&#9670;&#160;</a></span>UpdateYValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BUI::GPathStorage::UpdateYValue </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>low</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>hight</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>随机生成Y更新测试数据 </p>
+
+</div>
+</div>
+<a id="a0ebf4b384932516f4c6b0b7cddfcbae0" name="a0ebf4b384932516f4c6b0b7cddfcbae0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ebf4b384932516f4c6b0b7cddfcbae0">&#9670;&#160;</a></span>vertex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned BUI::GPathStorage::vertex </td>
+          <td>(</td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="a27159dd918372de72cb80cf5f358a094" name="a27159dd918372de72cb80cf5f358a094"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27159dd918372de72cb80cf5f358a094">&#9670;&#160;</a></span>m_index</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int BUI::GPathStorage::m_index</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc1d009205933b790097a09b03715e36" name="afc1d009205933b790097a09b03715e36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc1d009205933b790097a09b03715e36">&#9670;&#160;</a></span>m_num_vertices</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int BUI::GPathStorage::m_num_vertices</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae4d11d94c9d08661fdbfb4998a50c026" name="ae4d11d94c9d08661fdbfb4998a50c026"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4d11d94c9d08661fdbfb4998a50c026">&#9670;&#160;</a></span>m_transform</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_u_i_1_1_path_transform.html">PathTransform</a>* BUI::GPathStorage::m_transform</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a198355fd0f73c2246f8a921194d6e96d" name="a198355fd0f73c2246f8a921194d6e96d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a198355fd0f73c2246f8a921194d6e96d">&#9670;&#160;</a></span>m_vertexs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="class_b_u_i_1_1_g_path_storage.html#aaa9b9c0d1ae2158cbe219f13a07b522a">value_type</a>&gt; BUI::GPathStorage::m_vertexs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_b_u_i.html">BUI</a></li><li class="navelem"><a class="el" href="class_b_u_i_1_1_g_path_storage.html">GPathStorage</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

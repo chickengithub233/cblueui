@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<UI size="200,300">
+	<vLayout Layout="fill,fill">
+		<Control Class="CButtonMenuUI" TEXT="放大" Name="btnOpendir" Layout="fill,30" text-align="vcenter"/>
+		<Control Class="CButtonMenuUI" TEXT="缩小" Name="btnOpendir" Layout="fill,30" text-align="vcenter"/>
+		<Control Class="CButtonMenuUI" TEXT="重置缩放" Name="btnOpendir" Layout="fill,30" text-align="vcenter"/>
+	</vLayout>
+</UI>

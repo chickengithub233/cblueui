@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<data>
+	<CChartCoordinate Class="RadarAxis" name="radarsys" r="250" />
+
+	<CChartSeries Class="CChartSeriesCustom" name="saomiao_sercircle" noClip="true">
+		<CChartElement Class="CChartEleMeterArc" name="saomiao" Coord="radarsys" isSector="true" color="rgb(247,136,14,100)"  cx="0" cy="0" r="90" v1="0" v2="0.52333" />
+
+        <CChartElement Class="CChartEleMeterArc" Coord="radarsys" isSector="true" color="rgb(38,150,70,100)"  cx="0" cy="0" r="90" v1="0" v2="0.3" />
+
+	</CChartSeries>
+
+	<CChartSeries Class="CChartSeriesLine" name="radarline" image-pattern="pattern:line"  shadow="2,2,4,4,0,0,rgb(0,0,0,100)">
+                <CChartElement Class="CChartElePoint" Coord="radarsys" v1="0.0" v2="15"/>
+                <CChartElement Class="CChartElePoint" Coord="radarsys" v1="0.3490658503988659" v2="19"/>
+                <CChartElement Class="CChartElePoint" Coord="radarsys" v1="0.6981317007977318" v2="23"/>
+                <CChartElement Class="CChartElePoint" Coord="radarsys" v1="1.0471975511965976" v2="27"/>
+                <CChartElement Class="CChartElePoint" Coord="radarsys" v1="1.3962634015954636" v2="31"/>
+                <CChartElement Class="CChartElePoint" Coord="radarsys" v1="1.7453292519943295" v2="35"/>
+                <CChartElement Class="CChartElePoint" Coord="radarsys" v1="2.0943951023931953" v2="40"/>
+                <CChartElement Class="CChartElePoint" Coord="radarsys" v1="2.443460952792061" v2="44"/>
+                <CChartElement Class="CChartElePoint" Coord="radarsys" v1="2.792526803190927" v2="48"/>
+                <CChartElement Class="CChartElePoint" Coord="radarsys" v1="3.141592653589793" v2="52"/>
+                <CChartElement Class="CChartElePoint" Coord="radarsys" v1="3.490658503988659" v2="56"/>
+                <CChartElement Class="CChartElePoint" Coord="radarsys" v1="3.839724354387525" v2="61"/>
+                <CChartElement Class="CChartElePoint" Coord="radarsys" v1="4.1887902047863905" v2="65"/>
+                <CChartElement Class="CChartElePoint" Coord="radarsys" v1="4.537856055185257" v2="69"/>
+                <CChartElement Class="CChartElePoint" Coord="radarsys" v1="4.886921905584122" v2="73"/>
+                <CChartElement Class="CChartElePoint" Coord="radarsys" v1="5.235987755982989" v2="77"/>
+                <CChartElement Class="CChartElePoint" Coord="radarsys" v1="5.585053606381854" v2="82"/>
+                <CChartElement Class="CChartElePoint" Coord="radarsys" v1="5.934119456780721" v2="86"/>
+                <CChartElement Class="CChartElePoint" Coord="radarsys" v1="6.283185307179586" v2="90"/>
+                <CChartElement Class="CChartElePoint" Coord="radarsys" v1="6.632251157578453" v2="94"/>
+                <CChartElement Class="CChartElePoint" Coord="radarsys" v1="6.981317007977318" v2="98"/>
+	</CChartSeries>
+
+    <CChartSeries class="CChartSeriesCustom" name="seriesOfRingbarTest">
+        <CChartElement class="CChartEleRangeBar" Coord="radarsys" weight="5" x="0" by="0" dy="0.628" color="0x13E4DE"/>
+        <CChartElement class="CChartEleRangeBar" Coord="radarsys" weight="5" x="0" by="0.628" dy="0.942" color="0x13E478"/>
+        <CChartElement class="CChartEleRangeBar" Coord="radarsys" weight="5" x="0" by="1.57" dy="0.5" color="0xE4B913"/>
+        <CChartElement class="CChartEleRangeBar" Coord="radarsys" weight="5" x="10" by="0" dy="0.5" color="0x13E4DE"/>
+        <CChartElement class="CChartEleRangeBar" Coord="radarsys" weight="5" x="10" by="0.5" dy="1" color="0x13E478"/>
+        <CChartElement class="CChartEleRangeBar" Coord="radarsys" weight="5" x="10" by="1.5" dy="1.2" color="0xE4B913"/>
+        <CChartElement class="CChartEleRangeBar" Coord="radarsys" weight="5" x="20" by="0" dy="1.2" color="0x13E4DE"/>
+        <CChartElement class="CChartEleRangeBar" Coord="radarsys" weight="5" x="20" by="1.2" dy="0.6" color="0x13E478"/>
+        <CChartElement class="CChartEleRangeBar" Coord="radarsys" weight="5" x="20" by="1.8" dy="0.5" color="0xE4B913"/>
+        <CChartElement class="CChartEleRangeBar" Coord="radarsys" weight="5" x="30" by="0" dy="1.6" color="0x13E4DE"/>
+        <CChartElement class="CChartEleRangeBar" Coord="radarsys" weight="5" x="30" by="1.6" dy="0.5" color="0x13E478"/>
+        <CChartElement class="CChartEleRangeBar" Coord="radarsys" weight="5" x="30" by="2.1" dy="0.3" color="0xE4B913"/>
+        <CChartElement class="CChartEleRangeBar" Coord="radarsys" weight="5" x="40" by="0" dy="1" color="0x13E4DE"/>
+        <CChartElement class="CChartEleRangeBar" Coord="radarsys" weight="5" x="40" by="1" dy="0.7" color="0x13E478"/>
+        <CChartElement class="CChartEleRangeBar" Coord="radarsys" weight="5" x="40" by="1.7" dy="0.4" color="0xE4B913"/>
+        <CChartElement class="CChartEleRangeBar" Coord="radarsys" weight="5" x="50" by="0" dy="1" color="0x13E4DE"/>
+        <CChartElement class="CChartEleRangeBar" Coord="radarsys" weight="5" x="50" by="1" dy="1" color="0x13E478"/>
+        <CChartElement class="CChartEleRangeBar" Coord="radarsys" weight="5" x="50" by="2" dy="1.2" color="0xE4B913"/>
+        <CChartElement class="CChartEleRangeBar" Coord="radarsys" weight="5" x="60" by="0" dy="1.5" color="0x13E4DE"/>
+        <CChartElement class="CChartEleRangeBar" Coord="radarsys" weight="5" x="60" by="1.5" dy="1" color="0x13E478"/>
+        <CChartElement class="CChartEleRangeBar" Coord="radarsys" weight="5" x="60" by="2.5" dy="1.5" color="0xE4B913"/>
+
+        <CChartElement class="CChartEleWaterDroplet" Coord="radarsys" r="15" color="0x313FE6" v1="3.235987755982989" v2="77" />
+        <CChartElement class="CChartEleWaterDroplet" Coord="radarsys" r="15" color="0x313FE6" v1="1.235987755982989" v2="55" />
+    </CChartSeries>  
+
+    <CChartSeries class="CChartSeriesLine" image-pattern="pattern:line2"  shadow="2,2,4,4,0,0,rgb(0,0,0,100)">
+        <CChartElement Class="CChartElePoint" Coord="radarsys" v1="-2" v2="80"/>
+        <CChartElement Class="CChartElePoint" Coord="radarsys" v1="2" v2="80"/>
+    </CChartSeries>
+
+
+</data>

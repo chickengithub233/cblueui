@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<UI size="1100,700" interval='5'>
+	<Control Class="CLabelUI" position="{0,0,100,100}" Name="title" Layout="fill,40" back-show="always" text-align="hcenter|vcenter" text="tr:图片预览" />
+	<Spacer Layout="fill,10"/>
+	<Hlayout Layout="fill,220">
+		<Control Class="CCarouselUI" Name="CCarouselUI" Layout="fill,fill" padding="{5,0,5,0}">
+			<Item TEXT="tr:浅蓝" TextID="1" icon="21"/>
+			<Item TEXT="tr:雅黑" TextID="2" icon="22"/>
+			<Item TEXT="tr:眩白" TextID="3" icon="23"/>
+			<Item TEXT="tr:眩白" TextID="3" icon="24"/>
+		</Control>
+	</Hlayout>
+	<Spacer Layout="fill,10"/>
+	<hLayout Layout="fill,400">
+		<Control Class="CLabelUI" text="tr:图像参数控制" Layout="30,fill" text-align="hcenter|vcenter|vertical"  back-show="always" />
+		<Vlayout Layout="400,fill">
+			<hLayout Layout="fill,30">
+				<Control Class="CLabelUI" text="tr:旋转角度[0-360]:" Layout="120,fill"/>
+				<Control Class="CSliderUI" Name="angleslider" select-model="max" Range="[0,360]" value="0" Layout="300,fill" tickstyle="none"/>
+			</hLayout>
+			<hLayout Layout="fill,30">
+				<Control Class="CLabelUI" text="tr:缩放比例[0-1]:" Layout="120,fill"/>
+				<Control Class="CSliderUI" Name="scaleslider" select-model="max" Range="[0,100]" value="100" Layout="300,fill" tickstyle="none" />
+			</hLayout>
+
+			<Control Class="CImageViewUI" Name="imgview" Layout="300,fill" layout-align="hcenter" icon="0" back-show="always"/>
+		</Vlayout>
+
+		<Vlayout Layout="fill:300,fill:400">
+			<Control Class="CLabelUI" text="tr:图像直方分布图" Layout="fill,30" text-align="hcenter|vcenter" back-show="never" />
+			<Control Class="CChartViewUI" name="rgbchartPage" Layout="fill:300,fill:400" chart-padding="120,10,40,10" datafile=".././res/11_chart_data_line.xml"/>
+		</Vlayout>
+	</hLayout>
+
+	<spacer Layout="fill,10"/>
+	<hLayout Layout="fill,100">
+		<Control Class="CLabelUI" text="tr:GIF图像演示" Layout="30,fill" text-align="hcenter|vcenter|vertical"  back-show="always"  />
+		<hLayout Layout="64,fill" interval='5'>
+			<Control Class="CGIFViewUI" Name="gifbox" Layout="64,64" icon="61" align="bottom"/>
+			<Control Class="CGIFViewUI" Name="gifbox" Layout="64,64" icon="61" align="vcenter"/>
+			<Control Class="CGIFViewUI" Name="gifbox" Layout="64,64" icon="61" align="bottom"/>
+			<Control Class="CGIFViewUI" Name="gifbox" Layout="64,64" icon="61" align="vcenter"/>
+		</hLayout>
+	</hLayout>
+
+</UI>

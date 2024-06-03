@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<UI size="1100,700">
+	<Control Class="CLabelUI" DesignerClass="CLabelUI" position="0,0,100,100" Name="title" FixedOnView="true" Layout="fill,40" back-show="always" text-align="hcenter|vcenter" text="tr:全功能文本编辑器" labeltype="label"/>
+	<hLayout Layout="fill,fill" interval='5'>
+	<VLayout Layout="fill,fill" interval='5' padding="5,5,5,5">
+		<hLayout Layout="fill,30" interval='5'>
+			<Control Class="CBinaryBoxUI" Name="chkBoxinsrrtData" Layout="adapt,30" TEXT="tr:高并发测试;停止" />
+			<spacer layout="fill,fill"/>
+			<Control Class="CCheckBoxUI" Name="showchackinterval" selected="false" Layout="adapt,30" TEXT="tr:显示背景间隔色"/>
+			<Control Class="CCheckBoxUI" Name="autowarp" selected="false" Layout="adapt,30" TEXT="tr:自动换行"/>
+			<Control Class="CCheckBoxUI" Name="autoscrollend" selected="false" Layout="adapt,30" TEXT="tr:滚动条自动定位末尾"/>
+		</hLayout>
+		<Control Class="CEditRichUI" name="richedittest" Layout="fill,fill" control-flags="AutoScrollVerEnd12" input-type="Multiline" input-range="0,100000" border-show="true"  text="sdfsdff" text-file=".././res/00_uidemo.xml"/>
+	</VLayout>
+
+	<VLayout Layout="fill,fill" interval='5' padding="5,5,5,5">
+		<hLayout Layout="fill,80" interval='5'>
+			<VLayout Layout="fill,fill" interval='2'>
+				<hLayout Layout="fill,fill" interval='5'>
+					<Control Class="CLabelUI" text="tr:Barcode-Format:" Layout="150,fill"/>
+					<Control Class="CComboListUI" Name="input_qr_format" border-show="always" empty-tips="input script file" cursel="0" HasTripe="false" input-type="ReadOnly" Layout="fill,fill">
+						<element TEXT="QRCode" TextID ="QRCode"/>
+						<element TEXT="Aztec" TextID ="Aztec"/>
+						<element TEXT="Codabar" TextID ="Codabar"/>
+						<element TEXT="Code39" TextID ="Code39"/>
+						<element TEXT="Code93" TextID ="Code93"/>
+						<element TEXT="Code128" TextID ="Code128"/>
+						<element TEXT="DataMatrix" TextID ="DataMatrix"/>
+						<element TEXT="EAN8" TextID ="EAN8"/>
+						<element TEXT="EAN13" TextID ="EAN13"/>
+						<element TEXT="ITF" TextID ="ITF"/>
+						<element TEXT="PDF417" TextID ="PDF417"/>
+						<element TEXT="UPCA" TextID ="UPCA"/>
+						<element TEXT="UPCE" TextID ="UPCE"/>
+					</Control>
+				</hLayout>
+
+				<hLayout Layout="fill,fill" interval='5'>
+					<Control Class="CLabelUI" text="tr:Text:" Layout="150,fill"/>
+					<Control Class="CEditTextUI" name="input_qr_url" Layout="fill,fill" text="https://blueui.gitee.io/web" border-show="always" />
+				</hLayout>
+			</VLayout>
+
+			<Control Class="CButtonUI" TEXT="tr:生成" Name="btnBuildbarcode" Layout="100,fill" text-align="center|vcenter"/>
+		</hLayout>
+		<Control Class="CZBarCodeUI" name="zbarcode" Layout="fill, fill" layout-align="hcenter" border-show="true" text="https://blueui.gitee.io/web" BarcodeMargin="30" />
+	</VLayout>
+
+</hLayout>
+</UI>
