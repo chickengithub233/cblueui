@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<data>
-    <CChartCoordinate class="CCoordinateAffineTrans" name="axis_xy_percent"  transmode-x="%" transmode-y="%" />
-
-    <CChartSeries Class="CChartSeriesCustom" name="ser" >
-        <CChartElement class="CChartEleAttitudeIndicator"  name="attitude" Coord="axis_xy_percent"  cx="0.5" cy="0.5" r-outer="250" r-inner="200" />
-    </CChartSeries>
-</data>

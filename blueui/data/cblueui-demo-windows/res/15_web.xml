@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<UI size="1100,700">
-	<Control Class="CLabelUI" position="{0,0,100,100}" Name="title" Layout="fill,40" back-show="always" text-align="hcenter|vcenter" text="tr:网页控件" />
-
-	<Control Class="CWebUI" Name="web123" url="www.baidu.com" Layout="fill:300,fill:40"/>
-
-</UI>
